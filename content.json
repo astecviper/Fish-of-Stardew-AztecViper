@@ -1,0 +1,76 @@
+{
+    "Format": "2.1.0",
+    "ConfigSchema": {
+        "VendingMachineCurrency": {
+            "AllowValues": "Gold, Trade",
+            "Default": "Gold"
+        }
+    },
+    "Changes": [
+        {
+            "LogName": "Loading Locations JSON...",
+            "Action": "Include",
+            "FromFile": "assets/locations.json"
+        },
+        {
+            "LogName": "Loading Forage JSON...",
+            "Action": "Include",
+            "FromFile": "assets/forage.json"
+        },
+        {
+            "LogName": "Loading Fish JSON...",
+            "Action": "Include",
+            "FromFile": "assets/fish.json"
+        },
+        {
+            "LogName": "Loading Pond JSON...",
+            "Action": "Include",
+            "FromFile": "assets/pond.json"
+        },
+        {
+            "LogName": "Loading Food JSON...",
+            "Action": "Include",
+            "FromFile": "assets/food.json"
+        },
+        {
+            "LogName": "Loading Ring JSON...",
+            "Action": "Include",
+            "FromFile": "assets/rings.json"
+        },
+        {
+            "LogName": "Loading Artifacts JSON...",
+            "Action": "Include",
+            "FromFile": "assets/artifacts.json"
+        },
+        {
+            "LogName": "Loading Mail JSON...",
+            "Action": "Include",
+            "FromFile": "assets/mail.json"
+        },
+        {
+            "LogName": "Loading Machine JSON...",
+            "Action": "Include",
+            "FromFile": "assets/machines.json"
+        },
+        {
+            "LogName": "Loading Totem JSON...",
+            "Action": "Include",
+            "FromFile": "assets/totems.json"
+        },
+        {
+            "LogName": "Loading Shop JSON...",
+            "Action": "Include",
+            "FromFile": "assets/shops.json"
+        },
+        {
+            "LogName": "Loading Treasure JSON...",
+            "Action": "Include",
+            "FromFile": "assets/treasure.json"
+        },
+        {
+            "LogName": "Loading Gift Tastes JSON...",
+            "Action": "Include",
+            "FromFile": "assets/gifts.json"
+        }
+    ]
+}

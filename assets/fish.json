@@ -1,0 +1,1667 @@
+{
+    "Changes": [
+        {
+            "LogName": "Loading fish sprites...",
+            "Action": "Load",
+            "Target": "{{ModId}}/fish",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Loading aquarium sprites...",
+            "Action": "Load",
+            "Target": "{{ModId}}/aquarium",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        //Fish Object Data
+        {
+            "LogName": "Adding fish objects...",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_LunarSalmon": {
+                    "Name": "{{ModId}}_LunarSalmon",
+                    "Displayname": "{{i18n:LunarSalmon_name}}",
+                    "Description": "{{i18n:LunarSalmon_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 2650,
+                    "Edibility": 68,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_MudTrout": {
+                    "Name": "{{ModId}}_MudTrout",
+                    "Displayname": "{{i18n:MudTrout_name}}",
+                    "Description": "{{i18n:MudTrout_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 160,
+                    "Edibility": 14,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_BlueCatfish": {
+                    "Name": "{{ModId}}_BlueCatfish",
+                    "Displayname": "{{i18n:BlueCatfish_name}}",
+                    "Description": "{{i18n:BlueCatfish_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 365,
+                    "Edibility": 19,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 2,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_ArmoredCatfish": {
+                    "Name": "{{ModId}}_ArmoredCatfish",
+                    "Displayname": "{{i18n:ArmoredCatfish_name}}",
+                    "Description": "{{i18n:ArmoredCatfish_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 410,
+                    "Edibility": 20,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 3,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_WhiteSturgeon": {
+                    "Name": "{{ModId}}_WhiteSturgeon",
+                    "Displayname": "{{i18n:WhiteSturgeon_name}}",
+                    "Description": "{{i18n:WhiteSturgeon_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 310,
+                    "Edibility": 18,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 4,
+                    "ContextTags": [
+                        "fish_lake"
+                    ]
+                },
+                "{{ModId}}_MossyCod": {
+                    "Name": "{{ModId}}_MossyCod",
+                    "Displayname": "{{i18n:MossyCod_name}}",
+                    "Description": "{{i18n:MossyCod_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 340,
+                    "Edibility": 18,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 5,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_GhostPike": {
+                    "Name": "{{ModId}}_GhostPike",
+                    "Displayname": "{{i18n:GhostPike_name}}",
+                    "Description": "{{i18n:GhostPike_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 250,
+                    "Edibility": 17,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 6,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_RadioactiveSunfish": {
+                    "Name": "{{ModId}}_RadioactiveSunfish",
+                    "Displayname": "{{i18n:RadioactiveSunfish_name}}",
+                    "Description": "{{i18n:RadioactiveSunfish_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 410,
+                    "Edibility": -50,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 7,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_SpottedRay": {
+                    "Name": "{{ModId}}_SpottedRay",
+                    "DisplayName": "{{i18n:SpottedRay_name}}",
+                    "Description": "{{i18n:SpottedRay_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 305,
+                    "Edibility": 18,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 8,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_BrownShad": {
+                    "Name": "{{ModId}}_BrownShad",
+                    "DisplayName": "{{i18n:BrownShad_name}}",
+                    "Description": "{{i18n:BrownShad_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 175,
+                    "Edibility": 16,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 9,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_DeepSeaHalibut": {
+                    "Name": "{{ModId}}_DeepSeaHalibut",
+                    "DisplayName": "{{i18n:DeepSeaHalibut_name}}",
+                    "Description": "{{i18n:DeepSeaHalibut_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 200,
+                    "Edibility": 15,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 10,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_SeaweedHalibut": {
+                    "Name": "{{ModId}}_SeaweedHalibut",
+                    "DisplayName": "{{i18n:SeaweedHalibut_name}}",
+                    "Description": "{{i18n:SeaweedHalibut_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 175,
+                    "Edibility": 15,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 11,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_CrimsonShad": {
+                    "Name": "{{ModId}}_CrimsonShad",
+                    "DisplayName": "{{i18n:CrimsonShad_name}}",
+                    "Description": "{{i18n:CrimsonShad_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 290,
+                    "Edibility": 17,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 12,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_SockeyeSalmon": {
+                    "Name": "{{ModId}}_SockeyeSalmon",
+                    "DisplayName": "{{i18n:SockeyeSalmon_name}}",
+                    "Description": "{{i18n:SockeyeSalmon_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 195,
+                    "Edibility": 18,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 13,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_CookieOctopus": {
+                    "Name": "{{ModId}}_CookieOctopus",
+                    "DisplayName": "{{i18n:CookieOctopus_name}}",
+                    "Description": "{{i18n:CookieOctopus_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 300,
+                    "Edibility": 25,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 14,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_Bluegill": {
+                    "Name": "{{ModId}}_Bluegill",
+                    "DisplayName": "{{i18n:Bluegill_name}}",
+                    "Description": "{{i18n:Bluegill_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 55,
+                    "Edibility": 12,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 15,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_BlackClownfish": {
+                    "Name": "{{ModId}}_BlackClownfish",
+                    "Displayname": "{{i18n:BlackClownfish_name}}",
+                    "Description": "{{i18n:BlackClownfish_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 335,
+                    "Edibility": 20,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 16,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_MorayEel": {
+                    "Name": "{{ModId}}_MorayEel",
+                    "Displayname": "{{i18n:MorayEel_name}}",
+                    "Description": "{{i18n:MorayEel_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 376,
+                    "Edibility": 20,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 17,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_VermilionCarp": {
+                    "Name": "{{ModId}}_VermilionCarp",
+                    "Displayname": "{{i18n:VermilionCarp_name}}",
+                    "Description": "{{i18n:VermilionCarp_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 265,
+                    "Edibility": 17,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 18,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_PumpkinPerch": {
+                    "Name": "{{ModId}}_PumpkinPerch",
+                    "Displayname": "{{i18n:PumpkinPerch_name}}",
+                    "Description": "{{i18n:PumpkinPerch_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 390,
+                    "Edibility": 20,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 19,
+                    "ContextTags": [
+                        "fish_lake"
+                    ]
+                },
+                "{{ModId}}_YellowfinCarp": {
+                    "Name": "{{ModId}}_YellowfinCarp",
+                    "Displayname": "{{i18n:YellowfinCarp_name}}",
+                    "Description": "{{i18n:YellowfinCarp_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 260,
+                    "Edibility": 17,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 20,
+                    "ContextTags": [
+                        "fish_lake"
+                    ]
+                },
+                "{{ModId}}_EmeraldJackfish": {
+                    "Name": "{{ModId}}_EmeraldJackfish",
+                    "Displayname": "{{i18n:EmeraldJackfish_name}}",
+                    "Description": "{{i18n:EmeraldJackfish_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 260,
+                    "Edibility": 20,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 21,
+                    "ContextTags": [
+                        "fish_lake"
+                    ]
+                },
+                "{{ModId}}_StripedChar": {
+                    "Name": "{{ModId}}_StripedChar",
+                    "Displayname": "{{i18n:StripedChar_name}}",
+                    "Description": "{{i18n:StripedChar_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 50,
+                    "Edibility": 12,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 22,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_BabyReefShark": {
+                    "Name": "{{ModId}}_BabyReefShark",
+                    "Displayname": "{{i18n:BabyReefShark_name}}",
+                    "Description": "{{i18n:BabyReefShark_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 1870,
+                    "Edibility": 55,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 23,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_StoneTetra": {
+                    "Name": "{{ModId}}_StoneTetra",
+                    "Displayname": "{{i18n:StoneTetra_name}}",
+                    "Description": "{{i18n:StoneTetra_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 80,
+                    "Edibility": 13,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 24,
+                    "ContextTags": [
+                        "fish_river",
+                        "fish_lake"
+                    ]
+                },
+                "{{ModId}}_MuddyTetra": {
+                    "Name": "{{ModId}}_MuddyTetra",
+                    "Displayname": "{{i18n:MuddyTetra_name}}",
+                    "Description": "{{i18n:MuddyTetra_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 105,
+                    "Edibility": 13,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 25,
+                    "ContextTags": [
+                        "fish_river",
+                        "fish_lake"
+                    ]
+                },
+                "{{ModId}}_IridiumSalmon": {
+                    "Name": "{{ModId}}_IridiumSalmon",
+                    "Displayname": "{{i18n:IridiumSalmon_name}}",
+                    "Description": "{{i18n:IridiumSalmon_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 480,
+                    "Edibility": 21,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 26,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_Chad": {
+                    "Name": "{{ModId}}_Chad",
+                    "Displayname": "{{i18n:Chad_name}}",
+                    "Description": "{{i18n:Chad_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 220,
+                    "Edibility": 16,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 27,
+                    "ContextTags": [
+                        "fish_desert"
+                    ]
+                },
+                "{{ModId}}_SunscaledTrout": {
+                    "Name": "{{ModId}}_SunscaledTrout",
+                    "Displayname": "{{i18n:SunscaledTrout_name}}",
+                    "Description": "{{i18n:SunscaledTrout_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 240,
+                    "Edibility": 20,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 28,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_FrostbiteFlounder": {
+                    "Name": "{{ModId}}_FrostbiteFlounder",
+                    "Displayname": "{{i18n:FrostbiteFlounder_name}}",
+                    "Description": "{{i18n:FrostbiteFlounder_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 95,
+                    "Edibility": 15,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 29,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_GlacierBass": {
+                    "Name": "{{ModId}}_GlacierBass",
+                    "Displayname": "{{i18n:GlacierBass_name}}",
+                    "Description": "{{i18n:GlacierBass_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 210,
+                    "Edibility": 15,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 30,
+                    "ContextTags": [
+                        "fish_lake"
+                    ]
+                },
+                "{{ModId}}_WhisperingWalleye": {
+                    "Name": "{{ModId}}_WhisperingWalleye",
+                    "Displayname": "{{i18n:WhisperingWalleye_name}}",
+                    "Description": "{{i18n:WhisperingWalleye_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 245,
+                    "Edibility": 16,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 31,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_BandedEel": {
+                    "Name": "{{ModId}}_BandedEel",
+                    "Displayname": "{{i18n:BandedEel_name}}",
+                    "Description": "{{i18n:BandedEel_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 435,
+                    "Edibility": 20,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 32,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_IceyOctopus": {
+                    "Name": "{{ModId}}_IceyOctopus",
+                    "Displayname": "{{i18n:IceyOctopus_name}}",
+                    "Description": "{{i18n:IceyOctopus_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 235,
+                    "Edibility": 16,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 33,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_PurpleParrotfish": {
+                    "Name": "{{ModId}}_PurpleParrotfish",
+                    "Displayname": "{{i18n:PurpleParrotfish_name}}",
+                    "Description": "{{i18n:PurpleParrotfish_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 130,
+                    "Edibility": 14,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 34,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_SandRay": {
+                    "Name": "{{ModId}}_SandRay",
+                    "Displayname": "{{i18n:SandRay_name}}",
+                    "Description": "{{i18n:SandRay_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 340,
+                    "Edibility": 18,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 35,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_Triggerfish": {
+                    "Name": "{{ModId}}_Triggerfish",
+                    "Displayname": "{{i18n:Triggerfish_name}}",
+                    "Description": "{{i18n:Triggerfish_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 80,
+                    "Edibility": 13,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 36,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_SailFin": {
+                    "Name": "{{ModId}}_SailFin",
+                    "Displayname": "{{i18n:SailFin_name}}",
+                    "Description": "{{i18n:SailFin_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 5000,
+                    "Edibility": 120,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 37,
+                    "ContextTags": [
+                        "fish_legendary"
+                    ]
+                },
+                "{{ModId}}_SaltGrouper": {
+                    "Name": "{{ModId}}_SaltGrouper",
+                    "Displayname": "{{i18n:SaltGrouper_name}}",
+                    "Description": "{{i18n:SaltGrouper_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 180,
+                    "Edibility": 15,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 38,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_MossyTetra": {
+                    "Name": "{{ModId}}_MossyTetra",
+                    "Displayname": "{{i18n:MossyTetra_name}}",
+                    "Description": "{{i18n:MossyTetra_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 105,
+                    "Edibility": 13,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 39,
+                    "ContextTags": [
+                        "fish_river"
+                    ]
+                },
+                "{{ModId}}_ReefShark": {
+                    "Name": "{{ModId}}_ReefShark",
+                    "Displayname": "{{i18n:ReefShark_name}}",
+                    "Description": "{{i18n:ReefShark_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 4900,
+                    "Edibility": 115,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 40,
+                    "ContextTags": [
+                        "fish_ocean"
+                    ]
+                },
+                "{{ModId}}_WillowCutthroat": {
+                    "Name": "{{ModId}}_WillowCutthroat",
+                    "Displayname": "{{i18n:WillowCutthroat_name}}",
+                    "Description": "{{i18n:WillowCutthroat_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 230,
+                    "Edibility": 16,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 41,
+                    "ContextTags": [
+                        "fish_desert"
+                    ]
+                },
+                "{{ModId}}_LongfinEel": {
+                    "Name": "{{ModId}}_LongfinEel",
+                    "Displayname": "{{i18n:LongfinEel_name}}",
+                    "Description": "{{i18n:LongfinEel_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 340,
+                    "Edibility": 5,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 42,
+                    "ContextTags": [
+                        "fish_river",
+                        "fish_lake"
+                    ]
+                }
+            }
+        },
+        { //Fish Data
+            "LogName": "Adding fish data...",
+            "Action": "EditData",
+            "Target": "Data/Fish",
+            "Entries": {
+                //Name-How many times it can dart-mixed smooth floater sinker dart-min length-max length-time-weather-unused location info-min distance to cast-spawn modifier-depth modifier-level requirement-tutorial catch
+                "{{ModId}}_LunarSalmon": "Lunar Salmon/100/dart/18/34/2400 2600/spring summer fall winter/both/688 .3 689 .3 690 .3/5/.002/.005/10/false",
+                "{{ModId}}_MudTrout": "Mud Trout/50/dart/18/34/0600 2000/spring summer fall winter/both/688 .3 689 .3 690 .3/3/.2/.1/0/false",
+                "{{ModId}}_BlueCatfish": "Blue Catfish/80/mixed/12/80/600 2400/spring summer fall winter/both/688 .3 689 .3 690 .3/4/.05/.1/0/true",
+                "{{ModId}}_ArmoredCatfish": "Armored Catfish/90/mixed/12/70/600 2400/spring summer fall winter/both/688 .3 689 .3 690 .3/4/.05/.05/3/false",
+                "{{ModId}}_WhiteSturgeon": "White Sturgeon/85/mixed/12/60/600 1200/spring summer fall winter/both/688 .3 689 .3 690 .3/4/.28/.15/0/false",
+                "{{ModId}}_MossyCod": "Mossy Cod/90/mixed/30/50/600 2000/spring summer fall winter/both/690 .3 685 .2/3/.2/.03/7/false",
+                "{{ModId}}_GhostPike": "Ghost Pike/70/dart/15/60/2000 2600/spring summer fall winter/both/690 .3 681 .1/3/.25/.10/4/true",
+                "{{ModId}}_RadioactiveSunfish": "Radioactive Sunfish/90/dart/36/36/600 2600/spring summer fall winter/both/688 .1/5/.05/.02/8/false",
+                "{{ModId}}_SpottedRay": "Spotted Ray/80/sinker/18/60/600 2600/spring summer fall winter/both/685 .3/4/.15/.11/0/false",
+                "{{ModId}}_BrownShad": "Brown Shad/55/mixed/11/30/600 1900/spring summer fall winter/both/685 .3/3/.38/.2/0/true",
+                "{{ModId}}_DeepSeaHalibut": "Deep Sea Halibut/60/sinker/10/33/600 1100 1900 2600/spring summer fall winter/both/681 .3/5/.3/.1/0/false",
+                "{{ModId}}_SeaweedHalibut": "Seaweed Halibut/55/sinker/10/33/600 1100 1900 2600/spring summer fall winter/both/681 .3/3/.35/.15/0/false",
+                "{{ModId}}_CrimsonShad": "Crimson Snapper/80/mixed/24/65/600 2600/spring summer fall winter/both/685 .3/2/.33/.1/0/false",
+                "{{ModId}}_SockeyeSalmon": "Sockeye Salmon/60/mixed/24/65/600 1900/spring summer fall winter/both/684 .3/3/.4/.2/0/true",
+                "{{ModId}}_CookieOctopus": "Cookie Octopus/75/sinker/12/48/600 1300/spring summer fall winter/both/688 .01 684 .01/5/.09/.04/0/true",
+                "{{ModId}}_Bluegill": "Bluegill/30/mixed/8/25/600 1900/spring summer fall winter/both/682 .25/2/.55/.2/0/true",
+                "{{ModId}}_BlackClownfish": "Black Clownfish/85/floater/18/60/600 1800/spring summer fall winter/both/685 .3/4/.12/.11/0/false",
+                "{{ModId}}_MorayEel": "Moray Eel/90/sinker/24/95/600 2600/spring summer fall winter/both/688 .3 689 .3 690 .3/4/.08/.1/0/true",
+                "{{ModId}}_VermilionCarp": "Vermilion Carp/75/sinker/12/48/600 2600/spring summer fall winter/both/690 .3 680 .1/3/.35/.3/0/true",
+                "{{ModId}}_PumpkinPerch": "Pumpkin Perch/95/mixed/12/48/1000 1800/spring summer fall winter/both/688 .3 684 .1/5/.1/.08/0/true",
+                "{{ModId}}_YellowfinCarp": "Yellowfin Carp/70/smooth/12/60/600 2600/spring summer fall winter/both/689 .3 681 .1/3/.15/.55/0/true",
+                "{{ModId}}_EmeraldJackfish": "Emerald Jackfish/75/mixed/12/72/600 2400/spring summer fall winter/both/689 .3 680 .1/4/.4/.1/0/true",
+                "{{ModId}}_StripedChar": "Striped Char/28/mixed/12/24/600 2600/spring summer fall winter/both/682 .2/1/.45/.1/0/true",
+                "{{ModId}}_BabyReefShark": "Baby Reef Shark/100/mixed/32/52/600 2600/spring summer fall winter/both/684 .1/2/.003/.01/7/false",
+                "{{ModId}}_StoneTetra": "Stone Tetra/35/mixed/5/15/800 1400/spring summer fall winter/both/688 .3 689 .3 690 .3/1/.6/.2/0/true",
+                "{{ModId}}_MuddyTetra": "Muddy Tetra/40/sinker/5/15/1000 1600/spring summer fall winter/both/688 .3 689 .3 690 .3/1/.4/.2/1/true",
+                "{{ModId}}_IridiumSalmon": "Iridium Salmon/90/mixed/12/48/600 2000/spring summer fall winter/both/688 .3 689 .3 690 .3/4/.03/.05/6/false",
+                "{{ModId}}_Chad": "Chad/65/mixed/12/48/600 1700/spring summer fall winter/both/688 .3 689 .3 690 .3/2/.4/.05/4/false",
+                "{{ModId}}_SunscaledTrout": "Sunscaled Trout/70/mixed/6/18/1000 1400/spring summer fall winter/both/682 .2/3/0.66/.1/6/false",
+                "{{ModId}}_FrostbiteFlounder": "Frostbite Flounder/38/sinker/12/32/600 1200/spring summer fall winter/both/682 .2/2/0.54/.1/3/false",
+                "{{ModId}}_GlacierBass": "Glacier Bass/62/mixed/6/30/900 1800/spring summer fall winter/both/682 .2/4/0.32/.1/5/false",
+                "{{ModId}}_WhisperingWalleye": "Whispering Walleye/69/mixed/12/28/2400 2600/spring summer fall winter/both/682 .2/3/0.27/.1/7/false",
+                "{{ModId}}_BandedEel": "Banded Eel/95/sinker/12/48/1200 2000/spring summer fall winter/both/688 .3 689 .3 690 .3/4/.05/.1/5/false",
+                "{{ModId}}_IceyOctopus": "Icey Octopus/65/mixed/12/48/600 2600/spring summer fall winter/both/688 .3 689 .3 690 .3/4/.15/.05/5/false",
+                "{{ModId}}_PurpleParrotfish": "Purple Parrotfish/45/mixed/12/48/1000 1800/spring summer fall winter/both/688 .3 689 .3 690 .3/4/.35/.4/0/true",
+                "{{ModId}}_SandRay": "Sand Ray/85/sinker/12/48/600 1800/spring summer fall winter/both/685 .3/4/.1/.05/6/false",
+                "{{ModId}}_Triggerfish": "Triggerfish/35/mixed/12/48/600 2200/spring summer fall winter/both/685 .3/4/.45/.5/0/false",
+                "{{ModId}}_SailFin": "Sailfin/125/mixed/22/68/600 2600/spring summer fall winter/both/685 .3/4/.001/.05/10/false",
+                "{{ModId}}_SaltGrouper": "Salt Grouper/55/mixed/12/48/1200 2600/spring summer fall winter/both/685 .3/4/.25/.1/0/false",
+                "{{ModId}}_MossyTetra": "Mossy Tetra/40/sinker/5/15/1000 1600/spring summer fall winter/both/688 .3 689 .3 690 .3/1/.4/.2/1/true",
+                "{{ModId}}_ReefShark": "Reef Shark/110/mixed/60/96/1200 2000/spring summer fall winter/both/684 .1/2/.001/.01/10/false",
+                "{{ModId}}_WillowCutthroat": "Willow Cutthroat/65/mixed/12/48/600 1400/spring summer fall winter/both/682 .2/4/.2/.1/0/false",
+                "{{ModId}}_LongfinEel": "Longfin Eel/50/sinker/12/120/1000 1800/spring summer fall winter/both/688 .3 689 .3 690 .3/1/.01/.05/0/false"
+            }
+        },
+        {
+            "LogName": "Adding aquarium data...",
+            "Action": "EditData",
+            "Target": "Data/AquariumFish",
+            "Entries": {
+                "{{ModId}}_LunarSalmon": "0/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_MudTrout": "1/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_BlueCatfish": "2/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_ArmoredCatfish": "3/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_WhiteSturgeon": "4/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_MossyCod": "5/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_GhostPike": "6/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_RadioactiveSunfish": "7/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_SpottedRay": "8/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_BrownShad": "9/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_DeepSeaHalibut": "10/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_SeaweedHalibut": "11/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_CrimsonShad": "12/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_SockeyeSalmon": "13/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_CookieOctopus": "14/float/////{{ModId}}\\aquarium",
+                "{{ModId}}_Bluegill": "15/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_BlackClownfish": "16/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_MorayEel": "17/eel/////{{ModId}}\\aquarium",
+                "{{ModId}}_VermilionCarp": "18/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_PumpkinPerch": "19/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_YellowfinCarp": "20/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_EmeraldJackfish": "21/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_StripedChar": "22/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_BabyReefShark": "23/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_StoneTetra": "24/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_MuddyTetra": "25/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_IridiumSalmon": "26/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_Chad": "27/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_SunscaledTrout": "28/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_FrostbiteFlounder": "29/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_GlacierBass": "30/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_WhisperingWalleye": "31/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_BandedEel": "32/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_IceyOctopus": "33/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_PurpleParrotfish": "34/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_SandRay": "35/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_Triggerfish": "36/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_SailFin": "37/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_SaltGrouper": "38/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_MossyTetra": "39/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_ReefShark": "40/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_WillowCutthroat": "41/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_LongfinEel": "42/eel/////{{ModId}}\\aquarium"
+            }
+        },
+        //Location Data
+        { //Location: Cindersap Forest
+            "LogName": "Adding Cindersap Forest fish...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Forest",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_MudTrout": {
+                    "ItemId": "{{ModId}}_MudTrout",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_BlueCatfish": {
+                    "ItemId": "{{ModId}}_BlueCatfish",
+                    "Condition": "LOCATION_SEASON Here summer fall",
+                    "FishAreaId": "Lake"
+                },
+                "{{ModId}}_ArmoredCatfish": {
+                    "ItemId": "{{ModId}}_ArmoredCatfish",
+                    "Condition": "LOCATION_SEASON Here spring summer"
+                },
+                "{{ModId}}_MossyCod": {
+                    "ItemId": "{{ModId}}_MossyCod",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_GhostPike": {
+                    "ItemId": "{{ModId}}_GhostPike",
+                    "Condition": "LOCATION_SEASON Here spring, WEATHER Here sun",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_BrownShad": {
+                    "ItemId": "{{ModId}}_BrownShad",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_SockeyeSalmon": {
+                    "ItemId": "{{ModId}}_SockeyeSalmon",
+                    "Condition": "LOCATION_SEASON Here fall",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_Bluegill": {
+                    "ItemId": "{{ModId}}_Bluegill",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "FishAreaId": "Lake",
+                    "PlayerPosition": {
+                        "X": 33,
+                        "Y": 18,
+                        "Width": 3,
+                        "Height": 8
+                    }
+                },
+                "{{ModId}}_VermilionCarp": {
+                    "ItemId": "{{ModId}}_VermilionCarp",
+                    "Condition": "LOCATION_SEASON Here summer fall"
+                },
+                "{{ModId}}_StripedChar": {
+                    "ItemId": "{{ModId}}_StripedChar",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_StoneTetra": {
+                    "ItemId": "{{ModId}}_StoneTetra",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "FishAreaId": "Lake"
+                },
+                "{{ModId}}_MuddyTetra": {
+                    "ItemId": "{{ModId}}_MuddyTetra",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter, WEATHER Here rain",
+                    "FishAreaId": "Lake"
+                },
+                "{{ModId}}_SunscaledTrout": {
+                    "ItemId": "{{ModId}}_SunscaledTrout",
+                    "Condition": "LOCATION_SEASON Here spring summer fall, WEATHER Here sun",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_WhisperingWalleye": {
+                    "ItemId": "{{ModId}}_WhisperingWalleye",
+                    "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here sun",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_MossyTetra": {
+                    "ItemId": "{{ModId}}_MossyTetra",
+                    "Condition": "LOCATION_SEASON Here spring summer, WEATHER Here sun",
+                    "FishAreaId": "Lake"
+                },
+                "{{ModId}}_LongfinEel": {
+                    "ItemId": "{{ModId}}_LongfinEel",
+                    "Condition": "LOCATION_SEASON Here spring",
+                    "FishAreaId": "River"
+                }
+            }
+        },
+        { //Location: Town
+            "LogName": "Adding Town fish...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Town",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_MudTrout": {
+                    "ItemId": "{{ModId}}_MudTrout",
+                    "Condition": " LOCATION_SEASON Here spring summer fall"
+                },
+                "{{ModId}}_BlueCatfish": {
+                    "ItemId": "{{ModId}}_BlueCatfish",
+                    "Condition": "LOCATION_SEASON Here summer fall"
+                },
+                "{{ModId}}_ArmoredCatfish": {
+                    "ItemId": "{{ModId}}_ArmoredCatfish",
+                    "Condition": "LOCATION_SEASON Here spring summer"
+                },
+                "{{ModId}}_GhostPike": {
+                    "ItemId": "{{ModId}}_GhostPike",
+                    "Condition": "LOCATION_SEASON Here summer, WEATHER Here sun"
+                },
+                "{{ModId}}_RadioactiveSunfish": {
+                    "ItemId": "{{ModId}}_RadioactiveSunfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_BrownShad": {
+                    "ItemId": "{{ModId}}_BrownShad",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain"
+                },
+                "{{ModId}}_Bluegill": {
+                    "ItemId": "{{ModId}}_Bluegill",
+                    "Condition": "LOCATION_SEASON Here spring summer fall"
+                },
+                "{{ModId}}_VermilionCarp": {
+                    "ItemId": "{{ModId}}_VermilionCarp",
+                    "Condition": "LOCATION_SEASON Here fall"
+                },
+                "{{ModId}}_StripedChar": {
+                    "ItemId": "{{ModId}}_StripedChar",
+                    "Condition": "LOCATION_SEASON Here summer fall"
+                }
+            }
+        },
+        { //Location: Standard Farm
+            "LogName": "Adding Farm fish...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Farm_Standard",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_MudTrout": {
+                    "ItemId": "{{ModId}}_MudTrout",
+                    "Condition": " LOCATION_SEASON Here spring summer fall"
+                },
+                "{{ModId}}_BlueCatfish": {
+                    "ItemId": "{{ModId}}_BlueCatfish",
+                    "Condition": "LOCATION_SEASON Here spring summer"
+                },
+                "{{ModId}}_ArmoredCatfish": {
+                    "ItemId": "{{ModId}}_ArmoredCatfish",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER HERE rain"
+                },
+                "{{ModId}}_GhostPike": {
+                    "ItemId": "{{ModId}}_GhostPike",
+                    "Condition": "LOCATION_SEASON Here spring summer, WEATHER Here sun"
+                },
+                "{{ModId}}_RadioactiveSunfish": {
+                    "ItemId": "{{ModId}}_RadioactiveSunfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_BrownShad": {
+                    "ItemId": "{{ModId}}_BrownShad",
+                    "Condition": "LOCATION_SEASON Here fall, WEATHER Here rain"
+                },
+                "{{ModId}}_SockeyeSalmon": {
+                    "ItemId": "{{ModId}}_SockeyeSalmon",
+                    "Condition": "LOCATION_SEASON Here fall"
+                }
+            }
+        },
+        { //Location: Beach
+            "LogName": "Adding Beach fish...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Beach",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_SpottedRay": {
+                    "ItemId": "{{ModId}}_SpottedRay",
+                    "Condition": "LOCATION_SEASON Here spring summer, WEATHER Here sun"
+                },
+                "{{ModId}}_DeepSeaHalibut": {
+                    "ItemId": "{{ModId}}_DeepSeaHalibut",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_SeaweedHalibut": {
+                    "ItemId": "{{ModId}}_SeaweedHalibut",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun"
+                },
+                "{{ModId}}_CrimsonShad": {
+                    "ItemId": "{{ModId}}_CrimsonShad",
+                    "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here rain"
+                },
+                "{{ModId}}_CookieOctopus": {
+                    "ItemId": "{{ModId}}_CookieOctopus",
+                    "Condition": "LOCATION_SEASON Here summer, WEATHER Here sun"
+                },
+                "{{ModId}}_BlackClownfish": {
+                    "ItemId": "{{ModId}}_BlackClownfish",
+                    "Condition": "LOCATION_SEASON Here summer, WEATHER Here sun"
+                },
+                "{{ModId}}_MorayEel": {
+                    "ItemId": "{{ModId}}_MorayEel",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun"
+                },
+                "{{ModId}}_BabyReefShark": {
+                    "ItemId": "{{ModId}}_BabyReefShark",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun"
+                },
+                "{{ModId}}_FrostbiteFlounder": {
+                    "ItemId": "{{ModId}}_FrostbiteFlounder",
+                    "Condition": "LOCATION_SEASON Here winter"
+                },
+                "{{ModId}}_SaltGrouper": {
+                    "ItemId": "{{ModId}}_SaltGrouper",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain"
+                }
+            }
+        },
+        { //Location: Mountain
+            "LogName": "Adding Mountain fish...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Mountain",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_WhiteSturgeon": {
+                    "ItemId": "{{ModId}}_WhiteSturgeon",
+                    "Condition": "LOCATION_SEASON Here fall winter"
+                },
+                "{{ModId}}_PumpkinPerch": {
+                    "ItemId": "{{ModId}}_PumpkinPerch",
+                    "Condition": "LOCATION_SEASON Here fall"
+                },
+                "{{ModId}}_YellowfinCarp": {
+                    "ItemId": "{{ModId}}_YellowfinCarp",
+                    "Condition": "LOCATION_SEASON Here spring summer fall"
+                },
+                "{{ModId}}_EmeraldJackfish": {
+                    "ItemId": "{{ModId}}_EmeraldJackfish",
+                    "Condition": "LOCATION_SEASON Here spring, WEATHER Here sun"
+                },
+                "{{ModId}}_StoneTetra": {
+                    "ItemId": "{{ModId}}_StoneTetra",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_MuddyTetra": {
+                    "ItemId": "{{ModId}}_MuddyTetra",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter, WEATHER Here rain"
+                },
+                "{{ModId}}_GlacierBass": {
+                    "ItemId": "{{ModId}}_GlacierBass",
+                    "Condition": "LOCATION_SEASON Here winter"
+                },
+                "{{ModId}}_LongfinEel": {
+                    "ItemId": "{{ModId}}_LongfinEel",
+                    "Condition": "LOCATION_SEASON Here summer fall"
+                }
+            }
+        },
+        { //Location: Desert
+            "LogName": "Adding Desert fish...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Desert",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_Chad": {
+                    "ItemId": "{{ModId}}_Chad",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_WillowCutthroat": {
+                    "ItemId": "{{ModId}}_WillowCutthroat",
+                    "Condition": "LOCATION_SEASON Here summer fall winter"
+                }
+            }
+        },
+        { //Location: Secret Woods
+            "LogName": "Adding Secret Woods fish...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Woods",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_LunarSalmon": {
+                    "ItemId": "{{ModId}}_LunarSalmon",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun"
+                },
+                "{{ModId}}_MossyCod": {
+                    "ItemId": "{{ModId}}_MossyCod",
+                    "Condition": "LOCATION_SEASON Here fall"
+                },
+                "{{ModId}}_SockeyeSalmon": {
+                    "ItemId": "{{ModId}}_SockeyeSalmon",
+                    "Condition": "LOCATION_SEASON Here fall winter"
+                },
+                "{{ModId}}_StoneTetra": {
+                    "ItemId": "{{ModId}}_StoneTetra",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_MuddyTetra": {
+                    "ItemId": "{{ModId}}_MuddyTetra",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter, WEATHER Here rain"
+                },
+                "{{ModId}}_IridiumSalmon": {
+                    "ItemId": "{{ModId}}_IridiumSalmon",
+                    "Condition": "LOCATION_SEASON Here summer fall"
+                },
+                "{{ModId}}_WhisperingWalleye": {
+                    "ItemId": "{{ModId}}_WhisperingWalleye",
+                    "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here sun"
+                },
+                "{{ModId}}_LongfinEel": {
+                    "ItemId": "{{ModId}}_LongfinEel",
+                    "Condition": "LOCATION_SEASON Here summer fall"
+                }
+            }
+        },
+        { //Location: Sewer
+            "LogName": "Adding Sewer fish...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Sewer",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_RadioactiveSunfish": {
+                    "ItemId": "{{ModId}}_RadioactiveSunfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                }
+            }
+        },
+        // { //Location: BugLand
+        //     "Action": "EditData",
+        //     "Target": "Data/Locations",
+        //     "TargetField": [
+        //         "BugLand",
+        //         "Fish"
+        //     ],
+        //     "Entries": {}
+        // },
+        { //Location: Submarine
+            "LogName": "Adding Submarine fish...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Submarine",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_BandedEel": {
+                    "ItemId": "{{ModId}}_BandedEel",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_SaltGrouper": {
+                    "ItemId": "{{ModId}}_SaltGrouper",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                }
+            }
+        },
+        { //Location: Boat Tunnel
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "BoatTunnel",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_DeepSeaHalibut": {
+                    "ItemId": "{{ModId}}_DeepSeaHalibut",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_SeaweedHalibut": {
+                    "ItemId": "{{ModId}}_SeaweedHalibut",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun"
+                },
+                "{{ModId}}_CrimsonShad": {
+                    "ItemId": "{{ModId}}_CrimsonShad",
+                    "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here rain"
+                },
+                "{{ModId}}_SaltGrouper": {
+                    "ItemId": "{{ModId}}_SaltGrouper",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain"
+                }
+            }
+        },
+        { //Location: Island South
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandSouth",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_CookieOctopus": {
+                    "ItemId": "{{ModId}}_CookieOctopus",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_SpottedRay": {
+                    "ItemId": "{{ModId}}_SpottedRay",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_BlackClownfish": {
+                    "ItemId": "{{ModId}}_BlackClownfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_MorayEel": {
+                    "ItemId": "{{ModId}}_MorayEel",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_SandRay": {
+                    "ItemId": "{{ModId}}_SandRay",
+                    "Condition": "LOCATION_SEASON Here summer"
+                },
+                "{{ModId}}_BandedEel": {
+                    "ItemId": "{{ModId}}_BandedEel",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_PurpleParrotfish": {
+                    "ItemId": "{{ModId}}_PurpleParrotfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_ReefShark": {
+                    "ItemId": "{{ModId}}_ReefShark",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                }
+            }
+        },
+        { //Location: Island South East
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandSouthEast",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_CookieOctopus": {
+                    "ItemId": "{{ModId}}_CookieOctopus",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_SpottedRay": {
+                    "ItemId": "{{ModId}}_SpottedRay",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_BlackClownfish": {
+                    "ItemId": "{{ModId}}_BlackClownfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_MorayEel": {
+                    "ItemId": "{{ModId}}_MorayEel",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_SandRay": {
+                    "ItemId": "{{ModId}}_SandRay",
+                    "Condition": "LOCATION_SEASON Here summer"
+                },
+                "{{ModId}}_BandedEel": {
+                    "ItemId": "{{ModId}}_BandedEel",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_PurpleParrotfish": {
+                    "ItemId": "{{ModId}}_PurpleParrotfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_ReefShark": {
+                    "ItemId": "{{ModId}}_ReefShark",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                }
+            }
+        },
+        { //Location: Island South East Cave
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandSouthEastCave",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_BandedEel": {
+                    "ItemId": "{{ModId}}_BandedEel",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_MorayEel": {
+                    "ItemId": "{{ModId}}_MorayEel",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_SpottedRay": {
+                    "ItemId": "{{ModId}}_SpottedRay",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                }
+            }
+        },
+        { //Location: Island West
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandWest",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_SpottedRay": {
+                    "ItemId": "{{ModId}}_SpottedRay",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_BlackClownfish": {
+                    "ItemId": "{{ModId}}_BlackClownfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_MorayEel": {
+                    "ItemId": "{{ModId}}_MorayEel",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_SandRay": {
+                    "ItemId": "{{ModId}}_SandRay",
+                    "Condition": "LOCATION_SEASON Here summer",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_PurpleParrotfish": {
+                    "ItemId": "{{ModId}}_PurpleParrotfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_ReefShark": {
+                    "ItemId": "{{ModId}}_ReefShark",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "FishAreaId": "Ocean"
+                }
+            }
+        },
+        { //Location: Island North
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "IslandNorth",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_PurpleParrotfish": {
+                    "ItemId": "{{ModId}}_PurpleParrotfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                }
+            }
+        },
+        // { //Location: Caldera
+        // "Action": "EditData",
+        // "Target": "Data/Locations",
+        // "TargetField": [
+        //     "Caldera",
+        //     "Fish"
+        // ],
+        // "Entries": {}
+        // },
+        // { //Location: Underground Mine
+        // "Action": "EditData",
+        // "Target": "Data/Locations",
+        // "TargetField": [
+        //     "UndergroundMine",
+        //     "Fish"
+        // ],
+        // "Entries": {}
+        // },
+        { //Location: Desert Festival
+            "LogName": "Adding Desert Festival fish...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "DesertFestival",
+                "Fish"
+            ],
+            "Entries": {
+                "{{ModId}}_Chad": {
+                    "ItemId": "{{ModId}}_Chad",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                }
+            }
+        },
+        // { //Location: Desert Festival Fishing Game
+        // "Action": "EditData",
+        // "Target": "Data/Locations",
+        // "TargetField": [
+        //     "fishingGame",
+        //     "Fish"
+        // ],
+        // "Entries": {}
+        // },
+        { //Location: SVE Cindersap Forest West
+            "LogName": "Adding SVE Cindersap Forest West fish...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Custom_ForestWest",
+                "Fish"
+            ],
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            },
+            "Entries": {
+                "{{ModId}}_LunarSalmon": {
+                    "ItemId": "{{ModId}}_LunarSalmon",
+                    "Condition": "LOCATION_SEASON Here spring summer"
+                },
+                "{{ModId}}_BlueCatfish": {
+                    "ItemId": "{{ModId}}_BlueCatfish",
+                    "Condition": "LOCATION_SEASON Here fall"
+                },
+                "{{ModId}}_MossyCod": {
+                    "ItemId": "{{ModId}}_MossyCod",
+                    "Condition": "LOCATION_SEASON Here spring summer"
+                },
+                "{{ModId}}_BrownShad": {
+                    "ItemId": "{{ModId}}_BrownShad",
+                    "Condition": "LOCATION_SEASON Here fall, WEATHER Here rain"
+                },
+                "{{ModId}}_StoneTetra": {
+                    "ItemId": "{{ModId}}_StoneTetra",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "{{ModId}}_IridiumSalmon": {
+                    "ItemId": "{{ModId}}_IridiumSalmon",
+                    "Condition": "LOCATION_SEASON Here summer"
+                },
+                "{{ModId}}_SunscaledTrout": {
+                    "ItemId": "{{ModId}}_SunscaledTrout",
+                    "Condition": "LOCATION_SEASON Here spring summer fall, WEATHER Here sun"
+                }
+            }
+        },
+        { //Location: SVE Bluemoon Vineyard
+            "LogName": "Adding SVE Bluemoon Vineyard fish...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Custom_BlueMoonVineyard",
+                "Fish"
+            ],
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            },
+            "Entries": {
+                "{{ModId}}_SpottedRay": {
+                    "ItemId": "{{ModId}}_SpottedRay",
+                    "Condition": "LOCATION_SEASON Here spring summer, WEATHER Here sun",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_DeepSeaHalibut": {
+                    "ItemId": "{{ModId}}_DeepSeaHalibut",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_SeaweedHalibut": {
+                    "ItemId": "{{ModId}}_SeaweedHalibut",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_CrimsonShad": {
+                    "ItemId": "{{ModId}}_CrimsonShad",
+                    "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here rain",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_CookieOctopus": {
+                    "ItemId": "{{ModId}}_CookieOctopus",
+                    "Condition": "LOCATION_SEASON Here summer, WEATHER Here sun",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_BlackClownfish": {
+                    "ItemId": "{{ModId}}_BlackClownfish",
+                    "Condition": "LOCATION_SEASON Here summer, WEATHER Here sun",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_MorayEel": {
+                    "ItemId": "{{ModId}}_MorayEel",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_BabyReefShark": {
+                    "ItemId": "{{ModId}}_BabyReefShark",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_FrostbiteFlounder": {
+                    "ItemId": "{{ModId}}_FrostbiteFlounder",
+                    "Condition": "LOCATION_SEASON Here winter",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_SaltGrouper": {
+                    "ItemId": "{{ModId}}_SaltGrouper",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_MudTrout": {
+                    "ItemId": "{{ModId}}_MudTrout",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_BlueCatfish": {
+                    "ItemId": "{{ModId}}_BlueCatfish",
+                    "Condition": "LOCATION_SEASON Here summer fall",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_ArmoredCatfish": {
+                    "ItemId": "{{ModId}}_ArmoredCatfish",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_MossyCod": {
+                    "ItemId": "{{ModId}}_MossyCod",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_GhostPike": {
+                    "ItemId": "{{ModId}}_GhostPike",
+                    "Condition": "LOCATION_SEASON Here spring, WEATHER Here sun",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_BrownShad": {
+                    "ItemId": "{{ModId}}_BrownShad",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_SockeyeSalmon": {
+                    "ItemId": "{{ModId}}_SockeyeSalmon",
+                    "Condition": "LOCATION_SEASON Here fall",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_Bluegill": {
+                    "ItemId": "{{ModId}}_Bluegill",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_VermilionCarp": {
+                    "ItemId": "{{ModId}}_VermilionCarp",
+                    "Condition": "LOCATION_SEASON Here summer fall",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_StripedChar": {
+                    "ItemId": "{{ModId}}_StripedChar",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_StoneTetra": {
+                    "ItemId": "{{ModId}}_StoneTetra",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_MuddyTetra": {
+                    "ItemId": "{{ModId}}_MuddyTetra",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter, WEATHER Here rain",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_SunscaledTrout": {
+                    "ItemId": "{{ModId}}_SunscaledTrout",
+                    "Condition": "LOCATION_SEASON Here spring summer fall, WEATHER Here sun",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_WhisperingWalleye": {
+                    "ItemId": "{{ModId}}_WhisperingWalleye",
+                    "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here sun",
+                    "FishAreaId": "River"
+                },
+                "{{ModId}}_MossyTetra": {
+                    "ItemId": "{{ModId}}_MossyTetra",
+                    "Condition": "LOCATION_SEASON Here spring summer, WEATHER Here sun",
+                    "FishAreaId": "River"
+                }
+            }
+        },
+        { //East Beach Fish
+            "LogName": "Adding East Beach fish...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "FOS_Beach1",
+                "Fish"
+            ],
+            "Entries": {
+                // Fish of Stardew
+                "{{ModId}}_BabyReefShark": {
+                    "ItemId": "{{ModId}}_BabyReefShark",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_MorayEel": {
+                    "ItemId": "{{ModId}}_MorayEel",
+                    "Condition": "LOCATION_SEASON Here summer",
+                    "PlayerPosition": {
+                        "X": 46,
+                        "Y": 28,
+                        "Width": 7,
+                        "Height": 3
+                    }
+                },
+                "{{ModId}}_DeepSeaHalibut": {
+                    "ItemId": "{{ModId}}_DeepSeaHalibut",
+                    "Condition": "LOCATION_SEASON Here spring summer fall"
+                },
+                "{{ModId}}_SeaweedHalibut": {
+                    "ItemId": "{{ModId}}_SeaweedHalibut",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "FishAreaId": "Cove"
+                },
+                "{{ModId}}_SpottedRay": {
+                    "ItemId": "{{ModId}}_SpottedRay",
+                    "Condition": "LOCATION_SEASON Here summer",
+                    "FishAreaId": "Cove"
+                },
+                "{{ModId}}_CookieOctopus": {
+                    "ItemId": "{{ModId}}_CookieOctopus",
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun",
+                    "FishAreaId": "Cove"
+                },
+                "{{ModId}}_BandedEel": {
+                    "ItemId": "{{ModId}}_BandedEel",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "PlayerPosition": {
+                        "X": 46,
+                        "Y": 28,
+                        "Width": 7,
+                        "Height": 3
+                    }
+                },
+                "{{ModId}}_IceyOctopus": {
+                    "ItemId": "{{ModId}}_IceyOctopus",
+                    "Condition": "LOCATION_SEASON Here winter",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_SandRay": {
+                    "ItemId": "{{ModId}}_SandRay",
+                    "Condition": "LOCATION_SEASON Here summer",
+                    "FishAreaId": "Ocean"
+                },
+                "{{ModId}}_Triggerfish": {
+                    "ItemId": "{{ModId}}_Triggerfish",
+                    "Condition": "LOCATION_SEASON Here spring summer fall"
+                },
+                "{{ModId}}_SailFin": {
+                    "ItemId": "{{ModId}}_SailFin",
+                    "Condition": "LOCATION_SEASON Here spring, WEATHER Here sun",
+                    "CatchLimit": 1,
+                    "IsBossFish": true,
+                    "PlayerPosition": {
+                        "X": 46,
+                        "Y": 28,
+                        "Width": 7,
+                        "Height": 3
+                    },
+                    "SetFlagOnCatch": "{{ModId}}_SailFinCaught"
+                },
+                "{{ModId}}_BioluminescentSeaweed": {
+                    "ItemId": "{{ModId}}_BioluminescentSeaweed",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.01
+                },
+                "{{ModId}}_BioluminescentAlgae": {
+                    "ItemId": "{{ModId}}_BioluminescentAlgae",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.01
+                },
+                // Stardew Valley Fish
+                "(O)130": {
+                    "ItemId": "(O)130",
+                    "Condition": "LOCATION_SEASON Here summer winter",
+                    "FishAreaId": "Ocean"
+                },
+                "(O)131": {
+                    "ItemId": "(O)131",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "FishAreaId": "Ocean"
+                },
+                "(O)147": {
+                    "ItemId": "(O)147",
+                    "Condition": "LOCATION_SEASON Here spring winter"
+                },
+                "(O)148": {
+                    "ItemId": "(O)148",
+                    "Condition": "LOCATION_SEASON Here spring fall, WEATHER Here rain",
+                    "FishAreaId": "Cove"
+                },
+                "(O)149": {
+                    "ItemId": "(O)149",
+                    "Condition": "LOCATION_SEASON Here summer"
+                },
+                "(O)150": {
+                    "ItemId": "(O)150",
+                    "Condition": "LOCATION_SEASON Here summer fall winter, WEATHER Here rain"
+                },
+                "(O)152": {
+                    "ItemId": "(O)152",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "(O)153": {
+                    "ItemId": "(O)153",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "(O)154": {
+                    "ItemId": "(O)154",
+                    "Condition": "LOCATION_SEASON Here fall winter",
+                    "FishAreaId": "Ocean"
+                },
+                "(O)155": {
+                    "ItemId": "(O)155",
+                    "Condition": "LOCATION_SEASON Here summer winter",
+                    "FishAreaId": "Ocean"
+                },
+                "(O)701": {
+                    "ItemId": "(O)701",
+                    "Condition": "LOCATION_SEASON Here summer fall",
+                    "FishAreaId": "Ocean"
+                },
+                "(O)708": {
+                    "ItemId": "(O)708",
+                    "Condition": "LOCATION_SEASON Here spring summer winter"
+                }
+            }
+        }
+    ]
+}

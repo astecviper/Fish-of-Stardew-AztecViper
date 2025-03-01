@@ -1,0 +1,20 @@
+{
+    "Changes": [
+        {
+            "LogName": "Adding gifts...",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Love"
+                    ],
+                    "Value": "{{ModId}}_RadioactiveJade",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

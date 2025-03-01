@@ -1,0 +1,92 @@
+{
+    "Changes": [
+        { //Artifact: Beach
+            "LogName": "Add rings to Beach artifact spots...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Beach",
+                "ArtifactSpots"
+            ],
+            "Entries": {
+                "{{ModId}}_PrismarineRing": {
+                    "Chance": 0.04,
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "ItemId": "{{ModId}}_PrismarineRing"
+                },
+                "{{ModId}}_FishermansBlessing": {
+                    "Chance": 0.02,
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "ItemId": "{{ModId}}_FishermansBlessing"
+                },
+                "{{ModId}}_MarinersBand": {
+                    "Chance": 0.01,
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "ItemId": "{{ModId}}_MarinersBand",
+                    "Condition": "WEATHER Here rain"
+                },
+                "{{ModId}}_NeptunesHalo": {
+                    "Chance": 0.005,
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "ItemId": "{{ModId}}_NeptunesHalo",
+                    "Condition": "WEATHER Here sun"
+                },
+                "{{ModId}}_PoseidonsCirclet": {
+                    "Chance": 0.001,
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "ItemId": "{{ModId}}_PoseidonsCirclet",
+                    "Condition": "WEATHER Here rain"
+                }
+            }
+        },
+        { //Artifact: FOS_Beach1
+            "LogName": "Add rings to East Beach artifact spots...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "FOS_Beach1",
+                "ArtifactSpots"
+            ],
+            "Entries": {
+                "{{ModId}}_PrismarineRing": {
+                    "Chance": 0.06,
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "ItemId": "{{ModId}}_PrismarineRing"
+                },
+                "{{ModId}}_FishermansBlessing": {
+                    "Chance": 0.03,
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "ItemId": "{{ModId}}_FishermansBlessing"
+                },
+                "{{ModId}}_MarinersBand": {
+                    "Chance": 0.015,
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "ItemId": "{{ModId}}_MarinersBand",
+                    "Condition": "WEATHER Here rain"
+                },
+                "{{ModId}}_NeptunesHalo": {
+                    "Chance": 0.0075,
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "ItemId": "{{ModId}}_NeptunesHalo",
+                    "Condition": "WEATHER Here sun"
+                },
+                "{{ModId}}_PoseidonsCirclet": {
+                    "Chance": 0.0015,
+                    "MinStack": 1,
+                    "MaxStack": 1,
+                    "ItemId": "{{ModId}}_PoseidonsCirclet",
+                    "Condition": "WEATHER Here rain"
+                }
+            }
+        }
+    ]
+}

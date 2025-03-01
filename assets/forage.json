@@ -1,0 +1,245 @@
+{
+    "Changes": [
+        {
+            "LogName": "Loading forage sprites...",
+            "Action": "Load",
+            "Target": "{{ModId}}/forage",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Adding forage objects...",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_BioluminescentSeaweed": {
+                    "Name": "{{ModId}}_BioluminescentSeaweed",
+                    "Displayname": "{{i18n:BioluminescentSeaweed_name}}",
+                    "Description": "{{i18n:BioluminescentSeaweed_description}}",
+                    "Type": "Object",
+                    "Category": 0,
+                    "Price": 400,
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "torch_item"
+                    ],
+                    "Texture": "{{ModId}}/forage",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_ArcticCockle": {
+                    "Name": "{{ModId}}_ArcticCockle",
+                    "Displayname": "{{i18n:ArcticCockle_name}}",
+                    "Description": "{{i18n:ArcticCockle_description}}",
+                    "Type": "Object",
+                    "Category": 0,
+                    "Price": 60,
+                    "Edibility": -300,
+                    "Texture": "{{ModId}}/forage",
+                    "SpriteIndex": 1
+                },
+                "{{ModId}}_BioluminescentAlgae": {
+                    "Name": "{{ModId}}_BioluminescentAlgae",
+                    "Displayname": "{{i18n:BioluminescentAlgae_name}}",
+                    "Description": "{{i18n:BioluminescentAlgae_description}}",
+                    "Type": "Object",
+                    "Category": 0,
+                    "Price": 200,
+                    "Edibility": 10,
+                    "ContextTags": [
+                        "torch_item"
+                    ],
+                    "Texture": "{{ModId}}/forage",
+                    "SpriteIndex": 2
+                },
+                "{{ModId}}_GemOfTheSea": {
+                    "Name": "{{ModId}}_GemOfTheSea",
+                    "Displayname": "{{i18n:GemOfTheSea_name}}",
+                    "Description": "{{i18n:GemOfTheSea_description}}",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 1500,
+                    "Edibility": -300,
+                    "Texture": "{{ModId}}/forage",
+                    "SpriteIndex": 3,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
+                "{{ModId}}_GemOfTheCoral": {
+                    "Name": "{{ModId}}_GemOfTheCoral",
+                    "Displayname": "{{i18n:GemOfTheCoral_name}}",
+                    "Description": "{{i18n:GemOfTheCoral_description}}",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 1500,
+                    "Edibility": -300,
+                    "Texture": "{{ModId}}/forage",
+                    "SpriteIndex": 4,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
+                "{{ModId}}_GemOfTheDepths": {
+                    "Name": "{{ModId}}_GemOfTheDepths",
+                    "Displayname": "{{i18n:GemOfTheDepths_name}}",
+                    "Description": "{{i18n:GemOfTheDepths_description}}",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 1500,
+                    "Edibility": -300,
+                    "Texture": "{{ModId}}/forage",
+                    "SpriteIndex": 6,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
+                "{{ModId}}_GemOfTheTide": {
+                    "Name": "{{ModId}}_GemOfTheTide",
+                    "Displayname": "{{i18n:GemOfTheTide_name}}",
+                    "Description": "{{i18n:GemOfTheTide_description}}",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 1500,
+                    "Edibility": -300,
+                    "Texture": "{{ModId}}/forage",
+                    "SpriteIndex": 5,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
+                "{{ModId}}_CircletOfTheSea": {
+                    "Name": "{{ModId}}_CircletOfTheSea",
+                    "DisplayName": "{{i18n:CircletOfTheSea_name}}",
+                    "Description": "{{i18n:CircletOfTheSea_description}}",
+                    "Type": "Ring",
+                    "Category": -96,
+                    "Price": 1000,
+                    "Texture": "{{ModId}}/forage",
+                    "SpriteIndex": 7,
+                    "ContextTags": [
+                        "ring_item"
+                    ]
+                },
+                "{{ModId}}_CircletOfTheCoral": {
+                    "Name": "{{ModId}}_CircletOfTheCoral",
+                    "DisplayName": "{{i18n:CircletOfTheCoral_name}}",
+                    "Description": "{{i18n:CircletOfTheCoral_description}}",
+                    "Type": "Ring",
+                    "Category": -96,
+                    "Price": 2000,
+                    "Texture": "{{ModId}}/forage",
+                    "SpriteIndex": 8,
+                    "ContextTags": [
+                        "ring_item"
+                    ]
+                },
+                "{{ModId}}_CircletOfTheDepths": {
+                    "Name": "{{ModId}}_CircletOfTheDepths",
+                    "DisplayName": "{{i18n:CircletOfTheDepths_name}}",
+                    "Description": "{{i18n:CircletOfTheDepths_description}}",
+                    "Type": "Ring",
+                    "Category": -96,
+                    "Price": 3000,
+                    "Texture": "{{ModId}}/forage",
+                    "SpriteIndex": 9,
+                    "ContextTags": [
+                        "ring_item"
+                    ]
+                },
+                "{{ModId}}_CircletOfTheTide": {
+                    "Name": "{{ModId}}_CircletOfTheTide",
+                    "DisplayName": "{{i18n:CircletOfTheTide_name}}",
+                    "Description": "{{i18n:CircletOfTheTide_description}}",
+                    "Type": "Ring",
+                    "Category": -96,
+                    "Price": 4000,
+                    "Texture": "{{ModId}}/forage",
+                    "SpriteIndex": 10,
+                    "ContextTags": [
+                        "ring_item"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Adding East Beach forage...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "FOS_Beach1",
+                "Forage"
+            ],
+            "Entries": {
+                "(O)152": {
+                    "ItemId": "(O)152",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "Chance": 0.9
+                },
+                "(O)372": {
+                    "ItemId": "(O)372",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "Chance": 0.9
+                },
+                "(O)718": {
+                    "ItemId": "(O)718",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "Chance": 0.1
+                },
+                "(O)719": {
+                    "ItemId": "(O)719",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "Chance": 0.3
+                },
+                "(O)723": {
+                    "ItemId": "(O)723",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "Chance": 0.3
+                },
+                "(O)394": {
+                    "ItemId": "(O)394",
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "Chance": 0.5
+                },
+                "(O)392": {
+                    "ItemId": "(O)392",
+                    "Condition": "LOCATION_SEASON Here winter",
+                    "Chance": 0.2
+                },
+                "{{ModId}}_BioluminescentSeaweed": {
+                    "ItemId": "{{ModId}}_BioluminescentSeaweed",
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                    "Chance": 0.1
+                },
+                "{{ModId}}_ArcticCockle": {
+                    "ItemId": "{{ModId}}_ArcticCockle",
+                    "Condition": "LOCATION_SEASON Here winter",
+                    "Chance": 0.3
+                },
+                "{{ModId}}_BioluminescentAlgae": {
+                    "ItemId": "{{ModId}}_BioluminescentAlgae",
+                    "Condition": "LOCATION_SEASON Here summer fall",
+                    "Chance": 0.2
+                },
+                "{{ModId}}_GemOfTheSea": {
+                    "ItemId": "{{ModId}}_GemOfTheSea",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.005
+                },
+                "{{ModId}}_GemOfTheCoral": {
+                    "ItemId": "{{ModId}}_GemOfTheCoral",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.005
+                },
+                "{{ModId}}_GemOfTheDepths": {
+                    "ItemId": "{{ModId}}_GemOfTheDepths",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.005
+                },
+                "{{ModId}}_GemOfTheTide": {
+                    "ItemId": "{{ModId}}_GemOfTheTide",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.005
+                }
+            }
+        }
+    ]
+}

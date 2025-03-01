@@ -1,0 +1,231 @@
+{
+    "Changes": [
+        {
+            "LogName": "Loading Ring sprites...",
+            "Action": "Load",
+            "Target": "{{ModId}}/rings",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Loading Buff sprites...",
+            "Action": "Load",
+            "Target": "{{ModId}}/buffs",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Adding Ring objects...",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                //Rings
+                "{{ModId}}_PrismarineRing": {
+                    "Name": "{{ModId}}_PrismarineRing",
+                    "Displayname": "{{i18n:PrismarineRing_name}}",
+                    "Description": "{{i18n:PrismarineRing_description}}",
+                    "Type": "Ring",
+                    "Category": -96,
+                    "Price": 1250,
+                    "Texture": "{{ModId}}/rings",
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "ring_item"
+                    ]
+                },
+                "{{ModId}}_FishermansBlessing": {
+                    "Name": "{{ModId}}_FishermansBlessing",
+                    "DisplayName": "{{i18n:FishermansBlessing_name}}",
+                    "Description": "{{i18n:FishermansBlessing_description}}",
+                    "Type": "Ring",
+                    "Category": -96,
+                    "Price": 2000,
+                    "Texture": "{{ModId}}/rings",
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "ring_item"
+                    ]
+                },
+                "{{ModId}}_MarinersBand": {
+                    "Name": "{{ModId}}_MarinersBand",
+                    "DisplayName": "{{i18n:MarinersBand_name}}",
+                    "Description": "{{i18n:MarinersBand_description}}",
+                    "Type": "Ring",
+                    "Category": -96,
+                    "Price": 3000,
+                    "Texture": "{{ModId}}/rings",
+                    "SpriteIndex": 2,
+                    "ContextTags": [
+                        "ring_item"
+                    ]
+                },
+                "{{ModId}}_NeptunesHalo": {
+                    "Name": "{{ModId}}_NeptunesHalo",
+                    "DisplayName": "{{i18n:NeptunesHalo_name}}",
+                    "Description": "{{i18n:NeptunesHalo_description}}",
+                    "Type": "Ring",
+                    "Category": -96,
+                    "Price": 4000,
+                    "Texture": "{{ModId}}/rings",
+                    "SpriteIndex": 3,
+                    "ContextTags": [
+                        "ring_item"
+                    ]
+                },
+                "{{ModId}}_PoseidonsCirclet": {
+                    "Name": "{{ModId}}_PoseidonsCirclet",
+                    "DisplayName": "{{i18n:PoseidonsCirclet_name}}",
+                    "Description": "{{i18n:PoseidonsCirclet_description}}",
+                    "Type": "Ring",
+                    "Category": -96,
+                    "Price": 3000,
+                    "Texture": "{{ModId}}/rings",
+                    "SpriteIndex": 4,
+                    "ContextTags": [
+                        "ring_item"
+                    ]
+                }
+            }
+        },
+        { //Buffs
+            "LogName": "Adding Buffs...",
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModId}}_FishermansBounty": {
+                    "DisplayName": "{{i18n:FishermansBounty_name}}",
+                    "Description": "{{i18n:FishermansBounty_description}}",
+                    "Duration": -2,
+                    "IconTexture": "{{ModId}}/buffs",
+                    "IconSpriteIndex": 0,
+                    "Effects": {
+                        "FishingLevel": 1.0
+                    }
+                },
+                "{{ModId}}_OceansBlessing": {
+                    "DisplayName": "{{i18n:OceansBlessing_name}}",
+                    "Description": "{{i18n:OceansBlessing_description}}",
+                    "Duration": -2,
+                    "IconTexture": "{{ModId}}/buffs",
+                    "IconSpriteIndex": 2,
+                    "Effects": {
+                        "FishingLevel": 2.0
+                    }
+                },
+                "{{ModId}}_OceansOmen": {
+                    "DisplayName": "{{i18n:OceansOmen_name}}",
+                    "Description": "{{i18n:OceansOmen_description}}",
+                    "Duration": -2,
+                    "IconTexture": "{{ModId}}/buffs",
+                    "IconSpriteIndex": 3,
+                    "Effects": {
+                        "FishingLevel": 3.0,
+                        "LuckLevel": 1.0
+                    }
+                },
+                "{{ModId}}_NeptunesBeloved": {
+                    "DisplayName": "{{i18n:NeptunesBeloved_name}}",
+                    "Description": "{{i18n:NeptunesBeloved_description}}",
+                    "Duration": -2,
+                    "IconTexture": "{{ModId}}/buffs",
+                    "IconSpriteIndex": 1,
+                    "Effects": {
+                        "FishingLevel": 4.0,
+                        "LuckLevel": 2.0
+                    }
+                },
+                "{{ModId}}_OceansOracle": {
+                    "DisplayName": "{{i18n:OceansOracle_name}}",
+                    "Description": "{{i18n:OceansOracle_description}}",
+                    "Duration": -2,
+                    "IconTexture": "{{ModId}}/buffs",
+                    "IconSpriteIndex": 4,
+                    "Effects": {
+                        "FishingLevel": 5.0,
+                        "LuckLevel": 3.0
+                    }
+                },
+                "{{ModId}}_MasterOfTheSea": {
+                    "DisplayName": "{{i18n:MasterOfTheSea_name}}",
+                    "Description": "{{i18n:MasterOfTheSea_description}}",
+                    "Duration": -2,
+                    "IconTexture": "{{ModId}}/buffs",
+                    "IconSpriteIndex": 5,
+                    "Effects": {
+                        "FishingLevel": 1.0,
+                        "LuckLevel": 1.0,
+                        "MaxStamina": 25
+                    }
+                },
+                "{{ModId}}_MasterOfTheCoral": {
+                    "DisplayName": "{{i18n:MasterOfTheCoral_name}}",
+                    "Description": "{{i18n:MasterOfTheCoral_description}}",
+                    "Duration": -2,
+                    "IconTexture": "{{ModId}}/buffs",
+                    "IconSpriteIndex": 6,
+                    "Effects": {
+                        "FishingLevel": 2.0,
+                        "LuckLevel": 2.0,
+                        "MaxStamina": 50
+                    }
+                },
+                "{{ModId}}_MasterOfTheDepths": {
+                    "DisplayName": "{{i18n:MasterOfTheDepths_name}}",
+                    "Description": "{{i18n:MasterOfTheDepths_description}}",
+                    "Duration": -2,
+                    "IconTexture": "{{ModId}}/buffs",
+                    "IconSpriteIndex": 7,
+                    "Effects": {
+                        "FishingLevel": 3.0,
+                        "LuckLevel": 3.0,
+                        "MaxStamina": 75
+                    }
+                },
+                "{{ModId}}_MasterOfTheTide": {
+                    "DisplayName": "{{i18n:MasterOfTheTide_name}}",
+                    "Description": "{{i18n:MasterOfTheTide_description}}",
+                    "Duration": -2,
+                    "IconTexture": "{{ModId}}/buffs",
+                    "IconSpriteIndex": 8,
+                    "Effects": {
+                        "FishingLevel": 4.0,
+                        "LuckLevel": 4.0,
+                        "MaxStamina": 100
+                    }
+                }
+            }
+        },
+        { //Equip/Uneqip Buffs
+            "LogName": "Adding Equip/Uneqip actions for SpaceCore...",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/WearableData",
+            "Entries": {
+                "(O){{ModId}}_PrismarineRing": {
+                    "BuffIdToApply": "{{ModId}}_FishermansBounty"
+                },
+                "(O){{ModId}}_FishermansBlessing": {
+                    "BuffIdToApply": "{{ModId}}_OceansBlessing"
+                },
+                "(O){{ModId}}_MarinersBand": {
+                    "BuffIdToApply": "{{ModId}}_OceansOmen"
+                },
+                "(O){{ModId}}_NeptunesHalo": {
+                    "BuffIdToApply": "{{ModId}}_NeptunesBeloved"
+                },
+                "(O){{ModId}}_PoseidonsCirclet": {
+                    "BuffIdToApply": "{{ModId}}_OceansOracle"
+                },
+                "(O){{ModId}}_CircletOfTheSea": {
+                    "BuffIdToApply": "{{ModId}}_MasterOfTheSea"
+                },
+                "(O){{ModId}}_CircletOfTheCoral": {
+                    "BuffIdToApply": "{{ModId}}_MasterOfTheCoral"
+                },
+                "(O){{ModId}}_CircletOfTheDepths": {
+                    "BuffIdToApply": "{{ModId}}_MasterOfTheDepths"
+                },
+                "(O){{ModId}}_CircletOfTheTide": {
+                    "BuffIdToApply": "{{ModId}}_MasterOfTheTide"
+                }
+            }
+        }
+    ]
+}

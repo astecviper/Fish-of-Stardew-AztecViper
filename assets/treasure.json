@@ -1,0 +1,65 @@
+{
+    "Changes": [
+        {
+            "LogName": "Adding treasure data...",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Treasure",
+            "Entries": {
+                "{{ModId}}_GemOfTheSeaTreasure": {
+                    "ItemId": "{{ModId}}_GemOfTheSea",
+                    "Chance": 0.05,
+                    "MinStack": 1,
+                    "MaxStack": 3
+                },
+                "{{ModId}}_GemOfTheCoralTreasure": {
+                    "ItemId": "{{ModId}}_GemOfTheCoral",
+                    "Chance": 0.04,
+                    "MinStack": 1,
+                    "MaxStack": 3
+                },
+                "{{ModId}}_GemOfTheDepths": {
+                    "ItemId": "{{ModId}}_GemOfTheDepths",
+                    "Chance": 0.03,
+                    "MinStack": 1,
+                    "MaxStack": 3
+                },
+                "{{ModId}}_GemOfTheTide": {
+                    "ItemId": "{{ModId}}_GemOfTheTide",
+                    "Chance": 0.02,
+                    "MinStack": 1,
+                    "MaxStack": 3
+                },
+                "{{ModId}}_CircletOfTheSea": {
+                    "ItemId": "{{ModId}}_CircletOfTheSea",
+                    "Chance": 0.005,
+                    "MinStack": 1,
+                    "MaxStack": 1
+                },
+                "{{ModId}}_CircletOfTheCoral": {
+                    "ItemId": "{{ModId}}_CircletOfTheCoral",
+                    "Chance": 0.004,
+                    "MinStack": 1,
+                    "MaxStack": 1
+                },
+                "{{ModId}}_CircletOfTheDepths": {
+                    "ItemId": "{{ModId}}_CircletOfTheDepths",
+                    "Chance": 0.003,
+                    "MinStack": 1,
+                    "MaxStack": 1
+                },
+                "{{ModId}}_CircletOfTheTide": {
+                    "ItemId": "{{ModId}}_CircletOfTheTide",
+                    "Chance": 0.002,
+                    "MinStack": 1,
+                    "MaxStack": 1
+                },
+                "{{ModId}}_RadioactiveJade": {
+                    "ItemId": "{{ModId}}_RadioactiveJade",
+                    "Chance": 0.001,
+                    "MinStack": 1,
+                    "MaxStack": 5
+                }
+            }
+        }
+    ]
+}

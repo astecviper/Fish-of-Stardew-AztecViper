@@ -1,0 +1,442 @@
+{
+    "Changes": [
+        {
+            "LogName": "Loading Recipe Scroll sprites...",
+            "Action": "Load",
+            "Target": "{{ModId}}/scrolls",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Adding Recipe Scroll objects...",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_RayVenomRecipe": {
+                    "Name": "{{ModId}}_RayVenomRecipe",
+                    "DisplayName": "{{i18n:RayVenomRecipe_name}}",
+                    "Description": "{{i18n:RayVenomRecipe_description}}",
+                    "Type": "Object",
+                    "Category": 0,
+                    "Price": 5000,
+                    "Edibility": -300,
+                    "Texture": "{{ModId}}/scrolls",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_EelMayoRecipe": {
+                    "Name": "{{ModId}}_EelMayoRecipe",
+                    "DisplayName": "{{i18n:EelMayoRecipe_name}}",
+                    "Description": "{{i18n:EelMayoRecipe_description}}",
+                    "Type": "Object",
+                    "Category": 0,
+                    "Price": 5000,
+                    "Edibility": -300,
+                    "Texture": "{{ModId}}/scrolls",
+                    "SpriteIndex": 1
+                }
+            }
+        },
+        {
+            "LogName": "Adding Recipe Scroll data...",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "{{ModId}}_RayVenomRecipe": {
+                    "UseForTriggerAction": true,
+                    "ConsumeForTriggerAction": true,
+                    "CanBeTrashed": false,
+                    "CanBeShipped": false
+                },
+                "{{ModId}}_EelMayoRecipe": {
+                    "UseForTriggerAction": true,
+                    "ConsumeForTriggerAction": true,
+                    "CanBeTrashed": false,
+                    "CanBeShipped": false
+                }
+            }
+        },
+        {
+            "LogName": "Adding Recipe Scroll triggers...",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_RVRecipe": {
+                    "Id": "{{ModId}}_RVRecipe",
+                    "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+                    "Condition": "ITEM_ID Input {{ModId}}_RayVenomRecipe",
+                    "Actions": [
+                        "AddMail ALL {{ModId}}_RayVenomRecipeUnlocked",
+                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RVUMessage}}\""
+                    ]
+                },
+                "{{ModId}}_EMRecipe": {
+                    "Id": "{{ModId}}_EMRecipe",
+                    "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+                    "Condition": "ITEM_ID Input {{ModId}}_EelMayoRecipe",
+                    "Actions": [
+                        "AddMail ALL {{ModId}}_EelMayoRecipeUnlocked",
+                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:EMUMessage}}\""
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Adding Vending Machine shop...",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ModId}}_BeachVending": {
+                    "Items": [
+                        {
+                            "Id": "{{ModId}}_RayVenomRecipe",
+                            "ItemId": "{{ModId}}_RayVenomRecipe",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Price": 5000,
+                            "Condition": "!PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipePurchased Any",
+                            "ActionsOnPurchase": [
+                                "AddMail ALL {{ModId}}_RayVenomRecipePurchased"
+                            ]
+                        },
+                        {
+                            "Id": "{{ModId}}_EelMayoRecipe",
+                            "ItemId": "{{ModId}}_EelMayoRecipe",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Price": 5000,
+                            "Condition": "!PLAYER_HAS_MAIL Any {{ModId}}_EelMayoRecipePurchased Any",
+                            "ActionsOnPurchase": [
+                                "AddMail ALL {{ModId}}_EelMayoRecipePurchased"
+                            ]
+                        },
+                        {
+                            "Id": "{{ModId}}_AllBait_Outer",
+                            "ItemId": "RANDOM_ITEMS (O)",
+                            "PerItemCondition": "ITEM_CONTEXT_TAG Target category_fish",
+                            "AvailableStockLimit": "Player",
+                            "MaxItems": 10,
+                            "ModData": {
+                                "Id": "{{ModId}}_AllBait_Inner",
+                                "ItemId": "FLAVORED_ITEM Bait mushymato.PeliQ_NestedId",
+                                "AvailableStockLimit": "Player",
+                                "MaxItems": 10
+                            }
+                        },
+                        {
+                            "Id": "(O)690",
+                            "ItemId": "(O)690",
+                            "TradeItemId": "{{ModId}}_ReefSharkTooth",
+                            "TradeItemAmount": 5,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 5"
+                        },
+                        {
+                            "Id": "(O)688",
+                            "ItemId": "(O)688",
+                            "TradeItemId": "{{ModId}}_LunarScale",
+                            "TradeItemAmount": 5,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 6"
+                        },
+                        {
+                            "Id": "(O)689",
+                            "ItemId": "(O)689",
+                            "TradeItemId": "{{ModId}}_Sunscale",
+                            "TradeItemAmount": 5,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 7"
+                        },
+                        {
+                            "Id": "(O)261",
+                            "ItemId": "(O)261",
+                            "TradeItemId": "{{ModId}}_ReefSharkTooth",
+                            "TradeItemAmount": 5,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 8"
+                        },
+                        {
+                            "Id": "{{ModId}}_WarpTotemTown",
+                            "ItemId": "{{ModId}}_WarpTotemTown",
+                            "TradeItemId": "{{ModId}}_Sunscale",
+                            "TradeItemAmount": 5
+                        },
+                        {
+                            "Id": "{{ModId}}_WarpTotemForest",
+                            "ItemId": "{{ModId}}_WarpTotemForest",
+                            "TradeItemId": "{{ModId}}_ReefSharkTooth",
+                            "TradeItemAmount": 5
+                        },
+                        {
+                            "Id": "{{ModId}}_WarpTotemForestWest",
+                            "ItemId": "{{ModId}}_WarpTotemForestWest",
+                            "TradeItemId": "{{ModId}}_Sunscale",
+                            "TradeItemAmount": 5,
+                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}"
+                        },
+                        {
+                            "Id": "{{ModId}}_WarpTotemShearwaterBridge",
+                            "ItemId": "{{ModId}}_WarpTotemShearwaterBridge",
+                            "TradeItemId": "{{ModId}}_LunarScale",
+                            "TradeItemAmount": 5,
+                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}"
+                        },
+                        {
+                            "Id": "{{ModId}}_WarpTotemEastBeach",
+                            "ItemId": "{{ModId}}_WarpTotemEastBeach",
+                            "TradeItemId": "{{ModId}}_ReefSharkTooth",
+                            "TradeItemAmount": 5
+                        },
+                        {
+                            "Id": "{{ModId}}_WarpTotemSecretWoods",
+                            "ItemId": "{{ModId}}_WarpTotemSecretWoods",
+                            "TradeItemId": "{{ModId}}_LunarScale",
+                            "TradeItemAmount": 5
+                        },
+                        {
+                            "Id": "(O)681",
+                            "ItemId": "(O)681",
+                            "TradeItemId": "{{ModId}}_ReefSharkTooth",
+                            "TradeItemAmount": 5,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 9"
+                        },
+                        {
+                            "Id": "{{ModId}}_PrismarineRing",
+                            "ItemId": "{{ModId}}_PrismarineRing",
+                            "TradeItemId": "{{ModId}}_LunarScale",
+                            "TradeItemAmount": 20,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 2",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_FishermansBlessing",
+                            "ItemId": "{{ModId}}_FishermansBlessing",
+                            "TradeItemId": "{{ModId}}_LunarScale",
+                            "TradeItemAmount": 40,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 4",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_MarinersBand",
+                            "ItemId": "{{ModId}}_MarinersBand",
+                            "TradeItemId": "{{ModId}}_LunarScale",
+                            "TradeItemAmount": 60,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 6",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_NeptunesHalo",
+                            "ItemId": "{{ModId}}_NeptunesHalo",
+                            "TradeItemId": "{{ModId}}_LunarScale",
+                            "TradeItemAmount": 80,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 8",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_PoseidonsCirclet",
+                            "ItemId": "{{ModId}}_PoseidonsCirclet",
+                            "TradeItemId": "{{ModId}}_LunarScale",
+                            "TradeItemAmount": 100,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 10",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "(O)SkillBook_1",
+                            "ItemId": "(O)SkillBook_1",
+                            "TradeItemId": "{{ModId}}_Sunscale",
+                            "TradeItemAmount": 50,
+                            "ActionsOnPurchase": [
+                                "AddMail Current FOS_SkillBook1"
+                            ],
+                            "Condition": "!PLAYER_HAS_MAIL Current FOS_SkillBook1 any, PLAYER_FISHING_LEVEL Current 1",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "(O)Book_Crabbing",
+                            "ItemId": "(O)Book_Crabbing",
+                            "TradeItemId": "{{ModId}}_Sunscale",
+                            "TradeItemAmount": 150,
+                            "ActionsOnPurchase": [
+                                "AddMail Current FOS_SkillBook2"
+                            ],
+                            "Condition": "!PLAYER_HAS_MAIL Current FOS_SkillBook2 any, PLAYER_FISHING_LEVEL Current 3",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Adding Vending Machine shop...",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "When": {
+                "VendingMachineCurrency": "Gold"
+            },
+            "Entries": {
+                "{{ModId}}_BeachVending": {
+                    "Items": [
+                        {
+                            "Id": "{{ModId}}_RayVenomRecipe",
+                            "ItemId": "{{ModId}}_RayVenomRecipe",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Price": 5000,
+                            "Condition": "!PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipePurchased Any",
+                            "ActionsOnPurchase": [
+                                "AddMail ALL {{ModId}}_RayVenomRecipePurchased"
+                            ]
+                        },
+                        {
+                            "Id": "{{ModId}}_EelMayoRecipe",
+                            "ItemId": "{{ModId}}_EelMayoRecipe",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global",
+                            "Price": 5000,
+                            "Condition": "!PLAYER_HAS_MAIL Any {{ModId}}_EelMayoRecipePurchased Any",
+                            "ActionsOnPurchase": [
+                                "AddMail ALL {{ModId}}_EelMayoRecipePurchased"
+                            ]
+                        },
+                        {
+                            "Id": "{{ModId}}_AllBait_Outer",
+                            "ItemId": "RANDOM_ITEMS (O)",
+                            "PerItemCondition": "ITEM_CONTEXT_TAG Target category_fish",
+                            "AvailableStockLimit": "Player",
+                            "MaxItems": 10,
+                            "ModData": {
+                                "Id": "{{ModId}}_AllBait_Inner",
+                                "ItemId": "FLAVORED_ITEM Bait mushymato.PeliQ_NestedId",
+                                "AvailableStockLimit": "Player",
+                                "MaxItems": 10
+                            }
+                        },
+                        {
+                            "Id": "(O)690",
+                            "ItemId": "(O)690",
+                            "Price": 2500,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 5"
+                        },
+                        {
+                            "Id": "(O)688",
+                            "ItemId": "(O)688",
+                            "Price": 2500,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 6"
+                        },
+                        {
+                            "Id": "(O)689",
+                            "ItemId": "(O)689",
+                            "Price": 2500,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 7"
+                        },
+                        {
+                            "Id": "(O)261",
+                            "ItemId": "(O)261",
+                            "Price": 2500,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 8"
+                        },
+                        {
+                            "Id": "{{ModId}}_WarpTotemTown",
+                            "ItemId": "{{ModId}}_WarpTotemTown",
+                            "Price": 2500
+                        },
+                        {
+                            "Id": "{{ModId}}_WarpTotemForest",
+                            "ItemId": "{{ModId}}_WarpTotemForest",
+                            "Price": 2500
+                        },
+                        {
+                            "Id": "{{ModId}}_WarpTotemForestWest",
+                            "ItemId": "{{ModId}}_WarpTotemForestWest",
+                            "Price": 2500,
+                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}"
+                        },
+                        {
+                            "Id": "{{ModId}}_WarpTotemShearwaterBridge",
+                            "ItemId": "{{ModId}}_WarpTotemShearwaterBridge",
+                            "Price": 2500,
+                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}"
+                        },
+                        {
+                            "Id": "{{ModId}}_WarpTotemEastBeach",
+                            "ItemId": "{{ModId}}_WarpTotemEastBeach",
+                            "Price": 2500
+                        },
+                        {
+                            "Id": "{{ModId}}_WarpTotemSecretWoods",
+                            "ItemId": "{{ModId}}_WarpTotemSecretWoods",
+                            "Price": 2500
+                        },
+                        {
+                            "Id": "(O)681",
+                            "ItemId": "(O)681",
+                            "Price": 2500,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 9"
+                        },
+                        {
+                            "Id": "{{ModId}}_PrismarineRing",
+                            "ItemId": "{{ModId}}_PrismarineRing",
+                            "Price": 10000,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 2",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_FishermansBlessing",
+                            "ItemId": "{{ModId}}_FishermansBlessing",
+                            "Price": 20000,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 4",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_MarinersBand",
+                            "ItemId": "{{ModId}}_MarinersBand",
+                            "Price": 30000,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 6",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_NeptunesHalo",
+                            "ItemId": "{{ModId}}_NeptunesHalo",
+                            "Price": 40000,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 8",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "{{ModId}}_PoseidonsCirclet",
+                            "ItemId": "{{ModId}}_PoseidonsCirclet",
+                            "Price": 50000,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 10",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "(O)SkillBook_1",
+                            "ItemId": "(O)SkillBook_1",
+                            "ActionsOnPurchase": [
+                                "AddMail Current FOS_SkillBook1"
+                            ],
+                            "Condition": "!PLAYER_HAS_MAIL Current FOS_SkillBook1 any, PLAYER_FISHING_LEVEL Current 1",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "(O)Book_Crabbing",
+                            "ItemId": "(O)Book_Crabbing",
+                            "ActionsOnPurchase": [
+                                "AddMail Current FOS_SkillBook2"
+                            ],
+                            "Condition": "!PLAYER_HAS_MAIL Current FOS_SkillBook2 any, PLAYER_FISHING_LEVEL Current 3",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

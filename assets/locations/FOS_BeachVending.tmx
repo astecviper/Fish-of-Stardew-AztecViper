@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="left-down" width="2" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="2">
+ <tileset firstgid="1" name="vending" tilewidth="16" tileheight="16" tilecount="18" columns="9">
+  <image source="vending.png" width="144" height="32"/>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="1000"/>
+    <frame tileid="2" duration="1000"/>
+    <frame tileid="3" duration="1000"/>
+    <frame tileid="4" duration="1000"/>
+    <frame tileid="5" duration="1000"/>
+    <frame tileid="6" duration="1000"/>
+    <frame tileid="7" duration="1000"/>
+    <frame tileid="8" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back3" width="2" height="2">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="csv">
+0,0,
+10,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="2" height="2">
+  <data encoding="csv">
+0,2,
+0,11
+</data>
+ </layer>
+ <objectgroup id="3" name="Buildings">
+  <object id="1" name="TileData" x="16" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop aztecviper.fishofstardew_BeachVending down 0600 2600"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

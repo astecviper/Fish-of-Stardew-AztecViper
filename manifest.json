@@ -1,0 +1,36 @@
+{
+    "Name": "Fish of Stardew - AztecViper",
+    "Author": "AztecViper",
+    "Description": "Adds new fish & gear to Stardew Valley.",
+    "Version": "4.2.1",
+    "UniqueID": "aztecviper.fishofstardew",
+    "Format": "2.1.0",
+    "UpdateKeys": [
+        "Nexus:24870"
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.SpaceCore",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "spacechase0.GenericModConfigMenu",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "mushymato.PeliQ",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "mistyspring.ItemExtensions",
+            "IsRequired": true
+        }
+    ]
+}

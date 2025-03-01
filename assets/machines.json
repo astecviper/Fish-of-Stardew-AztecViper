@@ -1,0 +1,290 @@
+{
+  "Changes": [
+    {
+      "LogName": "Adding Dehydrator recipes...",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)Dehydrator",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModId}}_SeaweedCookies": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModId}}_SoggySeaweedCookie",
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "Id": "{{ModId}}_SeaweedCookies",
+              "ItemId": "{{ModId}}_SeaweedCookies",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": -1,
+          "DaysUntilReady": 1,
+          "RecalculateOnCollect": false
+        },
+        "223": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModId}}_SoggyCookie",
+              "RequiredCount": 1
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "Id": "(O)223",
+              "ItemId": "(O)223",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": -1,
+          "DaysUntilReady": 1,
+          "RecalculateOnCollect": false
+        }
+      }
+    },
+    {
+      "LogName": "Adding Mayo Machine recipes...",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)24",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModId}}_BandedEelMayo": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModId}}_BandedEelEgg",
+              "RequiredCount": 1,
+              "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_EelMayoRecipeUnlocked Any"
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "Id": "{{ModId}}_BandedEelMayo",
+              "ItemId": "{{ModId}}_BandedEelMayo",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 180,
+          "RecalculateOnCollect": false
+        },
+        "{{ModId}}_MorayEelMayo": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModId}}_MorayEelEgg",
+              "RequiredCount": 1,
+              "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_EelMayoRecipeUnlocked Any"
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "Id": "{{ModId}}_MorayEelMayo",
+              "ItemId": "{{ModId}}_MorayEelMayo",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 180,
+          "RecalculateOnCollect": false
+        },
+        "{{ModId}}_LongfinEelMayo": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModId}}_LongfinEelEgg",
+              "RequiredCount": 1,
+              "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_EelMayoRecipeUnlocked Any"
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "Id": "{{ModId}}_LongfinEelMayo",
+              "ItemId": "{{ModId}}_LongfinEelMayo",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 180,
+          "RecalculateOnCollect": false
+        }
+      }
+    },
+    {
+      "LogName": "Adding Cask Aging recipes...",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)163",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModId}}_AgedSpottedRayVenom": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModId}}_SpottedRayVenom",
+              "RequiredCount": 1,
+              "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "Id": "{{ModId}}_AgedSpottedRayVenom",
+              "ItemId": "{{ModId}}_AgedSpottedRayVenom",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": -1,
+          "DaysUntilReady": 3,
+          "RecalculateOnCollect": false
+        },
+        "{{ModId}}_AgedSandRayVenom": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModId}}_SandRayVenom",
+              "RequiredCount": 1,
+              "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "Id": "{{ModId}}_AgedSandRayVenom",
+              "ItemId": "{{ModId}}_AgedSandRayVenom",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": -1,
+          "DaysUntilReady": 3,
+          "RecalculateOnCollect": false,
+          "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
+        },
+        "{{ModId}}_ConcentratedSpottedRayVenom": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModId}}_AgedSpottedRayVenom",
+              "RequiredCount": 1,
+              "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "Id": "{{ModId}}_ConcentratedSpottedRayVenom",
+              "ItemId": "{{ModId}}_ConcentratedSpottedRayVenom",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": -1,
+          "DaysUntilReady": 3,
+          "RecalculateOnCollect": false,
+          "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
+        },
+        "{{ModId}}_ConcentratedSandRayVenom": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModId}}_AgedSandRayVenom",
+              "RequiredCount": 1,
+              "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "Id": "{{ModId}}_ConcentratedSandRayVenom",
+              "ItemId": "{{ModId}}_ConcentratedSandRayVenom",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": -1,
+          "DaysUntilReady": 3,
+          "RecalculateOnCollect": false,
+          "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
+        },
+        "{{ModId}}_PotentSpottedRayVenom": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModId}}_ConcentratedSpottedRayVenom",
+              "RequiredCount": 1,
+              "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "Id": "{{ModId}}_PotentSpottedRayVenom",
+              "ItemId": "{{ModId}}_PotentSpottedRayVenom",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": -1,
+          "DaysUntilReady": 3,
+          "RecalculateOnCollect": false,
+          "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
+        },
+        "{{ModId}}_PotentSandRayVenom": {
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModId}}_ConcentratedSandRayVenom",
+              "RequiredCount": 1,
+              "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "Id": "{{ModId}}_PotentSandRayVenom",
+              "ItemId": "{{ModId}}_PotentSandRayVenom",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": -1,
+          "DaysUntilReady": 3,
+          "RecalculateOnCollect": false,
+          "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
+        }
+      }
+    }
+  ]
+}

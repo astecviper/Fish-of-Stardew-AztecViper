@@ -1,0 +1,276 @@
+{
+    "Changes": [
+        { //Letters - Recipes/Quests
+            "LogName": "Adding Mail data...",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "{{ModId}}_WillySmokedSalmonRoll": "{{i18n:WillySmokedSalmonRoll_mail}}",
+                "{{ModId}}_GusTwilightStew": "{{i18n:GusTwilightStew_mail}}",
+                "{{ModId}}_GusVermilionSoup": "{{i18n:GusVermilionSoup_mail}}",
+                "{{ModId}}_GusOnigiri": "{{i18n:GusOnigiri_mail}}",
+                "{{ModId}}_GusFriedFishFilet": "{{i18n:GusFriedFishFilet_mail}}",
+                "{{ModId}}_GusMossyCodStew": "{{i18n:GusMossyCodStew_mail}}",
+                "{{ModId}}_WillySailFin": "{{i18n:WillySailFin_mail}}",
+                // Quest Mail
+                "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%",
+                "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%",
+                "{{ModId}}_WillyQ2L": "{{i18n:WillyQ2L_mail}} %item quest {{ModId}}_WillyQ2 true %%",
+                "{{ModId}}_GusQ2L": "{{i18n:GusQ2L_mail}} %item quest {{ModId}}_GusQ2 true %%",
+                // Special Order Mail
+                "{{ModId}}_WillySOL": "{{i18n:FishingCabinRepair_letter}} %item specialOrder {{ModId}}_Willy true %%"
+            }
+        },
+        { //Letter Requirements
+            "LogName": "Adding Mail requirements...",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SmokedSalmonRecipeMail": {
+                    "Id": "{{ModId}}_SmokedSalmonRollRecipeMail",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY fall 2, YEAR 1 1",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillySmokedSalmonRoll now"
+                    ]
+                },
+                "{{ModId}}_TwilightStewRecipeMail": {
+                    "Id": "{{ModId}}_TwilightStewRecipeMail",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Gus 6",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusTwilightStew now"
+                    ]
+                },
+                "{{ModId}}_VermilionSoupRecipeMail": {
+                    "Id": "{{ModId}}_VermilionSoupRecipeMail",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Gus 2",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusVermilionSoup now"
+                    ]
+                },
+                "{{ModId}}_OnigiriRecipeMail": {
+                    "Id": "{{ModId}}_OnigiriRecipeMail",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Gus 1",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusOnigiri now"
+                    ]
+                },
+                "{{ModId}}_FriedFishFiletRecipeMail": {
+                    "Id": "{{ModId}}_FriedFishFiletRecipeMail",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Gus 2",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusFriedFishFilet now"
+                    ]
+                },
+                "{{ModId}}_MossyCodStewRecipeMail": {
+                    "Id": "{{ModId}}_MossyCodStewRecipeMail",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_GusQ1L Received",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusMossyCodStew now"
+                    ]
+                },
+                "{{ModId}}_GusQuestMailTrigger1": {
+                    "Id": "{{ModId}}_GusQuestMailTrigger1",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY summer 3, YEAR 1 1",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusQ1L tomorrow"
+                    ]
+                },
+                "{{ModId}}_WillyQuestMailTrigger1": {
+                    "Id": "{{ModId}}_WillyQuestMailTrigger1",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY summer 1, YEAR 1 1",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyQ1L now"
+                    ]
+                },
+                "{{ModId}}_WillyQuestMailTrigger2": {
+                    "Id": "{{ModId}}_WillyQuestMailTrigger2",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY spring 8, YEAR 1 1",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyQ2L now"
+                    ]
+                },
+                "{{ModId}}_GusQuestMailTrigger2": {
+                    "Id": "{{ModId}}_GusQuestMailTrigger2",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY summer 8, YEAR 2 2",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusQ2L now"
+                    ]
+                },
+                "{{ModId}}_FishingCabinRepairMailTrigger": {
+                    "Id": "{{ModId}}_FishingCabinRepairMailTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY summer 1, YEAR 2 2",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillySOL now"
+                    ]
+                },
+                "{{ModId}}_WillySailFinMailTrigger": {
+                    "Id": "{{ModId}}_WillySailFinMailTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_SailFinCaught Received Any",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillySailFin now"
+                    ]
+                }
+            }
+        },
+        { //Quests
+            "LogName": "Adding Quest data...",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "{{ModId}}_GusQ1": "ItemDelivery/{{i18n:GusQ1_title}}/{{i18n:GusQ1_details}}/{{i18n:GusQ1_hint}}/Gus {{ModId}}_MossyCod 3/-1/2000/Gold/true/{{i18n:GusQ1_reaction}}",
+                "{{ModId}}_WillyQ1": "ItemDelivery/{{i18n:WillyQ1_title}}/{{i18n:WillyQ1_details}}/{{i18n:WillyQ1_hint}}/Willy {{ModId}}_MorayEel 1/-1/1500/Gold/true/{{i18n:WillyQ1_reaction}}",
+                "{{ModId}}_WillyQ2": "ItemDelivery/{{i18n:WillyQ2_title}}/{{i18n:WillyQ2_details}}/{{i18n:WillyQ2_hint}}/Willy {{ModId}}_BlackClownfish 3/-1/2500/Gold/true/{{i18n:WillyQ2_reaction}}",
+                "{{ModId}}_GusQ2": "ItemDelivery/{{i18n:GusQ2_title}}/{{i18n:GusQ2_details}}/{{i18n:GusQ2_hint}}/Gus 152 10/-1/600/Gold/true/{{i18n:GusQ2_reaction}}"
+            }
+        },
+        { //Special Order for House Repair
+            "LogName": "Adding Special Order data...",
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "{{ModId}}_Willy": {
+                    "Name": "[{{ModId}}_WillyName]",
+                    "Requester": "Willy",
+                    "Repeatable": "false",
+                    "RequiredTags": "season_summer",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "[{{ModId}}_WillyText]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Conditions": "YEAR 20 20",
+                    "Objectives": [
+                        {
+                            "Type": "Fish",
+                            "Text": "[{{ModId}}_WillyObjective1]",
+                            "RequiredCount": 2,
+                            "Data": {
+                                "AcceptedContextTags": "item_aztecviper.fishofstardew_babyreefshark"
+                            }
+                        },
+                        {
+                            "Type": "Fish",
+                            "Text": "[{{ModId}}_WillyObjective2]",
+                            "RequiredCount": 3,
+                            "Data": {
+                                "AcceptedContextTags": "item_aztecviper.fishofstardew_cookieoctopus"
+                            }
+                        },
+                        {
+                            "Type": "Fish",
+                            "Text": "[{{ModId}}_WillyObjective3]",
+                            "RequiredCount": 3,
+                            "Data": {
+                                "AcceptedContextTags": "item_aztecviper.fishofstardew_spottedray"
+                            }
+                        },
+                        {
+                            "Type": "Deliver",
+                            "Text": "[{{ModId}}_WillyObjective4]",
+                            "RequiredCount": 2,
+                            "Data": {
+                                "AcceptedContextTags": "item_aztecviper.fishofstardew_babyreefshark",
+                                "TargetName": "Willy"
+                            }
+                        },
+                        {
+                            "Type": "Deliver",
+                            "Text": "[{{ModId}}_WillyObjective5]",
+                            "RequiredCount": 3,
+                            "Data": {
+                                "AcceptedContextTags": "item_aztecviper.fishofstardew_cookieoctopus",
+                                "TargetName": "Willy"
+                            }
+                        },
+                        {
+                            "Type": "Deliver",
+                            "Text": "[{{ModId}}_WillyObjective6]",
+                            "RequiredCount": 3,
+                            "Data": {
+                                "AcceptedContextTags": "item_aztecviper.fishofstardew_spottedray",
+                                "TargetName": "Willy"
+                            }
+                        },
+                        {
+                            "Type": "Deliver",
+                            "Text": "[{{ModId}}_WillyObjective7]",
+                            "RequiredCount": 300,
+                            "Data": {
+                                "AcceptedContextTags": "id_o_388",
+                                "TargetName": "Willy"
+                            }
+                        },
+                        {
+                            "Type": "Deliver",
+                            "Text": "[{{ModId}}_WillyObjective8]",
+                            "RequiredCount": 50,
+                            "Data": {
+                                "AcceptedContextTags": "id_o_709",
+                                "TargetName": "Willy"
+                            }
+                        },
+                        {
+                            "Type": "Deliver",
+                            "Text": "[{{ModId}}_WillyObjective9]",
+                            "RequiredCount": 100,
+                            "Data": {
+                                "AcceptedContextTags": "id_o_390",
+                                "TargetName": "Willy"
+                            }
+                        },
+                        {
+                            "Type": "Deliver",
+                            "Text": "[{{ModId}}_WillyObjective10]",
+                            "RequiredCount": 10,
+                            "Data": {
+                                "AcceptedContextTags": "id_o_335",
+                                "TargetName": "Willy"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                        "Type": "Mail",
+                        "Data": {
+                            "MailReceived": "FOS_HouseRepair",
+                            "NoLetter": "true"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        { //Special Order Strings
+            "LogName": "Adding Special Order strings...",
+            "Action": "EditData",
+            "Target": "Strings/SpecialOrderStrings",
+            "Entries": {
+                "{{ModId}}_WillyName": "{{i18n:WillyName}}",
+                "{{ModId}}_WillyText": "{{i18n:WillyText}}",
+                "{{ModId}}_WillyObjective1": "{{i18n:WillyObjective1}}",
+                "{{ModId}}_WillyObjective2": "{{i18n:WillyObjective2}}",
+                "{{ModId}}_WillyObjective3": "{{i18n:WillyObjective3}}",
+                "{{ModId}}_WillyObjective4": "{{i18n:WillyObjective4}}",
+                "{{ModId}}_WillyObjective5": "{{i18n:WillyObjective5}}",
+                "{{ModId}}_WillyObjective6": "{{i18n:WillyObjective6}}",
+                "{{ModId}}_WillyObjective7": "{{i18n:WillyObjective7}}",
+                "{{ModId}}_WillyObjective8": "{{i18n:WillyObjective8}}",
+                "{{ModId}}_WillyObjective9": "{{i18n:WillyObjective9}}",
+                "{{ModId}}_WillyObjective10": "{{i18n:WillyObjective10}}"
+            }
+        }
+    ]
+}

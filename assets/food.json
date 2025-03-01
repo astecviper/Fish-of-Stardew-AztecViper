@@ -1,0 +1,362 @@
+{
+    "Changes": [
+        {
+            "LogName": "Loading food sprites...",
+            "Action": "Load",
+            "Target": "{{ModId}}/food",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Adding food objects...",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_SmokedSturgeonRoll": {
+                    "Name": "{{ModId}}_SmokedSturgeonRoll",
+                    "Displayname": "{{i18n:SmokedSturgeonRoll_name}}",
+                    "Description": "{{i18n:SmokedSturgeonRoll_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 850,
+                    "Edibility": 42,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_DeepSeaHalibutRoll": {
+                    "Name": "{{ModId}}_DeepSeaHalibutRoll",
+                    "Displayname": "{{i18n:DeepSeaHalibutRoll_name}}",
+                    "Description": "{{i18n:DeepSeaHalibutRoll_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 400,
+                    "Edibility": 38,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 1
+                },
+                "{{ModId}}_CookieOctopusRoll": {
+                    "Name": "{{ModId}}_CookieOctopusRoll",
+                    "Displayname": "{{i18n:CookieOctopusRoll_name}}",
+                    "Description": "{{i18n:CookieOctopusRoll_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 450,
+                    "Edibility": 38,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 2
+                },
+                "{{ModId}}_SmokedSalmonRoll": {
+                    "Name": "{{ModId}}_SmokedSalmonRoll",
+                    "Displayname": "{{i18n:SmokedSalmonRoll_name}}",
+                    "Description": "{{i18n:SmokedSalmonRoll_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 500,
+                    "Edibility": 50,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 3
+                },
+                "{{ModId}}_MossyCodStew": {
+                    "Name": "{{ModId}}_MossyCodStew",
+                    "Displayname": "{{i18n:MossyCodStew_name}}",
+                    "Description": "{{i18n:MossyCodStew_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 650,
+                    "Edibility": 70,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 4
+                },
+                "{{ModId}}_BlackClownfishRoll": {
+                    "Name": "{{ModId}}_BlackClownfishRoll",
+                    "Displayname": "{{i18n:BlackClownfishRoll_name}}",
+                    "Description": "{{i18n:BlackClownfishRoll_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 750,
+                    "Edibility": 36,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 5
+                },
+                "{{ModId}}_MorayEelRoll": {
+                    "Name": "{{ModId}}_MorayEelRoll",
+                    "Displayname": "{{i18n:MorayEelRoll_name}}",
+                    "Description": "{{i18n:MorayEelRoll_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 950,
+                    "Edibility": 45,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 6
+                },
+                "{{ModId}}_TwilightStew": {
+                    "Name": "{{ModId}}_TwilightStew",
+                    "DisplayName": "{{i18n:TwilightStew_name}}",
+                    "Description": "{{i18n:TwilightStew_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 4600,
+                    "Edibility": 180,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 7
+                },
+                "{{ModId}}_VermilionSoup": {
+                    "Name": "{{ModId}}_VermilionSoup",
+                    "DisplayName": "{{i18n:VermilionSoup_name}}",
+                    "Description": "{{i18n:VermilionSoup_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 180,
+                    "Edibility": 60,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 8
+                },
+                "{{ModId}}_BakedMudTrout": {
+                    "Name": "{{ModId}}_BakedMudTrout",
+                    "DisplayName": "{{i18n:BakedMudTrout_name}}",
+                    "Description": "{{i18n:BakedMudTrout_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Edibility": 70,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 9
+                },
+                "{{ModId}}_BakedGhostPike": {
+                    "Name": "{{ModId}}_BakedGhostPike",
+                    "DisplayName": "{{i18n:BakedGhostPike_name}}",
+                    "Description": "{{i18n:BakedGhostPike_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Edibility": 80,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 10
+                },
+                "{{ModId}}_BakedDeepSeaHalibut": {
+                    "Name": "{{ModId}}_BakedDeepSeaHalibut",
+                    "DisplayName": "{{i18n:BakedDeepSeaHalibut_name}}",
+                    "Description": "{{i18n:BakedDeepSeaHalibut_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 220,
+                    "Edibility": 65,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 11
+                },
+                "{{ModId}}_BakedBrownShad": {
+                    "Name": "{{ModId}}_BakedBrownShad",
+                    "DisplayName": "{{i18n:BakedBrownShad_name}}",
+                    "Description": "{{i18n:BakedBrownShad_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Edibility": 70,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 12
+                },
+                "{{ModId}}_BakedSockeyeSalmon": {
+                    "Name": "{{ModId}}_BakedSockeyeSalmon",
+                    "DisplayName": "{{i18n:BakedSockeyeSalmon_name}}",
+                    "Description": "{{i18n:BakedSockeyeSalmon_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Edibility": 65,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 13
+                },
+                "{{ModId}}_BakedPumpkinPerch": {
+                    "Name": "{{ModId}}_BakedPumpkinPerch",
+                    "DisplayName": "{{i18n:BakedPumpkinPerch_name}}",
+                    "Description": "{{i18n:BakedPumpkinPerch_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 275,
+                    "Edibility": 85,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 14
+                },
+                "{{ModId}}_BakedBluegill": {
+                    "Name": "{{ModId}}_BakedBluegill",
+                    "DisplayName": "{{i18n:BakedBluegill_name}}",
+                    "Description": "{{i18n:BakedBluegill_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 120,
+                    "Edibility": 55,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 15
+                },
+                "{{ModId}}_Onigiri": {
+                    "Name": "{{ModId}}_Onigiri",
+                    "Displayname": "{{i18n:Onigiri_name}}",
+                    "Description": "{{i18n:Onigiri_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 160,
+                    "Edibility": 20,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 16
+                },
+                "{{ModId}}_FriedFishFilet": {
+                    "Name": "{{ModId}}_FriedFishFilet",
+                    "Displayname": "{{i18n:FriedFishFilet_name}}",
+                    "Description": "{{i18n:FriedFishFilet_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Edibility": 46,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 17
+                },
+                "{{ModId}}_BakedStripedChar": {
+                    "Name": "{{ModId}}_BakedStripedChar",
+                    "DisplayName": "{{i18n:BakedStripedChar_name}}",
+                    "Description": "{{i18n:BakedStripedChar_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Edibility": 50,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 18
+                },
+                "{{ModId}}_SockeyeSalmonSashimi": {
+                    "Name": "{{ModId}}_SockeyeSalmonSashimi",
+                    "DisplayName": "{{i18n:SockeyeSalmonSashimi_name}}",
+                    "Description": "{{i18n:SockeyeSalmonSashimi_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 110,
+                    "Edibility": 25,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 19
+                },
+                "{{ModId}}_BakedSunscaledTrout": {
+                    "Name": "{{ModId}}_BakedSunscaledTrout",
+                    "DisplayName": "{{i18n:BakedSunscaledTrout_name}}",
+                    "Description": "{{i18n:BakedSunscaledTrout_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 450,
+                    "Edibility": 60,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 20
+                },
+                "{{ModId}}_BakedVermilionCarp": {
+                    "Name": "{{ModId}}_BakedVermilionCarp",
+                    "DisplayName": "{{i18n:BakedVermilionCarp_name}}",
+                    "Description": "{{i18n:BakedVermilionCarp_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 200,
+                    "Edibility": 55,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 21
+                },
+                "{{ModId}}_BakedLunarSalmon": {
+                    "Name": "{{ModId}}_BakedLunarSalmon",
+                    "DisplayName": "{{i18n:BakedLunarSalmon_name}}",
+                    "Description": "{{i18n:BakedLunarSalmon_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 3500,
+                    "Edibility": 120,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 22
+                },
+                "{{ModId}}_SeaweedSoup": {
+                    "Name": "{{ModId}}_SeaweedSoup",
+                    "DisplayName": "{{i18n:SeaweedSoup_name}}",
+                    "Description": "{{i18n:SeaweedSoup_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 120,
+                    "Edibility": 30,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 23
+                },
+                "{{ModId}}_BioluminescentSoup": {
+                    "Name": "{{ModId}}_BioluminescentSoup",
+                    "DisplayName": "{{i18n:BioluminescentSoup_name}}",
+                    "Description": "{{i18n:BioluminescentSoup_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "Edibility": 75,
+                    "ContextTags": [
+                        "torch_item"
+                    ],
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 24
+                },
+                "{{ModId}}_BakedParrotfish": {
+                    "Name": "{{ModId}}_BakedParrotfish",
+                    "DisplayName": "{{i18n:BakedParrotfish_name}}",
+                    "Description": "{{i18n:BakedParrotfish_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 120,
+                    "Edibility": 60,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 25
+                },
+                "{{ModId}}_TriggerfishSashimi": {
+                    "Name": "{{ModId}}_TriggerfishSashimi",
+                    "DisplayName": "{{i18n:TriggerfishSashimi_name}}",
+                    "Description": "{{i18n:TriggerfishSashimi_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 120,
+                    "Edibility": 50,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 26
+                },
+                "{{ModId}}_SeaweedCookies": {
+                    "Name": "{{ModId}}_SeaweedCookies",
+                    "DisplayName": "{{i18n:SeaweedCookies_name}}",
+                    "Description": "{{i18n:SeaweedCookies_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 180,
+                    "Edibility": 50,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 27
+                }
+            }
+        },
+        {
+            "LogName": "Adding recipe data...",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "Smoked Sturgeon Roll": "{{ModId}}_WhiteSturgeon 1 152 1 188 2/10 10/{{ModId}}_SmokedSturgeonRoll 1/default",
+                "Deep Sea Halibut Roll": "{{ModId}}_DeepSeaHalibut 1 152 1 20 1/10 10/{{ModId}}_DeepSeaHalibutRoll 1/default",
+                "Cookie Octopus Roll": "{{ModId}}_CookieOctopus 1 152 1 260 1/10 10/{{ModId}}_CookieOctopusRoll 1/default",
+                "Smoked Salmon Roll": "{{ModId}}_SockeyeSalmon 1 152 1 424 1/10 10/{{ModId}}_SmokedSalmonRoll 1/none",
+                "Mossy Cod Stew": "{{ModId}}_MossyCod 1 430 1 426 1 404 2/10 10/{{ModId}}_MossyCodStew  1/none",
+                "Black Clownfish Roll": "{{ModId}}_BlackClownfish 1 152 1 834 1/10 10/{{ModId}}_BlackClownfishRoll 1/default",
+                "Moray Eel Roll": "{{ModId}}_MorayEel 1 152 1 635 1/10 10/{{ModId}}_MorayEelRoll 1/default",
+                "Twilight Stew": "{{ModId}}_LunarSalmon 1 272 2 430 1 186 1/10 10/{{ModId}}_TwilightStew 1/none",
+                "Vermilion Soup": "{{ModId}}_VermilionCarp 1 436 1 284 1/10 10/{{ModId}}_VermilionSoup 1/none",
+                "Baked Mud Trout": "{{ModId}}_MudTrout 1 246 1/10 10/{{ModId}}_BakedMudTrout 1/default",
+                "Baked Ghost Pike": "{{ModId}}_GhostPike 1 246 1/10 10/{{ModId}}_BakedGhostPike 1/default",
+                "Baked Deep Sea Halibut": "{{ModId}}_DeepSeaHalibut 1 246 1/10 10/{{ModId}}_BakedDeepSeaHalibut 1/default",
+                "Baked Brown Shad": "{{ModId}}_BrownShad 1 246 1/10 10/{{ModId}}_BakedBrownShad 1/default",
+                "Baked Sockeye Salmon": "{{ModId}}_SockeyeSalmon 1 246 1/10 10/{{ModId}}_BakedSockeyeSalmon 1/default",
+                "Baked Pumpkin Perch": "{{ModId}}_PumpkinPerch 1 246 1/10 10/{{ModId}}_BakedPumpkinPerch 1/default",
+                "Baked Bluegill": "{{ModId}}_Bluegill 1 246 1/10 10/{{ModId}}_BakedBluegill 1/default",
+                "Onigiri": "423 1 152 1/10 10/{{ModId}}_Onigiri 1/none",
+                "Fried Fish Filet": "132 1 246 1 247 1/10 10/{{ModId}}_FriedFishFilet 1/none",
+                "Baked Striped Char": "{{ModId}}_StripedChar 1 Carrot 2/10 10/{{ModId}}_BakedStripedChar 1/default",
+                "Sockeye Salmon Sashimi": "{{ModId}}_SockeyeSalmon 1 152 1/10 10/{{ModId}}_SockeyeSalmonSashimi 1/default",
+                "Baked Sunscaled Trout": "{{ModId}}_SunscaledTrout 1 152 1/10 10/{{ModId}}_BakedSunscaledTrout 1/default",
+                "Baked Vermilion Carp": "{{ModId}}_VermilionCarp 1 152 1/10 10/{{ModId}}_BakedVermilionCarp 1/default",
+                "Baked Lunar Salmon": "{{ModId}}_LunarSalmon 1 152 1/10 10/{{ModId}}_BakedLunarSalmon 1/default",
+                "Seaweed Soup": "152 5 247 1 248 1 184 1/10 10/{{ModId}}_SeaweedSoup 1/default",
+                "Bioluminescent Soup": "{{ModId}}_BioluminescentSeaweed 2 184 1 {{ModId}}_BandedEel 1/10 10/{{ModId}}_BioluminescentSoup 1/default",
+                "Baked Parrotfish": "{{ModId}}_PurpleParrotfish 1 {{ModId}}_BioluminescentSeaweed 1/10 10/{{ModId}}_BakedParrotfish 1/default",
+                "Triggerfish Sashimi": "{{ModId}}_Triggerfish 1 152 1/10 10/{{ModId}}_TriggerfishSashimi 1/default"
+            }
+        }
+    ]
+}

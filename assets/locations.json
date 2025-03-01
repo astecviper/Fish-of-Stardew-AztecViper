@@ -1,0 +1,348 @@
+{
+    "Changes": [
+        // Load Tilesheets
+        {
+            "LogName": "Loading tilesheet 1...",
+            "Action": "Load",
+            "Target": "Maps/spring_GOATTiles",
+            "FromFile": "assets/locations/tilesheets/spring_GOATTiles.png"
+        },
+        {
+            "LogName": "Loading tilesheet 2...",
+            "Action": "Load",
+            "Target": "Maps/summer_GOATTiles",
+            "FromFile": "assets/locations/tilesheets/summer_GOATTiles.png"
+        },
+        {
+            "LogName": "Loading tilesheet 3...",
+            "Action": "Load",
+            "Target": "Maps/fall_GOATTiles",
+            "FromFile": "assets/locations/tilesheets/fall_GOATTiles.png"
+        },
+        {
+            "LogName": "Loading tilesheet 4...",
+            "Action": "Load",
+            "Target": "Maps/winter_GOATTiles",
+            "FromFile": "assets/locations/tilesheets/winter_GOATTiles.png"
+        },
+        {
+            "LogName": "Loading tilesheet 5...",
+            "Action": "Load",
+            "Target": "Maps/FOS_CustomTiles",
+            "FromFile": "assets/locations/tilesheets/FOS_CustomTiles.png"
+        },
+        {
+            "LogName": "Loading tilesheet 6...",
+            "Action": "Load",
+            "Target": "Maps/spring_FOS_HouseTiles",
+            "FromFile": "assets/locations/tilesheets/spring_FOS_HouseTiles.png"
+        },
+        {
+            "LogName": "Loading tilesheet 7...",
+            "Action": "Load",
+            "Target": "Maps/summer_FOS_HouseTiles",
+            "FromFile": "assets/locations/tilesheets/summer_FOS_HouseTiles.png"
+        },
+        {
+            "LogName": "Loading tilesheet 8...",
+            "Action": "Load",
+            "Target": "Maps/fall_FOS_HouseTiles",
+            "FromFile": "assets/locations/tilesheets/fall_FOS_HouseTiles.png"
+        },
+        {
+            "LogName": "Loading tilesheet 9...",
+            "Action": "Load",
+            "Target": "Maps/winter_FOS_HouseTiles",
+            "FromFile": "assets/locations/tilesheets/winter_FOS_HouseTiles.png"
+        },
+        {
+            "LogName": "Loading tilesheet 10...",
+            "Action": "Load",
+            "Target": "Maps/spring_FOS_BrokenHouseTiles",
+            "FromFile": "assets/locations/tilesheets/spring_FOS_BrokenHouseTiles.png"
+        },
+        {
+            "LogName": "Loading tilesheet 11...",
+            "Action": "Load",
+            "Target": "Maps/summer_FOS_BrokenHouseTiles",
+            "FromFile": "assets/locations/tilesheets/summer_FOS_BrokenHouseTiles.png"
+        },
+        {
+            "LogName": "Loading tilesheet 12...",
+            "Action": "Load",
+            "Target": "Maps/fall_FOS_BrokenHouseTiles",
+            "FromFile": "assets/locations/tilesheets/fall_FOS_BrokenHouseTiles.png"
+        },
+        {
+            "LogName": "Loading tilesheet 13...",
+            "Action": "Load",
+            "Target": "Maps/winter_FOS_BrokenHouseTiles",
+            "FromFile": "assets/locations/tilesheets/winter_FOS_BrokenHouseTiles.png"
+        },
+        {
+            "LogName": "Loading tilesheet 14...",
+            "Action": "Load",
+            "Target": "Maps/vending",
+            "FromFile": "assets/locations/tilesheets/vending.png"
+        },
+        // Add Beach Bridge
+        { //Beach
+            "LogName": "Adding Beach Bridge patch...",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "PatchMode": "Replace",
+            "FromFile": "assets/locations/GOAT_BeachBridge.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 13,
+                "Height": 10
+            },
+            "ToArea": {
+                "X": 91,
+                "Y": 5,
+                "Width": 13,
+                "Height": 10
+            }
+        },
+        { //Beach Luau
+            "LogName": "Adding Beach Luau Bridge patch...",
+            "Action": "EditMap",
+            "Target": "Maps/Beach_Luau",
+            "PatchMode": "Replace",
+            "FromFile": "assets/locations/GOAT_BeachBridge.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 13,
+                "Height": 10
+            },
+            "ToArea": {
+                "X": 91,
+                "Y": 5,
+                "Width": 13,
+                "Height": 10
+            }
+        },
+        { //Beach Luau 2
+            "LogName": "Adding Beach Luau 2 Bridge patch...",
+            "Action": "EditMap",
+            "Target": "Maps/Beach_Luau2",
+            "PatchMode": "Replace",
+            "FromFile": "assets/locations/GOAT_BeachBridge.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 13,
+                "Height": 10
+            },
+            "ToArea": {
+                "X": 91,
+                "Y": 5,
+                "Width": 13,
+                "Height": 10
+            }
+        },
+        { //Beach Night Market
+            "LogName": "Adding Beach Night Market Bridge patch...",
+            "Action": "EditMap",
+            "Target": "Maps/Beach_NightMarket",
+            "PatchMode": "Replace",
+            "FromFile": "assets/locations/GOAT_BeachBridge.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 13,
+                "Height": 10
+            },
+            "ToArea": {
+                "X": 91,
+                "Y": 5,
+                "Width": 13,
+                "Height": 10
+            }
+        },
+        // Warps
+        { //Beach Bridge Warps
+            "LogName": "Adding Beach Bridge Warps...",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "AddWarps": [
+                "104 6 FOS_Beach1 1 5",
+                "104 7 FOS_Beach1 1 5",
+                "104 8 FOS_Beach1 1 5",
+                "104 9 FOS_Beach1 1 5",
+                "104 10 FOS_Beach1 1 5",
+                "104 11 FOS_Beach1 1 5",
+                "104 12 FOS_Beach1 1 5",
+                "104 13 FOS_Beach1 1 5",
+                "104 14 FOS_Beach1 1 5"
+            ]
+        },
+        //Add FOS_HouseInterior
+        {
+            "LogName": "Adding Beach House Interior map...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "FOS_HouseInterior": {
+                    "DisplayName": "Beach House",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/FOS_HouseInterior",
+                        "Type": "StardewValley.Locations.DecoratableLocation",
+                        "AlwaysActive": true
+                    },
+                    "DefaultArrivalTile": {
+                        "X": 9,
+                        "Y": 28
+                    }
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/FOS_HouseInterior",
+            "FromFile": "assets/locations/FOS_HouseInterior.tmx"
+        },
+        //Add FOS_Beach1
+        {
+            "LogName": "Adding East Beach map...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "FOS_Beach1": {
+                    "DisplayName": "East Beach",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/FOS_Beach1",
+                        "AlwaysActive": true
+                    },
+                    "DefaultArrivalTile": {
+                        "X": 1,
+                        "Y": 5
+                    },
+                    "FishAreas": {
+                        "Ocean": {
+                            "CrabPotFishTypes": [
+                                "ocean"
+                            ]
+                        },
+                        "Cove": {
+                            "Position": {
+                                "X": 40,
+                                "Y": 11,
+                                "Width": 36,
+                                "Height": 30
+                            },
+                            "CrabPotFishTypes": [
+                                "ocean"
+                            ]
+                        }
+                    },
+                    "ArtifactSpots": []
+                }
+            }
+        },
+        //Load Map East Beach
+        { //Load East Beach
+            "LogName": "Loading East Beach map...",
+            "Action": "Load",
+            "Target": "Maps/FOS_Beach1",
+            "FromFile": "assets/locations/FOS_Beach1.tmx"
+        },
+        { //East Beach Warps
+            "LogName": "Adding East Beach Warps...",
+            "Action": "EditMap",
+            "Target": "Maps/FOS_Beach1",
+            "AddWarps": [
+                "-1 1 Beach 102 9",
+                "-1 2 Beach 102 9",
+                "-1 3 Beach 102 9",
+                "-1 4 Beach 102 9",
+                "-1 5 Beach 102 9",
+                "-1 6 Beach 102 9",
+                "-1 7 Beach 102 9",
+                "-1 8 Beach 102 9",
+                "-1 9 Beach 102 9",
+                "-1 10 Beach 102 9",
+                "-1 11 Beach 102 9",
+                "-1 12 Beach 102 9",
+                "-1 13 Beach 102 9",
+                "-1 14 Beach 102 9",
+                "-1 15 Beach 102 9",
+                "-1 16 Beach 102 9",
+                "-1 17 Beach 102 9",
+                "-1 18 Beach 102 9"
+            ]
+        },
+        { //Fixed House
+            "LogName": "Adding Fixed House patch...",
+            "Action": "EditMap",
+            "Target": "Maps/FOS_Beach1",
+            "PatchMode": "Replace",
+            "FromFile": "assets/locations/FOS_Beach1Patch.tmx",
+            "When": {
+                "HasFlag": "FOS_HouseRepair"
+            },
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 13,
+                "Height": 11
+            },
+            "ToArea": {
+                "X": 82,
+                "Y": 1,
+                "Width": 13,
+                "Height": 11
+            }
+        },
+        { //Beach Vending Machine
+            "LogName": "Adding Beach Vending Machine patch...",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "PatchMode": "Overlay",
+            "FromFile": "assets/locations/FOS_BeachVending.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 2,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 36,
+                "Y": 30,
+                "Width": 2,
+                "Height": 2
+            } 
+        }// ,
+        // {
+        //     "Action": "Load",
+        //     "Target": "Maps/FOS_IslandBeach1",
+        //     "FromFile": "assets/locations/FOS_IslandBeach1.tmx"
+        // },
+        // {
+        //     "Action": "EditData",
+        //     "Target": "Data/Locations",
+        //     "Entries": {
+        //         "FOS_IslandBeach1": {
+        //             "DisplayName": "Angler Island Beach",
+        //             "CreateOnLoad": {
+        //                 "MapPath": "Maps/FOS_IslandBeach1",
+        //                 "AlwaysActive": true
+        //             },
+        //             "DefaultArrivalTile": {
+        //                 "X": 19,
+        //                 "Y": 24
+        //             },
+        //             "FishAreas": {
+        //                 "Ocean": {
+        //                     "CrabPotFishTypes": [
+        //                         "ocean"
+        //                     ]
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+    ]
+}
