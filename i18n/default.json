@@ -5,7 +5,7 @@
     "config.VendingMachineCurrency.values.Gold": "Gold",
     "config.VendingMachineCurrency.values.Trade": "Trade",
     "config.GemSprites.name": "Gem Sprites",
-    "config.GemSprites.description": "Choose the gem sprites used by the game for the aquatic gems and jewelery.",
+    "config.GemSprites.description": "Choose the gem sprites used by the game for the aquatic gems and jewelery. This change will only partially take affect unless you do it before loading your farm.",
     "config.GemSprites.values.Gems": "Gems",
     "config.GemSprites.values.Pearls": "Pearls",
     //Rings
