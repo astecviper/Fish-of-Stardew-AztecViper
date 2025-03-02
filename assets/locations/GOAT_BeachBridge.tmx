@@ -1065,9 +1065,6 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="592" name="v16_Shadows" tilewidth="16" tileheight="16" tilecount="0" columns="19">
-  <image source="spring_Shadows" width="304" height="400"/>
- </tileset>
  <layer id="1" name="Back" width="13" height="10">
   <data encoding="csv">
 89,123,172,196,172,172,172,172,172,172,172,172,172,
