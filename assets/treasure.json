@@ -9,25 +9,29 @@
                     "ItemId": "{{ModId}}_GemOfTheSea",
                     "Chance": 0.05,
                     "MinStack": 1,
-                    "MaxStack": 3
+                    "MaxStack": 3,
+                    "Condition": "ANY \"LOCATION_NAME Here FOS_Beach1\" \"LOCATION_NAME Here Beach\""
                 },
                 "{{ModId}}_GemOfTheCoralTreasure": {
                     "ItemId": "{{ModId}}_GemOfTheCoral",
                     "Chance": 0.04,
                     "MinStack": 1,
-                    "MaxStack": 3
+                    "MaxStack": 3,
+                    "Condition": "ANY \"LOCATION_NAME Here FOS_Beach1\" \"LOCATION_NAME Here Beach\""
                 },
                 "{{ModId}}_GemOfTheDepths": {
                     "ItemId": "{{ModId}}_GemOfTheDepths",
                     "Chance": 0.03,
                     "MinStack": 1,
-                    "MaxStack": 3
+                    "MaxStack": 3,
+                    "Condition": "ANY \"LOCATION_NAME Here FOS_Beach1\" \"LOCATION_NAME Here Beach\""
                 },
                 "{{ModId}}_GemOfTheTide": {
                     "ItemId": "{{ModId}}_GemOfTheTide",
                     "Chance": 0.02,
                     "MinStack": 1,
-                    "MaxStack": 3
+                    "MaxStack": 3,
+                    "Condition": "ANY \"LOCATION_NAME Here FOS_Beach1\" \"LOCATION_NAME Here Beach\""
                 },
                 "{{ModId}}_CircletOfTheSea": {
                     "ItemId": "{{ModId}}_CircletOfTheSea",
@@ -39,25 +43,29 @@
                     "ItemId": "{{ModId}}_CircletOfTheCoral",
                     "Chance": 0.004,
                     "MinStack": 1,
-                    "MaxStack": 1
+                    "MaxStack": 1,
+                    "Condition": "ANY \"LOCATION_NAME Here FOS_Beach1\" \"LOCATION_NAME Here Beach\""
                 },
                 "{{ModId}}_CircletOfTheDepths": {
                     "ItemId": "{{ModId}}_CircletOfTheDepths",
                     "Chance": 0.003,
                     "MinStack": 1,
-                    "MaxStack": 1
+                    "MaxStack": 1,
+                    "Condition": "ANY \"LOCATION_NAME Here FOS_Beach1\" \"LOCATION_NAME Here Beach\""
                 },
                 "{{ModId}}_CircletOfTheTide": {
                     "ItemId": "{{ModId}}_CircletOfTheTide",
                     "Chance": 0.002,
                     "MinStack": 1,
-                    "MaxStack": 1
+                    "MaxStack": 1,
+                    "Condition": "ANY \"LOCATION_NAME Here FOS_Beach1\" \"LOCATION_NAME Here Beach\""
                 },
                 "{{ModId}}_RadioactiveJade": {
                     "ItemId": "{{ModId}}_RadioactiveJade",
                     "Chance": 0.001,
                     "MinStack": 1,
-                    "MaxStack": 5
+                    "MaxStack": 5,
+                    "Condition": "ANY \"LOCATION_NAME Here Forest\" \"LOCATION_NAME Here Mountain\""
                 }
             }
         }
