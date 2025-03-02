@@ -4,7 +4,7 @@
             "LogName": "Loading forage sprites...",
             "Action": "Load",
             "Target": "{{ModId}}/forage",
-            "FromFile": "assets/{{TargetWithoutPath}}.png"
+            "FromFile": "assets/forage_{{GemSprites}}.png"
         },
         {
             "LogName": "Adding forage objects...",
@@ -52,8 +52,8 @@
                 },
                 "{{ModId}}_GemOfTheSea": {
                     "Name": "{{ModId}}_GemOfTheSea",
-                    "Displayname": "{{i18n:GemOfTheSea_name}}",
-                    "Description": "{{i18n:GemOfTheSea_description}}",
+                    "Displayname": "{{i18n:{{GemName}}OfTheSea_name}}",
+                    "Description": "{{i18n:{{GemName}}OfTheSea_description}}",
                     "Type": "Basic",
                     "Category": -23,
                     "Price": 1500,
@@ -66,8 +66,8 @@
                 },
                 "{{ModId}}_GemOfTheCoral": {
                     "Name": "{{ModId}}_GemOfTheCoral",
-                    "Displayname": "{{i18n:GemOfTheCoral_name}}",
-                    "Description": "{{i18n:GemOfTheCoral_description}}",
+                    "Displayname": "{{i18n:{{GemName}}OfTheCoral_name}}",
+                    "Description": "{{i18n:{{GemName}}OfTheCoral_description}}",
                     "Type": "Basic",
                     "Category": -23,
                     "Price": 1500,
@@ -80,8 +80,8 @@
                 },
                 "{{ModId}}_GemOfTheDepths": {
                     "Name": "{{ModId}}_GemOfTheDepths",
-                    "Displayname": "{{i18n:GemOfTheDepths_name}}",
-                    "Description": "{{i18n:GemOfTheDepths_description}}",
+                    "Displayname": "{{i18n:{{GemName}}OfTheDepths_name}}",
+                    "Description": "{{i18n:{{GemName}}OfTheDepths_description}}",
                     "Type": "Basic",
                     "Category": -23,
                     "Price": 1500,
@@ -94,8 +94,8 @@
                 },
                 "{{ModId}}_GemOfTheTide": {
                     "Name": "{{ModId}}_GemOfTheTide",
-                    "Displayname": "{{i18n:GemOfTheTide_name}}",
-                    "Description": "{{i18n:GemOfTheTide_description}}",
+                    "Displayname": "{{i18n:{{GemName}}OfTheTide_name}}",
+                    "Description": "{{i18n:{{GemName}}OfTheTide_description}}",
                     "Type": "Basic",
                     "Category": -23,
                     "Price": 1500,
@@ -108,8 +108,8 @@
                 },
                 "{{ModId}}_CircletOfTheSea": {
                     "Name": "{{ModId}}_CircletOfTheSea",
-                    "DisplayName": "{{i18n:CircletOfTheSea_name}}",
-                    "Description": "{{i18n:CircletOfTheSea_description}}",
+                    "DisplayName": "{{i18n:{{PendantName}}OfTheSea_name}}",
+                    "Description": "{{i18n:{{PendantName}}OfTheSea_description}}",
                     "Type": "Ring",
                     "Category": -96,
                     "Price": 1000,
@@ -121,8 +121,8 @@
                 },
                 "{{ModId}}_CircletOfTheCoral": {
                     "Name": "{{ModId}}_CircletOfTheCoral",
-                    "DisplayName": "{{i18n:CircletOfTheCoral_name}}",
-                    "Description": "{{i18n:CircletOfTheCoral_description}}",
+                    "DisplayName": "{{i18n:{{PendantName}}OfTheCoral_name}}",
+                    "Description": "{{i18n:{{PendantName}}OfTheCoral_description}}",
                     "Type": "Ring",
                     "Category": -96,
                     "Price": 2000,
@@ -134,8 +134,8 @@
                 },
                 "{{ModId}}_CircletOfTheDepths": {
                     "Name": "{{ModId}}_CircletOfTheDepths",
-                    "DisplayName": "{{i18n:CircletOfTheDepths_name}}",
-                    "Description": "{{i18n:CircletOfTheDepths_description}}",
+                    "DisplayName": "{{i18n:{{PendantName}}OfTheDepths_name}}",
+                    "Description": "{{i18n:{{PendantName}}OfTheDepths_description}}",
                     "Type": "Ring",
                     "Category": -96,
                     "Price": 3000,
@@ -147,8 +147,8 @@
                 },
                 "{{ModId}}_CircletOfTheTide": {
                     "Name": "{{ModId}}_CircletOfTheTide",
-                    "DisplayName": "{{i18n:CircletOfTheTide_name}}",
-                    "Description": "{{i18n:CircletOfTheTide_description}}",
+                    "DisplayName": "{{i18n:{{PendantName}}OfTheTide_name}}",
+                    "Description": "{{i18n:{{PendantName}}OfTheTide_description}}",
                     "Type": "Ring",
                     "Category": -96,
                     "Price": 4000,

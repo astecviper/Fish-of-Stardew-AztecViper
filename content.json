@@ -1,11 +1,39 @@
 {
-    "Format": "2.1.0",
+    "Format": "2.5.3",
     "ConfigSchema": {
         "VendingMachineCurrency": {
             "AllowValues": "Gold, Trade",
             "Default": "Gold"
+        },
+        "GemSprites": {
+            "AllowValues": "gems, pearls",
+            "Default": "gems"
         }
     },
+    "DynamicTokens": [
+        {
+            "Name": "GemName",
+            "Value": "Gem"
+        },
+        {
+            "Name": "GemName",
+            "Value": "Pearl",
+            "When": {
+                "GemSprites": "pearls"
+            }
+        },
+        {
+            "Name": "PendantName",
+            "Value": "Pendant"
+        },
+        {
+            "Name": "PendantName",
+            "Value": "Circlet",
+            "When": {
+                "GemSprites": "pearls"
+            }
+        }
+    ],
     "Changes": [
         {
             "LogName": "Loading Locations JSON...",
