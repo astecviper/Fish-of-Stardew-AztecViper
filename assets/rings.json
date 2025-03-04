@@ -1,89 +1,10 @@
 {
     "Changes": [
         {
-            "LogName": "Loading Ring sprites...",
-            "Action": "Load",
-            "Target": "{{ModId}}/rings",
-            "FromFile": "assets/{{TargetWithoutPath}}.png"
-        },
-        {
             "LogName": "Loading Buff sprites...",
             "Action": "Load",
             "Target": "{{ModId}}/buffs",
             "FromFile": "assets/{{TargetWithoutPath}}.png"
-        },
-        {
-            "LogName": "Adding Ring objects...",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
-                //Rings
-                "{{ModId}}_PrismarineRing": {
-                    "Name": "{{ModId}}_PrismarineRing",
-                    "Displayname": "{{i18n:PrismarineRing_name}}",
-                    "Description": "{{i18n:PrismarineRing_description}}",
-                    "Type": "Ring",
-                    "Category": -96,
-                    "Price": 1250,
-                    "Texture": "{{ModId}}/rings",
-                    "SpriteIndex": 0,
-                    "ContextTags": [
-                        "ring_item"
-                    ]
-                },
-                "{{ModId}}_FishermansBlessing": {
-                    "Name": "{{ModId}}_FishermansBlessing",
-                    "DisplayName": "{{i18n:FishermansBlessing_name}}",
-                    "Description": "{{i18n:FishermansBlessing_description}}",
-                    "Type": "Ring",
-                    "Category": -96,
-                    "Price": 2000,
-                    "Texture": "{{ModId}}/rings",
-                    "SpriteIndex": 1,
-                    "ContextTags": [
-                        "ring_item"
-                    ]
-                },
-                "{{ModId}}_MarinersBand": {
-                    "Name": "{{ModId}}_MarinersBand",
-                    "DisplayName": "{{i18n:MarinersBand_name}}",
-                    "Description": "{{i18n:MarinersBand_description}}",
-                    "Type": "Ring",
-                    "Category": -96,
-                    "Price": 3000,
-                    "Texture": "{{ModId}}/rings",
-                    "SpriteIndex": 2,
-                    "ContextTags": [
-                        "ring_item"
-                    ]
-                },
-                "{{ModId}}_NeptunesHalo": {
-                    "Name": "{{ModId}}_NeptunesHalo",
-                    "DisplayName": "{{i18n:NeptunesHalo_name}}",
-                    "Description": "{{i18n:NeptunesHalo_description}}",
-                    "Type": "Ring",
-                    "Category": -96,
-                    "Price": 4000,
-                    "Texture": "{{ModId}}/rings",
-                    "SpriteIndex": 3,
-                    "ContextTags": [
-                        "ring_item"
-                    ]
-                },
-                "{{ModId}}_PoseidonsCirclet": {
-                    "Name": "{{ModId}}_PoseidonsCirclet",
-                    "DisplayName": "{{i18n:PoseidonsCirclet_name}}",
-                    "Description": "{{i18n:PoseidonsCirclet_description}}",
-                    "Type": "Ring",
-                    "Category": -96,
-                    "Price": 3000,
-                    "Texture": "{{ModId}}/rings",
-                    "SpriteIndex": 4,
-                    "ContextTags": [
-                        "ring_item"
-                    ]
-                }
-            }
         },
         { //Buffs
             "LogName": "Adding Buffs...",

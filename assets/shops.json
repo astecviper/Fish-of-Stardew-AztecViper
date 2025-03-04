@@ -1,41 +1,6 @@
 {
     "Changes": [
         {
-            "LogName": "Loading Recipe Scroll sprites...",
-            "Action": "Load",
-            "Target": "{{ModId}}/scrolls",
-            "FromFile": "assets/{{TargetWithoutPath}}.png"
-        },
-        {
-            "LogName": "Adding Recipe Scroll objects...",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
-                "{{ModId}}_RayVenomRecipe": {
-                    "Name": "{{ModId}}_RayVenomRecipe",
-                    "DisplayName": "{{i18n:RayVenomRecipe_name}}",
-                    "Description": "{{i18n:RayVenomRecipe_description}}",
-                    "Type": "Object",
-                    "Category": 0,
-                    "Price": 5000,
-                    "Edibility": -300,
-                    "Texture": "{{ModId}}/scrolls",
-                    "SpriteIndex": 0
-                },
-                "{{ModId}}_EelMayoRecipe": {
-                    "Name": "{{ModId}}_EelMayoRecipe",
-                    "DisplayName": "{{i18n:EelMayoRecipe_name}}",
-                    "Description": "{{i18n:EelMayoRecipe_description}}",
-                    "Type": "Object",
-                    "Category": 0,
-                    "Price": 5000,
-                    "Edibility": -300,
-                    "Texture": "{{ModId}}/scrolls",
-                    "SpriteIndex": 1
-                }
-            }
-        },
-        {
             "LogName": "Adding Recipe Scroll data...",
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",

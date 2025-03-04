@@ -36,6 +36,11 @@
     ],
     "Changes": [
         {
+            "LogName": "Loading Objects JSON...",
+            "Action": "Include",
+            "FromFile": "assets/objects.json"
+        },
+        {
             "LogName": "Loading Locations JSON...",
             "Action": "Include",
             "FromFile": "assets/locations.json"
