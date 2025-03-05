@@ -814,10 +814,45 @@
                     "ContextTags": [
                         "fish_river",
                         "fish_lake",
+                        "fos_item",
                         "color_brown",
                         "season_spring",
                         "season_summer",
                         "season_fall"
+                    ]
+                },
+                "{{ModId}}_BioluminescentSquid": {
+                    "Name": "{{ModId}}_BioluminescentSquid",
+                    "Displayname": "{{i18n:BioluminescentSquid_name}}",
+                    "Description": "{{i18n:BioluminescentSquid_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 0,
+                    "Edibility": 0,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 43,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fos_item",
+                        "color_green",
+                        "season_winter"
+                    ]
+                },
+                "{{ModId}}_SpectreJelly": {
+                    "Name": "{{ModId}}_SpectreJelly",
+                    "Displayname": "{{i18n:SpectreJelly_name}}",
+                    "Description": "{{i18n:SpectreJelly_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 0,
+                    "Edibility": 0,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 44,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fos_item",
+                        "color_blue",
+                        "season_winter"
                     ]
                 }
             }
