@@ -5,85 +5,85 @@
             "LogName": "Loading tilesheet 1...",
             "Action": "Load",
             "Target": "Maps/spring_GOATTiles",
-            "FromFile": "assets/locations/tilesheets/spring_GOATTiles.png"
+            "FromFile": "assets/tilesheets/spring_GOATTiles.png"
         },
         {
             "LogName": "Loading tilesheet 2...",
             "Action": "Load",
             "Target": "Maps/summer_GOATTiles",
-            "FromFile": "assets/locations/tilesheets/summer_GOATTiles.png"
+            "FromFile": "assets/tilesheets/summer_GOATTiles.png"
         },
         {
             "LogName": "Loading tilesheet 3...",
             "Action": "Load",
             "Target": "Maps/fall_GOATTiles",
-            "FromFile": "assets/locations/tilesheets/fall_GOATTiles.png"
+            "FromFile": "assets/tilesheets/fall_GOATTiles.png"
         },
         {
             "LogName": "Loading tilesheet 4...",
             "Action": "Load",
             "Target": "Maps/winter_GOATTiles",
-            "FromFile": "assets/locations/tilesheets/winter_GOATTiles.png"
+            "FromFile": "assets/tilesheets/winter_GOATTiles.png"
         },
         {
             "LogName": "Loading tilesheet 5...",
             "Action": "Load",
             "Target": "Maps/FOS_CustomTiles",
-            "FromFile": "assets/locations/tilesheets/FOS_CustomTiles.png"
+            "FromFile": "assets/tilesheets/FOS_CustomTiles.png"
         },
         {
             "LogName": "Loading tilesheet 6...",
             "Action": "Load",
             "Target": "Maps/spring_FOS_HouseTiles",
-            "FromFile": "assets/locations/tilesheets/spring_FOS_HouseTiles.png"
+            "FromFile": "assets/tilesheets/spring_FOS_HouseTiles.png"
         },
         {
             "LogName": "Loading tilesheet 7...",
             "Action": "Load",
             "Target": "Maps/summer_FOS_HouseTiles",
-            "FromFile": "assets/locations/tilesheets/summer_FOS_HouseTiles.png"
+            "FromFile": "assets/tilesheets/summer_FOS_HouseTiles.png"
         },
         {
             "LogName": "Loading tilesheet 8...",
             "Action": "Load",
             "Target": "Maps/fall_FOS_HouseTiles",
-            "FromFile": "assets/locations/tilesheets/fall_FOS_HouseTiles.png"
+            "FromFile": "assets/tilesheets/fall_FOS_HouseTiles.png"
         },
         {
             "LogName": "Loading tilesheet 9...",
             "Action": "Load",
             "Target": "Maps/winter_FOS_HouseTiles",
-            "FromFile": "assets/locations/tilesheets/winter_FOS_HouseTiles.png"
+            "FromFile": "assets/tilesheets/winter_FOS_HouseTiles.png"
         },
         {
             "LogName": "Loading tilesheet 10...",
             "Action": "Load",
             "Target": "Maps/spring_FOS_BrokenHouseTiles",
-            "FromFile": "assets/locations/tilesheets/spring_FOS_BrokenHouseTiles.png"
+            "FromFile": "assets/tilesheets/spring_FOS_BrokenHouseTiles.png"
         },
         {
             "LogName": "Loading tilesheet 11...",
             "Action": "Load",
             "Target": "Maps/summer_FOS_BrokenHouseTiles",
-            "FromFile": "assets/locations/tilesheets/summer_FOS_BrokenHouseTiles.png"
+            "FromFile": "assets/tilesheets/summer_FOS_BrokenHouseTiles.png"
         },
         {
             "LogName": "Loading tilesheet 12...",
             "Action": "Load",
             "Target": "Maps/fall_FOS_BrokenHouseTiles",
-            "FromFile": "assets/locations/tilesheets/fall_FOS_BrokenHouseTiles.png"
+            "FromFile": "assets/tilesheets/fall_FOS_BrokenHouseTiles.png"
         },
         {
             "LogName": "Loading tilesheet 13...",
             "Action": "Load",
             "Target": "Maps/winter_FOS_BrokenHouseTiles",
-            "FromFile": "assets/locations/tilesheets/winter_FOS_BrokenHouseTiles.png"
+            "FromFile": "assets/tilesheets/winter_FOS_BrokenHouseTiles.png"
         },
         {
             "LogName": "Loading tilesheet 14...",
             "Action": "Load",
             "Target": "Maps/vending",
-            "FromFile": "assets/locations/tilesheets/vending.png"
+            "FromFile": "assets/tilesheets/vending.png"
         },
         // Add Beach Bridge
         { //Beach
@@ -91,7 +91,7 @@
             "Action": "EditMap",
             "Target": "Maps/Beach",
             "PatchMode": "Replace",
-            "FromFile": "assets/locations/GOAT_BeachBridge.tmx",
+            "FromFile": "assets/maps/GOAT_BeachBridge.tmx",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
@@ -110,7 +110,7 @@
             "Action": "EditMap",
             "Target": "Maps/Beach_Luau",
             "PatchMode": "Replace",
-            "FromFile": "assets/locations/GOAT_BeachBridge.tmx",
+            "FromFile": "assets/maps/GOAT_BeachBridge.tmx",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
@@ -129,7 +129,7 @@
             "Action": "EditMap",
             "Target": "Maps/Beach_Luau2",
             "PatchMode": "Replace",
-            "FromFile": "assets/locations/GOAT_BeachBridge.tmx",
+            "FromFile": "assets/maps/GOAT_BeachBridge.tmx",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
@@ -148,7 +148,7 @@
             "Action": "EditMap",
             "Target": "Maps/Beach_NightMarket",
             "PatchMode": "Replace",
-            "FromFile": "assets/locations/GOAT_BeachBridge.tmx",
+            "FromFile": "assets/maps/GOAT_BeachBridge.tmx",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
@@ -202,7 +202,7 @@
         {
             "Action": "Load",
             "Target": "Maps/FOS_HouseInterior",
-            "FromFile": "assets/locations/FOS_HouseInterior.tmx"
+            "FromFile": "assets/maps/FOS_HouseInterior.tmx"
         },
         //Add FOS_Beach1
         {
@@ -247,7 +247,7 @@
             "LogName": "Loading East Beach map...",
             "Action": "Load",
             "Target": "Maps/FOS_Beach1",
-            "FromFile": "assets/locations/FOS_Beach1.tmx"
+            "FromFile": "assets/maps/FOS_Beach1.tmx"
         },
         { //East Beach Warps
             "LogName": "Adding East Beach Warps...",
@@ -279,7 +279,7 @@
             "Action": "EditMap",
             "Target": "Maps/FOS_Beach1",
             "PatchMode": "Replace",
-            "FromFile": "assets/locations/FOS_Beach1Patch.tmx",
+            "FromFile": "assets/maps/FOS_Beach1Patch.tmx",
             "When": {
                 "HasFlag": "FOS_HouseRepair"
             },
@@ -301,7 +301,7 @@
             "Action": "EditMap",
             "Target": "Maps/Beach",
             "PatchMode": "Overlay",
-            "FromFile": "assets/locations/FOS_BeachVending.tmx",
+            "FromFile": "assets/maps/FOS_BeachVending.tmx",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
@@ -318,7 +318,7 @@
         // {
         //     "Action": "Load",
         //     "Target": "Maps/FOS_IslandBeach1",
-        //     "FromFile": "assets/locations/FOS_IslandBeach1.tmx"
+        //     "FromFile": "assets/maps/FOS_IslandBeach1.tmx"
         // },
         // {
         //     "Action": "EditData",

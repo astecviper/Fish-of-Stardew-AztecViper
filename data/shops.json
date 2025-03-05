@@ -1,49 +1,6 @@
 {
     "Changes": [
-        {
-            "LogName": "Adding Recipe Scroll data...",
-            "Action": "EditData",
-            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-            "Entries": {
-                "{{ModId}}_RayVenomRecipe": {
-                    "UseForTriggerAction": true,
-                    "ConsumeForTriggerAction": true,
-                    "CanBeTrashed": false,
-                    "CanBeShipped": false
-                },
-                "{{ModId}}_EelMayoRecipe": {
-                    "UseForTriggerAction": true,
-                    "ConsumeForTriggerAction": true,
-                    "CanBeTrashed": false,
-                    "CanBeShipped": false
-                }
-            }
-        },
-        {
-            "LogName": "Adding Recipe Scroll triggers...",
-            "Action": "EditData",
-            "Target": "Data/TriggerActions",
-            "Entries": {
-                "{{ModId}}_RVRecipe": {
-                    "Id": "{{ModId}}_RVRecipe",
-                    "Trigger": "spacechase0.SpaceCore_OnItemUsed",
-                    "Condition": "ITEM_ID Input {{ModId}}_RayVenomRecipe",
-                    "Actions": [
-                        "AddMail ALL {{ModId}}_RayVenomRecipeUnlocked",
-                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:RVUMessage}}\""
-                    ]
-                },
-                "{{ModId}}_EMRecipe": {
-                    "Id": "{{ModId}}_EMRecipe",
-                    "Trigger": "spacechase0.SpaceCore_OnItemUsed",
-                    "Condition": "ITEM_ID Input {{ModId}}_EelMayoRecipe",
-                    "Actions": [
-                        "AddMail ALL {{ModId}}_EelMayoRecipeUnlocked",
-                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:EMUMessage}}\""
-                    ]
-                }
-            }
-        },
+        //Willy's Vending Machine - Currency: Trade
         {
             "LogName": "Adding Vending Machine shop...",
             "Action": "EditData",
@@ -232,6 +189,7 @@
                 }
             }
         },
+        //Willy's Vending Machine - Currency: Gold
         {
             "LogName": "Adding Vending Machine shop...",
             "Action": "EditData",
@@ -400,6 +358,24 @@
                             "AvailableStockLimit": "Player"
                         }
                     ]
+                }
+            }
+        },
+        //Clint's Shop
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Blacksmith",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_GemPolisher": {
+                    "Id": "{{ModId}}_GemPolisher",
+                    "ItemId": "{{ModId}}_GemPolisher",
+                    "IsRecipe": true,
+                    "Price": 10000,
+                    "Condition": "PLAYER_FISHING_LEVEL Current 6"
                 }
             }
         }

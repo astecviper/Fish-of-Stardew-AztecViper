@@ -1,0 +1,35 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Data",
+            "Entries": {
+                "(O){{ModId}}_BioluminescentSoup": {
+                    "Light": {
+                        "Size": 2.5
+                    }
+                },
+                "(O){{ModId}}_BioluminescentSeaweed": {
+                    "Light": {
+                        "Size": 2.5
+                    }
+                },
+                "(O){{ModId}}_BioluminescentAlgae": {
+                    "Light": {
+                        "Size": 2.5
+                    }
+                },
+                "(O){{ModId}}_RadioactiveJade": {
+                    "Light": {
+                        "Size": 2.5
+                    }
+                },
+                "(O){{ModId}}_RadioactiveSunfish": {
+                    "Light": {
+                        "Size": 2.5
+                    }
+                }
+            }
+        }
+    ]
+}

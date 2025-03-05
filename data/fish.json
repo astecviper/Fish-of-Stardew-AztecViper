@@ -4,7 +4,7 @@
             "LogName": "Loading aquarium sprites...",
             "Action": "Load",
             "Target": "{{ModId}}/aquarium",
-            "FromFile": "assets/{{TargetWithoutPath}}.png"
+            "FromFile": "assets/sprites/{{TargetWithoutPath}}.png"
         },
         { //Fish Data
             "LogName": "Adding fish data...",

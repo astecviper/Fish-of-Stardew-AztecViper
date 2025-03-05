@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "Adding Machine Crafting Recipes...",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "{{ModId}}_GemPolisher": "{{ModId}}_GemOfTheSea 2 72 1 335 10 SeaJelly 1//{{ModId}}_GemPolisher/true/none/{{i18n:GemPolisher_name}}"
+            }
+        }
+    ]
+}

@@ -38,72 +38,92 @@
         {
             "LogName": "Loading Objects JSON...",
             "Action": "Include",
-            "FromFile": "assets/objects.json"
+            "FromFile": "data/objects.json"
+        },
+        {
+            "LogName": "Loading Big Craftables JSON...",
+            "Action": "Include",
+            "FromFile": "data/bigcraftables.json"
+        },
+        {
+            "LogName": "Loading Light JSON...",
+            "Action": "Include",
+            "FromFile": "data/light.json"
+        },
+        {
+            "LogName": "Loading Crafting Recipes JSON...",
+            "Action": "Include",
+            "FromFile": "data/craftingrecipes.json"
+        },
+        {
+            "LogName": "Loading Scroll JSON...",
+            "Action": "Include",
+            "FromFile": "data/scrolls.json"
         },
         {
             "LogName": "Loading Locations JSON...",
             "Action": "Include",
-            "FromFile": "assets/locations.json"
+            "FromFile": "data/locations.json"
         },
         {
             "LogName": "Loading Forage JSON...",
             "Action": "Include",
-            "FromFile": "assets/forage.json"
+            "FromFile": "data/forage.json"
         },
         {
             "LogName": "Loading Fish JSON...",
             "Action": "Include",
-            "FromFile": "assets/fish.json"
+            "FromFile": "data/fish.json"
         },
         {
             "LogName": "Loading Pond JSON...",
             "Action": "Include",
-            "FromFile": "assets/pond.json"
+            "FromFile": "data/pond.json"
         },
         {
             "LogName": "Loading Food JSON...",
             "Action": "Include",
-            "FromFile": "assets/food.json"
+            "FromFile": "data/food.json"
         },
         {
             "LogName": "Loading Ring JSON...",
             "Action": "Include",
-            "FromFile": "assets/rings.json"
+            "FromFile": "data/rings.json"
         },
         {
             "LogName": "Loading Artifacts JSON...",
             "Action": "Include",
-            "FromFile": "assets/artifacts.json"
+            "FromFile": "data/artifacts.json"
         },
         {
             "LogName": "Loading Mail JSON...",
             "Action": "Include",
-            "FromFile": "assets/mail.json"
+            "FromFile": "data/mail.json"
         },
         {
             "LogName": "Loading Machine JSON...",
             "Action": "Include",
-            "FromFile": "assets/machines.json"
+            "FromFile": "data/machines.json"
         },
         {
             "LogName": "Loading Totem JSON...",
             "Action": "Include",
-            "FromFile": "assets/totems.json"
+            "FromFile": "data/totems.json"
         },
         {
             "LogName": "Loading Shop JSON...",
             "Action": "Include",
-            "FromFile": "assets/shops.json"
+            "FromFile": "data/shops.json"
         },
         {
             "LogName": "Loading Treasure JSON...",
             "Action": "Include",
-            "FromFile": "assets/treasure.json"
+            "FromFile": "data/treasure.json"
         },
         {
             "LogName": "Loading Gift Tastes JSON...",
             "Action": "Include",
-            "FromFile": "assets/gifts.json"
+            "FromFile": "data/gifts.json"
         }
     ]
 }

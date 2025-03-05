@@ -5,43 +5,43 @@
             "LogName": "Loading fish sprites...",
             "Action": "Load",
             "Target": "{{ModId}}/fish",
-            "FromFile": "assets/{{TargetWithoutPath}}.png"
+            "FromFile": "assets/sprites/{{TargetWithoutPath}}.png"
         },
         {
             "LogName": "Loading food sprites...",
             "Action": "Load",
             "Target": "{{ModId}}/food",
-            "FromFile": "assets/{{TargetWithoutPath}}.png"
+            "FromFile": "assets/sprites/{{TargetWithoutPath}}.png"
         },
         {
             "LogName": "Loading forage sprites...",
             "Action": "Load",
             "Target": "{{ModId}}/forage",
-            "FromFile": "assets/forage_{{GemSprites}}.png"
+            "FromFile": "assets/sprites/forage_{{GemSprites}}.png"
         },
         {
             "LogName": "Loading Pond Drop sprites...",
             "Action": "Load",
             "Target": "{{ModId}}/pond",
-            "FromFile": "assets/{{TargetWithoutPath}}.png"
+            "FromFile": "assets/sprites/{{TargetWithoutPath}}.png"
         },
         {
             "LogName": "Loading Ring sprites...",
             "Action": "Load",
             "Target": "{{ModId}}/rings",
-            "FromFile": "assets/{{TargetWithoutPath}}.png"
+            "FromFile": "assets/sprites/{{TargetWithoutPath}}.png"
         },
         {
             "LogName": "Loading Recipe Scroll sprites...",
             "Action": "Load",
             "Target": "{{ModId}}/scrolls",
-            "FromFile": "assets/{{TargetWithoutPath}}.png"
+            "FromFile": "assets/sprites/{{TargetWithoutPath}}.png"
         },
         {
             "LogName": "Loading Totem sprites...",
             "Action": "Load",
             "Target": "{{ModId}}/totems",
-            "FromFile": "assets/{{TargetWithoutPath}}.png"
+            "FromFile": "assets/sprites/{{TargetWithoutPath}}.png"
         },
         //Add Fish Objects
         {
@@ -60,7 +60,12 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 0,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_dark_blue",
+                        "season_spring",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_MudTrout": {
@@ -74,7 +79,12 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 1,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_brown",
+                        "season_spring",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_BlueCatfish": {
@@ -88,7 +98,12 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 2,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_blue",
+                        "season_spring",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_ArmoredCatfish": {
@@ -102,7 +117,12 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 3,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_gray",
+                        "season_spring",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_WhiteSturgeon": {
@@ -116,7 +136,11 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 4,
                     "ContextTags": [
-                        "fish_lake"
+                        "fish_lake",
+                        "fos_item",
+                        "color_white",
+                        "season_fall",
+                        "season_winter"
                     ]
                 },
                 "{{ModId}}_MossyCod": {
@@ -130,7 +154,12 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 5,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_green",
+                        "season_spring",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_GhostPike": {
@@ -144,7 +173,11 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 6,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_gray",
+                        "season_spring",
+                        "season_summer"
                     ]
                 },
                 "{{ModId}}_RadioactiveSunfish": {
@@ -158,7 +191,11 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 7,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_green",
+                        "season_all",
+                        "item_radioactive"
                     ]
                 },
                 "{{ModId}}_SpottedRay": {
@@ -172,7 +209,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 8,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_white",
+                        "season_all"
                     ]
                 },
                 "{{ModId}}_BrownShad": {
@@ -186,7 +226,11 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 9,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_brown",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_DeepSeaHalibut": {
@@ -200,7 +244,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 10,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_dark_blue",
+                        "season_all"
                     ]
                 },
                 "{{ModId}}_SeaweedHalibut": {
@@ -214,7 +261,12 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 11,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_green",
+                        "season_spring",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_CrimsonShad": {
@@ -228,7 +280,11 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 12,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_red",
+                        "season_fall",
+                        "season_winter"
                     ]
                 },
                 "{{ModId}}_SockeyeSalmon": {
@@ -242,7 +298,11 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 13,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_gray",
+                        "season_fall",
+                        "season_winter"
                     ]
                 },
                 "{{ModId}}_CookieOctopus": {
@@ -256,7 +316,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 14,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_yellow",
+                        "season_all"
                     ]
                 },
                 "{{ModId}}_Bluegill": {
@@ -270,7 +333,12 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 15,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_blue",
+                        "season_spring",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_BlackClownfish": {
@@ -284,7 +352,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 16,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_black",
+                        "season_all"
                     ]
                 },
                 "{{ModId}}_MorayEel": {
@@ -298,7 +369,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 17,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_green",
+                        "season_all"
                     ]
                 },
                 "{{ModId}}_VermilionCarp": {
@@ -312,7 +386,11 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 18,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_red",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_PumpkinPerch": {
@@ -326,7 +404,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 19,
                     "ContextTags": [
-                        "fish_lake"
+                        "fish_lake",
+                        "fos_item",
+                        "color_orange",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_YellowfinCarp": {
@@ -340,7 +421,12 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 20,
                     "ContextTags": [
-                        "fish_lake"
+                        "fish_lake",
+                        "fos_item",
+                        "color_yellow",
+                        "season_spring",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_EmeraldJackfish": {
@@ -354,7 +440,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 21,
                     "ContextTags": [
-                        "fish_lake"
+                        "fish_lake",
+                        "fos_item",
+                        "color_green",
+                        "season_spring"
                     ]
                 },
                 "{{ModId}}_StripedChar": {
@@ -368,7 +457,12 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 22,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_brown",
+                        "season_spring",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_BabyReefShark": {
@@ -382,7 +476,12 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 23,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_purple",
+                        "season_spring",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_StoneTetra": {
@@ -397,7 +496,10 @@
                     "SpriteIndex": 24,
                     "ContextTags": [
                         "fish_river",
-                        "fish_lake"
+                        "fish_lake",
+                        "fos_item",
+                        "color_gray",
+                        "season_all"
                     ]
                 },
                 "{{ModId}}_MuddyTetra": {
@@ -412,7 +514,10 @@
                     "SpriteIndex": 25,
                     "ContextTags": [
                         "fish_river",
-                        "fish_lake"
+                        "fish_lake",
+                        "fos_item",
+                        "color_brown",
+                        "season_all"
                     ]
                 },
                 "{{ModId}}_IridiumSalmon": {
@@ -426,7 +531,11 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 26,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_purple",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_Chad": {
@@ -440,7 +549,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 27,
                     "ContextTags": [
-                        "fish_desert"
+                        "fish_desert",
+                        "fos_item",
+                        "color_brown",
+                        "season_all"
                     ]
                 },
                 "{{ModId}}_SunscaledTrout": {
@@ -454,7 +566,12 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 28,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_yellow",
+                        "season_spring",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_FrostbiteFlounder": {
@@ -468,7 +585,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 29,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_blue",
+                        "season_winter"
                     ]
                 },
                 "{{ModId}}_GlacierBass": {
@@ -482,7 +602,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 30,
                     "ContextTags": [
-                        "fish_lake"
+                        "fish_lake",
+                        "fos_item",
+                        "color_blue",
+                        "season_winter"
                     ]
                 },
                 "{{ModId}}_WhisperingWalleye": {
@@ -496,7 +619,11 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 31,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_black",
+                        "season_fall",
+                        "season_winter"
                     ]
                 },
                 "{{ModId}}_BandedEel": {
@@ -510,7 +637,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 32,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_blue",
+                        "season_all"
                     ]
                 },
                 "{{ModId}}_IceyOctopus": {
@@ -524,7 +654,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 33,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_blue",
+                        "season_winter"
                     ]
                 },
                 "{{ModId}}_PurpleParrotfish": {
@@ -538,7 +671,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 34,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_purple",
+                        "season_all"
                     ]
                 },
                 "{{ModId}}_SandRay": {
@@ -552,7 +688,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 35,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_yellow",
+                        "season_summer"
                     ]
                 },
                 "{{ModId}}_Triggerfish": {
@@ -566,7 +705,12 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 36,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_yellow",
+                        "season_spring",
+                        "season_summer",
+                        "season_fall"
                     ]
                 },
                 "{{ModId}}_SailFin": {
@@ -580,7 +724,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 37,
                     "ContextTags": [
-                        "fish_legendary"
+                        "fish_legendary",
+                        "fos_item",
+                        "color_red",
+                        "season_spring"
                     ]
                 },
                 "{{ModId}}_SaltGrouper": {
@@ -594,7 +741,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 38,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_green",
+                        "season_all"
                     ]
                 },
                 "{{ModId}}_MossyTetra": {
@@ -608,7 +758,11 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 39,
                     "ContextTags": [
-                        "fish_river"
+                        "fish_river",
+                        "fos_item",
+                        "color_green",
+                        "season_spring",
+                        "season_summer"
                     ]
                 },
                 "{{ModId}}_ReefShark": {
@@ -622,7 +776,10 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 40,
                     "ContextTags": [
-                        "fish_ocean"
+                        "fish_ocean",
+                        "fos_item",
+                        "color_purple",
+                        "season_all"
                     ]
                 },
                 "{{ModId}}_WillowCutthroat": {
@@ -636,7 +793,12 @@
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 41,
                     "ContextTags": [
-                        "fish_desert"
+                        "fish_desert",
+                        "fos_item",
+                        "color_green",
+                        "season_summer",
+                        "season_fall",
+                        "season_winter"
                     ]
                 },
                 "{{ModId}}_LongfinEel": {
@@ -651,7 +813,11 @@
                     "SpriteIndex": 42,
                     "ContextTags": [
                         "fish_river",
-                        "fish_lake"
+                        "fish_lake",
+                        "color_brown",
+                        "season_spring",
+                        "season_summer",
+                        "season_fall"
                     ]
                 }
             }
@@ -934,9 +1100,7 @@
                     "Category": -7,
                     "Price": 350,
                     "Edibility": 75,
-                    "ContextTags": [
-                        "torch_item"
-                    ],
+                    "ContextTags": [],
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 24
                 },
@@ -989,9 +1153,7 @@
                     "Category": 0,
                     "Price": 400,
                     "Edibility": 25,
-                    "ContextTags": [
-                        "torch_item"
-                    ],
+                    "ContextTags": [],
                     "Texture": "{{ModId}}/forage",
                     "SpriteIndex": 0
                 },
@@ -1014,9 +1176,7 @@
                     "Category": 0,
                     "Price": 200,
                     "Edibility": 10,
-                    "ContextTags": [
-                        "torch_item"
-                    ],
+                    "ContextTags": [],
                     "Texture": "{{ModId}}/forage",
                     "SpriteIndex": 2
                 }
@@ -1367,7 +1527,6 @@
                     "Texture": "{{ModId}}/pond",
                     "SpriteIndex": 19,
                     "ContextTags": [
-                        "torch_item",
                         "not_museum_donatable"
                     ]
                 }

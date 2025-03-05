@@ -1,0 +1,38 @@
+{
+    "Changes": [
+        {
+            "LogName": "Adding recipe data...",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "{{ModId}}_SmokedSturgeonRoll": "{{ModId}}_WhiteSturgeon 1 152 1 188 2/10 10/{{ModId}}_SmokedSturgeonRoll 1/default",
+                "{{ModId}}_DeepSeaHalibutRoll": "{{ModId}}_DeepSeaHalibut 1 152 1 20 1/10 10/{{ModId}}_DeepSeaHalibutRoll 1/default",
+                "{{ModId}}_CookieOctopusRoll": "{{ModId}}_CookieOctopus 1 152 1 260 1/10 10/{{ModId}}_CookieOctopusRoll 1/default",
+                "{{ModId}}_SmokedSalmonRoll": "{{ModId}}_SockeyeSalmon 1 152 1 424 1/10 10/{{ModId}}_SmokedSalmonRoll 1/none",
+                "{{ModId}}_MossyCodStew": "{{ModId}}_MossyCod 1 430 1 426 1 404 2/10 10/{{ModId}}_MossyCodStew  1/none",
+                "{{ModId}}_BlackClownfishRoll": "{{ModId}}_BlackClownfish 1 152 1 834 1/10 10/{{ModId}}_BlackClownfishRoll 1/default",
+                "{{ModId}}_MorayEelRoll": "{{ModId}}_MorayEel 1 152 1 635 1/10 10/{{ModId}}_MorayEelRoll 1/default",
+                "{{ModId}}_TwilightStew": "{{ModId}}_LunarSalmon 1 272 2 430 1 186 1/10 10/{{ModId}}_TwilightStew 1/none",
+                "{{ModId}}_VermilionSoup": "{{ModId}}_VermilionCarp 1 436 1 284 1/10 10/{{ModId}}_VermilionSoup 1/none",
+                "{{ModId}}_BakedMudTrout": "{{ModId}}_MudTrout 1 246 1/10 10/{{ModId}}_BakedMudTrout 1/default",
+                "{{ModId}}_BakedGhostPike": "{{ModId}}_GhostPike 1 246 1/10 10/{{ModId}}_BakedGhostPike 1/default",
+                "{{ModId}}_BakedDeepSeaHalibut": "{{ModId}}_DeepSeaHalibut 1 246 1/10 10/{{ModId}}_BakedDeepSeaHalibut 1/default",
+                "{{ModId}}_BakedBrownShad": "{{ModId}}_BrownShad 1 246 1/10 10/{{ModId}}_BakedBrownShad 1/default",
+                "{{ModId}}_BakedSockeyeSalmon": "{{ModId}}_SockeyeSalmon 1 246 1/10 10/{{ModId}}_BakedSockeyeSalmon 1/default",
+                "{{ModId}}_BakedPumpkinPerch": "{{ModId}}_PumpkinPerch 1 246 1/10 10/{{ModId}}_BakedPumpkinPerch 1/default",
+                "{{ModId}}_BakedBluegill": "{{ModId}}_Bluegill 1 246 1/10 10/{{ModId}}_BakedBluegill 1/default",
+                "{{ModId}}_Onigiri": "423 1 152 1/10 10/{{ModId}}_Onigiri 1/none",
+                "{{ModId}}_FriedFishFilet": "132 1 246 1 247 1/10 10/{{ModId}}_FriedFishFilet 1/none",
+                "{{ModId}}_BakedStripedChar": "{{ModId}}_StripedChar 1 Carrot 2/10 10/{{ModId}}_BakedStripedChar 1/default",
+                "{{ModId}}_SockeyeSalmonSashimi": "{{ModId}}_SockeyeSalmon 1 152 1/10 10/{{ModId}}_SockeyeSalmonSashimi 1/default",
+                "{{ModId}}_BakedSunscaledTrout": "{{ModId}}_SunscaledTrout 1 152 1/10 10/{{ModId}}_BakedSunscaledTrout 1/default",
+                "{{ModId}}_BakedVermilionCarp": "{{ModId}}_VermilionCarp 1 152 1/10 10/{{ModId}}_BakedVermilionCarp 1/default",
+                "{{ModId}}_BakedLunarSalmon": "{{ModId}}_LunarSalmon 1 152 1/10 10/{{ModId}}_BakedLunarSalmon 1/default",
+                "{{ModId}}_SeaweedSoup": "152 5 247 1 248 1 184 1/10 10/{{ModId}}_SeaweedSoup 1/default",
+                "{{ModId}}_BioluminescentSoup": "{{ModId}}_BioluminescentSeaweed 2 184 1 {{ModId}}_BandedEel 1/10 10/{{ModId}}_BioluminescentSoup 1/default",
+                "{{ModId}}_BakedParrotfish": "{{ModId}}_PurpleParrotfish 1 {{ModId}}_BioluminescentSeaweed 1/10 10/{{ModId}}_BakedParrotfish 1/default",
+                "{{ModId}}_TriggerfishSashimi": "{{ModId}}_Triggerfish 1 152 1/10 10/{{ModId}}_TriggerfishSashimi 1/default"
+            }
+        }
+    ]
+}
