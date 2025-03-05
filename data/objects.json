@@ -837,7 +837,8 @@
                     "Price": 850,
                     "Edibility": 42,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 0
+                    "SpriteIndex": 0,
+                    "ContextTags": []
                 },
                 "{{ModId}}_DeepSeaHalibutRoll": {
                     "Name": "{{ModId}}_DeepSeaHalibutRoll",
@@ -848,7 +849,8 @@
                     "Price": 400,
                     "Edibility": 38,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 1
+                    "SpriteIndex": 1,
+                    "ContextTags": []
                 },
                 "{{ModId}}_CookieOctopusRoll": {
                     "Name": "{{ModId}}_CookieOctopusRoll",
@@ -859,7 +861,8 @@
                     "Price": 450,
                     "Edibility": 38,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 2
+                    "SpriteIndex": 2,
+                    "ContextTags": []
                 },
                 "{{ModId}}_SmokedSalmonRoll": {
                     "Name": "{{ModId}}_SmokedSalmonRoll",
@@ -870,7 +873,8 @@
                     "Price": 500,
                     "Edibility": 50,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 3
+                    "SpriteIndex": 3,
+                    "ContextTags": []
                 },
                 "{{ModId}}_MossyCodStew": {
                     "Name": "{{ModId}}_MossyCodStew",
@@ -881,7 +885,8 @@
                     "Price": 650,
                     "Edibility": 70,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 4
+                    "SpriteIndex": 4,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BlackClownfishRoll": {
                     "Name": "{{ModId}}_BlackClownfishRoll",
@@ -892,7 +897,8 @@
                     "Price": 750,
                     "Edibility": 36,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 5
+                    "SpriteIndex": 5,
+                    "ContextTags": []
                 },
                 "{{ModId}}_MorayEelRoll": {
                     "Name": "{{ModId}}_MorayEelRoll",
@@ -903,7 +909,8 @@
                     "Price": 950,
                     "Edibility": 45,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 6
+                    "SpriteIndex": 6,
+                    "ContextTags": []
                 },
                 "{{ModId}}_TwilightStew": {
                     "Name": "{{ModId}}_TwilightStew",
@@ -914,7 +921,8 @@
                     "Price": 4600,
                     "Edibility": 180,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 7
+                    "SpriteIndex": 7,
+                    "ContextTags": []
                 },
                 "{{ModId}}_VermilionSoup": {
                     "Name": "{{ModId}}_VermilionSoup",
@@ -925,7 +933,8 @@
                     "Price": 180,
                     "Edibility": 60,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 8
+                    "SpriteIndex": 8,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BakedMudTrout": {
                     "Name": "{{ModId}}_BakedMudTrout",
@@ -936,7 +945,8 @@
                     "Price": 200,
                     "Edibility": 70,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 9
+                    "SpriteIndex": 9,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BakedGhostPike": {
                     "Name": "{{ModId}}_BakedGhostPike",
@@ -947,7 +957,8 @@
                     "Price": 250,
                     "Edibility": 80,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 10
+                    "SpriteIndex": 10,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BakedDeepSeaHalibut": {
                     "Name": "{{ModId}}_BakedDeepSeaHalibut",
@@ -958,7 +969,8 @@
                     "Price": 220,
                     "Edibility": 65,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 11
+                    "SpriteIndex": 11,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BakedBrownShad": {
                     "Name": "{{ModId}}_BakedBrownShad",
@@ -969,7 +981,8 @@
                     "Price": 200,
                     "Edibility": 70,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 12
+                    "SpriteIndex": 12,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BakedSockeyeSalmon": {
                     "Name": "{{ModId}}_BakedSockeyeSalmon",
@@ -980,7 +993,8 @@
                     "Price": 200,
                     "Edibility": 65,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 13
+                    "SpriteIndex": 13,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BakedPumpkinPerch": {
                     "Name": "{{ModId}}_BakedPumpkinPerch",
@@ -991,7 +1005,8 @@
                     "Price": 275,
                     "Edibility": 85,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 14
+                    "SpriteIndex": 14,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BakedBluegill": {
                     "Name": "{{ModId}}_BakedBluegill",
@@ -1002,7 +1017,8 @@
                     "Price": 120,
                     "Edibility": 55,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 15
+                    "SpriteIndex": 15,
+                    "ContextTags": []
                 },
                 "{{ModId}}_Onigiri": {
                     "Name": "{{ModId}}_Onigiri",
@@ -1013,7 +1029,8 @@
                     "Price": 160,
                     "Edibility": 20,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 16
+                    "SpriteIndex": 16,
+                    "ContextTags": []
                 },
                 "{{ModId}}_FriedFishFilet": {
                     "Name": "{{ModId}}_FriedFishFilet",
@@ -1024,7 +1041,8 @@
                     "Price": 200,
                     "Edibility": 46,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 17
+                    "SpriteIndex": 17,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BakedStripedChar": {
                     "Name": "{{ModId}}_BakedStripedChar",
@@ -1035,7 +1053,8 @@
                     "Price": 200,
                     "Edibility": 50,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 18
+                    "SpriteIndex": 18,
+                    "ContextTags": []
                 },
                 "{{ModId}}_SockeyeSalmonSashimi": {
                     "Name": "{{ModId}}_SockeyeSalmonSashimi",
@@ -1046,7 +1065,8 @@
                     "Price": 110,
                     "Edibility": 25,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 19
+                    "SpriteIndex": 19,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BakedSunscaledTrout": {
                     "Name": "{{ModId}}_BakedSunscaledTrout",
@@ -1057,7 +1077,8 @@
                     "Price": 450,
                     "Edibility": 60,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 20
+                    "SpriteIndex": 20,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BakedVermilionCarp": {
                     "Name": "{{ModId}}_BakedVermilionCarp",
@@ -1068,7 +1089,8 @@
                     "Price": 200,
                     "Edibility": 55,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 21
+                    "SpriteIndex": 21,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BakedLunarSalmon": {
                     "Name": "{{ModId}}_BakedLunarSalmon",
@@ -1079,7 +1101,8 @@
                     "Price": 3500,
                     "Edibility": 120,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 22
+                    "SpriteIndex": 22,
+                    "ContextTags": []
                 },
                 "{{ModId}}_SeaweedSoup": {
                     "Name": "{{ModId}}_SeaweedSoup",
@@ -1090,7 +1113,8 @@
                     "Price": 120,
                     "Edibility": 30,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 23
+                    "SpriteIndex": 23,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BioluminescentSoup": {
                     "Name": "{{ModId}}_BioluminescentSoup",
@@ -1100,9 +1124,9 @@
                     "Category": -7,
                     "Price": 350,
                     "Edibility": 75,
-                    "ContextTags": [],
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 24
+                    "SpriteIndex": 24,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BakedParrotfish": {
                     "Name": "{{ModId}}_BakedParrotfish",
@@ -1113,7 +1137,8 @@
                     "Price": 120,
                     "Edibility": 60,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 25
+                    "SpriteIndex": 25,
+                    "ContextTags": []
                 },
                 "{{ModId}}_TriggerfishSashimi": {
                     "Name": "{{ModId}}_TriggerfishSashimi",
@@ -1124,7 +1149,8 @@
                     "Price": 120,
                     "Edibility": 50,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 26
+                    "SpriteIndex": 26,
+                    "ContextTags": []
                 },
                 "{{ModId}}_SeaweedCookies": {
                     "Name": "{{ModId}}_SeaweedCookies",
@@ -1135,7 +1161,8 @@
                     "Price": 180,
                     "Edibility": 50,
                     "Texture": "{{ModId}}/food",
-                    "SpriteIndex": 27
+                    "SpriteIndex": 27,
+                    "ContextTags": []
                 }
             }
         },
@@ -1153,9 +1180,9 @@
                     "Category": 0,
                     "Price": 400,
                     "Edibility": 25,
-                    "ContextTags": [],
                     "Texture": "{{ModId}}/forage",
-                    "SpriteIndex": 0
+                    "SpriteIndex": 0,
+                    "ContextTags": []
                 },
                 "{{ModId}}_ArcticCockle": {
                     "Name": "{{ModId}}_ArcticCockle",
@@ -1166,7 +1193,8 @@
                     "Price": 60,
                     "Edibility": -300,
                     "Texture": "{{ModId}}/forage",
-                    "SpriteIndex": 1
+                    "SpriteIndex": 1,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BioluminescentAlgae": {
                     "Name": "{{ModId}}_BioluminescentAlgae",
@@ -1176,9 +1204,9 @@
                     "Category": 0,
                     "Price": 200,
                     "Edibility": 10,
-                    "ContextTags": [],
                     "Texture": "{{ModId}}/forage",
-                    "SpriteIndex": 2
+                    "SpriteIndex": 2,
+                    "ContextTags": []
                 }
             }
         },
@@ -1225,7 +1253,8 @@
                     "Price": 100,
                     "Edibility": 26,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 2
+                    "SpriteIndex": 2,
+                    "ContextTags": []
                 },
                 "{{ModId}}_SoggySeaweedCookie": {
                     "Name": "{{ModId}}_SoggySeaweedCookie",
@@ -1236,7 +1265,8 @@
                     "Price": 140,
                     "Edibility": 36,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 3
+                    "SpriteIndex": 3,
+                    "ContextTags": []
                 },
                 "{{ModId}}_SpottedRayVenom": {
                     "Name": "{{ModId}}_SpottedRayVenom",
@@ -1247,7 +1277,8 @@
                     "Price": 600,
                     "Edibility": -200,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 4
+                    "SpriteIndex": 4,
+                    "ContextTags": []
                 },
                 "{{ModId}}_SandRayVenom": {
                     "Name": "{{ModId}}_SandRayVenom",
@@ -1258,7 +1289,8 @@
                     "Price": 700,
                     "Edibility": -200,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 5
+                    "SpriteIndex": 5,
+                    "ContextTags": []
                 },
                 "{{ModId}}_BandedEelEgg": {
                     "Name": "{{ModId}}_BandedEelEgg",
@@ -1269,7 +1301,8 @@
                     "Price": 300,
                     "Edibility": -10,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 6
+                    "SpriteIndex": 6,
+                    "ContextTags": []
                 },
                 "{{ModId}}_MorayEelEgg": {
                     "Name": "{{ModId}}_MorayEelEgg",
@@ -1280,7 +1313,8 @@
                     "Price": 250,
                     "Edibility": -10,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 7
+                    "SpriteIndex": 7,
+                    "ContextTags": []
                 },
                 "{{ModId}}_Sunscale": {
                     "Name": "{{ModId}}_Sunscale",
@@ -1439,7 +1473,8 @@
                     "Price": 5000,
                     "Edibility": -300,
                     "Texture": "{{ModId}}/scrolls",
-                    "SpriteIndex": 0
+                    "SpriteIndex": 0,
+                    "ContextTags": []
                 },
                 "{{ModId}}_EelMayoRecipe": {
                     "Name": "{{ModId}}_EelMayoRecipe",
@@ -1450,7 +1485,8 @@
                     "Price": 5000,
                     "Edibility": -300,
                     "Texture": "{{ModId}}/scrolls",
-                    "SpriteIndex": 1
+                    "SpriteIndex": 1,
+                    "ContextTags": []
                 }
             }
         },
@@ -1547,7 +1583,8 @@
                     "Price": 450,
                     "Edibility": 50,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 9
+                    "SpriteIndex": 9,
+                    "ContextTags": []
                 },
                 "{{ModId}}_MorayEelMayo": {
                     "Name": "{{ModId}}_MorayEelMayo",
@@ -1558,7 +1595,8 @@
                     "Price": 400,
                     "Edibility": 45,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 10
+                    "SpriteIndex": 10,
+                    "ContextTags": []
                 },
                 "{{ModId}}_AgedSpottedRayVenom": {
                     "Name": "{{ModId}}_AgedSpottedRayVenom",
@@ -1569,7 +1607,8 @@
                     "Price": 900,
                     "Edibility": -220,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 11
+                    "SpriteIndex": 11,
+                    "ContextTags": []
                 },
                 "{{ModId}}_AgedSandRayVenom": {
                     "Name": "{{ModId}}_AgedSandRayVenom",
@@ -1580,7 +1619,8 @@
                     "Price": 1000,
                     "Edibility": -220,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 12
+                    "SpriteIndex": 12,
+                    "ContextTags": []
                 },
                 "{{ModId}}_ConcentratedSpottedRayVenom": {
                     "Name": "{{ModId}}_ConcentratedSpottedRayVenom",
@@ -1591,7 +1631,8 @@
                     "Price": 1200,
                     "Edibility": -240,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 13
+                    "SpriteIndex": 13,
+                    "ContextTags": []
                 },
                 "{{ModId}}_ConcentratedSandRayVenom": {
                     "Name": "{{ModId}}_ConcentratedSandRayVenom",
@@ -1602,7 +1643,8 @@
                     "Price": 1300,
                     "Edibility": -240,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 14
+                    "SpriteIndex": 14,
+                    "ContextTags": []
                 },
                 "{{ModId}}_PotentSpottedRayVenom": {
                     "Name": "{{ModId}}_PotentSpottedRayVenom",
@@ -1613,7 +1655,8 @@
                     "Price": 1500,
                     "Edibility": -260,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 15
+                    "SpriteIndex": 15,
+                    "ContextTags": []
                 },
                 "{{ModId}}_PotentSandRayVenom": {
                     "Name": "{{ModId}}_PotentSandRayVenom",
@@ -1624,7 +1667,8 @@
                     "Price": 1600,
                     "Edibility": -260,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 16
+                    "SpriteIndex": 16,
+                    "ContextTags": []
                 },
                 "{{ModId}}_LongfinEelEgg": {
                     "Name": "{{ModId}}_LongfinEelEgg",
@@ -1635,7 +1679,8 @@
                     "Price": 100,
                     "Edibility": 20,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 17
+                    "SpriteIndex": 17,
+                    "ContextTags": []
                 },
                 "{{ModId}}_LongfinEelMayo": {
                     "Name": "{{ModId}}_LongfinEelMayo",
@@ -1646,7 +1691,8 @@
                     "Price": 250,
                     "Edibility": 45,
                     "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 18
+                    "SpriteIndex": 18,
+                    "ContextTags": []
                 }
             }
         },
