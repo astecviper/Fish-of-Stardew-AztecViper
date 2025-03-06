@@ -86,9 +86,9 @@
             "FromFile": "data/food.json"
         },
         {
-            "LogName": "Loading Ring JSON...",
+            "LogName": "Loading Buffs JSON...",
             "Action": "Include",
-            "FromFile": "data/rings.json"
+            "FromFile": "data/buffs.json"
         },
         {
             "LogName": "Loading Artifacts JSON...",
