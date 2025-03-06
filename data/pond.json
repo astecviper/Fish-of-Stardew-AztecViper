@@ -14,7 +14,7 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 1,
+                            "Chance": 0.35,
                             "ItemId": "{{ModId}}_ReefSharkTooth",
                             "MinStack": 1,
                             "MaxStack": 3
@@ -45,7 +45,7 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 1,
+                            "Chance": 0.35,
                             "ItemId": "{{ModId}}_LunarScale",
                             "MinStack": 1,
                             "MaxStack": 4
@@ -73,7 +73,7 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 1,
+                            "Chance": 0.6,
                             "ItemId": "{{ModId}}_SoggyCookie",
                             "MinStack": 1,
                             "MaxStack": 4
@@ -101,7 +101,7 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 1,
+                            "Chance": 0.4,
                             "ItemId": "{{ModId}}_SpottedRayVenom",
                             "MinStack": 1,
                             "MaxStack": 3
@@ -122,7 +122,7 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 1,
+                            "Chance": 0.35,
                             "ItemId": "{{ModId}}_SandRayVenom",
                             "MinStack": 1,
                             "MaxStack": 3
@@ -143,7 +143,7 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 1,
+                            "Chance": 0.3,
                             "ItemId": "{{ModId}}_BandedEelEgg",
                             "MinStack": 1,
                             "MaxStack": 3
@@ -171,7 +171,7 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 1,
+                            "Chance": 0.3,
                             "ItemId": "{{ModId}}_MorayEelEgg",
                             "MinStack": 1,
                             "MaxStack": 4
@@ -192,7 +192,7 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 1,
+                            "Chance": 0.45,
                             "ItemId": "{{ModId}}_Sunscale",
                             "MinStack": 1,
                             "MaxStack": 3
@@ -213,7 +213,7 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 1,
+                            "Chance": 0.3,
                             "ItemId": "{{ModId}}_ReefSharkTooth",
                             "MinStack": 2,
                             "MaxStack": 4
@@ -241,7 +241,7 @@
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 0,
-                            "Chance": 1,
+                            "Chance": 0.45,
                             "ItemId": "{{ModId}}_LongfinEelEgg",
                             "MinStack": 1,
                             "MaxStack": 5
