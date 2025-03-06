@@ -713,10 +713,10 @@
                         "season_fall"
                     ]
                 },
-                "{{ModId}}_SailFin": {
-                    "Name": "{{ModId}}_SailFin",
-                    "Displayname": "{{i18n:SailFin_name}}",
-                    "Description": "{{i18n:SailFin_description}}",
+                "{{ModId}}_Sailfin": {
+                    "Name": "{{ModId}}_Sailfin",
+                    "Displayname": "{{i18n:Sailfin_name}}",
+                    "Description": "{{i18n:Sailfin_description}}",
                     "Type": "Fish",
                     "Category": -4,
                     "Price": 5000,
@@ -827,8 +827,8 @@
                     "Description": "{{i18n:BioluminescentSquid_description}}",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 0,
-                    "Edibility": 0,
+                    "Price": 435,
+                    "Edibility": 20,
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 43,
                     "ContextTags": [
@@ -844,8 +844,8 @@
                     "Description": "{{i18n:SpectreJelly_description}}",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 0,
-                    "Edibility": 0,
+                    "Price": 455,
+                    "Edibility": 21,
                     "Texture": "{{ModId}}/fish",
                     "SpriteIndex": 44,
                     "ContextTags": [
@@ -1549,18 +1549,6 @@
                     "SpriteIndex": 4,
                     "ContextTags": []
                 },
-                "{{ModId}}_GemOfTheDepths": {
-                    "Name": "{{ModId}}_GemOfTheDepths",
-                    "Displayname": "{{i18n:{{GemName}}OfTheDepths_name}}",
-                    "Description": "{{i18n:{{GemName}}OfTheDepths_description}}",
-                    "Type": "Basic",
-                    "Category": -23,
-                    "Price": 1500,
-                    "Edibility": -300,
-                    "Texture": "{{ModId}}/forage",
-                    "SpriteIndex": 6,
-                    "ContextTags": []
-                },
                 "{{ModId}}_GemOfTheTide": {
                     "Name": "{{ModId}}_GemOfTheTide",
                     "Displayname": "{{i18n:{{GemName}}OfTheTide_name}}",
@@ -1571,6 +1559,18 @@
                     "Edibility": -300,
                     "Texture": "{{ModId}}/forage",
                     "SpriteIndex": 5,
+                    "ContextTags": []
+                },
+                "{{ModId}}_GemOfTheDepths": {
+                    "Name": "{{ModId}}_GemOfTheDepths",
+                    "Displayname": "{{i18n:{{GemName}}OfTheDepths_name}}",
+                    "Description": "{{i18n:{{GemName}}OfTheDepths_description}}",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 1500,
+                    "Edibility": -300,
+                    "Texture": "{{ModId}}/forage",
+                    "SpriteIndex": 6,
                     "ContextTags": []
                 },
                 "{{ModId}}_RadioactiveJade": {
