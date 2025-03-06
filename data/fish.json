@@ -49,7 +49,7 @@
                 "{{ModId}}_PurpleParrotfish": "Purple Parrotfish/45/mixed/12/48/1000 1800/spring summer fall winter/both/688 .3 689 .3 690 .3/4/.35/.4/0/true",
                 "{{ModId}}_SandRay": "Sand Ray/85/sinker/12/48/600 1800/spring summer fall winter/both/685 .3/4/.1/.05/6/false",
                 "{{ModId}}_Triggerfish": "Triggerfish/35/mixed/12/48/600 2200/spring summer fall winter/both/685 .3/4/.45/.5/0/false",
-                "{{ModId}}_SailFin": "Sailfin/125/mixed/22/68/600 2600/spring summer fall winter/both/685 .3/4/.001/.05/10/false",
+                "{{ModId}}_Sailfin": "Sailfin/125/mixed/22/68/600 2600/spring summer fall winter/both/685 .3/4/.001/.05/10/false",
                 "{{ModId}}_SaltGrouper": "Salt Grouper/55/mixed/12/48/1200 2600/spring summer fall winter/both/685 .3/4/.25/.1/0/false",
                 "{{ModId}}_MossyTetra": "Mossy Tetra/40/sinker/5/15/1000 1600/spring summer fall winter/both/688 .3 689 .3 690 .3/1/.4/.2/1/true",
                 "{{ModId}}_ReefShark": "Reef Shark/110/mixed/60/96/1200 2000/spring summer fall winter/both/684 .1/2/.005/.01/10/false",
@@ -101,7 +101,7 @@
                 "{{ModId}}_PurpleParrotfish": "34/fish/////{{ModId}}\\aquarium",
                 "{{ModId}}_SandRay": "35/fish/////{{ModId}}\\aquarium",
                 "{{ModId}}_Triggerfish": "36/fish/////{{ModId}}\\aquarium",
-                "{{ModId}}_SailFin": "37/fish/////{{ModId}}\\aquarium",
+                "{{ModId}}_Sailfin": "37/fish/////{{ModId}}\\aquarium",
                 "{{ModId}}_SaltGrouper": "38/fish/////{{ModId}}\\aquarium",
                 "{{ModId}}_MossyTetra": "39/fish/////{{ModId}}\\aquarium",
                 "{{ModId}}_ReefShark": "40/fish/////{{ModId}}\\aquarium",
@@ -976,8 +976,8 @@
                     "ItemId": "{{ModId}}_Triggerfish",
                     "Condition": "LOCATION_SEASON Here spring summer fall"
                 },
-                "{{ModId}}_SailFin": {
-                    "ItemId": "{{ModId}}_SailFin",
+                "{{ModId}}_Sailfin": {
+                    "ItemId": "{{ModId}}_Sailfin",
                     "Condition": "LOCATION_SEASON Here spring, WEATHER Here sun",
                     "CatchLimit": 1,
                     "IsBossFish": true,
@@ -987,7 +987,7 @@
                         "Width": 7,
                         "Height": 3
                     },
-                    "SetFlagOnCatch": "{{ModId}}_SailFinCaught"
+                    "SetFlagOnCatch": "{{ModId}}_SailfinCaught"
                 },
                 "{{ModId}}_BioluminescentSeaweed": {
                     "ItemId": "{{ModId}}_BioluminescentSeaweed",
