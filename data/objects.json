@@ -1542,7 +1542,11 @@
                     "Edibility": 20,
                     "Texture": "{{ModId}}/pond",
                     "SpriteIndex": 9,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_gray",
+                        "egg_item"
+                    ]
                 }
             }
         },
