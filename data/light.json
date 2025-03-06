@@ -9,22 +9,27 @@
                         "Size": 2.5
                     }
                 },
-                "(O){{ModId}}_BioluminescentSeaweed": {
-                    "Light": {
-                        "Size": 2.5
-                    }
-                },
-                "(O){{ModId}}_BioluminescentAlgae": {
-                    "Light": {
-                        "Size": 2.5
-                    }
-                },
+                // "(O){{ModId}}_BioluminescentSeaweed": {
+                //     "Light": {
+                //         "Size": 2.5
+                //     }
+                // },
+                // "(O){{ModId}}_BioluminescentAlgae": {
+                //     "Light": {
+                //         "Size": 2.5
+                //     }
+                // },
                 "(O){{ModId}}_RadioactiveJade": {
                     "Light": {
                         "Size": 2.5
                     }
                 },
                 "(O){{ModId}}_RadioactiveSunfish": {
+                    "Light": {
+                        "Size": 2.5
+                    }
+                },
+                "(O){{ModId}}_BioluminescentSquid": {
                     "Light": {
                         "Size": 2.5
                     }
