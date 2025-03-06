@@ -17,13 +17,25 @@
             "LogName": "Loading forage sprites...",
             "Action": "Load",
             "Target": "{{ModId}}/forage",
-            "FromFile": "assets/sprites/forage_{{GemSprites}}.png"
+            "FromFile": "assets/sprites/forage.png"
         },
         {
             "LogName": "Loading Pond Drop sprites...",
             "Action": "Load",
             "Target": "{{ModId}}/pond",
             "FromFile": "assets/sprites/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Loading Necklace sprites...",
+            "Action": "Load",
+            "Target": "{{ModId}}/necklaces",
+            "FromFile": "assets/sprites/{{GemSprites}}_necklaces.png"
+        },
+        {
+            "LogName": "Loading Gem sprites...",
+            "Action": "Load",
+            "Target": "{{ModId}}/gems",
+            "FromFile": "assets/sprites/{{GemSprites}}.png"
         },
         {
             "LogName": "Loading Ring sprites...",
@@ -35,6 +47,12 @@
             "LogName": "Loading Recipe Scroll sprites...",
             "Action": "Load",
             "Target": "{{ModId}}/scrolls",
+            "FromFile": "assets/sprites/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Loading Artisan sprites...",
+            "Action": "Load",
+            "Target": "{{ModId}}/artisan",
             "FromFile": "assets/sprites/{{TargetWithoutPath}}.png"
         },
         {
@@ -873,7 +891,11 @@
                     "Edibility": 42,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 0,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_DeepSeaHalibutRoll": {
                     "Name": "{{ModId}}_DeepSeaHalibutRoll",
@@ -885,7 +907,11 @@
                     "Edibility": 38,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 1,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_CookieOctopusRoll": {
                     "Name": "{{ModId}}_CookieOctopusRoll",
@@ -897,7 +923,11 @@
                     "Edibility": 38,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 2,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_SmokedSalmonRoll": {
                     "Name": "{{ModId}}_SmokedSalmonRoll",
@@ -909,7 +939,11 @@
                     "Edibility": 50,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 3,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_MossyCodStew": {
                     "Name": "{{ModId}}_MossyCodStew",
@@ -921,7 +955,11 @@
                     "Edibility": 70,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 4,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_BlackClownfishRoll": {
                     "Name": "{{ModId}}_BlackClownfishRoll",
@@ -933,7 +971,11 @@
                     "Edibility": 36,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 5,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_MorayEelRoll": {
                     "Name": "{{ModId}}_MorayEelRoll",
@@ -945,7 +987,11 @@
                     "Edibility": 45,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 6,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_TwilightStew": {
                     "Name": "{{ModId}}_TwilightStew",
@@ -957,7 +1003,11 @@
                     "Edibility": 180,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 7,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_purple",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_VermilionSoup": {
                     "Name": "{{ModId}}_VermilionSoup",
@@ -969,7 +1019,11 @@
                     "Edibility": 60,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 8,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_red",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_BakedMudTrout": {
                     "Name": "{{ModId}}_BakedMudTrout",
@@ -981,7 +1035,11 @@
                     "Edibility": 70,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 9,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_brown",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_BakedGhostPike": {
                     "Name": "{{ModId}}_BakedGhostPike",
@@ -993,7 +1051,11 @@
                     "Edibility": 80,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 10,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_gray",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_BakedDeepSeaHalibut": {
                     "Name": "{{ModId}}_BakedDeepSeaHalibut",
@@ -1005,7 +1067,11 @@
                     "Edibility": 65,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 11,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_dark_blue",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_BakedBrownShad": {
                     "Name": "{{ModId}}_BakedBrownShad",
@@ -1017,7 +1083,11 @@
                     "Edibility": 70,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 12,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_brown",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_BakedSockeyeSalmon": {
                     "Name": "{{ModId}}_BakedSockeyeSalmon",
@@ -1029,7 +1099,11 @@
                     "Edibility": 65,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 13,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_gray",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_BakedPumpkinPerch": {
                     "Name": "{{ModId}}_BakedPumpkinPerch",
@@ -1041,7 +1115,11 @@
                     "Edibility": 85,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 14,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_orange",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_BakedBluegill": {
                     "Name": "{{ModId}}_BakedBluegill",
@@ -1053,7 +1131,11 @@
                     "Edibility": 55,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 15,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_blue",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_Onigiri": {
                     "Name": "{{ModId}}_Onigiri",
@@ -1065,7 +1147,11 @@
                     "Edibility": 20,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 16,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_white",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_FriedFishFilet": {
                     "Name": "{{ModId}}_FriedFishFilet",
@@ -1077,7 +1163,11 @@
                     "Edibility": 46,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 17,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_orange",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_BakedStripedChar": {
                     "Name": "{{ModId}}_BakedStripedChar",
@@ -1089,7 +1179,11 @@
                     "Edibility": 50,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 18,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_brown",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_SockeyeSalmonSashimi": {
                     "Name": "{{ModId}}_SockeyeSalmonSashimi",
@@ -1101,7 +1195,11 @@
                     "Edibility": 25,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 19,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_pink",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_BakedSunscaledTrout": {
                     "Name": "{{ModId}}_BakedSunscaledTrout",
@@ -1113,7 +1211,11 @@
                     "Edibility": 60,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 20,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_yellow",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_BakedVermilionCarp": {
                     "Name": "{{ModId}}_BakedVermilionCarp",
@@ -1125,7 +1227,11 @@
                     "Edibility": 55,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 21,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_red",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_BakedLunarSalmon": {
                     "Name": "{{ModId}}_BakedLunarSalmon",
@@ -1137,7 +1243,11 @@
                     "Edibility": 120,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 22,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_black",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_SeaweedSoup": {
                     "Name": "{{ModId}}_SeaweedSoup",
@@ -1149,7 +1259,11 @@
                     "Edibility": 30,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 23,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_BioluminescentSoup": {
                     "Name": "{{ModId}}_BioluminescentSoup",
@@ -1161,7 +1275,11 @@
                     "Edibility": 75,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 24,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_blue",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_BakedParrotfish": {
                     "Name": "{{ModId}}_BakedParrotfish",
@@ -1173,7 +1291,11 @@
                     "Edibility": 60,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 25,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_purple",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_TriggerfishSashimi": {
                     "Name": "{{ModId}}_TriggerfishSashimi",
@@ -1185,7 +1307,11 @@
                     "Edibility": 50,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 26,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_pink",
+                        "fos_food"
+                    ]
                 },
                 "{{ModId}}_SeaweedCookies": {
                     "Name": "{{ModId}}_SeaweedCookies",
@@ -1197,7 +1323,11 @@
                     "Edibility": 50,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 27,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
                 }
             }
         },
@@ -1217,7 +1347,12 @@
                     "Edibility": 25,
                     "Texture": "{{ModId}}/forage",
                     "SpriteIndex": 0,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_blue",
+                        "season_spring",
+                        "season_summer"
+                    ]
                 },
                 "{{ModId}}_ArcticCockle": {
                     "Name": "{{ModId}}_ArcticCockle",
@@ -1229,7 +1364,11 @@
                     "Edibility": -300,
                     "Texture": "{{ModId}}/forage",
                     "SpriteIndex": 1,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_blue",
+                        "season_winter"
+                    ]
                 },
                 "{{ModId}}_BioluminescentAlgae": {
                     "Name": "{{ModId}}_BioluminescentAlgae",
@@ -1241,7 +1380,12 @@
                     "Edibility": 10,
                     "Texture": "{{ModId}}/forage",
                     "SpriteIndex": 2,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_blue",
+                        "season_summer",
+                        "season_fall"
+                    ]
                 }
             }
         },
@@ -1261,7 +1405,10 @@
                     "Edibility": -300,
                     "Texture": "{{ModId}}/pond",
                     "SpriteIndex": 0,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_white"
+                    ]
                 },
                 "{{ModId}}_LunarScale": {
                     "Name": "{{ModId}}_LunarScale",
@@ -1273,7 +1420,10 @@
                     "Edibility": -300,
                     "Texture": "{{ModId}}/pond",
                     "SpriteIndex": 1,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_black"
+                    ]
                 },
                 "{{ModId}}_SoggyCookie": {
                     "Name": "{{ModId}}_SoggyCookie",
@@ -1285,7 +1435,10 @@
                     "Edibility": 26,
                     "Texture": "{{ModId}}/pond",
                     "SpriteIndex": 2,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_brown"
+                    ]
                 },
                 "{{ModId}}_SoggySeaweedCookie": {
                     "Name": "{{ModId}}_SoggySeaweedCookie",
@@ -1297,7 +1450,10 @@
                     "Edibility": 36,
                     "Texture": "{{ModId}}/pond",
                     "SpriteIndex": 3,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green"
+                    ]
                 },
                 "{{ModId}}_SpottedRayVenom": {
                     "Name": "{{ModId}}_SpottedRayVenom",
@@ -1309,7 +1465,10 @@
                     "Edibility": -200,
                     "Texture": "{{ModId}}/pond",
                     "SpriteIndex": 4,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_purple"
+                    ]
                 },
                 "{{ModId}}_SandRayVenom": {
                     "Name": "{{ModId}}_SandRayVenom",
@@ -1321,7 +1480,10 @@
                     "Edibility": -200,
                     "Texture": "{{ModId}}/pond",
                     "SpriteIndex": 5,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_purple"
+                    ]
                 },
                 "{{ModId}}_BandedEelEgg": {
                     "Name": "{{ModId}}_BandedEelEgg",
@@ -1333,7 +1495,11 @@
                     "Edibility": -10,
                     "Texture": "{{ModId}}/pond",
                     "SpriteIndex": 6,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_blue",
+                        "egg_item"
+                    ]
                 },
                 "{{ModId}}_MorayEelEgg": {
                     "Name": "{{ModId}}_MorayEelEgg",
@@ -1345,7 +1511,11 @@
                     "Edibility": -10,
                     "Texture": "{{ModId}}/pond",
                     "SpriteIndex": 7,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "egg_item"
+                    ]
                 },
                 "{{ModId}}_Sunscale": {
                     "Name": "{{ModId}}_Sunscale",
@@ -1357,6 +1527,21 @@
                     "Edibility": -300,
                     "Texture": "{{ModId}}/pond",
                     "SpriteIndex": 8,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_yellow"
+                    ]
+                },
+                "{{ModId}}_LongfinEelEgg": {
+                    "Name": "{{ModId}}_LongfinEelEgg",
+                    "Displayname": "{{i18n:LongfinEelEgg_name}}",
+                    "Description": "{{i18n:LongfinEelEgg_description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 100,
+                    "Edibility": 20,
+                    "Texture": "{{ModId}}/pond",
+                    "SpriteIndex": 9,
                     "ContextTags": []
                 }
             }
@@ -1367,7 +1552,6 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                //Rings
                 "{{ModId}}_PrismarineRing": {
                     "Name": "{{ModId}}_PrismarineRing",
                     "Displayname": "{{i18n:PrismarineRing_name}}",
@@ -1378,7 +1562,9 @@
                     "Texture": "{{ModId}}/rings",
                     "SpriteIndex": 0,
                     "ContextTags": [
-                        "ring_item"
+                        "ring_item",
+                        "fos_item",
+                        "color_blue"
                     ]
                 },
                 "{{ModId}}_FishermansBlessing": {
@@ -1391,7 +1577,9 @@
                     "Texture": "{{ModId}}/rings",
                     "SpriteIndex": 1,
                     "ContextTags": [
-                        "ring_item"
+                        "ring_item",
+                        "fos_item",
+                        "color_blue"
                     ]
                 },
                 "{{ModId}}_MarinersBand": {
@@ -1404,7 +1592,9 @@
                     "Texture": "{{ModId}}/rings",
                     "SpriteIndex": 2,
                     "ContextTags": [
-                        "ring_item"
+                        "ring_item",
+                        "fos_item",
+                        "color_white"
                     ]
                 },
                 "{{ModId}}_NeptunesHalo": {
@@ -1417,7 +1607,9 @@
                     "Texture": "{{ModId}}/rings",
                     "SpriteIndex": 3,
                     "ContextTags": [
-                        "ring_item"
+                        "ring_item",
+                        "fos_item",
+                        "color_blue"
                     ]
                 },
                 "{{ModId}}_PoseidonsCirclet": {
@@ -1430,7 +1622,9 @@
                     "Texture": "{{ModId}}/rings",
                     "SpriteIndex": 4,
                     "ContextTags": [
-                        "ring_item"
+                        "ring_item",
+                        "fos_item",
+                        "color_blue"
                     ]
                 },
                 "{{ModId}}_CircletOfTheSea": {
@@ -1440,10 +1634,12 @@
                     "Type": "Ring",
                     "Category": -96,
                     "Price": 1000,
-                    "Texture": "{{ModId}}/forage",
-                    "SpriteIndex": 7,
+                    "Texture": "{{ModId}}/necklaces",
+                    "SpriteIndex": 0,
                     "ContextTags": [
-                        "ring_item"
+                        "ring_item",
+                        "fos_item",
+                        "color_green"
                     ]
                 },
                 "{{ModId}}_CircletOfTheCoral": {
@@ -1453,10 +1649,12 @@
                     "Type": "Ring",
                     "Category": -96,
                     "Price": 2000,
-                    "Texture": "{{ModId}}/forage",
-                    "SpriteIndex": 8,
+                    "Texture": "{{ModId}}/necklaces",
+                    "SpriteIndex": 1,
                     "ContextTags": [
-                        "ring_item"
+                        "ring_item",
+                        "fos_item",
+                        "color_red"
                     ]
                 },
                 "{{ModId}}_CircletOfTheDepths": {
@@ -1466,10 +1664,12 @@
                     "Type": "Ring",
                     "Category": -96,
                     "Price": 3000,
-                    "Texture": "{{ModId}}/forage",
-                    "SpriteIndex": 9,
+                    "Texture": "{{ModId}}/necklaces",
+                    "SpriteIndex": 2,
                     "ContextTags": [
-                        "ring_item"
+                        "ring_item",
+                        "fos_item",
+                        "color_pink"
                     ]
                 },
                 "{{ModId}}_CircletOfTheTide": {
@@ -1479,10 +1679,12 @@
                     "Type": "Ring",
                     "Category": -96,
                     "Price": 4000,
-                    "Texture": "{{ModId}}/forage",
-                    "SpriteIndex": 10,
+                    "Texture": "{{ModId}}/necklaces",
+                    "SpriteIndex": 3,
                     "ContextTags": [
-                        "ring_item"
+                        "ring_item",
+                        "fos_item",
+                        "color_purple"
                     ]
                 }
             }
@@ -1503,7 +1705,10 @@
                     "Edibility": -300,
                     "Texture": "{{ModId}}/scrolls",
                     "SpriteIndex": 0,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_white"
+                    ]
                 },
                 "{{ModId}}_EelMayoRecipe": {
                     "Name": "{{ModId}}_EelMayoRecipe",
@@ -1515,7 +1720,10 @@
                     "Edibility": -300,
                     "Texture": "{{ModId}}/scrolls",
                     "SpriteIndex": 1,
-                    "ContextTags": []
+                    "ContextTags": [
+                        "fos_item",
+                        "color_white"
+                    ]
                 }
             }
         },
@@ -1533,9 +1741,13 @@
                     "Category": -23,
                     "Price": 1500,
                     "Edibility": -300,
-                    "Texture": "{{ModId}}/forage",
-                    "SpriteIndex": 3,
-                    "ContextTags": []
+                    "Texture": "{{ModId}}/gems",
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_gem"
+                    ]
                 },
                 "{{ModId}}_GemOfTheCoral": {
                     "Name": "{{ModId}}_GemOfTheCoral",
@@ -1545,21 +1757,13 @@
                     "Category": -23,
                     "Price": 1500,
                     "Edibility": -300,
-                    "Texture": "{{ModId}}/forage",
-                    "SpriteIndex": 4,
-                    "ContextTags": []
-                },
-                "{{ModId}}_GemOfTheTide": {
-                    "Name": "{{ModId}}_GemOfTheTide",
-                    "Displayname": "{{i18n:{{GemName}}OfTheTide_name}}",
-                    "Description": "{{i18n:{{GemName}}OfTheTide_description}}",
-                    "Type": "Basic",
-                    "Category": -23,
-                    "Price": 1500,
-                    "Edibility": -300,
-                    "Texture": "{{ModId}}/forage",
-                    "SpriteIndex": 5,
-                    "ContextTags": []
+                    "Texture": "{{ModId}}/gems",
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_red",
+                        "fos_gem"
+                    ]
                 },
                 "{{ModId}}_GemOfTheDepths": {
                     "Name": "{{ModId}}_GemOfTheDepths",
@@ -1569,9 +1773,29 @@
                     "Category": -23,
                     "Price": 1500,
                     "Edibility": -300,
-                    "Texture": "{{ModId}}/forage",
-                    "SpriteIndex": 6,
-                    "ContextTags": []
+                    "Texture": "{{ModId}}/gems",
+                    "SpriteIndex": 2,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_pink",
+                        "fos_gem"
+                    ]
+                },
+                "{{ModId}}_GemOfTheTide": {
+                    "Name": "{{ModId}}_GemOfTheTide",
+                    "Displayname": "{{i18n:{{GemName}}OfTheTide_name}}",
+                    "Description": "{{i18n:{{GemName}}OfTheTide_description}}",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 1500,
+                    "Edibility": -300,
+                    "Texture": "{{ModId}}/gems",
+                    "SpriteIndex": 3,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_purple",
+                        "fos_gem"
+                    ]
                 },
                 "{{ModId}}_RadioactiveJade": {
                     "Name": "{{ModId}}_RadioactiveJade",
@@ -1581,9 +1805,13 @@
                     "Category": -23,
                     "Price": 1000,
                     "Edibility": -300,
-                    "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 19,
-                    "ContextTags": []
+                    "Texture": "{{ModId}}/gems",
+                    "SpriteIndex": 4,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_gem"
+                    ]
                 }
             }
         },
@@ -1601,9 +1829,14 @@
                     "Category": -26,
                     "Price": 450,
                     "Edibility": 50,
-                    "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 9,
-                    "ContextTags": []
+                    "Texture": "{{ModId}}/artisan",
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_blue",
+                        "fos_artisangood",
+                        "mayo_item"
+                    ]
                 },
                 "{{ModId}}_MorayEelMayo": {
                     "Name": "{{ModId}}_MorayEelMayo",
@@ -1613,93 +1846,14 @@
                     "Category": -26,
                     "Price": 400,
                     "Edibility": 45,
-                    "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 10,
-                    "ContextTags": []
-                },
-                "{{ModId}}_AgedSpottedRayVenom": {
-                    "Name": "{{ModId}}_AgedSpottedRayVenom",
-                    "Displayname": "{{i18n:AgedSpottedRayVenom_name}}",
-                    "Description": "{{i18n:AgedSpottedRayVenom_description}}",
-                    "Type": "Basic",
-                    "Category": -26,
-                    "Price": 900,
-                    "Edibility": -220,
-                    "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 11,
-                    "ContextTags": []
-                },
-                "{{ModId}}_AgedSandRayVenom": {
-                    "Name": "{{ModId}}_AgedSandRayVenom",
-                    "Displayname": "{{i18n:AgedSandRayVenom_name}}",
-                    "Description": "{{i18n:AgedSandRayVenom_description}}",
-                    "Type": "Basic",
-                    "Category": -26,
-                    "Price": 1000,
-                    "Edibility": -220,
-                    "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 12,
-                    "ContextTags": []
-                },
-                "{{ModId}}_ConcentratedSpottedRayVenom": {
-                    "Name": "{{ModId}}_ConcentratedSpottedRayVenom",
-                    "Displayname": "{{i18n:ConcentratedSpottedRayVenom_name}}",
-                    "Description": "{{i18n:ConcentratedSpottedRayVenom_description}}",
-                    "Type": "Basic",
-                    "Category": -26,
-                    "Price": 1200,
-                    "Edibility": -240,
-                    "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 13,
-                    "ContextTags": []
-                },
-                "{{ModId}}_ConcentratedSandRayVenom": {
-                    "Name": "{{ModId}}_ConcentratedSandRayVenom",
-                    "Displayname": "{{i18n:ConcentratedSandRayVenom_name}}",
-                    "Description": "{{i18n:ConcentratedSandRayVenom_description}}",
-                    "Type": "Basic",
-                    "Category": -26,
-                    "Price": 1300,
-                    "Edibility": -240,
-                    "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 14,
-                    "ContextTags": []
-                },
-                "{{ModId}}_PotentSpottedRayVenom": {
-                    "Name": "{{ModId}}_PotentSpottedRayVenom",
-                    "Displayname": "{{i18n:PotentSpottedRayVenom_name}}",
-                    "Description": "{{i18n:PotentSpottedRayVenom_description}}",
-                    "Type": "Basic",
-                    "Category": -26,
-                    "Price": 1500,
-                    "Edibility": -260,
-                    "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 15,
-                    "ContextTags": []
-                },
-                "{{ModId}}_PotentSandRayVenom": {
-                    "Name": "{{ModId}}_PotentSandRayVenom",
-                    "Displayname": "{{i18n:PotentSandRayVenom_name}}",
-                    "Description": "{{i18n:PotentSandRayVenom_description}}",
-                    "Type": "Basic",
-                    "Category": -26,
-                    "Price": 1600,
-                    "Edibility": -260,
-                    "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 16,
-                    "ContextTags": []
-                },
-                "{{ModId}}_LongfinEelEgg": {
-                    "Name": "{{ModId}}_LongfinEelEgg",
-                    "Displayname": "{{i18n:LongfinEelEgg_name}}",
-                    "Description": "{{i18n:LongfinEelEgg_description}}",
-                    "Type": "Basic",
-                    "Category": 0,
-                    "Price": 100,
-                    "Edibility": 20,
-                    "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 17,
-                    "ContextTags": []
+                    "Texture": "{{ModId}}/artisan",
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_artisangood",
+                        "mayo_item"
+                    ]
                 },
                 "{{ModId}}_LongfinEelMayo": {
                     "Name": "{{ModId}}_LongfinEelMayo",
@@ -1709,9 +1863,109 @@
                     "Category": -26,
                     "Price": 250,
                     "Edibility": 45,
-                    "Texture": "{{ModId}}/pond",
-                    "SpriteIndex": 18,
-                    "ContextTags": []
+                    "Texture": "{{ModId}}/artisan",
+                    "SpriteIndex": 2,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_white",
+                        "fos_artisangood"
+                    ]
+                },
+                "{{ModId}}_AgedSpottedRayVenom": {
+                    "Name": "{{ModId}}_AgedSpottedRayVenom",
+                    "Displayname": "{{i18n:AgedSpottedRayVenom_name}}",
+                    "Description": "{{i18n:AgedSpottedRayVenom_description}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 900,
+                    "Edibility": -220,
+                    "Texture": "{{ModId}}/artisan",
+                    "SpriteIndex": 3,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_purple",
+                        "fos_artisangood"
+                    ]
+                },
+                "{{ModId}}_AgedSandRayVenom": {
+                    "Name": "{{ModId}}_AgedSandRayVenom",
+                    "Displayname": "{{i18n:AgedSandRayVenom_name}}",
+                    "Description": "{{i18n:AgedSandRayVenom_description}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 1000,
+                    "Edibility": -220,
+                    "Texture": "{{ModId}}/artisan",
+                    "SpriteIndex": 4,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_purple",
+                        "fos_artisangood"
+                    ]
+                },
+                "{{ModId}}_ConcentratedSpottedRayVenom": {
+                    "Name": "{{ModId}}_ConcentratedSpottedRayVenom",
+                    "Displayname": "{{i18n:ConcentratedSpottedRayVenom_name}}",
+                    "Description": "{{i18n:ConcentratedSpottedRayVenom_description}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 1200,
+                    "Edibility": -240,
+                    "Texture": "{{ModId}}/artisan",
+                    "SpriteIndex": 5,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_purple",
+                        "fos_artisangood"
+                    ]
+                },
+                "{{ModId}}_ConcentratedSandRayVenom": {
+                    "Name": "{{ModId}}_ConcentratedSandRayVenom",
+                    "Displayname": "{{i18n:ConcentratedSandRayVenom_name}}",
+                    "Description": "{{i18n:ConcentratedSandRayVenom_description}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 1300,
+                    "Edibility": -240,
+                    "Texture": "{{ModId}}/artisan",
+                    "SpriteIndex": 6,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_purple",
+                        "fos_artisangood"
+                    ]
+                },
+                "{{ModId}}_PotentSpottedRayVenom": {
+                    "Name": "{{ModId}}_PotentSpottedRayVenom",
+                    "Displayname": "{{i18n:PotentSpottedRayVenom_name}}",
+                    "Description": "{{i18n:PotentSpottedRayVenom_description}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 1500,
+                    "Edibility": -260,
+                    "Texture": "{{ModId}}/artisan",
+                    "SpriteIndex": 7,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_purple",
+                        "fos_artisangood"
+                    ]
+                },
+                "{{ModId}}_PotentSandRayVenom": {
+                    "Name": "{{ModId}}_PotentSandRayVenom",
+                    "Displayname": "{{i18n:PotentSandRayVenom_name}}",
+                    "Description": "{{i18n:PotentSandRayVenom_description}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 1600,
+                    "Edibility": -260,
+                    "Texture": "{{ModId}}/artisan",
+                    "SpriteIndex": 8,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_purple",
+                        "fos_artisangood"
+                    ]
                 }
             }
         },
@@ -1733,7 +1987,9 @@
                     "SpriteIndex": 0,
                     "ContextTags": [
                         "not_placeable",
-                        "totem_item"
+                        "totem_item",
+                        "fos_item",
+                        "color_green"
                     ]
                 },
                 "{{ModId}}_WarpTotemTown": {
@@ -1748,7 +2004,9 @@
                     "SpriteIndex": 1,
                     "ContextTags": [
                         "not_placeable",
-                        "totem_item"
+                        "totem_item",
+                        "fos_item",
+                        "color_yellow"
                     ]
                 },
                 "{{ModId}}_WarpTotemEastBeach": {
@@ -1763,7 +2021,9 @@
                     "SpriteIndex": 4,
                     "ContextTags": [
                         "not_placeable",
-                        "totem_item"
+                        "totem_item",
+                        "fos_item",
+                        "color_purple"
                     ]
                 },
                 "{{ModId}}_WarpTotemSecretWoods": {
@@ -1778,7 +2038,9 @@
                     "SpriteIndex": 5,
                     "ContextTags": [
                         "not_placeable",
-                        "totem_item"
+                        "totem_item",
+                        "fos_item",
+                        "color_blue"
                     ]
                 }
             }
@@ -1804,7 +2066,9 @@
                     "SpriteIndex": 2,
                     "ContextTags": [
                         "not_placeable",
-                        "totem_item"
+                        "totem_item",
+                        "fos_item",
+                        "color_green"
                     ]
                 },
                 "{{ModId}}_WarpTotemShearwaterBridge": {
@@ -1819,7 +2083,9 @@
                     "SpriteIndex": 3,
                     "ContextTags": [
                         "not_placeable",
-                        "totem_item"
+                        "totem_item",
+                        "fos_item",
+                        "color_blue"
                     ]
                 }
             }
