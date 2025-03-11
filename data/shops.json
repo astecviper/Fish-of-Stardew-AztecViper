@@ -195,7 +195,7 @@
             "Action": "EditData",
             "Target": "Data/Shops",
             "When": {
-                "VendingMachineCurrency": "Gold"
+                "VendingMachineCurrency": "gold"
             },
             "Entries": {
                 "{{ModId}}_BeachVending": {
