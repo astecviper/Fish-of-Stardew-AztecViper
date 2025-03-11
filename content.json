@@ -2,8 +2,8 @@
     "Format": "2.5.3",
     "ConfigSchema": {
         "VendingMachineCurrency": {
-            "AllowValues": "Gold, Trade",
-            "Default": "Gold"
+            "AllowValues": "gold, trade",
+            "Default": "gold"
         },
         "GemSprites": {
             "AllowValues": "gems, pearls",
