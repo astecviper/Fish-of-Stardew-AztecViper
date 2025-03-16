@@ -337,7 +337,26 @@
               "MinutesUntilReady": "360"
             }
           ],
-          "WobbleWhileWorking": true
+          "WobbleWhileWorking": true,
+          "LoadEffects": [
+            {
+              "Sounds": [
+                {
+                  "Id": "select",
+                  "Delay": 0
+                }
+              ]
+            }
+          ],
+          "WorkingEffects": [
+            {
+              "Interval": "500",
+              "Frames": [
+                0,
+                1
+              ]
+            }
+          ]
         }
       }
     }
