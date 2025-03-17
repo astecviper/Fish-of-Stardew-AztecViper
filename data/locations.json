@@ -85,6 +85,24 @@
             "Target": "Maps/vending",
             "FromFile": "assets/tilesheets/vending.png"
         },
+        {
+            "LogName": "Loading East Beach map...",
+            "Action": "Load",
+            "Target": "Maps/FOS_Beach1",
+            "FromFile": "assets/maps/FOS_Beach1.tmx"
+        },
+        {
+            "LogName": "Loading Beach House Interior map...",
+            "Action": "Load",
+            "Target": "Maps/FOS_HouseInterior",
+            "FromFile": "assets/maps/FOS_HouseInterior.tmx"
+        },
+        {
+            "LogName": "Loading Island Beach North map...",
+            "Action": "Load",
+            "Target": "Maps/FOS_IslandBeachNorth",
+            "FromFile": "assets/maps/FOS_IslandBeachNorth.tmx"
+        },
         // Add Beach Bridge
         { //Beach
             "LogName": "Adding Beach Bridge patch...",
@@ -199,11 +217,6 @@
                 }
             }
         },
-        {
-            "Action": "Load",
-            "Target": "Maps/FOS_HouseInterior",
-            "FromFile": "assets/maps/FOS_HouseInterior.tmx"
-        },
         //Add FOS_Beach1
         {
             "LogName": "Adding East Beach map...",
@@ -241,13 +254,6 @@
                     "ArtifactSpots": []
                 }
             }
-        },
-        //Load Map East Beach
-        { //Load East Beach
-            "LogName": "Loading East Beach map...",
-            "Action": "Load",
-            "Target": "Maps/FOS_Beach1",
-            "FromFile": "assets/maps/FOS_Beach1.tmx"
         },
         { //East Beach Warps
             "LogName": "Adding East Beach Warps...",
@@ -313,36 +319,52 @@
                 "Y": 30,
                 "Width": 2,
                 "Height": 2
-            } 
-        }// ,
-        // {
-        //     "Action": "Load",
-        //     "Target": "Maps/FOS_IslandBeach1",
-        //     "FromFile": "assets/maps/FOS_IslandBeach1.tmx"
-        // },
-        // {
-        //     "Action": "EditData",
-        //     "Target": "Data/Locations",
-        //     "Entries": {
-        //         "FOS_IslandBeach1": {
-        //             "DisplayName": "Angler Island Beach",
-        //             "CreateOnLoad": {
-        //                 "MapPath": "Maps/FOS_IslandBeach1",
-        //                 "AlwaysActive": true
-        //             },
-        //             "DefaultArrivalTile": {
-        //                 "X": 19,
-        //                 "Y": 24
-        //             },
-        //             "FishAreas": {
-        //                 "Ocean": {
-        //                     "CrabPotFishTypes": [
-        //                         "ocean"
-        //                     ]
-        //                 }
-        //             }
-        //         }
-        //     }
-        // }
+            }
+        },
+        {
+            "LogName": "Adding Island Beach North map...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "FOS_IslandBeachNorth": {
+                    "DisplayName": "Mariner's Island North Beach",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/FOS_IslandBeachNorth",
+                        "AlwaysActive": true
+                    },
+                    "DefaultArrivalTile": {
+                        "X": 47,
+                        "Y": 32
+                    },
+                    "FishAreas": {
+                        "Ocean": {
+                            "CrabPotFishTypes": [
+                                "ocean"
+                            ]
+                        },
+                        "Lagoon": {
+                            "Position": {
+                                "X": 0,
+                                "Y": 28,
+                                "Width": 45,
+                                "Height": 31
+                            },
+                            "CrabPotFishTypes": [
+                                "ocean"
+                            ]
+                        },
+                        "Tidepools": {
+                            "Position": {
+                                "X": 52,
+                                "Y": 32,
+                                "Width": 24,
+                                "Height": 18
+                            }
+                        }
+                    },
+                    "ArtifactSpots": []
+                }
+            }
+        }
     ]
 }
