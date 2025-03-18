@@ -103,6 +103,12 @@
             "Target": "Maps/FOS_IslandBeachNorth",
             "FromFile": "assets/maps/FOS_IslandBeachNorth.tmx"
         },
+        {
+            "LogName": "Loading Island Beach North West map...",
+            "Action": "Load",
+            "Target": "Maps/FOS_IslandBeachNorthWest",
+            "FromFile": "assets/maps/FOS_IslandBeachNorthWest.tmx"
+        },
         // Add Beach Bridge
         { //Beach
             "LogName": "Adding Beach Bridge patch...",
@@ -330,7 +336,7 @@
                     "DisplayName": "Mariner's Island North Beach",
                     "CreateOnLoad": {
                         "MapPath": "Maps/FOS_IslandBeachNorth",
-                        "AlwaysActive": true
+                        "AlwaysActive": false
                     },
                     "DefaultArrivalTile": {
                         "X": 47,
@@ -360,6 +366,32 @@
                                 "Width": 24,
                                 "Height": 18
                             }
+                        }
+                    },
+                    "ArtifactSpots": []
+                }
+            }
+        },
+        {
+            "LogName": "Adding Island Beach North map...",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "FOS_IslandBeachNorthWest": {
+                    "DisplayName": "Mariner's Island North West Beach",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/FOS_IslandBeachNorthWest",
+                        "AlwaysActive": false
+                    },
+                    "DefaultArrivalTile": {
+                        "X": 47,
+                        "Y": 32
+                    },
+                    "FishAreas": {
+                        "Ocean": {
+                            "CrabPotFishTypes": [
+                                "ocean"
+                            ]
                         }
                     },
                     "ArtifactSpots": []
