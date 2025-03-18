@@ -872,6 +872,60 @@
                         "color_blue",
                         "season_winter"
                     ]
+                },
+                "{{ModId}}_WhiteSeaBunny": {
+                    "Name": "{{ModId}}_WhiteSeaBunny",
+                    "Displayname": "{{i18n:WhiteSeaBunny_name}}",
+                    "Description": "{{i18n:WhiteSeaBunny_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 125,
+                    "Edibility": -40,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 45,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fos_item",
+                        "color_white",
+                        "season_spring",
+                        "season_summer"
+                    ]
+                },
+                "{{ModId}}_YellowSeaBunny": {
+                    "Name": "{{ModId}}_YellowSeaBunny",
+                    "Displayname": "{{i18n:YellowSeaBunny_name}}",
+                    "Description": "{{i18n:YellowSeaBunny_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 125,
+                    "Edibility": -40,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 46,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fos_item",
+                        "color_yellow",
+                        "season_spring",
+                        "season_summer"
+                    ]
+                },
+                "{{ModId}}_BlueNembrotha": {
+                    "Name": "{{ModId}}_BlueNembrotha",
+                    "Displayname": "{{i18n:BlueNembrotha_name}}",
+                    "Description": "{{i18n:BlueNembrotha_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 150,
+                    "Edibility": -40,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 47,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fos_item",
+                        "color_blue",
+                        "season_spring",
+                        "season_summer"
+                    ]
                 }
             }
         },
