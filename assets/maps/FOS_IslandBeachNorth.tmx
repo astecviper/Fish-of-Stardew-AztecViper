@@ -5665,7 +5665,7 @@
     <property name="Passable" value="F"/>
    </properties>
   </object>
-  <object id="23" name="TileData" x="1584" y="304" width="16" height="80">
+  <object id="23" name="TileData" x="1584" y="304" width="16" height="96">
    <properties>
     <property name="Passable" value="F"/>
    </properties>
