@@ -41,11 +41,6 @@
             "FromFile": "data/objects.json"
         },
         {
-            "LogName": "Loading Big Craftables JSON...",
-            "Action": "Include",
-            "FromFile": "data/bigcraftables.json"
-        },
-        {
             "LogName": "Loading Light JSON...",
             "Action": "Include",
             "FromFile": "data/light.json"
