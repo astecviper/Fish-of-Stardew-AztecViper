@@ -13,7 +13,6 @@
                 "{{ModId}}_GusFriedFishFilet": "{{i18n:GusFriedFishFilet_mail}}",
                 "{{ModId}}_GusMossyCodStew": "{{i18n:GusMossyCodStew_mail}}",
                 "{{ModId}}_WillySailfin": "{{i18n:WillySailfin_mail}}",
-                "{{ModId}}_ClintGemPolisher": "{{i18n:ClintGemPolisher_mail}}",
                 // Quest Mail
                 "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%",
                 "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%",
@@ -122,14 +121,6 @@
                     "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_SailfinCaught Received Any",
                     "Actions": [
                         "AddMail Current {{ModId}}_WillySailfin now"
-                    ]
-                },
-                "{{ModId}}_ClintGemPolisherMailTrigger": {
-                    "Id": "{{ModId}}_ClintGemPolisherMailTrigger",
-                    "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FISHING_LEVEL Current 6",
-                    "Actions": [
-                        "AddMail Current {{ModId}}_ClintGemPolisher now"
                     ]
                 }
             }
