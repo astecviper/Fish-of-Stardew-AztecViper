@@ -8,9 +8,6 @@
     "config.GemSprites.description": "Choose the gem sprites used by the game for the aquatic gems and jewelery. This change will only partially take affect unless you do it before loading your farm.",
     "config.GemSprites.values.gems": "Gems",
     "config.GemSprites.values.pearls": "Pearls",
-    //Big Craftables
-    "GemPolisher_name": "Gem Polisher",
-    "GemPolisher_description": "A machine that polishes gems increasing their value.",
     //Jewlery
     "PrismarineRing_name": "Prismarine Ring",
     "PrismarineRing_description": "The wearer receives a small boost in the fishing skill and luck.",
@@ -280,16 +277,6 @@
     "WillowCutthroat_description": "A vibrant trout that calls the desert its home. A mesmerizing catch for any anglers seeking its beauty.",
     "LongfinEel_name": "Longfin Eel",
     "LongfinEel_description": "A freshwater eel found in the rivers and lakes of the valley. A catch thought to be the cutest in Stardew.",
-    "BioluminescentSquid_name": "Bioluminescent Squid",
-    "BioluminescentSquid_description": "A bioluminescent squid that emits bright light in the dark. Caught in the very deepest parts of the ocean, this squid is a rare catch.",
-    "SpectreJelly_name": "Spectre Jelly",
-    "SpectreJelly_description": "A jellyfish that has ghostly markings, found only in the darkest waters of the ocean. The Spectre Jelly is easy to catch but very hard to find.",
-    "WhiteSeaBunny_name": "White Sea Bunny",
-    "WhiteSeaBunny_description": "A white sea bunny that lives in the ocean and tidepools. A rare catch that is very difficult to find.",
-    "YellowSeaBunny_name": "Yellow Sea Bunny",
-    "YellowSeaBunny_description": "A yellow sea bunny that lives in the ocean and tidepools. A rare catch that is very difficult to find.",
-    "BlueNembrotha_name": "Blue Nembrotha",
-    "BlueNembrotha_description": "A blue nembrotha that lives in the ocean and tidepools. A rare catch that is very difficult to find.",
     //Forage
     "BioluminescentSeaweed_name": "Bioluminescent Seaweed",
     "BioluminescentSeaweed_description": "A bioluminescent seaweed that glows in the dark.",
@@ -304,9 +291,7 @@
     "GusOnigiri_mail": "Howdy @,^Found this neat rice ball recipe in an old cookbook from Zuzu City. Simple as can be, but sometimes simple's best, eh?^Perfect for takin' on fishing trips!^      -Gus %item cookingRecipe Onigiri%%[#]Gus's Onigiri Recipe",
     "GusFriedFishFilet_mail": "@,^Nothing beats fresh-caught fish with a crispy golden coat! This here's my grandma's batter recipe - shh, don't tell the others!^Pair it with a cold ale from the saloon for the full experience.^      -Gus %item cookingRecipe Fried Fish Filet%%[#]Gus's Fried Fish Filet Recipe",
     "GusMossyCodStew_mail": "@,^That Mossy Cod you brought in? Simmered up into the heartiest stew this side of the Gem Sea!^Enclosed's the recipe - comes alive with a dash of pepper and a sprinkle of friendship.^      -Gus %item cookingRecipe Mossy Cod Stew%%[#]Gus's Mossy Cod Stew Recipe",
-    "WillySailfin_mail": "Blow me down, @!^That Sail Fin's been teasin' fishermen since my pappy's day! You've got saltwater in your veins, that's for certain.^Next time you're at the dock, first pint's on me!^      -Willy[#]A Fisherman's Pride",
-    "ClintGemPolisher_mail": "Um, Hello...     ^I've been working on a new machine to polish gems.^Willy had some materials I needed, so he helped me put it together.^If you're interested, I can teach you how to make one... for the right price.^Stop by the shop if you want to learn more.^   -Clint, the blacksmith [#]Clint's Polishing Machine",
-    //Quest Mail
+    "WillySailfin_mail": "Blow me down, @!^That Sail Fin's been teasin' fishermen since my pappy's day! You've got saltwater in your veins, that's for certain.^Next time you're at the dock, first pint's on me!^      -Willy[#]A Fisherman's Pride",//Quest Mail
     "GusQ1L_mail": "@,^Got a hankerin' to try something new with Mossy Cod. Could you rustle up 3 of em? I'll trade you my secret stew recipe!^   -Gus",
     "WillyQ1L_mail": "Ahoy @,^Need a Moray Eel for the annual Angler's Bash. Reckon you could land one? I'll make sure your tackle box stays full!^      -Willy",
     "WillyQ2L_mail": "Landlubber @,^Aquarium's wantin' 3 Black Clownfish - trickier than herdin' cats, they are! Gold doubloons await if you manage it.^      -Willy",
