@@ -17,9 +17,7 @@
                 "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%",
                 "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%",
                 "{{ModId}}_WillyQ2L": "{{i18n:WillyQ2L_mail}} %item quest {{ModId}}_WillyQ2 true %%",
-                "{{ModId}}_GusQ2L": "{{i18n:GusQ2L_mail}} %item quest {{ModId}}_GusQ2 true %%",
-                // Special Order Mail
-                "{{ModId}}_WillySOL": "{{i18n:FishingCabinRepair_letter}} %item specialOrder {{ModId}}_Willy true %%"
+                "{{ModId}}_GusQ2L": "{{i18n:GusQ2L_mail}} %item quest {{ModId}}_GusQ2 true %%"
             }
         },
         { //Letter Requirements
@@ -107,14 +105,6 @@
                         "AddMail Current {{ModId}}_GusQ2L now"
                     ]
                 },
-                "{{ModId}}_FishingCabinRepairMailTrigger": {
-                    "Id": "{{ModId}}_FishingCabinRepairMailTrigger",
-                    "Trigger": "DayStarted",
-                    "Condition": "SEASON_DAY summer 1, YEAR 2 2",
-                    "Actions": [
-                        "AddMail Current {{ModId}}_WillySOL now"
-                    ]
-                },
                 "{{ModId}}_WillySailfinMailTrigger": {
                     "Id": "{{ModId}}_WillySailfinMailTrigger",
                     "Trigger": "DayStarted",
@@ -134,143 +124,6 @@
                 "{{ModId}}_WillyQ1": "ItemDelivery/{{i18n:WillyQ1_title}}/{{i18n:WillyQ1_details}}/{{i18n:WillyQ1_hint}}/Willy {{ModId}}_MorayEel 1/-1/1500/Gold/true/{{i18n:WillyQ1_reaction}}",
                 "{{ModId}}_WillyQ2": "ItemDelivery/{{i18n:WillyQ2_title}}/{{i18n:WillyQ2_details}}/{{i18n:WillyQ2_hint}}/Willy {{ModId}}_BlackClownfish 3/-1/2500/Gold/true/{{i18n:WillyQ2_reaction}}",
                 "{{ModId}}_GusQ2": "ItemDelivery/{{i18n:GusQ2_title}}/{{i18n:GusQ2_details}}/{{i18n:GusQ2_hint}}/Gus 152 10/-1/600/Gold/true/{{i18n:GusQ2_reaction}}"
-            }
-        },
-        { //Special Order for House Repair
-            "LogName": "Adding Special Order data...",
-            "Action": "EditData",
-            "Target": "Data/SpecialOrders",
-            "Entries": {
-                "{{ModId}}_Willy": {
-                    "Name": "[{{ModId}}_WillyName]",
-                    "Requester": "Willy",
-                    "Repeatable": "false",
-                    "RequiredTags": "season_summer",
-                    "OrderType": "",
-                    "SpecialRule": "",
-                    "Text": "[{{ModId}}_WillyText]",
-                    "ItemToRemoveOnEnd": null,
-                    "MailToRemoveOnEnd": null,
-                    "RandomizedElements": null,
-                    "Conditions": "YEAR 20 20",
-                    "Objectives": [
-                        {
-                            "Type": "Fish",
-                            "Text": "[{{ModId}}_WillyObjective1]",
-                            "RequiredCount": 2,
-                            "Data": {
-                                "AcceptedContextTags": "item_aztecviper.fishofstardew_babyreefshark"
-                            }
-                        },
-                        {
-                            "Type": "Fish",
-                            "Text": "[{{ModId}}_WillyObjective2]",
-                            "RequiredCount": 3,
-                            "Data": {
-                                "AcceptedContextTags": "item_aztecviper.fishofstardew_cookieoctopus"
-                            }
-                        },
-                        {
-                            "Type": "Fish",
-                            "Text": "[{{ModId}}_WillyObjective3]",
-                            "RequiredCount": 3,
-                            "Data": {
-                                "AcceptedContextTags": "item_aztecviper.fishofstardew_spottedray"
-                            }
-                        },
-                        {
-                            "Type": "Deliver",
-                            "Text": "[{{ModId}}_WillyObjective4]",
-                            "RequiredCount": 2,
-                            "Data": {
-                                "AcceptedContextTags": "item_aztecviper.fishofstardew_babyreefshark",
-                                "TargetName": "Willy"
-                            }
-                        },
-                        {
-                            "Type": "Deliver",
-                            "Text": "[{{ModId}}_WillyObjective5]",
-                            "RequiredCount": 3,
-                            "Data": {
-                                "AcceptedContextTags": "item_aztecviper.fishofstardew_cookieoctopus",
-                                "TargetName": "Willy"
-                            }
-                        },
-                        {
-                            "Type": "Deliver",
-                            "Text": "[{{ModId}}_WillyObjective6]",
-                            "RequiredCount": 3,
-                            "Data": {
-                                "AcceptedContextTags": "item_aztecviper.fishofstardew_spottedray",
-                                "TargetName": "Willy"
-                            }
-                        },
-                        {
-                            "Type": "Deliver",
-                            "Text": "[{{ModId}}_WillyObjective7]",
-                            "RequiredCount": 300,
-                            "Data": {
-                                "AcceptedContextTags": "id_o_388",
-                                "TargetName": "Willy"
-                            }
-                        },
-                        {
-                            "Type": "Deliver",
-                            "Text": "[{{ModId}}_WillyObjective8]",
-                            "RequiredCount": 50,
-                            "Data": {
-                                "AcceptedContextTags": "id_o_709",
-                                "TargetName": "Willy"
-                            }
-                        },
-                        {
-                            "Type": "Deliver",
-                            "Text": "[{{ModId}}_WillyObjective9]",
-                            "RequiredCount": 100,
-                            "Data": {
-                                "AcceptedContextTags": "id_o_390",
-                                "TargetName": "Willy"
-                            }
-                        },
-                        {
-                            "Type": "Deliver",
-                            "Text": "[{{ModId}}_WillyObjective10]",
-                            "RequiredCount": 10,
-                            "Data": {
-                                "AcceptedContextTags": "id_o_335",
-                                "TargetName": "Willy"
-                            }
-                        }
-                    ],
-                    "Rewards": [
-                        {
-                        "Type": "Mail",
-                        "Data": {
-                            "MailReceived": "FOS_HouseRepair",
-                            "NoLetter": "true"
-                            }
-                        }
-                    ]
-                }
-            }
-        },
-        { //Special Order Strings
-            "LogName": "Adding Special Order strings...",
-            "Action": "EditData",
-            "Target": "Strings/SpecialOrderStrings",
-            "Entries": {
-                "{{ModId}}_WillyName": "{{i18n:WillyName}}",
-                "{{ModId}}_WillyText": "{{i18n:WillyText}}",
-                "{{ModId}}_WillyObjective1": "{{i18n:WillyObjective1}}",
-                "{{ModId}}_WillyObjective2": "{{i18n:WillyObjective2}}",
-                "{{ModId}}_WillyObjective3": "{{i18n:WillyObjective3}}",
-                "{{ModId}}_WillyObjective4": "{{i18n:WillyObjective4}}",
-                "{{ModId}}_WillyObjective5": "{{i18n:WillyObjective5}}",
-                "{{ModId}}_WillyObjective6": "{{i18n:WillyObjective6}}",
-                "{{ModId}}_WillyObjective7": "{{i18n:WillyObjective7}}",
-                "{{ModId}}_WillyObjective8": "{{i18n:WillyObjective8}}",
-                "{{ModId}}_WillyObjective9": "{{i18n:WillyObjective9}}",
-                "{{ModId}}_WillyObjective10": "{{i18n:WillyObjective10}}"
             }
         }
     ]

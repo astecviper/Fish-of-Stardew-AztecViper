@@ -312,19 +312,5 @@
     "GusQ2_title": "Gus Necesita Algas",
     "GusQ2_details": "Gus quiere que le traigas 10 piezas de algas para una nueva receta.",
     "GusQ2_hint": "Llévale a Gus 10 piezas de algas.",
-    "GusQ2_reaction": "¡Gracias por la ayuda! Aquí tienes tu recompensa.",
-    //Speciall Orders
-    "WillyName": "Reparación de la Cabaña de Pesca",
-    "WillyText": "¡Ahoy! Aquí está la lista de cosas que hay que hacer para las reparaciones. ¡Recuerda que solo tienes este mes para hacerlo!",
-    "WillyObjective1": "Captura 2 Tiburones de Arrecife Bebé en la Playa.",
-    "WillyObjective2": "Captura 3 Pulpos Galleta en la Playa.",
-    "WillyObjective3": "Captura 3 Rayas Moteadas en la Playa.",
-    "WillyObjective4": "Llévale a Willy 2 Tiburones de Arrecife Bebé recién capturados.",
-    "WillyObjective5": "Llévale a Willy 3 Pulpos Galleta recién capturados.",
-    "WillyObjective6": "Llévale a Willy 3 Rayas Moteadas recién capturadas.",
-    "WillyObjective7": "Llévale a Willy 300 de madera.",
-    "WillyObjective8": "Llévale a Willy 50 de madera dura.",
-    "WillyObjective9": "Llévale a Willy 100 de piedra.",
-    "WillyObjective10": "Llévale a Willy 10 barras de hierro.",
-    "FishingCabinRepair_letter": "Querido @,^Estoy buscando a alguien que me ayude con algunas reparaciones en mi cabaña de pesca. Ha pasado un tiempo desde la última vez que la revisé, y estoy seguro de que necesita algunos arreglos. Si estás dispuesto al desafío, te he enviado los detalles. Estoy seguro de que será una experiencia divertida y gratificante para ambos.^      -Willy"
+    "GusQ2_reaction": "¡Gracias por la ayuda! Aquí tienes tu recompensa."
 }

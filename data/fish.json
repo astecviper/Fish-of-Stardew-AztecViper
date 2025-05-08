@@ -120,41 +120,57 @@
                 "{{ModId}}_MudTrout": {
                     "ItemId": "{{ModId}}_MudTrout",
                     "Condition": "LOCATION_SEASON Here spring summer fall",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_BlueCatfish": {
                     "ItemId": "{{ModId}}_BlueCatfish",
                     "Condition": "LOCATION_SEASON Here summer fall",
-                    "FishAreaId": "Lake"
+                    "FishAreaId": "Lake",
+                    "Chance": 0.3,
+                    "Precedence": -30
                 },
                 "{{ModId}}_ArmoredCatfish": {
                     "ItemId": "{{ModId}}_ArmoredCatfish",
-                    "Condition": "LOCATION_SEASON Here spring summer"
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                    "Chance": 0.25,
+                    "Precedence": -40
                 },
                 "{{ModId}}_MossyCod": {
                     "ItemId": "{{ModId}}_MossyCod",
                     "Condition": "LOCATION_SEASON Here spring summer",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.2,
+                    "Precedence": -45
                 },
                 "{{ModId}}_GhostPike": {
                     "ItemId": "{{ModId}}_GhostPike",
                     "Condition": "LOCATION_SEASON Here spring, WEATHER Here sun",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.3,
+                    "Precedence": -25
                 },
                 "{{ModId}}_BrownShad": {
                     "ItemId": "{{ModId}}_BrownShad",
                     "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_SockeyeSalmon": {
                     "ItemId": "{{ModId}}_SockeyeSalmon",
                     "Condition": "LOCATION_SEASON Here fall",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.4,
+                    "Precedence": -15
                 },
                 "{{ModId}}_Bluegill": {
                     "ItemId": "{{ModId}}_Bluegill",
                     "Condition": "LOCATION_SEASON Here spring summer fall",
                     "FishAreaId": "Lake",
+                    "Chance": 1.0,
+                    "Precedence": 0,
                     "PlayerPosition": {
                         "X": 33,
                         "Y": 18,
@@ -164,42 +180,58 @@
                 },
                 "{{ModId}}_VermilionCarp": {
                     "ItemId": "{{ModId}}_VermilionCarp",
-                    "Condition": "LOCATION_SEASON Here summer fall"
+                    "Condition": "LOCATION_SEASON Here summer fall",
+                    "Chance": 0.3,
+                    "Precedence": -25
                 },
                 "{{ModId}}_StripedChar": {
                     "ItemId": "{{ModId}}_StripedChar",
                     "Condition": "LOCATION_SEASON Here spring summer fall",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "{{ModId}}_StoneTetra": {
                     "ItemId": "{{ModId}}_StoneTetra",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter",
-                    "FishAreaId": "Lake"
+                    "FishAreaId": "Lake",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "{{ModId}}_MuddyTetra": {
                     "ItemId": "{{ModId}}_MuddyTetra",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter, WEATHER Here rain",
-                    "FishAreaId": "Lake"
+                    "FishAreaId": "Lake",
+                    "Chance": 0.8,
+                    "Precedence": 0
                 },
                 "{{ModId}}_SunscaledTrout": {
                     "ItemId": "{{ModId}}_SunscaledTrout",
                     "Condition": "LOCATION_SEASON Here spring summer fall, WEATHER Here sun",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.3,
+                    "Precedence": -25
                 },
                 "{{ModId}}_WhisperingWalleye": {
                     "ItemId": "{{ModId}}_WhisperingWalleye",
                     "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here sun",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.3,
+                    "Precedence": -25
                 },
                 "{{ModId}}_MossyTetra": {
                     "ItemId": "{{ModId}}_MossyTetra",
                     "Condition": "LOCATION_SEASON Here spring summer, WEATHER Here sun",
-                    "FishAreaId": "Lake"
+                    "FishAreaId": "Lake",
+                    "Chance": 0.8,
+                    "Precedence": 0
                 },
                 "{{ModId}}_LongfinEel": {
                     "ItemId": "{{ModId}}_LongfinEel",
                     "Condition": "LOCATION_SEASON Here spring",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 }
             }
         },
@@ -214,39 +246,57 @@
             "Entries": {
                 "{{ModId}}_MudTrout": {
                     "ItemId": "{{ModId}}_MudTrout",
-                    "Condition": " LOCATION_SEASON Here spring summer fall"
+                    "Condition": " LOCATION_SEASON Here spring summer fall",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_BlueCatfish": {
                     "ItemId": "{{ModId}}_BlueCatfish",
-                    "Condition": "LOCATION_SEASON Here summer fall"
+                    "Condition": "LOCATION_SEASON Here summer fall",
+                    "Chance": 0.3,
+                    "Precedence": -30
                 },
                 "{{ModId}}_ArmoredCatfish": {
                     "ItemId": "{{ModId}}_ArmoredCatfish",
-                    "Condition": "LOCATION_SEASON Here spring summer"
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                    "Chance": 0.25,
+                    "Precedence": -40
                 },
                 "{{ModId}}_GhostPike": {
                     "ItemId": "{{ModId}}_GhostPike",
-                    "Condition": "LOCATION_SEASON Here summer, WEATHER Here sun"
+                    "Condition": "LOCATION_SEASON Here summer, WEATHER Here sun",
+                    "Chance": 0.3,
+                    "Precedence": -25
                 },
                 "{{ModId}}_RadioactiveSunfish": {
                     "ItemId": "{{ModId}}_RadioactiveSunfish",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.1,
+                    "Precedence": -85
                 },
                 "{{ModId}}_BrownShad": {
                     "ItemId": "{{ModId}}_BrownShad",
-                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain"
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_Bluegill": {
                     "ItemId": "{{ModId}}_Bluegill",
-                    "Condition": "LOCATION_SEASON Here spring summer fall"
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "{{ModId}}_VermilionCarp": {
                     "ItemId": "{{ModId}}_VermilionCarp",
-                    "Condition": "LOCATION_SEASON Here fall"
+                    "Condition": "LOCATION_SEASON Here fall",
+                    "Chance": 0.3,
+                    "Precedence": -25
                 },
                 "{{ModId}}_StripedChar": {
                     "ItemId": "{{ModId}}_StripedChar",
-                    "Condition": "LOCATION_SEASON Here summer fall"
+                    "Condition": "LOCATION_SEASON Here summer fall",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 }
             }
         },
@@ -261,34 +311,48 @@
             "Entries": {
                 "{{ModId}}_MudTrout": {
                     "ItemId": "{{ModId}}_MudTrout",
-                    "Condition": " LOCATION_SEASON Here spring summer fall"
+                    "Condition": " LOCATION_SEASON Here spring summer fall",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_BlueCatfish": {
                     "ItemId": "{{ModId}}_BlueCatfish",
-                    "Condition": "LOCATION_SEASON Here spring summer"
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                    "Chance": 0.3,
+                    "Precedence": -30
                 },
                 "{{ModId}}_ArmoredCatfish": {
                     "ItemId": "{{ModId}}_ArmoredCatfish",
-                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER HERE rain"
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER HERE rain",
+                    "Chance": 0.25,
+                    "Precedence": -40
                 },
                 "{{ModId}}_GhostPike": {
                     "ItemId": "{{ModId}}_GhostPike",
-                    "Condition": "LOCATION_SEASON Here spring summer, WEATHER Here sun"
+                    "Condition": "LOCATION_SEASON Here spring summer, WEATHER Here sun",
+                    "Chance": 0.3,
+                    "Precedence": -25
                 },
                 "{{ModId}}_RadioactiveSunfish": {
                     "ItemId": "{{ModId}}_RadioactiveSunfish",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.1,
+                    "Precedence": -85
                 },
                 "{{ModId}}_BrownShad": {
                     "ItemId": "{{ModId}}_BrownShad",
-                    "Condition": "LOCATION_SEASON Here fall, WEATHER Here rain"
+                    "Condition": "LOCATION_SEASON Here fall, WEATHER Here rain",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_SockeyeSalmon": {
                     "ItemId": "{{ModId}}_SockeyeSalmon",
-                    "Condition": "LOCATION_SEASON Here fall"
+                    "Condition": "LOCATION_SEASON Here fall",
+                    "Chance": 0.4,
+                    "Precedence": -15
                 }
             }
-        },
+        },                
         { //Location: Beach
             "LogName": "Adding Beach fish...",
             "Action": "EditData",
@@ -300,43 +364,63 @@
             "Entries": {
                 "{{ModId}}_SpottedRay": {
                     "ItemId": "{{ModId}}_SpottedRay",
-                    "Condition": "LOCATION_SEASON Here spring summer, WEATHER Here sun"
+                    "Condition": "LOCATION_SEASON Here spring summer, WEATHER Here sun",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 },
                 "{{ModId}}_DeepSeaHalibut": {
                     "ItemId": "{{ModId}}_DeepSeaHalibut",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.4,
+                    "Precedence": -15
                 },
                 "{{ModId}}_SeaweedHalibut": {
                     "ItemId": "{{ModId}}_SeaweedHalibut",
-                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun"
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_CrimsonShad": {
                     "ItemId": "{{ModId}}_CrimsonShad",
-                    "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here rain"
+                    "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here rain",
+                    "Chance": 0.3,
+                    "Precedence": -30
                 },
                 "{{ModId}}_CookieOctopus": {
                     "ItemId": "{{ModId}}_CookieOctopus",
-                    "Condition": "LOCATION_SEASON Here summer, WEATHER Here sun"
+                    "Condition": "LOCATION_SEASON Here summer, WEATHER Here sun",
+                    "Chance": 0.2,
+                    "Precedence": -35
                 },
                 "{{ModId}}_BlackClownfish": {
                     "ItemId": "{{ModId}}_BlackClownfish",
-                    "Condition": "LOCATION_SEASON Here summer, WEATHER Here sun"
+                    "Condition": "LOCATION_SEASON Here summer, WEATHER Here sun",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 },
                 "{{ModId}}_MorayEel": {
                     "ItemId": "{{ModId}}_MorayEel",
-                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun"
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun",
+                    "Chance": 0.2,
+                    "Precedence": -30
                 },
                 "{{ModId}}_BabyReefShark": {
                     "ItemId": "{{ModId}}_BabyReefShark",
-                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun"
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun",
+                    "Chance": 0.1,
+                    "Precedence": -90
                 },
                 "{{ModId}}_FrostbiteFlounder": {
                     "ItemId": "{{ModId}}_FrostbiteFlounder",
-                    "Condition": "LOCATION_SEASON Here winter"
+                    "Condition": "LOCATION_SEASON Here winter",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_SaltGrouper": {
                     "ItemId": "{{ModId}}_SaltGrouper",
-                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain"
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 }
             }
         },
@@ -351,35 +435,51 @@
             "Entries": {
                 "{{ModId}}_WhiteSturgeon": {
                     "ItemId": "{{ModId}}_WhiteSturgeon",
-                    "Condition": "LOCATION_SEASON Here fall winter"
+                    "Condition": "LOCATION_SEASON Here fall winter",
+                    "Chance": 0.3,
+                    "Precedence": -35
                 },
                 "{{ModId}}_PumpkinPerch": {
                     "ItemId": "{{ModId}}_PumpkinPerch",
-                    "Condition": "LOCATION_SEASON Here fall"
+                    "Condition": "LOCATION_SEASON Here fall",
+                    "Chance": 0.2,
+                    "Precedence": -50
                 },
                 "{{ModId}}_YellowfinCarp": {
                     "ItemId": "{{ModId}}_YellowfinCarp",
-                    "Condition": "LOCATION_SEASON Here spring summer fall"
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "Chance": 0.4,
+                    "Precedence": -15
                 },
                 "{{ModId}}_EmeraldJackfish": {
                     "ItemId": "{{ModId}}_EmeraldJackfish",
-                    "Condition": "LOCATION_SEASON Here spring, WEATHER Here sun"
+                    "Condition": "LOCATION_SEASON Here spring, WEATHER Here sun",
+                    "Chance": 0.3,
+                    "Precedence": -25
                 },
                 "{{ModId}}_StoneTetra": {
                     "ItemId": "{{ModId}}_StoneTetra",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "{{ModId}}_MuddyTetra": {
                     "ItemId": "{{ModId}}_MuddyTetra",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter, WEATHER Here rain"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter, WEATHER Here rain",
+                    "Chance": 0.8,
+                    "Precedence": 0
                 },
                 "{{ModId}}_GlacierBass": {
                     "ItemId": "{{ModId}}_GlacierBass",
-                    "Condition": "LOCATION_SEASON Here winter"
+                    "Condition": "LOCATION_SEASON Here winter",
+                    "Chance": 0.3,
+                    "Precedence": -20
                 },
                 "{{ModId}}_LongfinEel": {
                     "ItemId": "{{ModId}}_LongfinEel",
-                    "Condition": "LOCATION_SEASON Here summer fall"
+                    "Condition": "LOCATION_SEASON Here summer fall",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 }
             }
         },
@@ -394,11 +494,15 @@
             "Entries": {
                 "{{ModId}}_Chad": {
                     "ItemId": "{{ModId}}_Chad",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.4,
+                    "Precedence": -15
                 },
                 "{{ModId}}_WillowCutthroat": {
                     "ItemId": "{{ModId}}_WillowCutthroat",
-                    "Condition": "LOCATION_SEASON Here summer fall winter"
+                    "Condition": "LOCATION_SEASON Here summer fall winter",
+                    "Chance": 0.3,
+                    "Precedence": -20
                 }
             }
         },
@@ -413,35 +517,51 @@
             "Entries": {
                 "{{ModId}}_LunarSalmon": {
                     "ItemId": "{{ModId}}_LunarSalmon",
-                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun"
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun",
+                    "Chance": 0.1,
+                    "Precedence": -100
                 },
                 "{{ModId}}_MossyCod": {
                     "ItemId": "{{ModId}}_MossyCod",
-                    "Condition": "LOCATION_SEASON Here fall"
+                    "Condition": "LOCATION_SEASON Here fall",
+                    "Chance": 0.2,
+                    "Precedence": -45
                 },
                 "{{ModId}}_SockeyeSalmon": {
                     "ItemId": "{{ModId}}_SockeyeSalmon",
-                    "Condition": "LOCATION_SEASON Here fall winter"
+                    "Condition": "LOCATION_SEASON Here fall winter",
+                    "Chance": 0.4,
+                    "Precedence": -15
                 },
                 "{{ModId}}_StoneTetra": {
                     "ItemId": "{{ModId}}_StoneTetra",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "{{ModId}}_MuddyTetra": {
                     "ItemId": "{{ModId}}_MuddyTetra",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter, WEATHER Here rain"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter, WEATHER Here rain",
+                    "Chance": 0.8,
+                    "Precedence": 0
                 },
                 "{{ModId}}_IridiumSalmon": {
                     "ItemId": "{{ModId}}_IridiumSalmon",
-                    "Condition": "LOCATION_SEASON Here summer fall"
+                    "Condition": "LOCATION_SEASON Here summer fall",
+                    "Chance": 0.15,
+                    "Precedence": -45
                 },
                 "{{ModId}}_WhisperingWalleye": {
                     "ItemId": "{{ModId}}_WhisperingWalleye",
-                    "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here sun"
+                    "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here sun",
+                    "Chance": 0.3,
+                    "Precedence": -25
                 },
                 "{{ModId}}_LongfinEel": {
                     "ItemId": "{{ModId}}_LongfinEel",
-                    "Condition": "LOCATION_SEASON Here summer fall"
+                    "Condition": "LOCATION_SEASON Here summer fall",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 }
             }
         },
@@ -456,7 +576,9 @@
             "Entries": {
                 "{{ModId}}_RadioactiveSunfish": {
                     "ItemId": "{{ModId}}_RadioactiveSunfish",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.1,
+                    "Precedence": -85
                 }
             }
         },
@@ -480,11 +602,15 @@
             "Entries": {
                 "{{ModId}}_BandedEel": {
                     "ItemId": "{{ModId}}_BandedEel",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.15,
+                    "Precedence": -50
                 },
                 "{{ModId}}_SaltGrouper": {
                     "ItemId": "{{ModId}}_SaltGrouper",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 }
             }
         },
@@ -498,19 +624,27 @@
             "Entries": {
                 "{{ModId}}_DeepSeaHalibut": {
                     "ItemId": "{{ModId}}_DeepSeaHalibut",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.4,
+                    "Precedence": -15
                 },
                 "{{ModId}}_SeaweedHalibut": {
                     "ItemId": "{{ModId}}_SeaweedHalibut",
-                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun"
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_CrimsonShad": {
                     "ItemId": "{{ModId}}_CrimsonShad",
-                    "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here rain"
+                    "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here rain",
+                    "Chance": 0.3,
+                    "Precedence": -30
                 },
                 "{{ModId}}_SaltGrouper": {
                     "ItemId": "{{ModId}}_SaltGrouper",
-                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain"
+                    "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 }
             }
         },
@@ -524,35 +658,51 @@
             "Entries": {
                 "{{ModId}}_CookieOctopus": {
                     "ItemId": "{{ModId}}_CookieOctopus",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.2,
+                    "Precedence": -35
                 },
                 "{{ModId}}_SpottedRay": {
                     "ItemId": "{{ModId}}_SpottedRay",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 },
                 "{{ModId}}_BlackClownfish": {
                     "ItemId": "{{ModId}}_BlackClownfish",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 },
                 "{{ModId}}_MorayEel": {
                     "ItemId": "{{ModId}}_MorayEel",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.2,
+                    "Precedence": -30
                 },
                 "{{ModId}}_SandRay": {
                     "ItemId": "{{ModId}}_SandRay",
-                    "Condition": "LOCATION_SEASON Here summer"
+                    "Condition": "LOCATION_SEASON Here summer",
+                    "Chance": 0.15,
+                    "Precedence": -40
                 },
                 "{{ModId}}_BandedEel": {
                     "ItemId": "{{ModId}}_BandedEel",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.15,
+                    "Precedence": -50
                 },
                 "{{ModId}}_PurpleParrotfish": {
                     "ItemId": "{{ModId}}_PurpleParrotfish",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_ReefShark": {
                     "ItemId": "{{ModId}}_ReefShark",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.05,
+                    "Precedence": -120
                 }
             }
         },
@@ -566,35 +716,51 @@
             "Entries": {
                 "{{ModId}}_CookieOctopus": {
                     "ItemId": "{{ModId}}_CookieOctopus",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.2,
+                    "Precedence": -35
                 },
                 "{{ModId}}_SpottedRay": {
                     "ItemId": "{{ModId}}_SpottedRay",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 },
                 "{{ModId}}_BlackClownfish": {
                     "ItemId": "{{ModId}}_BlackClownfish",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 },
                 "{{ModId}}_MorayEel": {
                     "ItemId": "{{ModId}}_MorayEel",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.2,
+                    "Precedence": -30
                 },
                 "{{ModId}}_SandRay": {
                     "ItemId": "{{ModId}}_SandRay",
-                    "Condition": "LOCATION_SEASON Here summer"
+                    "Condition": "LOCATION_SEASON Here summer",
+                    "Chance": 0.15,
+                    "Precedence": -40
                 },
                 "{{ModId}}_BandedEel": {
                     "ItemId": "{{ModId}}_BandedEel",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.15,
+                    "Precedence": -50
                 },
                 "{{ModId}}_PurpleParrotfish": {
                     "ItemId": "{{ModId}}_PurpleParrotfish",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_ReefShark": {
                     "ItemId": "{{ModId}}_ReefShark",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.05,
+                    "Precedence": -120
                 }
             }
         },
@@ -608,15 +774,21 @@
             "Entries": {
                 "{{ModId}}_BandedEel": {
                     "ItemId": "{{ModId}}_BandedEel",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.15,
+                    "Precedence": -50
                 },
                 "{{ModId}}_MorayEel": {
                     "ItemId": "{{ModId}}_MorayEel",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.2,
+                    "Precedence": -30
                 },
                 "{{ModId}}_SpottedRay": {
                     "ItemId": "{{ModId}}_SpottedRay",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 }
             }
         },
@@ -631,31 +803,43 @@
                 "{{ModId}}_SpottedRay": {
                     "ItemId": "{{ModId}}_SpottedRay",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 },
                 "{{ModId}}_BlackClownfish": {
                     "ItemId": "{{ModId}}_BlackClownfish",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 },
                 "{{ModId}}_MorayEel": {
                     "ItemId": "{{ModId}}_MorayEel",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.2,
+                    "Precedence": -30
                 },
                 "{{ModId}}_SandRay": {
                     "ItemId": "{{ModId}}_SandRay",
                     "Condition": "LOCATION_SEASON Here summer",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.15,
+                    "Precedence": -40
                 },
                 "{{ModId}}_PurpleParrotfish": {
                     "ItemId": "{{ModId}}_PurpleParrotfish",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_ReefShark": {
                     "ItemId": "{{ModId}}_ReefShark",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.05,
+                    "Precedence": -120
                 }
             }
         },
@@ -669,7 +853,9 @@
             "Entries": {
                 "{{ModId}}_PurpleParrotfish": {
                     "ItemId": "{{ModId}}_PurpleParrotfish",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 }
             }
         },
@@ -702,7 +888,9 @@
             "Entries": {
                 "{{ModId}}_Chad": {
                     "ItemId": "{{ModId}}_Chad",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 0.4,
+                    "Precedence": -15
                 }
             }
         },
@@ -729,31 +917,45 @@
             "Entries": {
                 "{{ModId}}_LunarSalmon": {
                     "ItemId": "{{ModId}}_LunarSalmon",
-                    "Condition": "LOCATION_SEASON Here spring summer"
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                    "Chance": 0.1,
+                    "Precedence": -100
                 },
                 "{{ModId}}_BlueCatfish": {
                     "ItemId": "{{ModId}}_BlueCatfish",
-                    "Condition": "LOCATION_SEASON Here fall"
+                    "Condition": "LOCATION_SEASON Here fall",
+                    "Chance": 0.3,
+                    "Precedence": -30
                 },
                 "{{ModId}}_MossyCod": {
                     "ItemId": "{{ModId}}_MossyCod",
-                    "Condition": "LOCATION_SEASON Here spring summer"
+                    "Condition": "LOCATION_SEASON Here spring summer",
+                    "Chance": 0.2,
+                    "Precedence": -45
                 },
                 "{{ModId}}_BrownShad": {
                     "ItemId": "{{ModId}}_BrownShad",
-                    "Condition": "LOCATION_SEASON Here fall, WEATHER Here rain"
+                    "Condition": "LOCATION_SEASON Here fall, WEATHER Here rain",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_StoneTetra": {
                     "ItemId": "{{ModId}}_StoneTetra",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "{{ModId}}_IridiumSalmon": {
                     "ItemId": "{{ModId}}_IridiumSalmon",
-                    "Condition": "LOCATION_SEASON Here summer"
+                    "Condition": "LOCATION_SEASON Here summer",
+                    "Chance": 0.15,
+                    "Precedence": -45
                 },
                 "{{ModId}}_SunscaledTrout": {
                     "ItemId": "{{ModId}}_SunscaledTrout",
-                    "Condition": "LOCATION_SEASON Here spring summer fall, WEATHER Here sun"
+                    "Condition": "LOCATION_SEASON Here spring summer fall, WEATHER Here sun",
+                    "Chance": 0.3,
+                    "Precedence": -25
                 }
             }
         },
@@ -772,127 +974,177 @@
                 "{{ModId}}_SpottedRay": {
                     "ItemId": "{{ModId}}_SpottedRay",
                     "Condition": "LOCATION_SEASON Here spring summer, WEATHER Here sun",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 },
                 "{{ModId}}_DeepSeaHalibut": {
                     "ItemId": "{{ModId}}_DeepSeaHalibut",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.4,
+                    "Precedence": -15
                 },
                 "{{ModId}}_SeaweedHalibut": {
                     "ItemId": "{{ModId}}_SeaweedHalibut",
                     "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_CrimsonShad": {
                     "ItemId": "{{ModId}}_CrimsonShad",
                     "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here rain",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.3,
+                    "Precedence": -30
                 },
                 "{{ModId}}_CookieOctopus": {
                     "ItemId": "{{ModId}}_CookieOctopus",
                     "Condition": "LOCATION_SEASON Here summer, WEATHER Here sun",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.2,
+                    "Precedence": -35
                 },
                 "{{ModId}}_BlackClownfish": {
                     "ItemId": "{{ModId}}_BlackClownfish",
                     "Condition": "LOCATION_SEASON Here summer, WEATHER Here sun",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 },
                 "{{ModId}}_MorayEel": {
                     "ItemId": "{{ModId}}_MorayEel",
                     "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.2,
+                    "Precedence": -30
                 },
                 "{{ModId}}_BabyReefShark": {
                     "ItemId": "{{ModId}}_BabyReefShark",
                     "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.1,
+                    "Precedence": -90
                 },
                 "{{ModId}}_FrostbiteFlounder": {
                     "ItemId": "{{ModId}}_FrostbiteFlounder",
                     "Condition": "LOCATION_SEASON Here winter",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_SaltGrouper": {
                     "ItemId": "{{ModId}}_SaltGrouper",
                     "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_MudTrout": {
                     "ItemId": "{{ModId}}_MudTrout",
                     "Condition": "LOCATION_SEASON Here spring summer fall",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_BlueCatfish": {
                     "ItemId": "{{ModId}}_BlueCatfish",
                     "Condition": "LOCATION_SEASON Here summer fall",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.3,
+                    "Precedence": -30
                 },
                 "{{ModId}}_ArmoredCatfish": {
                     "ItemId": "{{ModId}}_ArmoredCatfish",
                     "Condition": "LOCATION_SEASON Here spring summer",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.25,
+                    "Precedence": -40
                 },
                 "{{ModId}}_MossyCod": {
                     "ItemId": "{{ModId}}_MossyCod",
                     "Condition": "LOCATION_SEASON Here spring summer",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.2,
+                    "Precedence": -45
                 },
                 "{{ModId}}_GhostPike": {
                     "ItemId": "{{ModId}}_GhostPike",
                     "Condition": "LOCATION_SEASON Here spring, WEATHER Here sun",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.3,
+                    "Precedence": -25
                 },
                 "{{ModId}}_BrownShad": {
                     "ItemId": "{{ModId}}_BrownShad",
                     "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_SockeyeSalmon": {
                     "ItemId": "{{ModId}}_SockeyeSalmon",
                     "Condition": "LOCATION_SEASON Here fall",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.4,
+                    "Precedence": -15
                 },
                 "{{ModId}}_Bluegill": {
                     "ItemId": "{{ModId}}_Bluegill",
                     "Condition": "LOCATION_SEASON Here spring summer fall",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "{{ModId}}_VermilionCarp": {
                     "ItemId": "{{ModId}}_VermilionCarp",
                     "Condition": "LOCATION_SEASON Here summer fall",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.3,
+                    "Precedence": -25
                 },
                 "{{ModId}}_StripedChar": {
                     "ItemId": "{{ModId}}_StripedChar",
                     "Condition": "LOCATION_SEASON Here spring summer fall",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "{{ModId}}_StoneTetra": {
                     "ItemId": "{{ModId}}_StoneTetra",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "{{ModId}}_MuddyTetra": {
                     "ItemId": "{{ModId}}_MuddyTetra",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter, WEATHER Here rain",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.8,
+                    "Precedence": 0
                 },
                 "{{ModId}}_SunscaledTrout": {
                     "ItemId": "{{ModId}}_SunscaledTrout",
                     "Condition": "LOCATION_SEASON Here spring summer fall, WEATHER Here sun",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.3,
+                    "Precedence": -25
                 },
                 "{{ModId}}_WhisperingWalleye": {
                     "ItemId": "{{ModId}}_WhisperingWalleye",
                     "Condition": "LOCATION_SEASON Here fall winter, WEATHER Here sun",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.3,
+                    "Precedence": -25
                 },
                 "{{ModId}}_MossyTetra": {
                     "ItemId": "{{ModId}}_MossyTetra",
                     "Condition": "LOCATION_SEASON Here spring summer, WEATHER Here sun",
-                    "FishAreaId": "River"
+                    "FishAreaId": "River",
+                    "Chance": 0.8,
+                    "Precedence": 0
                 }
             }
         },
@@ -909,7 +1161,9 @@
                 "{{ModId}}_BabyReefShark": {
                     "ItemId": "{{ModId}}_BabyReefShark",
                     "Condition": "LOCATION_SEASON Here spring summer",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.1,
+                    "Precedence": -90
                 },
                 "{{ModId}}_MorayEel": {
                     "ItemId": "{{ModId}}_MorayEel",
@@ -919,26 +1173,36 @@
                         "Y": 28,
                         "Width": 7,
                         "Height": 3
-                    }
+                    },
+                    "Chance": 0.2,
+                    "Precedence": -30
                 },
                 "{{ModId}}_DeepSeaHalibut": {
                     "ItemId": "{{ModId}}_DeepSeaHalibut",
-                    "Condition": "LOCATION_SEASON Here spring summer fall"
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "Chance": 0.4,
+                    "Precedence": -15
                 },
                 "{{ModId}}_SeaweedHalibut": {
                     "ItemId": "{{ModId}}_SeaweedHalibut",
                     "Condition": "LOCATION_SEASON Here spring summer fall",
-                    "FishAreaId": "Cove"
+                    "FishAreaId": "Cove",
+                    "Chance": 0.5,
+                    "Precedence": -10
                 },
                 "{{ModId}}_SpottedRay": {
                     "ItemId": "{{ModId}}_SpottedRay",
                     "Condition": "LOCATION_SEASON Here summer",
-                    "FishAreaId": "Cove"
+                    "FishAreaId": "Cove",
+                    "Chance": 0.2,
+                    "Precedence": -40
                 },
                 "{{ModId}}_CookieOctopus": {
                     "ItemId": "{{ModId}}_CookieOctopus",
                     "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun",
-                    "FishAreaId": "Cove"
+                    "FishAreaId": "Cove",
+                    "Chance": 0.2,
+                    "Precedence": -35
                 },
                 "{{ModId}}_BandedEel": {
                     "ItemId": "{{ModId}}_BandedEel",
@@ -948,21 +1212,29 @@
                         "Y": 28,
                         "Width": 7,
                         "Height": 3
-                    }
+                    },
+                    "Chance": 0.15,
+                    "Precedence": -50
                 },
                 "{{ModId}}_IceyOctopus": {
                     "ItemId": "{{ModId}}_IceyOctopus",
                     "Condition": "LOCATION_SEASON Here winter",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.3,
+                    "Precedence": -20
                 },
                 "{{ModId}}_SandRay": {
                     "ItemId": "{{ModId}}_SandRay",
                     "Condition": "LOCATION_SEASON Here summer",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.15,
+                    "Precedence": -40
                 },
                 "{{ModId}}_Triggerfish": {
                     "ItemId": "{{ModId}}_Triggerfish",
-                    "Condition": "LOCATION_SEASON Here spring summer fall"
+                    "Condition": "LOCATION_SEASON Here spring summer fall",
+                    "Chance": 0.6,
+                    "Precedence": -5
                 },
                 "{{ModId}}_Sailfin": {
                     "ItemId": "{{ModId}}_Sailfin",
@@ -975,7 +1247,9 @@
                         "Width": 7,
                         "Height": 3
                     },
-                    "SetFlagOnCatch": "{{ModId}}_SailfinCaught"
+                    "SetFlagOnCatch": "{{ModId}}_SailfinCaught",
+                    "Chance": 0.05,
+                    "Precedence": -95
                 },
                 "{{ModId}}_BioluminescentSeaweed": {
                     "ItemId": "{{ModId}}_BioluminescentSeaweed",
@@ -991,56 +1265,80 @@
                 "(O)130": {
                     "ItemId": "(O)130",
                     "Condition": "LOCATION_SEASON Here summer winter",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "(O)131": {
                     "ItemId": "(O)131",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "(O)147": {
                     "ItemId": "(O)147",
-                    "Condition": "LOCATION_SEASON Here spring winter"
+                    "Condition": "LOCATION_SEASON Here spring winter",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "(O)148": {
                     "ItemId": "(O)148",
                     "Condition": "LOCATION_SEASON Here spring fall, WEATHER Here rain",
-                    "FishAreaId": "Cove"
+                    "FishAreaId": "Cove",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "(O)149": {
                     "ItemId": "(O)149",
-                    "Condition": "LOCATION_SEASON Here summer"
+                    "Condition": "LOCATION_SEASON Here summer",
+                    "Chance": 0.05,
+                    "Precedence": -20
                 },
                 "(O)150": {
                     "ItemId": "(O)150",
-                    "Condition": "LOCATION_SEASON Here summer fall winter, WEATHER Here rain"
+                    "Condition": "LOCATION_SEASON Here summer fall winter, WEATHER Here rain",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "(O)152": {
                     "ItemId": "(O)152",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "(O)153": {
                     "ItemId": "(O)153",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "(O)154": {
                     "ItemId": "(O)154",
                     "Condition": "LOCATION_SEASON Here fall winter",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.1,
+                    "Precedence": -40
                 },
                 "(O)155": {
                     "ItemId": "(O)155",
                     "Condition": "LOCATION_SEASON Here summer winter",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 0.08,
+                    "Precedence": -30
                 },
                 "(O)701": {
                     "ItemId": "(O)701",
                     "Condition": "LOCATION_SEASON Here summer fall",
-                    "FishAreaId": "Ocean"
+                    "FishAreaId": "Ocean",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 },
                 "(O)708": {
                     "ItemId": "(O)708",
-                    "Condition": "LOCATION_SEASON Here spring summer winter"
+                    "Condition": "LOCATION_SEASON Here spring summer winter",
+                    "Chance": 1.0,
+                    "Precedence": 0
                 }
             }
         }

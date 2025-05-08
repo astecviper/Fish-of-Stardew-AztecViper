@@ -312,19 +312,5 @@
     "GusQ2_title": "Gus braucht Algen",
     "GusQ2_details": "Gus möchte, dass Sie ihm 10 Algenstücke für ein neues Rezept bringen.",
     "GusQ2_hint": "Bringen Sie Gus 10 Algenstücke.",
-    "GusQ2_reaction": "Danke für die Hilfe! Hier ist Ihre Belohnung!",
-    //Speciall Orders
-    "WillyName": "Angelhütten-Reparatur",
-    "WillyText": "Ahoy! Hier ist die Liste der Dinge, die erledigt werden müssen, um die Reparaturen durchzuführen. Denken Sie daran, Sie haben nur diesen Monat Zeit, um es zu schaffen!",
-    "WillyObjective1": "Fangen Sie 2 Baby-Riffhaie am Strand.",
-    "WillyObjective2": "Fangen Sie 3 Keks-Oktopusse am Strand.",
-    "WillyObjective3": "Fangen Sie 3 Gefleckte Rochen am Strand.",
-    "WillyObjective4": "Bringen Sie Willy 2 frisch gefangene Baby-Riffhaie.",
-    "WillyObjective5": "Bringen Sie Willy 3 frisch gefangene Keks-Oktopusse.",
-    "WillyObjective6": "Bringen Sie Willy 3 frisch gefangene Gefleckte Rochen.",
-    "WillyObjective7": "Bringen Sie Willy 300 Holz.",
-    "WillyObjective8": "Bringen Sie Willy 50 Hartholz.",
-    "WillyObjective9": "Bringen Sie Willy 100 Stein.",
-    "WillyObjective10": "Bringen Sie Willy 10 Eisenbarren.",
-    "FishingCabinRepair_letter": "Lieber @,^Ich suche jemanden, der mir bei einigen Reparaturen an meiner Angelhütte hilft. Es ist schon eine Weile her, seit ich sie das letzte Mal überprüft habe, und ich bin sicher, dass sie etwas Arbeit gebrauchen könnte. Wenn Sie die Herausforderung annehmen möchten, habe ich Ihnen die Details geschickt. Ich bin sicher, es wird eine lustige und lohnende Erfahrung für uns beide sein.^      -Willy"
+    "GusQ2_reaction": "Danke für die Hilfe! Hier ist Ihre Belohnung!"
 }
