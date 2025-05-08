@@ -312,19 +312,5 @@
     "GusQ2_title": "Gus a besoin d'Algues",
     "GusQ2_details": "Gus veut que vous lui apportiez 10 morceaux d'algues pour une nouvelle recette.",
     "GusQ2_hint": "Apportez 10 morceaux d'algues à Gus.",
-    "GusQ2_reaction": "Merci pour l'aide ! Voici votre récompense !",
-    //Speciall Orders
-    "WillyName": "Réparation de la Cabane de Pêche",
-    "WillyText": "Ahoy ! Voici la liste des choses à faire pour effectuer les réparations. N'oubliez pas que vous n'avez que ce mois-ci pour tout faire !",
-    "WillyObjective1": "Attrapez 2 Bébés Requins de Récif à la Plage.",
-    "WillyObjective2": "Attrapez 3 Poulpes Cookies à la Plage.",
-    "WillyObjective3": "Attrapez 3 Raies Tachetées à la Plage.",
-    "WillyObjective4": "Apportez à Willy 2 Bébés Requins de Récif fraîchement pêchés.",
-    "WillyObjective5": "Apportez à Willy 3 Poulpes Cookies fraîchement pêchés.",
-    "WillyObjective6": "Apportez à Willy 3 Raies Tachetées fraîchement pêchées.",
-    "WillyObjective7": "Apportez à Willy 300 bois.",
-    "WillyObjective8": "Apportez à Willy 50 bois dur.",
-    "WillyObjective9": "Apportez à Willy 100 pierres.",
-    "WillyObjective10": "Apportez à Willy 10 barres de fer.",
-    "FishingCabinRepair_letter": "Cher @,^Je cherche quelqu'un pour m'aider à effectuer des réparations sur ma cabane de pêche. Cela fait un moment que je ne l'ai pas vérifiée, et je suis sûr qu'elle a besoin de travaux. Si vous êtes prêt à relever le défi, je vous ai envoyé les détails. Je suis sûr que ce sera une expérience amusante et gratifiante pour nous deux.^      -Willy"
+    "GusQ2_reaction": "Merci pour l'aide ! Voici votre récompense !"
 }

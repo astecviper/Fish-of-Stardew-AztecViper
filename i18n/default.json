@@ -312,19 +312,5 @@
     "GusQ2_title": "Gus Needs Seaweed",
     "GusQ2_details": "Gus wants you to bring him 10 pieces of seaweed for a new recipe.",
     "GusQ2_hint": "Bring Gus 10 pieces of seaweed.",
-    "GusQ2_reaction": "Thanks for the help! Here is your reward!",
-    //Speciall Orders
-    "WillyName": "Fishing Cabin Repair",
-    "WillyText": "Ahoy! Here is the list of things that need to be done to make the repairs. Remember you only have this month to get er' done!",
-    "WillyObjective1": "Catch 2 Baby Reef Sharks at the Beach.",
-    "WillyObjective2": "Catch 3 Cookie Octopus at the Beach.",
-    "WillyObjective3": "Catch 3 Spotted Rays at the Beach.",
-    "WillyObjective4": "Bring Willy 2 freshly caught Baby Reef Sharks.",
-    "WillyObjective5": "Bring Willy 3 freshly caught Cookie Octopus.",
-    "WillyObjective6": "Bring Willy 3 freshly caught Spotted Rays.",
-    "WillyObjective7": "Bring Willy 300 wood.",
-    "WillyObjective8": "Bring Willy 50 hardwood.",
-    "WillyObjective9": "Bring Willy 100 stone.",
-    "WillyObjective10": "Bring Willy 10 iron bars.",
-    "FishingCabinRepair_letter": "Dear @,^I'm looking for someone to help me with some repairs on my fishing cabin. It's been a while since I last checked it, and I'm sure it could use some work. If you're up for the challenge, I've sent you the details. I'm sure it'll be a fun and rewarding experience for both of us.^      -Willy"
+    "GusQ2_reaction": "Thanks for the help! Here is your reward!"
 }
