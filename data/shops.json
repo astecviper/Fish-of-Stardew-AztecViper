@@ -75,39 +75,43 @@
                             "Id": "{{ModId}}_WarpTotemTown",
                             "ItemId": "{{ModId}}_WarpTotemTown",
                             "TradeItemId": "{{ModId}}_Sunscale",
-                            "TradeItemAmount": 5
+                            "TradeItemAmount": 5,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 2"
                         },
                         {
                             "Id": "{{ModId}}_WarpTotemForest",
                             "ItemId": "{{ModId}}_WarpTotemForest",
                             "TradeItemId": "{{ModId}}_ReefSharkTooth",
-                            "TradeItemAmount": 5
+                            "TradeItemAmount": 5,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 3"
                         },
                         {
                             "Id": "{{ModId}}_WarpTotemForestWest",
                             "ItemId": "{{ModId}}_WarpTotemForestWest",
                             "TradeItemId": "{{ModId}}_Sunscale",
                             "TradeItemAmount": 5,
-                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}"
+                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}, PLAYER_FISHING_LEVEL Current 10"
                         },
                         {
                             "Id": "{{ModId}}_WarpTotemShearwaterBridge",
                             "ItemId": "{{ModId}}_WarpTotemShearwaterBridge",
                             "TradeItemId": "{{ModId}}_LunarScale",
                             "TradeItemAmount": 5,
-                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}"
+                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}, PLAYER_FISHING_LEVEL Current 9"
                         },
                         {
                             "Id": "{{ModId}}_WarpTotemEastBeach",
                             "ItemId": "{{ModId}}_WarpTotemEastBeach",
                             "TradeItemId": "{{ModId}}_ReefSharkTooth",
-                            "TradeItemAmount": 5
+                            "TradeItemAmount": 5,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 4"
                         },
                         {
                             "Id": "{{ModId}}_WarpTotemSecretWoods",
                             "ItemId": "{{ModId}}_WarpTotemSecretWoods",
                             "TradeItemId": "{{ModId}}_LunarScale",
-                            "TradeItemAmount": 5
+                            "TradeItemAmount": 5,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 10"
                         },
                         {
                             "Id": "(O)681",
