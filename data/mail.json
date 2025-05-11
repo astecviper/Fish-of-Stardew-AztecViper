@@ -68,9 +68,9 @@
                 "{{ModId}}_MossyCodStewRecipeMail": {
                     "Id": "{{ModId}}_MossyCodStewRecipeMail",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_GusQ1L Received",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_GusQ1RL Received",
                     "Actions": [
-                        "AddMail Current {{ModId}}_GusMossyCodStew now"
+                        "AddMail Current {{ModId}}_GusMossyCodStew tomorrow"
                     ]
                 },
                 "{{ModId}}_GusQuestMailTrigger1": {
@@ -120,7 +120,7 @@
             "Action": "EditData",
             "Target": "Data/Quests",
             "Entries": {
-                "{{ModId}}_GusQ1": "ItemDelivery/{{i18n:GusQ1_title}}/{{i18n:GusQ1_details}}/{{i18n:GusQ1_hint}}/Gus {{ModId}}_MossyCod 3/-1/2000/Gold/true/{{i18n:GusQ1_reaction}}",
+                "{{ModId}}_GusQ1": "ItemDelivery/{{i18n:GusQ1_title}}/{{i18n:GusQ1_details}}/{{i18n:GusQ1_hint}}/Gus {{ModId}}_MossyCod 3/-1/2000/Gold/true/{{i18n:GusQ1_reaction}} #$action AddMail Current {{ModID}}_GusQ1RL received",
                 "{{ModId}}_WillyQ1": "ItemDelivery/{{i18n:WillyQ1_title}}/{{i18n:WillyQ1_details}}/{{i18n:WillyQ1_hint}}/Willy {{ModId}}_MorayEel 1/-1/1500/Gold/true/{{i18n:WillyQ1_reaction}}",
                 "{{ModId}}_WillyQ2": "ItemDelivery/{{i18n:WillyQ2_title}}/{{i18n:WillyQ2_details}}/{{i18n:WillyQ2_hint}}/Willy {{ModId}}_BlackClownfish 3/-1/2500/Gold/true/{{i18n:WillyQ2_reaction}}",
                 "{{ModId}}_GusQ2": "ItemDelivery/{{i18n:GusQ2_title}}/{{i18n:GusQ2_details}}/{{i18n:GusQ2_hint}}/Gus 152 10/-1/600/Gold/true/{{i18n:GusQ2_reaction}}"
