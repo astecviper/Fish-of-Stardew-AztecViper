@@ -110,7 +110,7 @@
                 "{{ModId}}_WillyQ3Trigger": {
                     "Id": "{{ModId}}_WillyQ3Trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON_DAY spring 15, YEAR 2 2, pl",
+                    "Condition": "SEASON_DAY spring 15, YEAR 2 2, PLAYER_HAS_MAIL Host {{ModId}}_SailfinCaught Received",
                     "Actions": [
                         "AddMail Current {{ModId}}_WillyQ3L now"
                     ],
