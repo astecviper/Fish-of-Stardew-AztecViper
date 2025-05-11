@@ -37,7 +37,8 @@
                     "ItemId": "{{ModId}}_CircletOfTheSea",
                     "Chance": 0.005,
                     "MinStack": 1,
-                    "MaxStack": 1
+                    "MaxStack": 1,
+                    "Condition": "ANY \"LOCATION_NAME Here FOS_Beach1\" \"LOCATION_NAME Here Beach\""
                 },
                 "{{ModId}}_CircletOfTheCoral": {
                     "ItemId": "{{ModId}}_CircletOfTheCoral",
