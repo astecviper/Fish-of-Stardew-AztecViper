@@ -13,11 +13,13 @@
                 "{{ModId}}_GusFriedFishFilet": "{{i18n:GusFriedFishFilet_mail}}",
                 "{{ModId}}_GusMossyCodStew": "{{i18n:GusMossyCodStew_mail}}",
                 "{{ModId}}_WillySailfin": "{{i18n:WillySailfin_mail}}",
+                "{{ModId}}_WillyCabinRepair": "{{i18n:CabinRepair_mail}}",
                 // Quest Mail
                 "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%",
                 "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%",
                 "{{ModId}}_WillyQ2L": "{{i18n:WillyQ2L_mail}} %item quest {{ModId}}_WillyQ2 true %%",
-                "{{ModId}}_GusQ2L": "{{i18n:GusQ2L_mail}} %item quest {{ModId}}_GusQ2 true %%"
+                "{{ModId}}_GusQ2L": "{{i18n:GusQ2L_mail}} %item quest {{ModId}}_GusQ2 true %%",
+                "{{ModId}}_WillyQ3L": "{{i18n:WillyQ3L_mail}} %item quest h{{ModId}}_WillyQ3 true %%"
             }
         },
         { //Letter Requirements
@@ -60,17 +62,9 @@
                 "{{ModId}}_FriedFishFiletRecipeMail": {
                     "Id": "{{ModId}}_FriedFishFiletRecipeMail",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HEARTS Current Gus 2",
+                    "Condition": "PLAYER_HEARTS Current Gus 3",
                     "Actions": [
                         "AddMail Current {{ModId}}_GusFriedFishFilet now"
-                    ]
-                },
-                "{{ModId}}_MossyCodStewRecipeMail": {
-                    "Id": "{{ModId}}_MossyCodStewRecipeMail",
-                    "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_GusQ1RL Received",
-                    "Actions": [
-                        "AddMail Current {{ModId}}_GusMossyCodStew tomorrow"
                     ]
                 },
                 "{{ModId}}_GusQuestMailTrigger1": {
@@ -112,6 +106,24 @@
                     "Actions": [
                         "AddMail Current {{ModId}}_WillySailfin now"
                     ]
+                },
+                "{{ModId}}_WillyQ3Trigger": {
+                    "Id": "{{ModId}}_WillyQ3Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY spring 15, YEAR 2 2, pl",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyQ3L now"
+                    ],
+                    "HostOnly": true
+                },
+                "{{ModId}}_CabinRepairTrigger": {
+                    "Id": "{{ModId}}_CabinRepairTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_CabinRepair Received",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_CabinRepaired Tomorrow"
+                    ],
+                    "HostOnly": true
                 }
             }
         },
@@ -120,10 +132,15 @@
             "Action": "EditData",
             "Target": "Data/Quests",
             "Entries": {
-                "{{ModId}}_GusQ1": "ItemDelivery/{{i18n:GusQ1_title}}/{{i18n:GusQ1_details}}/{{i18n:GusQ1_hint}}/Gus {{ModId}}_MossyCod 3/-1/2000/Gold/true/{{i18n:GusQ1_reaction}} #$action AddMail Current {{ModID}}_GusQ1RL received",
+                "{{ModId}}_GusQ1": "ItemDelivery/{{i18n:GusQ1_title}}/{{i18n:GusQ1_details}}/{{i18n:GusQ1_hint}}/Gus {{ModId}}_MossyCod 3/-1/2000/Gold/true/{{i18n:GusQ1_reaction}} #$action AddMail Current {{ModID}}_MossyCodStew tomorrow",
                 "{{ModId}}_WillyQ1": "ItemDelivery/{{i18n:WillyQ1_title}}/{{i18n:WillyQ1_details}}/{{i18n:WillyQ1_hint}}/Willy {{ModId}}_MorayEel 1/-1/1500/Gold/true/{{i18n:WillyQ1_reaction}}",
                 "{{ModId}}_WillyQ2": "ItemDelivery/{{i18n:WillyQ2_title}}/{{i18n:WillyQ2_details}}/{{i18n:WillyQ2_hint}}/Willy {{ModId}}_BlackClownfish 3/-1/2500/Gold/true/{{i18n:WillyQ2_reaction}}",
-                "{{ModId}}_GusQ2": "ItemDelivery/{{i18n:GusQ2_title}}/{{i18n:GusQ2_details}}/{{i18n:GusQ2_hint}}/Gus 152 10/-1/300/Gold/true/{{i18n:GusQ2_reaction}}"
+                "{{ModId}}_GusQ2": "ItemDelivery/{{i18n:GusQ2_title}}/{{i18n:GusQ2_details}}/{{i18n:GusQ2_hint}}/Gus 152 10/-1/300/Gold/true/{{i18n:GusQ2_reaction}}",
+                "{{ModId}}_WillyQ3": "ItemDelivery/{{i18n:WillyQ3_title}}/{{i18n:WillyQ3_details}}/{{i18n:WillyQ3_hint}}/Willy 390 200/{{ModId}}_WillyQ4/0/Gold/true/{{i18n:WillyQ3_reaction}}",
+                "{{ModId}}_WillyQ4": "ItemDelivery/{{i18n:WillyQ4_title}}/{{i18n:WillyQ4_details}}/{{i18n:WillyQ4_hint}}/Willy 388 400/{{ModId}}_WillyQ5/0/Gold/true/{{i18n:WillyQ4_reaction}}",
+                "{{ModId}}_WillyQ5": "ItemDelivery/{{i18n:WillyQ5_title}}/{{i18n:WillyQ5_details}}/{{i18n:WillyQ5_hint}}/Willy 335 25/{{ModId}}_WillyQ6/0/Gold/true/{{i18n:WillyQ5_reaction}}",
+                "{{ModId}}_WillyQ6": "ItemDelivery/{{i18n:WillyQ6_title}}/{{i18n:WillyQ6_details}}/{{i18n:WillyQ6_hint}}/Willy 334 10/{{ModId}}_WillyQ7/0/Gold/true/{{i18n:WillyQ6_reaction}}",
+                "{{ModId}}_WillyyQ7": "ItemDelivery/{{i18n:WillyyQ7_title}}/{{i18n:WillyyQ7_details}}/{{i18n:WillyyQ7_hint}}/Willy 709 150/{{ModId}}_WillyQ8/0/Gold/true/{{i18n:WillyyQ7_reaction}} #$action AddMail Current {{ModId}}_CabinRepair"
             }
         }
     ]
