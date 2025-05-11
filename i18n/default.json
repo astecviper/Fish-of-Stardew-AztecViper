@@ -291,7 +291,8 @@
     "GusOnigiri_mail": "Howdy @,^Found this neat rice ball recipe in an old cookbook from Zuzu City. Simple as can be, but sometimes simple's best, eh?^Perfect for takin' on fishing trips!^      -Gus %item cookingRecipe Onigiri%%[#]Gus's Onigiri Recipe",
     "GusFriedFishFilet_mail": "@,^Nothing beats fresh-caught fish with a crispy golden coat! This here's my grandma's batter recipe - shh, don't tell the others!^Pair it with a cold ale from the saloon for the full experience.^      -Gus %item cookingRecipe Fried Fish Filet%%[#]Gus's Fried Fish Filet Recipe",
     "GusMossyCodStew_mail": "@,^That Mossy Cod you brought in? Simmered up into the heartiest stew this side of the Gem Sea!^Enclosed's the recipe - comes alive with a dash of pepper and a sprinkle of friendship.^      -Gus %item cookingRecipe Mossy Cod Stew%%[#]Gus's Mossy Cod Stew Recipe",
-    "WillySailfin_mail": "Blow me down, @!^That Sail Fin's been teasin' fishermen since my pappy's day! You've got saltwater in your veins, that's for certain.^Next time you're at the dock, first pint's on me!^      -Willy[#]A Fisherman's Pride",//Quest Mail
+    "WillySailfin_mail": "Blow me down, @!^That Sail Fin's been teasin' fishermen since my pappy's day! You've got saltwater in your veins, that's for certain.^Next time you're at the dock, first pint's on me!^      -Willy[#]A Fisherman's Pride",
+    //Quest Mail
     "GusQ1L_mail": "@,^Got a hankerin' to try something new with Mossy Cod. Could you rustle up 3 of em? I'll trade you my secret stew recipe!^   -Gus",
     "WillyQ1L_mail": "Ahoy @,^Need a Moray Eel for the annual Angler's Bash. Reckon you could land one? I'll make sure your tackle box stays full!^      -Willy",
     "WillyQ2L_mail": "Landlubber @,^Aquarium's wantin' 3 Black Clownfish - trickier than herdin' cats, they are! Gold doubloons await if you manage it.^      -Willy",
