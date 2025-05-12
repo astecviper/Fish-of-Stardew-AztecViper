@@ -8,6 +8,8 @@
     "config.GemSprites.description": "Choose the gem sprites used by the game for the aquatic gems and jewelry. This change will only partially take affect unless you do it before loading your farm.",
     "config.GemSprites.values.gems": "Gems",
     "config.GemSprites.values.pearls": "Pearls",
+    // CJB Warps
+    "EastBeachWarp_name": "East Beach",
     //Jewlery
     "PrismarineRing_name": "Prismarine Ring",
     "PrismarineRing_description": "The wearer receives a small boost in the fishing skill and luck.",
