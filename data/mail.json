@@ -19,7 +19,7 @@
                 "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%",
                 "{{ModId}}_WillyQ2L": "{{i18n:WillyQ2L_mail}} %item quest {{ModId}}_WillyQ2 true %%",
                 "{{ModId}}_GusQ2L": "{{i18n:GusQ2L_mail}} %item quest {{ModId}}_GusQ2 true %%",
-                "{{ModId}}_WillyQ3L": "{{i18n:WillyQ3L_mail}} %item quest h{{ModId}}_WillyQ3 true %%"
+                "{{ModId}}_WillyQ3L": "{{i18n:WillyQ3L_mail}} %item quest {{ModId}}_WillyQ3 true %%"
             }
         },
         { //Letter Requirements
@@ -110,7 +110,7 @@
                 "{{ModId}}_WillyQ3Trigger": {
                     "Id": "{{ModId}}_WillyQ3Trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON_DAY spring 15, YEAR 2 2, PLAYER_HAS_MAIL Host {{ModId}}_SailfinCaught Received",
+                    "Condition": "SEASON_DAY spring 15, YEAR 2, PLAYER_HAS_MAIL Host {{ModId}}_SailfinCaught Received",
                     "Actions": [
                         "AddMail Current {{ModId}}_WillyQ3L now"
                     ],
