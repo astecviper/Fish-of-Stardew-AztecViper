@@ -1238,7 +1238,7 @@
                 },
                 "{{ModId}}_Sailfin": {
                     "ItemId": "{{ModId}}_Sailfin",
-                    "Condition": "LOCATION_SEASON Here spring, WEATHER Here sun",
+                    "Condition": "LOCATION_SEASON Here spring, WEATHER Here windy",
                     "CatchLimit": 1,
                     "IsBossFish": true,
                     "PlayerPosition": {
