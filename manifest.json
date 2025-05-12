@@ -31,6 +31,10 @@
         {
             "UniqueID": "mistyspring.ItemExtensions",
             "IsRequired": true
+        },
+        {
+            "UniqueID": "CJBok.CheatsMenu",
+            "IsRequired": false
         }
     ]
 }
