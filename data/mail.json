@@ -102,7 +102,7 @@
                 "{{ModId}}_WillySailfinMailTrigger": {
                     "Id": "{{ModId}}_WillySailfinMailTrigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_SailfinCaught Received Any",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_SailfinCaught Received",
                     "Actions": [
                         "AddMail Current {{ModId}}_WillySailfin now"
                     ]
@@ -110,16 +110,16 @@
                 "{{ModId}}_WillyQ3Trigger": {
                     "Id": "{{ModId}}_WillyQ3Trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON_DAY spring 15, YEAR 2, PLAYER_HAS_MAIL Host {{ModId}}_SailfinCaught Received",
+                    "Condition": "YEAR 2, PLAYER_HAS_MAIL Host {{ModId}}_SailfinCaught Received",
                     "Actions": [
-                        "AddMail Current {{ModId}}_WillyQ3L now"
+                        "AddMail Host {{ModId}}_WillyQ3L now"
                     ],
                     "HostOnly": true
                 },
                 "{{ModId}}_CabinRepairTrigger": {
                     "Id": "{{ModId}}_CabinRepairTrigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_CabinRepair Received",
+                    "Condition": "PLAYER_HAS_MAIL Host {{ModId}}_CabinRepair Received",
                     "Actions": [
                         "AddMail Current {{ModId}}_CabinRepaired Tomorrow"
                     ],
@@ -136,11 +136,11 @@
                 "{{ModId}}_WillyQ1": "ItemDelivery/{{i18n:WillyQ1_title}}/{{i18n:WillyQ1_details}}/{{i18n:WillyQ1_hint}}/Willy {{ModId}}_MorayEel 1/-1/1500/Gold/true/{{i18n:WillyQ1_reaction}}",
                 "{{ModId}}_WillyQ2": "ItemDelivery/{{i18n:WillyQ2_title}}/{{i18n:WillyQ2_details}}/{{i18n:WillyQ2_hint}}/Willy {{ModId}}_BlackClownfish 3/-1/2500/Gold/true/{{i18n:WillyQ2_reaction}}",
                 "{{ModId}}_GusQ2": "ItemDelivery/{{i18n:GusQ2_title}}/{{i18n:GusQ2_details}}/{{i18n:GusQ2_hint}}/Gus 152 10/-1/300/Gold/true/{{i18n:GusQ2_reaction}}",
-                "{{ModId}}_WillyQ3": "ItemDelivery/{{i18n:WillyQ3_title}}/{{i18n:WillyQ3_details}}/{{i18n:WillyQ3_hint}}/Willy 390 200/{{ModId}}_WillyQ4/0/Gold/true/{{i18n:WillyQ3_reaction}}",
-                "{{ModId}}_WillyQ4": "ItemDelivery/{{i18n:WillyQ4_title}}/{{i18n:WillyQ4_details}}/{{i18n:WillyQ4_hint}}/Willy 388 400/{{ModId}}_WillyQ5/0/Gold/true/{{i18n:WillyQ4_reaction}}",
-                "{{ModId}}_WillyQ5": "ItemDelivery/{{i18n:WillyQ5_title}}/{{i18n:WillyQ5_details}}/{{i18n:WillyQ5_hint}}/Willy 335 25/{{ModId}}_WillyQ6/0/Gold/true/{{i18n:WillyQ5_reaction}}",
-                "{{ModId}}_WillyQ6": "ItemDelivery/{{i18n:WillyQ6_title}}/{{i18n:WillyQ6_details}}/{{i18n:WillyQ6_hint}}/Willy 334 10/{{ModId}}_WillyQ7/0/Gold/true/{{i18n:WillyQ6_reaction}}",
-                "{{ModId}}_WillyyQ7": "ItemDelivery/{{i18n:WillyyQ7_title}}/{{i18n:WillyyQ7_details}}/{{i18n:WillyyQ7_hint}}/Willy 709 150/{{ModId}}_WillyQ8/0/Gold/true/{{i18n:WillyyQ7_reaction}} #$action AddMail Current {{ModId}}_CabinRepair"
+                "{{ModId}}_WillyQ3": "ItemDelivery/{{i18n:WillyQ3_title}}/{{i18n:WillyQ3_details}}/{{i18n:WillyQ3_hint}}/Willy 390 200/{{ModId}}_WillyQ4/100/Gold/true/{{i18n:WillyQ3_reaction}}",
+                "{{ModId}}_WillyQ4": "ItemDelivery/{{i18n:WillyQ4_title}}/{{i18n:WillyQ4_details}}/{{i18n:WillyQ4_hint}}/Willy 388 400/{{ModId}}_WillyQ5/100/Gold/true/{{i18n:WillyQ4_reaction}}",
+                "{{ModId}}_WillyQ5": "ItemDelivery/{{i18n:WillyQ5_title}}/{{i18n:WillyQ5_details}}/{{i18n:WillyQ5_hint}}/Willy 335 25/{{ModId}}_WillyQ6/100/Gold/true/{{i18n:WillyQ5_reaction}}",
+                "{{ModId}}_WillyQ6": "ItemDelivery/{{i18n:WillyQ6_title}}/{{i18n:WillyQ6_details}}/{{i18n:WillyQ6_hint}}/Willy 334 10/{{ModId}}_WillyQ7/100/Gold/true/{{i18n:WillyQ6_reaction}}",
+                "{{ModId}}_WillyQ7": "ItemDelivery/{{i18n:WillyQ7_title}}/{{i18n:WillyQ7_details}}/{{i18n:WillyQ7_hint}}/Willy 709 150/-1/100/Gold/true/{{i18n:WillyQ7_reaction}} #$action AddMail Host {{ModId}}_CabinRepair Received"
             }
         }
     ]
