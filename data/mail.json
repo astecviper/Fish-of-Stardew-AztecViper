@@ -17,13 +17,15 @@
                 "{{ModId}}_GusSmokedSturgeonRoll": "{{i18n:GusSmokedSturgeonRoll_mail}} %item cookingRecipe {{ModId}}_SmokedSturgeonRoll %%[#]{{i18n:GusSmokedSturgeonRoll_title}}",
                 "{{ModId}}_EvelynBakedStripedChar": "{{i18n:EvelynBakedStripedChar_mail}} %item cookingRecipe {{ModId}}_BakedStripedChar %%[#]{{i18n:EvelynBakedStripedChar_title}}",
                 "{{ModId}}_CarolineDeepSeaHalibutRoll": "{{i18n:CarolineDeepSeaHalibutRoll_mail}} %item cookingRecipe {{ModId}}_DeepSeaHalibutRoll %%[#]{{i18n:CarolineQ1L_title}}",
+                "{{ModId}}_LeahCookieOctopusRoll": "{{i18n:LeahCookieOctopusRoll_mail}} %item cookingRecipe {{ModId}}_CookieOctopusRoll %%[#]{{i18n:LeahCookieOctopusRoll_title}}",
                 // Quest Mail
                 "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%[#]{{i18n:GusQ1L_title}}",
                 "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%[#]{{i18n:WillyQ1L_title}}",
                 "{{ModId}}_WillyQ2L": "{{i18n:WillyQ2L_mail}} %item quest {{ModId}}_WillyQ2 true %%[#]{{i18n:WillyQ2L_title}}",
                 "{{ModId}}_GusQ2L": "{{i18n:GusQ2L_mail}} %item quest {{ModId}}_GusQ2 true %%[#]{{i18n:GusQ2L_title}}",
                 "{{ModId}}_WillyQ3L": "{{i18n:WillyQ3L_mail}} %item quest {{ModId}}_WillyQ3 true %item id (O)908 25 %%[#]{{i18n:WillyQ3L_title}}",
-                "{{ModId}}_CarolineQ1L": "{{i18n:CarolineQ1L_mail}} %item quest {{ModId}}_CarolineQ1 true %%[#]{{i18n:CarolineQ1L_title}}"
+                "{{ModId}}_CarolineQ1L": "{{i18n:CarolineQ1L_mail}} %item quest {{ModId}}_CarolineQ1 true %%[#]{{i18n:CarolineQ1L_title}}",
+                "{{ModId}}_LeahQ1L": "{{i18n:LeahQ1L_mail}} %item quest {{ModId}}_LeahQ1 true %%[#]{{i18n:LeahQ1L_title}}"
             }
         },
         { //Letter Requirements
@@ -152,6 +154,14 @@
                     "Actions": [
                         "AddMail Host {{ModId}}_CarolineQ1L now"
                     ]
+                },
+                "{{ModId}}_LeahQ1Trigger": {
+                    "Id": "{{ModId}}_LeahQ1Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 2, SEASON summer fall, PLAYER_HEARTS Current Leah 3",
+                    "Actions": [
+                        "AddMail Host {{ModId}}_LeahQ1L now"
+                    ]
                 }
             }
         },
@@ -169,7 +179,8 @@
                 "{{ModId}}_WillyQ5": "ItemDelivery/{{i18n:WillyQ5_title}}/{{i18n:WillyQ5_details}}/{{i18n:WillyQ5_hint}}/Willy 335 25/{{ModId}}_WillyQ6/100/Gold/true/{{i18n:WillyQ5_reaction}}",
                 "{{ModId}}_WillyQ6": "ItemDelivery/{{i18n:WillyQ6_title}}/{{i18n:WillyQ6_details}}/{{i18n:WillyQ6_hint}}/Willy 334 10/{{ModId}}_WillyQ7/100/Gold/true/{{i18n:WillyQ6_reaction}}",
                 "{{ModId}}_WillyQ7": "ItemDelivery/{{i18n:WillyQ7_title}}/{{i18n:WillyQ7_details}}/{{i18n:WillyQ7_hint}}/Willy 709 150/-1/100/Gold/true/$action AddMail Host {{ModId}}_CabinRepair Now #{{i18n:WillyQ7_reaction}}",
-                "{{ModId}}_CarolineQ1": "ItemDelivery/{{i18n:CarolineQ1_title}}/{{i18n:CarolineQ1_details}}/{{i18n:CarolineQ1_hint}}/Caroline {{ModId}}_DeepSeaHalibut 1/-1/300/Gold/true/$action AddMail Current {{ModId}}_CarolineDeepSeaHalibutRoll #{{i18n:CarolineQ1_reaction}}"
+                "{{ModId}}_CarolineQ1": "ItemDelivery/{{i18n:CarolineQ1_title}}/{{i18n:CarolineQ1_details}}/{{i18n:CarolineQ1_hint}}/Caroline {{ModId}}_DeepSeaHalibut 1/-1/300/Gold/true/$action AddMail Current {{ModId}}_CarolineDeepSeaHalibutRoll #{{i18n:CarolineQ1_reaction}}",
+                "{{ModId}}_LeahQ1": "ItemDelivery/{{i18n:LeahQ1_title}}/{{i18n:LeahQ1_details}}/{{i18n:LeahQ1_hint}}/Leah {{ModId}}_CookieOctopus 2/-1/300/Gold/true/$action AddMail Current {{ModId}}_LeahCookieOctopusRoll #{{i18n:LeahQ1_reaction}}"
             }
         }
     ]
