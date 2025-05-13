@@ -309,6 +309,8 @@
     "EvelynStripedChar_title": "Evelyn's Baked Striped Char Recipe",
     "CarolineDeepSeaHalibutRoll_mail": "Hello @!^^Thank you again for that wonderful Deep Sea Halibut! The dish turned out amazing - even Abigail ate it without complaining about the color.^^I've enclosed my Deep Sea Halibut Roll recipe for you. It's refreshing with a hint of spice - perfect for enjoying in the sunroom with some tea.^^Hope your farm is doing well!^^   -Caroline",
     "CarolineDeepSeaHalibutRoll_title": "Caroline's Deep Sea Halibut Roll Recipe",
+    "LeahCookieOctopusRoll_mail": "Dear @,^^I was exploring the beach yesterday when inspiration struck me! I'm working on a new sculpture that captures the fluid movement of sea creatures.^^While I was there, I remembered how wonderful Cookie Octopus tastes in a fresh sushi roll. Do you think you could catch 2 for me? I'd love to create something delicious with them.^^Nature's bounty is always the most inspiring... both for art and for the table!^^   -Leah",
+    "LeahCookieOctopusRoll_title": "Leah's Cookie Octopus Roll Recipe",
     //Quest Mail
     "GusQ1L_mail": "@,^^Got a hankerin' to try something new with Mossy Cod. Could you rustle up 3 of 'em? I'll trade you my secret stew recipe!^^   -Gus",
     "GusQ1L_title": "A Mossy Situation",
@@ -362,5 +364,9 @@
     "CarolineQ1_title": "Caroline's Culinary Request",
     "CarolineQ1_details": "Caroline is interested in trying a new recipe with Deep Sea Halibut. Catch one and bring it to her.",
     "CarolineQ1_hint": "Deep Sea Halibut can be caught in the ocean during certain seasons.",
-    "CarolineQ1_reaction": "Oh!$h# Is this really a Deep Sea Halibut? It's perfect!$h#$b#Pierre won't try new foods very often, but I bet he'll love this. I'll make my special halibut roll tonight!$b#Thank you so much, @. As soon as I write the recipe down, I'll send it to you in the mail!$h"
+    "CarolineQ1_reaction": "Oh!$h# Is this really a Deep Sea Halibut? It's perfect!$h#$b#Pierre won't try new foods very often, but I bet he'll love this. I'll make my special halibut roll tonight!$b#Thank you so much, @. As soon as I write the recipe down, I'll send it to you in the mail!$h",
+    "LeahQ1_LeahQ1_title": "From Sea to Canvas",
+    "LeahQ1_LeahQ1_details": "Leah wants 2 Cookie Octopus to make a special sushi roll. She's willing to pay 600g for them.",
+    "LeahQ1_LeahQ1_hint": "Cookie Octopus can be caught in the ocean during summer and fall.",
+    "LeahQ1_LeahQ1_reaction": "These are perfect! The way their tentacles curl... it's almost like a living sculpture.$h#$b#I've been sketching ocean creatures lately, and there's something so inspiring about their fluid forms. Now I can study these up close for my art... and then make a delicious sushi roll!$h#$b#Fresh ingredients make all the difference, don't you think? Here's the payment I promised. I'll share my recipe with you once I perfect it.$l"
 }
