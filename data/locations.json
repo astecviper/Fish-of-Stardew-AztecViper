@@ -298,7 +298,7 @@
             "PatchMode": "Replace",
             "FromFile": "assets/maps/FOS_Beach1Patch.tmx",
             "When": {
-                "HasFlag": "{{ModId}}_CabinRepaired"
+                "HasFlag": "{{ModId}}_WillyCabinRepaired"
             },
             "FromArea": {
                 "X": 0,
