@@ -15,11 +15,11 @@
                 "{{ModId}}_WillySailfin": "{{i18n:WillySailfin_mail}}",
                 "{{ModId}}_WillyCabinRepaired": "{{i18n:WillyCabinRepaired_mail}}",
                 // Quest Mail
-                "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%",
-                "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%",
-                "{{ModId}}_WillyQ2L": "{{i18n:WillyQ2L_mail}} %item quest {{ModId}}_WillyQ2 true %%",
-                "{{ModId}}_GusQ2L": "{{i18n:GusQ2L_mail}} %item quest {{ModId}}_GusQ2 true %%",
-                "{{ModId}}_WillyQ3L": "{{i18n:WillyQ3L_mail}} %item quest {{ModId}}_WillyQ3 true %%"
+                "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%[#]{{i18n:GusQ1L_title}}",
+                "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%[#]{{i18n:WillyQ1L_title}}",
+                "{{ModId}}_WillyQ2L": "{{i18n:WillyQ2L_mail}} %item quest {{ModId}}_WillyQ2 true %%[#]{{i18n:WillyQ2L_title}}",
+                "{{ModId}}_GusQ2L": "{{i18n:GusQ2L_mail}} %item quest {{ModId}}_GusQ2 true %%[#]{{i18n:GusQ2L_title}}",
+                "{{ModId}}_WillyQ3L": "{{i18n:WillyQ3L_mail}} %item quest {{ModId}}_WillyQ3 true %%[#]{{i18n:WillyQ3L_title}}"
             }
         },
         { //Letter Requirements
@@ -132,7 +132,7 @@
             "Action": "EditData",
             "Target": "Data/Quests",
             "Entries": {
-                "{{ModId}}_GusQ1": "ItemDelivery/{{i18n:GusQ1_title}}/{{i18n:GusQ1_details}}/{{i18n:GusQ1_hint}}/Gus {{ModId}}_MossyCod 3/-1/2000/Gold/true/$action AddMail Current {{ModID}}_GusMossyCodStew tomorrow #{{i18n:GusQ1_reaction}}",
+                "{{ModId}}_GusQ1": "ItemDelivery/{{i18n:GusQ1_title}}/{{i18n:GusQ1_details}}/{{i18n:GusQ1_hint}}/Gus {{ModId}}_MossyCod 3/-1/2000/Gold/true/$action AddMail Current {{ModId}}_GusMossyCodStew tomorrow #{{i18n:GusQ1_reaction}}",
                 "{{ModId}}_WillyQ1": "ItemDelivery/{{i18n:WillyQ1_title}}/{{i18n:WillyQ1_details}}/{{i18n:WillyQ1_hint}}/Willy {{ModId}}_MorayEel 1/-1/1500/Gold/true/{{i18n:WillyQ1_reaction}}",
                 "{{ModId}}_WillyQ2": "ItemDelivery/{{i18n:WillyQ2_title}}/{{i18n:WillyQ2_details}}/{{i18n:WillyQ2_hint}}/Willy {{ModId}}_BlackClownfish 3/-1/2500/Gold/true/{{i18n:WillyQ2_reaction}}",
                 "{{ModId}}_GusQ2": "ItemDelivery/{{i18n:GusQ2_title}}/{{i18n:GusQ2_details}}/{{i18n:GusQ2_hint}}/Gus 152 10/-1/300/Gold/true/{{i18n:GusQ2_reaction}}",
