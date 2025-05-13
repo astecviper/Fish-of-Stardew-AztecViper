@@ -6,20 +6,20 @@
             "Target": "Data/Mail",
             "Entries": {
                 //Mail
-                "{{ModId}}_WillySmokedSalmonRoll": "{{i18n:WillySmokedSalmonRoll_mail}}",
-                "{{ModId}}_GusTwilightStew": "{{i18n:GusTwilightStew_mail}}",
-                "{{ModId}}_GusVermilionSoup": "{{i18n:GusVermilionSoup_mail}}",
-                "{{ModId}}_GusOnigiri": "{{i18n:GusOnigiri_mail}}",
-                "{{ModId}}_GusFriedFishFilet": "{{i18n:GusFriedFishFilet_mail}}",
-                "{{ModId}}_GusMossyCodStew": "{{i18n:GusMossyCodStew_mail}}",
-                "{{ModId}}_WillySailfin": "{{i18n:WillySailfin_mail}}",
-                "{{ModId}}_WillyCabinRepaired": "{{i18n:WillyCabinRepaired_mail}}",
+                "{{ModId}}_WillySmokedSalmonRoll": "{{i18n:WillySmokedSalmonRoll_mail}} %item cookingRecipe {{ModId}}_SmokedSalmonRoll %%[#]{{i18n:WillySmokedSalmonRoll_title}}",
+                "{{ModId}}_GusTwilightStew": "{{i18n:GusTwilightStew_mail}}  %item cookingRecipe {{ModId}}_TwilightStew %%[#]{{i18n:GusTwilightStew_title}}",
+                "{{ModId}}_GusVermilionSoup": "{{i18n:GusVermilionSoup_mail}}  %item cookingRecipe {{ModId}}_VermilionSoup %%[#]{{i18n:GusVermilionSoup_title}}",
+                "{{ModId}}_GusOnigiri": "{{i18n:GusOnigiri_mail}} %item cookingRecipe {{ModId}}_Onigiri %%[#]{{i18n:GusOnigiri_title}}",
+                "{{ModId}}_GusFriedFishFilet": "{{i18n:GusFriedFishFilet_mail}} %item cookingRecipe {{ModId}}_FriedFishFilet %%[#]{{i18n:GusFriedFishFilet_title}}",
+                "{{ModId}}_GusMossyCodStew": "{{i18n:GusMossyCodStew_mail}} %item cookingRecipe {{ModId}}_MossyCodStew %%[#]{{i18n:GusMossyCodStew_title}}",
+                "{{ModId}}_WillySailfin": "{{i18n:WillySailfin_mail}} [#]{{i18n:WillySailfin_title}}",
+                "{{ModId}}_WillyCabinRepaired": "{{i18n:WillyCabinRepaired_mail}} %%[#]{{i18n:WillyCabinRepaired_title}}",
                 // Quest Mail
                 "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%[#]{{i18n:GusQ1L_title}}",
                 "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%[#]{{i18n:WillyQ1L_title}}",
                 "{{ModId}}_WillyQ2L": "{{i18n:WillyQ2L_mail}} %item quest {{ModId}}_WillyQ2 true %%[#]{{i18n:WillyQ2L_title}}",
                 "{{ModId}}_GusQ2L": "{{i18n:GusQ2L_mail}} %item quest {{ModId}}_GusQ2 true %%[#]{{i18n:GusQ2L_title}}",
-                "{{ModId}}_WillyQ3L": "{{i18n:WillyQ3L_mail}} %item quest {{ModId}}_WillyQ3 true %%[#]{{i18n:WillyQ3L_title}}"
+                "{{ModId}}_WillyQ3L": "{{i18n:WillyQ3L_mail}} %item quest {{ModId}}_WillyQ3 true %item id (O)908 25 %%[#]{{i18n:WillyQ3L_title}}"
             }
         },
         { //Letter Requirements
