@@ -295,7 +295,7 @@
     "GusVermilionSoup_title": "Gus's Vermilion Soup Recipe",
     "GusOnigiri_mail": "Howdy @,^^Found this neat rice ball recipe in an old cookbook from Zuzu City. Simple as can be, but sometimes simple's best, eh?^^Perfect for takin' on fishing trips!^^   -Gus",
     "GusOnigiri_title": "Gus's Onigiri Recipe",
-    "GusFriedFishFilet_mail": "@,^^Nothing beats fresh-caught fish with a crispy golden coat! This here's my grandma's batter recipe - shh, don't tell the others!^^Pair it with a cold ale from the saloon for the full experience.^^   -Gus %item cookingRecipe Fried Fish Filet%%[#]Gus's Fried Fish Filet Recipe",
+    "GusFriedFishFilet_mail": "@,^^Nothing beats fresh-caught fish with a crispy golden coat! This here's my grandma's batter recipe - shh, don't tell the others!^^Pair it with a cold ale from the saloon for the full experience.^^   -Gus",
     "GusFriedFishFilet_title": "Gus's Fried Fish Filet Recipe",
     "GusMossyCodStew_mail": "@,^^That Mossy Cod you brought in? Simmered up into the heartiest stew this side of the Gem Sea!^^Enclosed's the recipe - comes alive with a dash of pepper and a sprinkle of friendship.^^   -Gus",
     "GusMossyCodStew_title": "Gus's Mossy Cod Stew Recipe",
@@ -303,6 +303,12 @@
     "WillySailfin_title": "A Fisherman's Pride",
     "WillyCabinRepaired_mail": "Ahoy there, Captain @!^^The deed is done! That old fishin' cabin on the East Beach is standin' proud once more! Fixed 'er up with me own two hands, just like me pappy taught me.^^Ye should see 'er now - no longer an eyesore, but a proper little outpost by the sea! The gulls have already taken a likin' to the new roof.^^After all yer hard work gatherin' them materials, it only seems right that the cabin should be yours to use! Wouldn't have been possible without ye. Consider it yer own little fishin' retreat.^^Some of the rarest catches in the valley swim right offshore there - even some beauties me pappy never laid eyes on!^^Ye've done a service to all us sea-lovers by restorin' this piece o' shore history.^^Fair winds and tight lines,^^   -Willy",
     "WillyCabinRepaired_title": "Cabin Restoration Complete",
+    "GusSmokedSturgeonRoll_mail": "Hello there, @!^^That White Sturgeon you brought to the saloon the other day gave me a wonderful idea! I've smoked it up and made it into something special.^^I've enclosed the recipe for you. It's exquisite cuisine, if I do say so myself! Stop in at the saloon sometime and I can make you one fresh.^^Your friend, Gus",
+    "GusSmokedSturgeonRoll_title": "Gus's Smoked Sturgeon Roll Recipe",
+    "EvelynStripedChar_mail": "Why, hello there, dear @!^^Thank you so much for taking the time to visit with an old granny like me. It warms my heart when young people show such kindness.^^I wanted to share my special Baked Striped Char recipe with you. George absolutely loves it! The secret is just a pinch of thyme and a little patience.^^You should make some hot food to stay warm and healthy, especially during these chilly seasons.^^Take care, dearie!^^   -Granny Evelyn",
+    "EvelynStripedChar_title": "Evelyn's Baked Striped Char Recipe",
+    "CarolineDeepSeaHalibutRoll_mail": "Hello @!^^Thank you again for that wonderful Deep Sea Halibut! The dish turned out amazing - even Abigail ate it without complaining about the color.^^I've enclosed my Deep Sea Halibut Roll recipe for you. It's refreshing with a hint of spice - perfect for enjoying in the sunroom with some tea.^^Hope your farm is doing well!^^   -Caroline",
+    "CarolineDeepSeaHalibutRoll_title": "Caroline's Deep Sea Halibut Roll Recipe",
     //Quest Mail
     "GusQ1L_mail": "@,^^Got a hankerin' to try something new with Mossy Cod. Could you rustle up 3 of 'em? I'll trade you my secret stew recipe!^^   -Gus",
     "GusQ1L_title": "A Mossy Situation",
@@ -311,9 +317,11 @@
     "WillyQ2L_mail": "Landlubber @,^Aquarium's wantin' 3 Black Clownfish - trickier than herdin' cats, they are! Gold doubloons await if you manage it.^      -Willy",
     "WillyQ2L_title": "The Hunt for Clownfish",
     "GusQ2L_mail": "Psst @,^^New 'Seaweed Surprise' casserole needs 10 seaweed strands. Don't worry - tastes better than it sounds!^^   -Gus",
-    "GusQ2L_title": "A Seaweed Surprise",
+    "GusQ2L_title": "Seaweed Surprise",
     "WillyQ3L_mail": "Ahoy there, @!^^I've been meanin' to tell ye about that old fishin' cabin on the East Beach. Been standin' there since me pappy's days, but the years and salt air have taken their toll.^^With a bit o' elbow grease and some good materials, we could fix 'er up proper! Just think of the fishin' spot it'd make - right where some rare catches swim!^^To start off, I'll be needin' 200 stone to patch up the foundation. After that, we'll need a fair amount of wood, hardwood, iron bars, and some copper bars too.^^Got somethin' special waitin' for ye and some gold if yer up for it.^^   -Willy",
     "WillyQ3L_title": "Fixing the Fishing Cabin",
+    "CarolineQ1L_mail": "Hello @,^^I've been reading about culinary trends from the Fern Islands, and apparently Deep Sea Halibut is all the rage! I'd love to try making a special dish with it.^^If you happen to catch one while fishing, would you bring it to me? I have a unique recipe I'd like to share with you in return!^^   -Caroline",
+    "CarolineQ1L_title": "Oceanic Cuisine",
     //Quests
     "GusQ1_title": "Gus Needs Mossy Cod",
     "GusQ1_details": "Gus wants you to bring him 3 Mossy Cod to make a special dish.",
@@ -350,5 +358,9 @@
     "WillyQ7_title": "Fixing the Fishing Cabin Part 5",
     "WillyQ7_details": "Willy wants you to help him restore the old fishing cabin, and he said he'll need some stone, wood, hardwood, iron bars, and copper bars...",
     "WillyQ7_hint": "Bring Willy 150 Hardwood.",
-    "WillyQ7_reaction": "By the beard of the sea king! The finest hardwood I ever laid eyes on!#$b#With this, we've got everythin' we need - stone for standin' firm, wood for shelter, metals for strength, and this prime hardwood for lastin' power!#$b#I'll be workin' me fingers to the bone gettin' this cabin ship-shape. Give me a day or two of hammerin' and sawin'.#$b#When it's done, you'll have the finest fishin' spot this side o' the Gem Sea! That East Beach has fish so rare, even me old pappy never caught their like.#$b#Yer a true friend of the tides, @. The sea won't forget your kindness!"
+    "WillyQ7_reaction": "By the beard of the sea king! The finest hardwood I ever laid eyes on!#$b#With this, we've got everythin' we need - stone for standin' firm, wood for shelter, metals for strength, and this prime hardwood for lastin' power!#$b#I'll be workin' me fingers to the bone gettin' this cabin ship-shape. Give me a day or two of hammerin' and sawin'.#$b#When it's done, you'll have the finest fishin' spot this side o' the Gem Sea! That East Beach has fish so rare, even me old pappy never caught their like.#$b#Yer a true friend of the tides, @. The sea won't forget your kindness!",
+    "CarolineQ1_title": "Caroline's Culinary Request",
+    "CarolineQ1_details": "Caroline is interested in trying a new recipe with Deep Sea Halibut. Catch one and bring it to her.",
+    "CarolineQ1_hint": "Deep Sea Halibut can be caught in the ocean during certain seasons.",
+    "CarolineQ1_reaction": "Oh! Is this really a Deep Sea Halibut? It's perfect!#$b#Pierre won't try new foods very often, but I bet he'll love this. I'll make my special halibut roll tonight!#$b#Thank you so much, @.#$h"
 }
