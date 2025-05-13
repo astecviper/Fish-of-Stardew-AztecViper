@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
-                "{{ModId}}_SmokedSturgeonRoll": "{{ModId}}_WhiteSturgeon 1 152 1 188 2/10 10/{{ModId}}_SmokedSturgeonRoll 1/default",
+                "{{ModId}}_SmokedSturgeonRoll": "{{ModId}}_WhiteSturgeon 1 152 1 188 2/10 10/{{ModId}}_SmokedSturgeonRoll 1/none",
                 "{{ModId}}_DeepSeaHalibutRoll": "{{ModId}}_DeepSeaHalibut 1 152 1 20 1/10 10/{{ModId}}_DeepSeaHalibutRoll 1/default",
                 "{{ModId}}_CookieOctopusRoll": "{{ModId}}_CookieOctopus 1 152 1 260 1/10 10/{{ModId}}_CookieOctopusRoll 1/default",
                 "{{ModId}}_SmokedSalmonRoll": "{{ModId}}_SockeyeSalmon 1 152 1 424 1/10 10/{{ModId}}_SmokedSalmonRoll 1/none",
@@ -23,7 +23,7 @@
                 "{{ModId}}_BakedBluegill": "{{ModId}}_Bluegill 1 246 1/10 10/{{ModId}}_BakedBluegill 1/default",
                 "{{ModId}}_Onigiri": "423 1 152 1/10 10/{{ModId}}_Onigiri 1/none",
                 "{{ModId}}_FriedFishFilet": "132 1 246 1 247 1/10 10/{{ModId}}_FriedFishFilet 1/none",
-                "{{ModId}}_BakedStripedChar": "{{ModId}}_StripedChar 1 Carrot 2/10 10/{{ModId}}_BakedStripedChar 1/default",
+                "{{ModId}}_BakedStripedChar": "{{ModId}}_StripedChar 1 Carrot 2/10 10/{{ModId}}_BakedStripedChar 1/none",
                 "{{ModId}}_SockeyeSalmonSashimi": "{{ModId}}_SockeyeSalmon 1 152 1/10 10/{{ModId}}_SockeyeSalmonSashimi 1/default",
                 "{{ModId}}_BakedSunscaledTrout": "{{ModId}}_SunscaledTrout 1 152 1/10 10/{{ModId}}_BakedSunscaledTrout 1/default",
                 "{{ModId}}_BakedVermilionCarp": "{{ModId}}_VermilionCarp 1 152 1/10 10/{{ModId}}_BakedVermilionCarp 1/default",
