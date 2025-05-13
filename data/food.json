@@ -6,8 +6,8 @@
             "Target": "Data/CookingRecipes",
             "Entries": {
                 "{{ModId}}_SmokedSturgeonRoll": "{{ModId}}_WhiteSturgeon 1 152 1 188 2/10 10/{{ModId}}_SmokedSturgeonRoll 1/none",
-                "{{ModId}}_DeepSeaHalibutRoll": "{{ModId}}_DeepSeaHalibut 1 152 1 20 1/10 10/{{ModId}}_DeepSeaHalibutRoll 1/default",
-                "{{ModId}}_CookieOctopusRoll": "{{ModId}}_CookieOctopus 1 152 1 260 1/10 10/{{ModId}}_CookieOctopusRoll 1/default",
+                "{{ModId}}_DeepSeaHalibutRoll": "{{ModId}}_DeepSeaHalibut 1 152 1 20 1/10 10/{{ModId}}_DeepSeaHalibutRoll 1/none",
+                "{{ModId}}_CookieOctopusRoll": "{{ModId}}_CookieOctopus 1 152 1 260 1/10 10/{{ModId}}_CookieOctopusRoll 1/none",
                 "{{ModId}}_SmokedSalmonRoll": "{{ModId}}_SockeyeSalmon 1 152 1 424 1/10 10/{{ModId}}_SmokedSalmonRoll 1/none",
                 "{{ModId}}_MossyCodStew": "{{ModId}}_MossyCod 1 430 1 426 1 404 2/10 10/{{ModId}}_MossyCodStew  1/none",
                 "{{ModId}}_BlackClownfishRoll": "{{ModId}}_BlackClownfish 1 152 1 834 1/10 10/{{ModId}}_BlackClownfishRoll 1/default",
