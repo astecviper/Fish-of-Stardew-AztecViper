@@ -14,12 +14,16 @@
                 "{{ModId}}_GusMossyCodStew": "{{i18n:GusMossyCodStew_mail}} %item cookingRecipe {{ModId}}_MossyCodStew %%[#]{{i18n:GusMossyCodStew_title}}",
                 "{{ModId}}_WillySailfin": "{{i18n:WillySailfin_mail}} [#]{{i18n:WillySailfin_title}}",
                 "{{ModId}}_WillyCabinRepaired": "{{i18n:WillyCabinRepaired_mail}} %%[#]{{i18n:WillyCabinRepaired_title}}",
+                "{{ModId}}_GusSmokedSturgeonRoll": "{{i18n:GusSmokedSturgeonRoll_mail}} %item cookingRecipe {{ModId}}_SmokedSturgeonRoll %%[#]{{i18n:GusSmokedSturgeonRoll_title}}",
+                "{{ModId}}_EvelynBakedStripedChar": "{{i18n:EvelynBakedStripedChar_mail}} %item cookingRecipe {{ModId}}_BakedStripedChar %%[#]{{i18n:EvelynBakedStripedChar_title}}",
+                "{{ModId}}_CarolineDeepSeaHalibutRoll": "{{i18n:CarolineDeepSeaHalibutRoll_mail}} %item cookingRecipe {{ModId}}_DeepSeaHalibutRoll %%[#]{{i18n:CarolineQ1L_title}}",
                 // Quest Mail
                 "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%[#]{{i18n:GusQ1L_title}}",
                 "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%[#]{{i18n:WillyQ1L_title}}",
                 "{{ModId}}_WillyQ2L": "{{i18n:WillyQ2L_mail}} %item quest {{ModId}}_WillyQ2 true %%[#]{{i18n:WillyQ2L_title}}",
                 "{{ModId}}_GusQ2L": "{{i18n:GusQ2L_mail}} %item quest {{ModId}}_GusQ2 true %%[#]{{i18n:GusQ2L_title}}",
-                "{{ModId}}_WillyQ3L": "{{i18n:WillyQ3L_mail}} %item quest {{ModId}}_WillyQ3 true %item id (O)908 25 %%[#]{{i18n:WillyQ3L_title}}"
+                "{{ModId}}_WillyQ3L": "{{i18n:WillyQ3L_mail}} %item quest {{ModId}}_WillyQ3 true %item id (O)908 25 %%[#]{{i18n:WillyQ3L_title}}",
+                "{{ModId}}_CarolineQ1L": "{{i18n:CarolineQ1L_mail}} %item quest {{ModId}}_CarolineQ1 true %%[#]{{i18n:CarolineQ1L_title}}"
             }
         },
         { //Letter Requirements
@@ -30,7 +34,7 @@
                 "{{ModId}}_SmokedSalmonRecipeMail": {
                     "Id": "{{ModId}}_SmokedSalmonRollRecipeMail",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON_DAY fall 2, YEAR 1 1",
+                    "Condition": "SEASON_DAY fall 2, YEAR 1",
                     "Actions": [
                         "AddMail Current {{ModId}}_WillySmokedSalmonRoll now"
                     ]
@@ -70,15 +74,15 @@
                 "{{ModId}}_GusQuestMailTrigger1": {
                     "Id": "{{ModId}}_GusQuestMailTrigger1",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON_DAY summer 3, YEAR 1 1",
+                    "Condition": "SEASON_DAY summer 3, YEAR 1",
                     "Actions": [
-                        "AddMail Current {{ModId}}_GusQ1L tomorrow"
+                        "AddMail Current {{ModId}}_GusQ1L now"
                     ]
                 },
                 "{{ModId}}_WillyQuestMailTrigger1": {
                     "Id": "{{ModId}}_WillyQuestMailTrigger1",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON_DAY summer 1, YEAR 1 1",
+                    "Condition": "SEASON_DAY summer 1, YEAR 1",
                     "Actions": [
                         "AddMail Current {{ModId}}_WillyQ1L now"
                     ]
@@ -86,7 +90,7 @@
                 "{{ModId}}_WillyQuestMailTrigger2": {
                     "Id": "{{ModId}}_WillyQuestMailTrigger2",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON_DAY spring 8, YEAR 1 1",
+                    "Condition": "SEASON_DAY spring 8, YEAR 1",
                     "Actions": [
                         "AddMail Current {{ModId}}_WillyQ2L now"
                     ]
@@ -94,7 +98,7 @@
                 "{{ModId}}_GusQuestMailTrigger2": {
                     "Id": "{{ModId}}_GusQuestMailTrigger2",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON_DAY summer 8, YEAR 2 2",
+                    "Condition": "SEASON_DAY summer 8, YEAR 2",
                     "Actions": [
                         "AddMail Current {{ModId}}_GusQ2L now"
                     ]
@@ -124,6 +128,30 @@
                         "AddMail Host {{ModId}}_WillyCabinRepaired Tomorrow"
                     ],
                     "HostOnly": true
+                },
+                "{{ModId}}_GusSmokedSturgeonRoll": {
+                    "Id": "{{ModId}}_GusSmokedSturgeonRoll",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY fall 15, YEAR 1",
+                    "Actions": [
+                        "AddMail Host {{ModId}}_GusSmokedSturgeonRoll Now"
+                    ]
+                },
+                "{{ModId}}_EvelynBakedStripedChar": {
+                    "Id": "{{ModId}}_EvelynBakedStripedChar",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Evelyn 2, SEASON fall winter",
+                    "Actions": [
+                        "AddMail Host {{ModId}}_EvelynBakedStripedChar Now"
+                    ]
+                },
+                "{{ModId}}_CarolineQ1Trigger": {
+                    "Id": "{{ModId}}_CarolineQ1Trigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 2, SEASON spring summer, PLAYER_HEARTS Current Caroline 3",
+                    "Actions": [
+                        "AddMail Host {{ModId}}_CarolineQ1L now"
+                    ]
                 }
             }
         },
@@ -140,7 +168,8 @@
                 "{{ModId}}_WillyQ4": "ItemDelivery/{{i18n:WillyQ4_title}}/{{i18n:WillyQ4_details}}/{{i18n:WillyQ4_hint}}/Willy 388 400/{{ModId}}_WillyQ5/100/Gold/true/{{i18n:WillyQ4_reaction}}",
                 "{{ModId}}_WillyQ5": "ItemDelivery/{{i18n:WillyQ5_title}}/{{i18n:WillyQ5_details}}/{{i18n:WillyQ5_hint}}/Willy 335 25/{{ModId}}_WillyQ6/100/Gold/true/{{i18n:WillyQ5_reaction}}",
                 "{{ModId}}_WillyQ6": "ItemDelivery/{{i18n:WillyQ6_title}}/{{i18n:WillyQ6_details}}/{{i18n:WillyQ6_hint}}/Willy 334 10/{{ModId}}_WillyQ7/100/Gold/true/{{i18n:WillyQ6_reaction}}",
-                "{{ModId}}_WillyQ7": "ItemDelivery/{{i18n:WillyQ7_title}}/{{i18n:WillyQ7_details}}/{{i18n:WillyQ7_hint}}/Willy 709 150/-1/100/Gold/true/$action AddMail Host {{ModId}}_CabinRepair Received Now #{{i18n:WillyQ7_reaction}}"
+                "{{ModId}}_WillyQ7": "ItemDelivery/{{i18n:WillyQ7_title}}/{{i18n:WillyQ7_details}}/{{i18n:WillyQ7_hint}}/Willy 709 150/-1/100/Gold/true/$action AddMail Host {{ModId}}_CabinRepair Now #{{i18n:WillyQ7_reaction}}",
+                "{{ModId}}_CarolineQ1": "ItemDelivery/{{i18n:CarolineQ1_title}}/{{i18n:CarolineQ1_details}}/{{i18n:CarolineQ1_hint}}/Caroline {{ModId}}_DeepSeaHalibut 1/-1/300/Gold/true/$action AddMail Current {{ModId}}_CarolineDeepSeaHalibutRoll #{{i18n:CarolineQ1_reaction}}"
             }
         }
     ]
