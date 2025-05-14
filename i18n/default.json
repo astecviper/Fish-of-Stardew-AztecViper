@@ -132,6 +132,8 @@
     "MorayEelEgg_description": "An egg from a moray eel. I guess eels really do lay eggs.",
     "Sunscale_name": "Sunscale",
     "Sunscale_description": "A scale that shines like the sun. Dropped by the sunscaled trout.",
+    "LongfinEelEgg_name": "Longfin Eel Egg",
+    "LongfinEelEgg_description": "An egg from a longfin eel. Do eels really lay eggs?",
     //Artisan Goods
     "AgedSpottedRayVenom_name": "Aged Spotted Ray Venom",
     "AgedSpottedRayVenom_description": "Aged venom extracted from a spotted ray.",
@@ -153,8 +155,6 @@
     "RayVenomRecipe_description": "A recipe that allows you to put ray venom in casks to increase its potency.",
     "EelMayoRecipe_name": "Eel Mayo",
     "EelMayoRecipe_description": "A recipe that allows you to make mayo with eel eggs.",
-    "LongfinEelEgg_name": "Longfin Eel Egg",
-    "LongfinEelEgg_description": "An egg from a longfin eel. Do eels really lay eggs?",
     "LongfinEelMayo_name": "Longfin Eel Mayo",
     "LongfinEelMayo_description": "A mayo made from longfin eel eggs.",
     //Recipe Scrolls
