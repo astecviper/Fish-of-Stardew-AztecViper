@@ -98,6 +98,14 @@
             "FromFile": "assets/maps/FOS_HouseInterior.tmx"
         },
         {
+            "LogName": "Adding Strings...",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "{{ModId}}_LockedDoor": "{{i18n:LockedDoor_text}}"
+            }
+        },
+        {
             "LogName": "Adding CJB Cheats Menu Warps",
             "Action": "EditData",
             "Target": "Mods/CJBok.CheatsMenu/Warps",
