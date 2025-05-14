@@ -8,7 +8,7 @@
     "config.GemSprites.description": "Choose the gem sprites used by the game for the aquatic gems and jewelry. This change will only partially take affect unless you do it before loading your farm.",
     "config.GemSprites.values.gems": "Gems",
     "config.GemSprites.values.pearls": "Pearls",
-    // CJB Warps
+    //CJB Warps
     "EastBeachWarp_name": "East Beach",
     //Jewelry
     "PrismarineRing_name": "Prismarine Ring",
