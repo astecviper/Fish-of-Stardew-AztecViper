@@ -1,13 +1,17 @@
 {
     "Format": "2.5.3",
     "ConfigSchema": {
+        // Shops Section
         "VendingMachineCurrency": {
             "AllowValues": "gold, trade",
-            "Default": "gold"
+            "Default": "gold",
+            "Section": "shops"
         },
+        // Sprites Section
         "GemSprites": {
             "AllowValues": "gems, pearls",
-            "Default": "gems"
+            "Default": "gems",
+            "Section": "sprites"
         }
     },
     "DynamicTokens": [
