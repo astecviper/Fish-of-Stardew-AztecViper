@@ -7,25 +7,53 @@
             "Entries": {
                 //Mail
                 "{{ModId}}_WillySmokedSalmonRoll": "{{i18n:WillySmokedSalmonRoll_mail}} %item cookingRecipe {{ModId}}_SmokedSalmonRoll %%[#]{{i18n:WillySmokedSalmonRoll_title}}",
-                "{{ModId}}_GusTwilightStew": "{{i18n:GusTwilightStew_mail}}  %item cookingRecipe {{ModId}}_TwilightStew %%[#]{{i18n:GusTwilightStew_title}}",
-                "{{ModId}}_GusVermilionSoup": "{{i18n:GusVermilionSoup_mail}}  %item cookingRecipe {{ModId}}_VermilionSoup %%[#]{{i18n:GusVermilionSoup_title}}",
+                "{{ModId}}_GusTwilightStew": "{{i18n:GusTwilightStew_mail}} %item cookingRecipe {{ModId}}_TwilightStew %%[#]{{i18n:GusTwilightStew_title}}",
+                "{{ModId}}_GusVermilionSoup": "{{i18n:GusVermilionSoup_mail}} %item cookingRecipe {{ModId}}_VermilionSoup %%[#]{{i18n:GusVermilionSoup_title}}",
                 "{{ModId}}_GusOnigiri": "{{i18n:GusOnigiri_mail}} %item cookingRecipe {{ModId}}_Onigiri %%[#]{{i18n:GusOnigiri_title}}",
                 "{{ModId}}_GusFriedFishFilet": "{{i18n:GusFriedFishFilet_mail}} %item cookingRecipe {{ModId}}_FriedFishFilet %%[#]{{i18n:GusFriedFishFilet_title}}",
                 "{{ModId}}_GusMossyCodStew": "{{i18n:GusMossyCodStew_mail}} %item cookingRecipe {{ModId}}_MossyCodStew %%[#]{{i18n:GusMossyCodStew_title}}",
                 "{{ModId}}_WillySailfin": "{{i18n:WillySailfin_mail}} [#]{{i18n:WillySailfin_title}}",
-                "{{ModId}}_WillyCabinRepaired": "{{i18n:WillyCabinRepaired_mail}} %%[#]{{i18n:WillyCabinRepaired_title}}",
+                "{{ModId}}_WillyCabinRepaired": "{{i18n:WillyCabinRepaired_mail}} %item id (O)908 25 %%[#]{{i18n:WillyCabinRepaired_title}}",
                 "{{ModId}}_GusSmokedSturgeonRoll": "{{i18n:GusSmokedSturgeonRoll_mail}} %item cookingRecipe {{ModId}}_SmokedSturgeonRoll %%[#]{{i18n:GusSmokedSturgeonRoll_title}}",
                 "{{ModId}}_EvelynBakedStripedChar": "{{i18n:EvelynBakedStripedChar_mail}} %item cookingRecipe {{ModId}}_BakedStripedChar %%[#]{{i18n:EvelynBakedStripedChar_title}}",
-                "{{ModId}}_CarolineDeepSeaHalibutRoll": "{{i18n:CarolineDeepSeaHalibutRoll_mail}} %item cookingRecipe {{ModId}}_DeepSeaHalibutRoll %%[#]{{i18n:CarolineQ1L_title}}",
+                "{{ModId}}_CarolineDeepSeaHalibutRoll": "{{i18n:CarolineDeepSeaHalibutRoll_mail}} %item cookingRecipe {{ModId}}_DeepSeaHalibutRoll %%[#]{{i18n:CarolineDeepSeaHalibutRoll_title}}",
                 "{{ModId}}_LeahCookieOctopusRoll": "{{i18n:LeahCookieOctopusRoll_mail}} %item cookingRecipe {{ModId}}_CookieOctopusRoll %%[#]{{i18n:LeahCookieOctopusRoll_title}}",
+                "{{ModId}}_EmilyBakedMudTrout": "{{i18n:EmilyBakedMudTrout_mail}} %item cookingRecipe {{ModId}}_BakedMudTrout %%[#]{{i18n:EmilyBakedMudTrout_title}}",
+                "{{ModId}}_EmilyBakedVermilionCarp": "{{i18n:EmilyBakedVermilionCarp_mail}} %item cookingRecipe {{ModId}}_BakedVermilionCarp %%[#]{{i18n:EmilyBakedVermilionCarp_title}}",
+                "{{ModId}}_EmilyBakedLunarSalmon": "{{i18n:EmilyBakedLunarSalmon_mail}} %item cookingRecipe {{ModId}}_BakedLunarSalmon %%[#]{{i18n:EmilyBakedLunarSalmon_title}}",
+                "{{ModId}}_EmilyBakedBluegill": "{{i18n:EmilyBakedBluegill_mail}} %item cookingRecipe {{ModId}}_BakedBluegill %%[#]{{i18n:EmilyBakedBluegill_title}}",
+                "{{ModId}}_MarnieBakedParrotfish": "{{i18n:MarnieBakedParrotfish_mail}} %item cookingRecipe {{ModId}}_BakedParrotfish %%[#]{{i18n:MarnieBakedParrotfish_title}}",
+                "{{ModId}}_MarnieTriggerfishSashimi": "{{i18n:MarnieTriggerfishSashimi_mail}} %item cookingRecipe {{ModId}}_TriggerfishSashimi %%[#]{{i18n:MarnieTriggerfishSashimi_title}}",
+                "{{ModId}}_MarnieBioluminescentSoup": "{{i18n:MarnieBioluminescentSoup_mail}} %item cookingRecipe {{ModId}}_BioluminescentSoup %%[#]{{i18n:MarnieBioluminescentSoup_title}}",
+                "{{ModId}}_MarnieSockeyeSalmonSashimi": "{{i18n:MarnieSockeyeSalmonSashimi_mail}} %item cookingRecipe {{ModId}}_SockeyeSalmonSashimi %%[#]{{i18n:MarnieSockeyeSalmonSashimi_title}}",
+                "{{ModId}}_GusBakedDeepSeaHalibut": "{{i18n:GusBakedDeepSeaHalibut_mail}} %item cookingRecipe {{ModId}}_BakedDeepSeaHalibut %%[#]{{i18n:GusBakedDeepSeaHalibut_title}}",
+                "{{ModId}}_GusBakedBrownShad": "{{i18n:GusBakedBrownShad_mail}} %item cookingRecipe {{ModId}}_BakedBrownShad %%[#]{{i18n:GusBakedBrownShad_title}}",
+                "{{ModId}}_GusBlackClownfishRoll": "{{i18n:GusBlackClownfishRoll_mail}} %item cookingRecipe {{ModId}}_BlackClownfishRoll %%[#]{{i18n:GusBlackClownfishRoll_title}}",
+                "{{ModId}}_GusMorayEelRoll": "{{i18n:GusMorayEelRoll_mail}} %item cookingRecipe {{ModId}}_MorayEelRoll %%[#]{{i18n:GusMorayEelRoll_title}}",
+                "{{ModId}}_GusBakedGhostPike": "{{i18n:GusBakedGhostPike_mail}} %item cookingRecipe {{ModId}}_BakedGhostPike %%[#]{{i18n:GusBakedGhostPike_title}}",
+                "{{ModId}}_WillyBakedSockeyeSalmon": "{{i18n:WillyBakedSockeyeSalmon_mail}} %item cookingRecipe {{ModId}}_BakedSockeyeSalmon %%[#]{{i18n:WillyBakedSockeyeSalmon_title}}",
+                "{{ModId}}_RobinBakedPumpkinPerch": "{{i18n:RobinBakedPumpkinPerch_mail}} %item cookingRecipe {{ModId}}_BakedPumpkinPerch %%[#]{{i18n:RobinBakedPumpkinPerch_title}}",
+                "{{ModId}}_ElliottSeaweedSoup": "{{i18n:ElliottSeaweedSoup_mail}} %item cookingRecipe {{ModId}}_SeaweedSoup %%[#]{{i18n:ElliottSeaweedSoup_title}}",
+                "{{ModId}}_LinusBakedSunscaledTrout": "{{i18n:LinusBakedSunscaledTrout_mail}} %item cookingRecipe {{ModId}}_BakedSunscaledTrout %%[#]{{i18n:LinusBakedSunscaledTrout_title}}",
                 // Quest Mail
                 "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%[#]{{i18n:GusQ1L_title}}",
                 "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%[#]{{i18n:WillyQ1L_title}}",
                 "{{ModId}}_WillyQ2L": "{{i18n:WillyQ2L_mail}} %item quest {{ModId}}_WillyQ2 true %%[#]{{i18n:WillyQ2L_title}}",
                 "{{ModId}}_GusQ2L": "{{i18n:GusQ2L_mail}} %item quest {{ModId}}_GusQ2 true %%[#]{{i18n:GusQ2L_title}}",
-                "{{ModId}}_WillyQ3L": "{{i18n:WillyQ3L_mail}} %item quest {{ModId}}_WillyQ3 true %item id (O)908 25 %%[#]{{i18n:WillyQ3L_title}}",
+                "{{ModId}}_WillyQ3L": "{{i18n:WillyQ3L_mail}} %item quest {{ModId}}_WillyQ3 true %%[#]{{i18n:WillyQ3L_title}}",
                 "{{ModId}}_CarolineQ1L": "{{i18n:CarolineQ1L_mail}} %item quest {{ModId}}_CarolineQ1 true %%[#]{{i18n:CarolineQ1L_title}}",
-                "{{ModId}}_LeahQ1L": "{{i18n:LeahQ1L_mail}} %item quest {{ModId}}_LeahQ1 true %%[#]{{i18n:LeahQ1L_title}}"
+                "{{ModId}}_LeahQ1L": "{{i18n:LeahQ1L_mail}} %item quest {{ModId}}_LeahQ1 true %%[#]{{i18n:LeahQ1L_title}}",
+                "{{ModId}}_EmilyQ1L": "{{i18n:EmilyQ1L_mail}} %item quest {{ModId}}_EmilyQ1 true %%[#]{{i18n:EmilyQ1L_title}}",
+                "{{ModId}}_EmilyQ2L": "{{i18n:EmilyQ2L_mail}} %item quest {{ModId}}_EmilyQ2 true %%[#]{{i18n:EmilyQ2L_title}}",
+                "{{ModId}}_MarnieQ1L": "{{i18n:MarnieQ1L_mail}} %item quest {{ModId}}_MarnieQ1 true %%[#]{{i18n:MarnieQ1L_title}}",
+                "{{ModId}}_MarnieQ2L": "{{i18n:MarnieQ2L_mail}} %item quest {{ModId}}_MarnieQ2 true %%[#]{{i18n:MarnieQ2L_title}}",
+                "{{ModId}}_GusQ3L": "{{i18n:GusQ3L_mail}} %item quest {{ModId}}_GusQ3 true %%[#]{{i18n:GusQ3L_title}}",
+                "{{ModId}}_GusQ4L": "{{i18n:GusQ4L_mail}} %item quest {{ModId}}_GusQ4 true %%[#]{{i18n:GusQ4L_title}}",
+                "{{ModId}}_GusQ5L": "{{i18n:GusQ5L_mail}} %item quest {{ModId}}_GusQ5 true %%[#]{{i18n:GusQ5L_title}}",
+                "{{ModId}}_WillyQ8L": "{{i18n:WillyQ8L_mail}} %item quest {{ModId}}_WillyQ8 true %%[#]{{i18n:WillyQ8L_title}}",
+                "{{ModId}}_RobinQ1L": "{{i18n:RobinQ1L_mail}} %item quest {{ModId}}_RobinQ1 true %%[#]{{i18n:RobinQ1L_title}}",
+                "{{ModId}}_ElliottQ1L": "{{i18n:ElliottQ1L_mail}} %item quest {{ModId}}_ElliottQ1 true %%[#]{{i18n:ElliottQ1L_title}}",
+                "{{ModId}}_LinusQ1L": "{{i18n:LinusQ1L_mail}} %item quest {{ModId}}_LinusQ1 true %%[#]{{i18n:LinusQ1L_title}}"
             }
         },
         { //Letter Requirements
@@ -73,32 +101,32 @@
                         "AddMail Current {{ModId}}_GusFriedFishFilet now"
                     ]
                 },
-                "{{ModId}}_GusQuestMailTrigger1": {
-                    "Id": "{{ModId}}_GusQuestMailTrigger1",
+                "{{ModId}}_GusQ1LTrigger": {
+                    "Id": "{{ModId}}_GusQ1LTrigger",
                     "Trigger": "DayStarted",
                     "Condition": "SEASON_DAY summer 3, YEAR 1",
                     "Actions": [
                         "AddMail Current {{ModId}}_GusQ1L now"
                     ]
                 },
-                "{{ModId}}_WillyQuestMailTrigger1": {
-                    "Id": "{{ModId}}_WillyQuestMailTrigger1",
+                "{{ModId}}_WillyQ1LTrigger": {
+                    "Id": "{{ModId}}_WillyQ1LTrigger",
                     "Trigger": "DayStarted",
                     "Condition": "SEASON_DAY summer 1, YEAR 1",
                     "Actions": [
                         "AddMail Current {{ModId}}_WillyQ1L now"
                     ]
                 },
-                "{{ModId}}_WillyQuestMailTrigger2": {
-                    "Id": "{{ModId}}_WillyQuestMailTrigger2",
+                "{{ModId}}_WillyQ2LTrigger": {
+                    "Id": "{{ModId}}_WillyQ2LTrigger",
                     "Trigger": "DayStarted",
                     "Condition": "SEASON_DAY spring 8, YEAR 1",
                     "Actions": [
                         "AddMail Current {{ModId}}_WillyQ2L now"
                     ]
                 },
-                "{{ModId}}_GusQuestMailTrigger2": {
-                    "Id": "{{ModId}}_GusQuestMailTrigger2",
+                "{{ModId}}_GusQ2LTrigger": {
+                    "Id": "{{ModId}}_GusQ2LTrigger",
                     "Trigger": "DayStarted",
                     "Condition": "SEASON_DAY summer 8, YEAR 2",
                     "Actions": [
@@ -113,8 +141,8 @@
                         "AddMail Current {{ModId}}_WillySailfin now"
                     ]
                 },
-                "{{ModId}}_WillyQ3Trigger": {
-                    "Id": "{{ModId}}_WillyQ3Trigger",
+                "{{ModId}}_WillyQ3LTrigger": {
+                    "Id": "{{ModId}}_WillyQ3LTrigger",
                     "Trigger": "DayStarted",
                     "Condition": "YEAR 2, PLAYER_HAS_MAIL Host {{ModId}}_SailfinCaught Received",
                     "Actions": [
@@ -136,7 +164,7 @@
                     "Trigger": "DayStarted",
                     "Condition": "SEASON_DAY fall 15, YEAR 1",
                     "Actions": [
-                        "AddMail Host {{ModId}}_GusSmokedSturgeonRoll Now"
+                        "AddMail Current {{ModId}}_GusSmokedSturgeonRoll Now"
                     ]
                 },
                 "{{ModId}}_EvelynBakedStripedChar": {
@@ -144,23 +172,159 @@
                     "Trigger": "DayStarted",
                     "Condition": "PLAYER_HEARTS Current Evelyn 2, SEASON fall winter",
                     "Actions": [
-                        "AddMail Host {{ModId}}_EvelynBakedStripedChar Now"
+                        "AddMail Current {{ModId}}_EvelynBakedStripedChar Now"
                     ]
                 },
-                "{{ModId}}_CarolineQ1Trigger": {
-                    "Id": "{{ModId}}_CarolineQ1Trigger",
+                "{{ModId}}_CarolineQ1LTrigger": {
+                    "Id": "{{ModId}}_CarolineQ1LTrigger",
                     "Trigger": "DayStarted",
                     "Condition": "YEAR 2, SEASON spring summer, PLAYER_HEARTS Current Caroline 3",
                     "Actions": [
-                        "AddMail Host {{ModId}}_CarolineQ1L now"
+                        "AddMail Current {{ModId}}_CarolineQ1L Now"
                     ]
                 },
-                "{{ModId}}_LeahQ1Trigger": {
-                    "Id": "{{ModId}}_LeahQ1Trigger",
+                "{{ModId}}_LeahQ1LTrigger": {
+                    "Id": "{{ModId}}_LeahQ1LTrigger",
                     "Trigger": "DayStarted",
                     "Condition": "YEAR 2, SEASON summer fall, PLAYER_HEARTS Current Leah 3",
                     "Actions": [
-                        "AddMail Host {{ModId}}_LeahQ1L now"
+                        "AddMail Current {{ModId}}_LeahQ1L Now"
+                    ]
+                },
+                "{{ModId}}_EmilyQ1LTrigger": {
+                    "Id": "{{ModId}}_EmilyQ1LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON spring summer, PLAYER_HEARTS Current Emily 3",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_EmilyQ1L Now"
+                    ]
+                },
+                "{{ModId}}_EmilyQ2LTrigger": {
+                    "Id": "{{ModId}}_EmilyQ2LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON summer fall, PLAYER_HEARTS Current Emily 4",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_EmilyQ2L Now"
+                    ]
+                },
+                "{{ModId}}_EmilyBakedLunarSalmonTrigger": {
+                    "Id": "{{ModId}}_EmilyBakedLunarSalmonTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON spring, YEAR 2, PLAYER_HEARTS Current Emily 7",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_EmilyBakedLunarSalmon Now"
+                    ]
+                },
+                "{{ModId}}_EmilyBakedBluegillTrigger": {
+                    "Id": "{{ModId}}_EmilyBakedBluegillTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON spring summer, PLAYER_HEARTS Current Emily 1, WEATHER Here sun, DAY_OF_WEEK Saturday",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_EmilyBakedBluegill Now"
+                    ]
+                },
+                "{{ModId}}_MarnieQ1LTrigger": {
+                    "Id": "{{ModId}}_MarnieQ1LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 1, PLAYER_VISITED_LOCATION Current IslandSouth, PLAYER_HEARTS Current Marnie 3",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_MarnieQ1L Now"
+                    ]
+                },
+                "{{ModId}}_MarnieQ2LTrigger": {
+                    "Id": "{{ModId}}_MarnieQ2LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON spring summer fall, PLAYER_HEARTS Current Marnie 2",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_MarnieQ2L Now"
+                    ]
+                },
+                "{{ModId}}_MarnieBioluminescentSoupTrigger": {
+                    "Id": "{{ModId}}_MarnieBioluminescentSoupTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Marnie 5",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_MarnieBioluminescentSoup now"
+                    ]
+                },
+                "{{ModId}}_MarnieSockeyeSalmonSashimiTrigger": {
+                    "Id": "{{ModId}}_MarnieSockeyeSalmonSashimiTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Marnie 4, YEAR 2",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_MarnieSockeyeSalmonSashimi now"
+                    ]
+                },
+                "{{ModId}}_GusQ3LTrigger": {
+                    "Id": "{{ModId}}_GusQ3LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON summer, WEATHER Current sun, PLAYER_HEARTS Current Gus 3",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusQ3L now"
+                    ]
+                },
+                "{{ModId}}_GusQ4LTrigger": {
+                    "Id": "{{ModId}}_GusQ4LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON summer fall, WEATHER Current sun, PLAYER_HEARTS Current Gus 5",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusQ4L now"
+                    ]
+                },
+                "{{ModId}}_GusQ5LTrigger": {
+                    "Id": "{{ModId}}_GusQ5LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON spring summer, WEATHER Current sun, PLAYER_HEARTS Current Gus 4",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusQ5L now"
+                    ]
+                },
+                "{{ModId}}_GusBakedDeepSeaHalibutTrigger": {
+                    "Id": "{{ModId}}_GusBakedDeepSeaHalibutTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Gus 6",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusBakedDeepSeaHalibut now"
+                    ]
+                },
+                "{{ModId}}_GusBakedBrownShadTrigger": {
+                    "Id": "{{ModId}}_GusBakedBrownShadTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON summer fall, WEATHER Current rain, PLAYER_HEARTS Current Gus 4",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusBakedBrownShad now"
+                    ]
+                },
+                "{{ModId}}_WillyQ8LTrigger": {
+                    "Id": "{{ModId}}_WillyQ8LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON fall winter, WEATHER Current rain, PLAYER_HEARTS Current Willy 4",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyQ8L now"
+                    ]
+                },
+                "{{ModId}}_ElliottQ1LTrigger": {
+                    "Id": "{{ModId}}_ElliottQ1LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON summer fall, PLAYER_HEARTS Current Elliott 3",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_ElliottQ1L Now"
+                    ]
+                },
+                "{{ModId}}_LinusQ1LTrigger": {
+                    "Id": "{{ModId}}_LinusQ1LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON spring summer, WEATHER Current sun, PLAYER_HEARTS Current Linus 4",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_LinusQ1L Now"
+                    ]
+                },
+                "{{ModId}}_RobinQ1LTrigger": {
+                    "Id": "{{ModId}}_RobinQ1LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON fall, WEATHER Current sun, PLAYER_HEARTS Current Robin 5",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_RobinQ1L now"
                     ]
                 }
             }
@@ -180,7 +344,18 @@
                 "{{ModId}}_WillyQ6": "ItemDelivery/{{i18n:WillyQ6_title}}/{{i18n:WillyQ6_details}}/{{i18n:WillyQ6_hint}}/Willy 334 10/{{ModId}}_WillyQ7/100/Gold/true/{{i18n:WillyQ6_reaction}}",
                 "{{ModId}}_WillyQ7": "ItemDelivery/{{i18n:WillyQ7_title}}/{{i18n:WillyQ7_details}}/{{i18n:WillyQ7_hint}}/Willy 709 150/-1/100/Gold/true/$action AddMail Host {{ModId}}_CabinRepair Now #{{i18n:WillyQ7_reaction}}",
                 "{{ModId}}_CarolineQ1": "ItemDelivery/{{i18n:CarolineQ1_title}}/{{i18n:CarolineQ1_details}}/{{i18n:CarolineQ1_hint}}/Caroline {{ModId}}_DeepSeaHalibut 1/-1/300/Gold/true/$action AddMail Current {{ModId}}_CarolineDeepSeaHalibutRoll #{{i18n:CarolineQ1_reaction}}",
-                "{{ModId}}_LeahQ1": "ItemDelivery/{{i18n:LeahQ1_title}}/{{i18n:LeahQ1_details}}/{{i18n:LeahQ1_hint}}/Leah {{ModId}}_CookieOctopus 2/-1/300/Gold/true/$action AddMail Current {{ModId}}_LeahCookieOctopusRoll #{{i18n:LeahQ1_reaction}}"
+                "{{ModId}}_LeahQ1": "ItemDelivery/{{i18n:LeahQ1_title}}/{{i18n:LeahQ1_details}}/{{i18n:LeahQ1_hint}}/Leah {{ModId}}_CookieOctopus 2/-1/600/Gold/true/$action AddMail Current {{ModId}}_LeahCookieOctopusRoll #{{i18n:LeahQ1_reaction}}",
+                "{{ModId}}_EmilyQ1": "ItemDelivery/{{i18n:EmilyQ1_title}}/{{i18n:EmilyQ1_details}}/{{i18n:EmilyQ1_hint}}/Emily {{ModId}}_MudTrout 3/-1/600/Gold/true/$action AddMail Current {{ModId}}_EmilyBakedMudTrout tomorrow #{{i18n:EmilyQ1_reaction}}",
+                "{{ModId}}_EmilyQ2": "ItemDelivery/{{i18n:EmilyQ2_title}}/{{i18n:EmilyQ2_details}}/{{i18n:EmilyQ2_hint}}/Emily {{ModId}}_VermilionCarp 2/-1/800/Gold/true/$action AddMail Current {{ModId}}_EmilyBakedVermilionCarp tomorrow #{{i18n:EmilyQ2_reaction}}",
+                "{{ModId}}_MarnieQ1": "ItemDelivery/{{i18n:MarnieQ1_title}}/{{i18n:MarnieQ1_details}}/{{i18n:MarnieQ1_hint}}/Marnie {{ModId}}_PurpleParrotfish 4/-1/800/Gold/true/$action AddMail Current {{ModId}}_MarnieBakedParrotfish tomorrow #{{i18n:MarnieQ1_reaction}}",
+                "{{ModId}}_MarnieQ2": "ItemDelivery/{{i18n:MarnieQ2_title}}/{{i18n:MarnieQ2_details}}/{{i18n:MarnieQ2_hint}}/Marnie {{ModId}}_Triggerfish 8/-1/850/Gold/true/$action AddMail Current {{ModId}}_MarnieTriggerfishSashimi tomorrow #{{i18n:MarnieQ2_reaction}}",
+                "{{ModId}}_GusQ3": "ItemDelivery/{{i18n:GusQ3_title}}/{{i18n:GusQ3_details}}/{{i18n:GusQ3_hint}}/Gus {{ModId}}_BlackClownfish 3/-1/1500/Gold/true/$action AddMail Current {{ModId}}_GusBlackClownfishRoll tomorrow #{{i18n:GusQ3_reaction}}",
+                "{{ModId}}_GusQ4": "ItemDelivery/{{i18n:GusQ4_title}}/{{i18n:GusQ4_details}}/{{i18n:GusQ4_hint}}/Gus {{ModId}}_MorayEel 2/-1/1100/Gold/true/$action AddMail Current {{ModId}}_GusMorayEelRoll tomorrow #{{i18n:GusQ4_reaction}}",
+                "{{ModId}}_GusQ5": "ItemDelivery/{{i18n:GusQ5_title}}/{{i18n:GusQ5_details}}/{{i18n:GusQ5_hint}}/Gus {{ModId}}_GhostPike 4/-1/1500/Gold/true/$action AddMail Current {{ModId}}_GusBakedGhostPike tomorrow #{{i18n:GusQ5_reaction}}",
+                "{{ModId}}_WillyQ8": "ItemDelivery/{{i18n:WillyQ8_title}}/{{i18n:WillyQ8_details}}/{{i18n:WillyQ8_hint}}/Willy {{ModId}}_SockeyeSalmon 4/-1/1300/Gold/true/$action AddMail Current {{ModId}}_WillyBakedSockeyeSalmon tomorrow #{{i18n:WillyQ8_reaction}}",
+                "{{ModId}}_RobinQ1": "ItemDelivery/{{i18n:RobinQ1_title}}/{{i18n:RobinQ1_details}}/{{i18n:RobinQ1_hint}}/Robin {{ModId}}_PumpkinPerch 4/-1/2000/Gold/true/$action AddMail Current {{ModId}}_RobinBakedPumpkinPerch tomorrow #{{i18n:RobinQ1_reaction}}",
+                "{{ModId}}_ElliottQ1": "ItemDelivery/{{i18n:ElliottQ1_title}}/{{i18n:ElliottQ1_details}}/{{i18n:ElliottQ1_hint}}/Elliott (O)152 15/-1/800/Gold/true/$action AddMail Current {{ModId}}_ElliottSeaweedSoup tomorrow #{{i18n:ElliottQ1_reaction}}",
+                "{{ModId}}_LinusQ1": "ItemDelivery/{{i18n:LinusQ1_title}}/{{i18n:LinusQ1_details}}/{{i18n:LinusQ1_hint}}/Linus {{ModId}}_SunscaledTrout 2/-1/950/Gold/true/$action AddMail Current {{ModId}}_LinusBakedSunscaledTrout tomorrow #{{i18n:LinusQ1_reaction}}"
             }
         }
     ]
