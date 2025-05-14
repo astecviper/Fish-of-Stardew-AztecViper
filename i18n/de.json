@@ -1,4 +1,9 @@
 {
+    //Config Sections
+    "config.section.shops.name": "Geschäfte",
+    "config.section.shops.description": "Finde hier alle Optionen, die sich auf Geschäfte beziehen.",
+    "config.section.sprites.name": "Sprites",
+    "config.section.sprites.description": "Finde hier alle Optionen, die sich auf Sprites beziehen.",
     //Config
     "config.VendingMachineCurrency.name": "Automaten-Währung",
     "config.VendingMachineCurrency.description": "Entscheide, ob einige Gegenstände in Willis Automaten getauscht werden sollen.",

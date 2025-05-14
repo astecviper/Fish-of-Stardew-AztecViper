@@ -1,4 +1,9 @@
 {
+    //Config Sections
+    "config.section.shops.name": "Shops",
+    "config.section.shops.description": "Find all options related to shops here.",
+    "config.section.sprites.name": "Sprites",
+    "config.section.sprites.description": "Find all options related to sprites here.",
     //Config
     "config.VendingMachineCurrency.name": "Vending Machine Exchange",
     "config.VendingMachineCurrency.description": "Decide whether if some items in Willy's vending machine should be traded for.",

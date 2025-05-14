@@ -1,4 +1,9 @@
 {
+    //Config Sections
+    "config.section.shops.name": "Magasins",
+    "config.section.shops.description": "Trouvez ici toutes les options liées aux magasins.",
+    "config.section.sprites.name": "Sprites",
+    "config.section.sprites.description": "Trouvez ici toutes les options liées aux sprites.",
     //Config
     "config.VendingMachineCurrency.name": "Échange du distributeur automatique",
     "config.VendingMachineCurrency.description": "Décidez si certains articles du distributeur automatique de Willy doivent être échangés.",

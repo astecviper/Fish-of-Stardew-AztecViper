@@ -1,4 +1,9 @@
 {
+    //Config Sections
+    "config.section.shops.name": "Магазины",
+    "config.section.shops.description": "Здесь вы найдете все параметры, связанные с магазинами.",
+    "config.section.sprites.name": "Спрайты",
+    "config.section.sprites.description": "Здесь вы найдете все параметры, связанные со спрайтами.",
     //Config
     "config.VendingMachineCurrency.name": "Обменный автомат",
     "config.VendingMachineCurrency.description": "Решите, следует ли обменивать некоторые предметы в торговом автомате Вилли.",

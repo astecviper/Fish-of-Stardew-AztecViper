@@ -1,4 +1,9 @@
 {
+    //Config Sections
+    "config.section.shops.name": "ショップ",
+    "config.section.shops.description": "ここではショップに関するすべてのオプションを見つけることができます。",
+    "config.section.sprites.name": "スプライト",
+    "config.section.sprites.description": "ここではスプライトに関するすべてのオプションを見つけることができます。",
     //Config
     "config.VendingMachineCurrency.name": "自動販売機の交換",
     "config.VendingMachineCurrency.description": "ウィリーの自動販売機の一部アイテムを交換で取引するかどうかを決めます。",
