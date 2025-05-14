@@ -1,6 +1,6 @@
 {
   "Changes": [
-    {
+    { // Adding Dehydrator recipes...
       "LogName": "Adding Dehydrator recipes...",
       "Action": "EditData",
       "Target": "Data/Machines",
@@ -9,7 +9,7 @@
         "OutputRules"
       ],
       "Entries": {
-        "{{ModId}}_SeaweedCookies": {
+        "{{ModId}}_SeaweedCookies": { // Seaweed Cookies
           "Triggers": [
             {
               "Id": "ItemPlacedInMachine",
@@ -31,7 +31,7 @@
           "DaysUntilReady": 1,
           "RecalculateOnCollect": false
         },
-        "223": {
+        "223": { // Cookie
           "Triggers": [
             {
               "Id": "ItemPlacedInMachine",
@@ -55,7 +55,7 @@
         }
       }
     },
-    {
+    { // Adding Mayo Machine recipes...
       "LogName": "Adding Mayo Machine recipes...",
       "Action": "EditData",
       "Target": "Data/Machines",
@@ -64,7 +64,7 @@
         "OutputRules"
       ],
       "Entries": {
-        "{{ModId}}_BandedEelMayo": {
+        "{{ModId}}_BandedEelMayo": { // Banded Eel Mayo
           "Triggers": [
             {
               "Id": "ItemPlacedInMachine",
@@ -86,7 +86,7 @@
           "MinutesUntilReady": 180,
           "RecalculateOnCollect": false
         },
-        "{{ModId}}_MorayEelMayo": {
+        "{{ModId}}_MorayEelMayo": { // Moray Eel Mayo
           "Triggers": [
             {
               "Id": "ItemPlacedInMachine",
@@ -108,7 +108,7 @@
           "MinutesUntilReady": 180,
           "RecalculateOnCollect": false
         },
-        "{{ModId}}_LongfinEelMayo": {
+        "{{ModId}}_LongfinEelMayo": { // Longfin Eel Mayo
           "Triggers": [
             {
               "Id": "ItemPlacedInMachine",
@@ -132,7 +132,7 @@
         }
       }
     },
-    {
+    { // Adding Cask Aging recipes...
       "LogName": "Adding Cask Aging recipes...",
       "Action": "EditData",
       "Target": "Data/Machines",
@@ -141,7 +141,7 @@
         "OutputRules"
       ],
       "Entries": {
-        "{{ModId}}_AgedSpottedRayVenom": {
+        "{{ModId}}_AgedSpottedRayVenom": { // Aged Spotted Ray Venom
           "Triggers": [
             {
               "Id": "ItemPlacedInMachine",
@@ -164,7 +164,7 @@
           "DaysUntilReady": 3,
           "RecalculateOnCollect": false
         },
-        "{{ModId}}_AgedSandRayVenom": {
+        "{{ModId}}_AgedSandRayVenom": { // Aged Sand Ray Venom
           "Triggers": [
             {
               "Id": "ItemPlacedInMachine",
@@ -188,7 +188,7 @@
           "RecalculateOnCollect": false,
           "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
         },
-        "{{ModId}}_ConcentratedSpottedRayVenom": {
+        "{{ModId}}_ConcentratedSpottedRayVenom": { // Concentrated Spotted Ray Venom
           "Triggers": [
             {
               "Id": "ItemPlacedInMachine",
@@ -212,7 +212,7 @@
           "RecalculateOnCollect": false,
           "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
         },
-        "{{ModId}}_ConcentratedSandRayVenom": {
+        "{{ModId}}_ConcentratedSandRayVenom": { // Concentrated Sand Ray Venom
           "Triggers": [
             {
               "Id": "ItemPlacedInMachine",
@@ -236,7 +236,7 @@
           "RecalculateOnCollect": false,
           "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
         },
-        "{{ModId}}_PotentSpottedRayVenom": {
+        "{{ModId}}_PotentSpottedRayVenom": { // Potent Spotted Ray Venom
           "Triggers": [
             {
               "Id": "ItemPlacedInMachine",
@@ -260,7 +260,7 @@
           "RecalculateOnCollect": false,
           "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_RayVenomRecipeUnlocked Any"
         },
-        "{{ModId}}_PotentSandRayVenom": {
+        "{{ModId}}_PotentSandRayVenom": { // Potent Sand Ray Venom
           "Triggers": [
             {
               "Id": "ItemPlacedInMachine",

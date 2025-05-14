@@ -97,6 +97,31 @@
             "Target": "Maps/FOS_HouseInterior",
             "FromFile": "assets/maps/FOS_HouseInterior.tmx"
         },
+        {
+            "LogName": "Adding Strings...",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "{{ModId}}_LockedDoor": "{{i18n:LockedDoor_text}}"
+            }
+        },
+        {
+            "LogName": "Adding CJB Cheats Menu Warps",
+            "Action": "EditData",
+            "Target": "Mods/CJBok.CheatsMenu/Warps",
+            "When": {
+                "HasMod |contains=CJBok.CheatsMenu": true
+            },
+            "Entries": {
+                "{{ModId}}_EastBeachWarp": {
+                    "Id": "{{ModId}}_EastBeachWarp",
+                    "SectionId": "Beach",
+                    "DisplayName": "{{i18n:EastBeachWarp_name}}",
+                    "Location": "FOS_Beach1",
+                    "Tile": "44, 29"
+                }
+            }
+        },
         // Add Beach Bridge
         { //Beach
             "LogName": "Adding Beach Bridge patch...",
@@ -281,7 +306,7 @@
             "PatchMode": "Replace",
             "FromFile": "assets/maps/FOS_Beach1Patch.tmx",
             "When": {
-                "HasFlag": "FOS_HouseRepair"
+                "HasFlag": "{{ModId}}_WillyCabinRepaired"
             },
             "FromArea": {
                 "X": 0,

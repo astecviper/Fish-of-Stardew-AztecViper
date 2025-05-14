@@ -13,6 +13,15 @@
                     ],
                     "Value": "{{ModId}}_RadioactiveJade",
                     "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Like"
+                    ],
+                    "Value": "{{ModId}}_GemOfTheSea {{ModId}}_GemOfTheCoral {{ModId}}_GemOfTheDepths {{ModId}}_GemOfTheTide",
+                    "Delimiter": " "
                 }
             ]
         }

@@ -8,7 +8,7 @@
             "Entries": {
                 "{{ModId}}_BeachVending": {
                     "Items": [
-                        {
+                        { // Ray Venom Recipe
                             "Id": "{{ModId}}_RayVenomRecipe",
                             "ItemId": "{{ModId}}_RayVenomRecipe",
                             "AvailableStock": 1,
@@ -19,7 +19,7 @@
                                 "AddMail ALL {{ModId}}_RayVenomRecipePurchased"
                             ]
                         },
-                        {
+                        { // Eel Mayo Recipe
                             "Id": "{{ModId}}_EelMayoRecipe",
                             "ItemId": "{{ModId}}_EelMayoRecipe",
                             "AvailableStock": 1,
@@ -30,7 +30,7 @@
                                 "AddMail ALL {{ModId}}_EelMayoRecipePurchased"
                             ]
                         },
-                        {
+                        { // Bait
                             "Id": "{{ModId}}_AllBait_Outer",
                             "ItemId": "RANDOM_ITEMS (O)",
                             "PerItemCondition": "ITEM_CONTEXT_TAG Target category_fish",
@@ -43,80 +43,84 @@
                                 "MaxItems": 10
                             }
                         },
-                        {
+                        { // Warp Totem Beach
                             "Id": "(O)690",
                             "ItemId": "(O)690",
                             "TradeItemId": "{{ModId}}_ReefSharkTooth",
                             "TradeItemAmount": 5,
                             "Condition": "PLAYER_FISHING_LEVEL Current 5"
                         },
-                        {
+                        { // Warp Totem Farm
                             "Id": "(O)688",
                             "ItemId": "(O)688",
                             "TradeItemId": "{{ModId}}_LunarScale",
                             "TradeItemAmount": 5,
                             "Condition": "PLAYER_FISHING_LEVEL Current 6"
                         },
-                        {
+                        { // Warp Totem Mountains
                             "Id": "(O)689",
                             "ItemId": "(O)689",
                             "TradeItemId": "{{ModId}}_Sunscale",
                             "TradeItemAmount": 5,
                             "Condition": "PLAYER_FISHING_LEVEL Current 7"
                         },
-                        {
+                        { // Warp Totem Desert
                             "Id": "(O)261",
                             "ItemId": "(O)261",
                             "TradeItemId": "{{ModId}}_ReefSharkTooth",
                             "TradeItemAmount": 5,
                             "Condition": "PLAYER_FISHING_LEVEL Current 8"
                         },
-                        {
+                        { // Warp Totem Town
                             "Id": "{{ModId}}_WarpTotemTown",
                             "ItemId": "{{ModId}}_WarpTotemTown",
                             "TradeItemId": "{{ModId}}_Sunscale",
-                            "TradeItemAmount": 5
+                            "TradeItemAmount": 5,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 2"
                         },
-                        {
+                        { // Warp Totem Forest
                             "Id": "{{ModId}}_WarpTotemForest",
                             "ItemId": "{{ModId}}_WarpTotemForest",
                             "TradeItemId": "{{ModId}}_ReefSharkTooth",
-                            "TradeItemAmount": 5
+                            "TradeItemAmount": 5,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 3"
                         },
-                        {
+                        { // Warp Totem Forest West
                             "Id": "{{ModId}}_WarpTotemForestWest",
                             "ItemId": "{{ModId}}_WarpTotemForestWest",
                             "TradeItemId": "{{ModId}}_Sunscale",
                             "TradeItemAmount": 5,
-                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}"
+                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}, PLAYER_FISHING_LEVEL Current 10"
                         },
-                        {
+                        { // Warp Totem Shearwater Bridge
                             "Id": "{{ModId}}_WarpTotemShearwaterBridge",
                             "ItemId": "{{ModId}}_WarpTotemShearwaterBridge",
                             "TradeItemId": "{{ModId}}_LunarScale",
                             "TradeItemAmount": 5,
-                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}"
+                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}, PLAYER_FISHING_LEVEL Current 9"
                         },
-                        {
+                        { // Warp Totem East Beach
                             "Id": "{{ModId}}_WarpTotemEastBeach",
                             "ItemId": "{{ModId}}_WarpTotemEastBeach",
                             "TradeItemId": "{{ModId}}_ReefSharkTooth",
-                            "TradeItemAmount": 5
+                            "TradeItemAmount": 5,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 4"
                         },
-                        {
+                        { // Warp Totem Secret Woods
                             "Id": "{{ModId}}_WarpTotemSecretWoods",
                             "ItemId": "{{ModId}}_WarpTotemSecretWoods",
                             "TradeItemId": "{{ModId}}_LunarScale",
-                            "TradeItemAmount": 5
+                            "TradeItemAmount": 5,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 10"
                         },
-                        {
+                        { // Rain Totem
                             "Id": "(O)681",
                             "ItemId": "(O)681",
                             "TradeItemId": "{{ModId}}_ReefSharkTooth",
                             "TradeItemAmount": 5,
                             "Condition": "PLAYER_FISHING_LEVEL Current 9"
                         },
-                        {
+                        { // Prismarine Ring
                             "Id": "{{ModId}}_PrismarineRing",
                             "ItemId": "{{ModId}}_PrismarineRing",
                             "TradeItemId": "{{ModId}}_LunarScale",
@@ -125,7 +129,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         },
-                        {
+                        { // Fishermans Blessing
                             "Id": "{{ModId}}_FishermansBlessing",
                             "ItemId": "{{ModId}}_FishermansBlessing",
                             "TradeItemId": "{{ModId}}_LunarScale",
@@ -134,7 +138,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         },
-                        {
+                        { // Mariners Band
                             "Id": "{{ModId}}_MarinersBand",
                             "ItemId": "{{ModId}}_MarinersBand",
                             "TradeItemId": "{{ModId}}_LunarScale",
@@ -143,7 +147,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         },
-                        {
+                        { // Neptune's Halo
                             "Id": "{{ModId}}_NeptunesHalo",
                             "ItemId": "{{ModId}}_NeptunesHalo",
                             "TradeItemId": "{{ModId}}_LunarScale",
@@ -152,7 +156,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         },
-                        {
+                        { // Poseidons Circlet
                             "Id": "{{ModId}}_PoseidonsCirclet",
                             "ItemId": "{{ModId}}_PoseidonsCirclet",
                             "TradeItemId": "{{ModId}}_LunarScale",
@@ -161,7 +165,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         },
-                        {
+                        { // Bait & Bobber
                             "Id": "(O)SkillBook_1",
                             "ItemId": "(O)SkillBook_1",
                             "TradeItemId": "{{ModId}}_Sunscale",
@@ -173,7 +177,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         },
-                        {
+                        { // The Art O' Crabbing
                             "Id": "(O)Book_Crabbing",
                             "ItemId": "(O)Book_Crabbing",
                             "TradeItemId": "{{ModId}}_Sunscale",
@@ -200,7 +204,7 @@
             "Entries": {
                 "{{ModId}}_BeachVending": {
                     "Items": [
-                        {
+                        { // Ray Venom Recipe
                             "Id": "{{ModId}}_RayVenomRecipe",
                             "ItemId": "{{ModId}}_RayVenomRecipe",
                             "AvailableStock": 1,
@@ -211,7 +215,7 @@
                                 "AddMail ALL {{ModId}}_RayVenomRecipePurchased"
                             ]
                         },
-                        {
+                        { // Eel Mayo Recipe
                             "Id": "{{ModId}}_EelMayoRecipe",
                             "ItemId": "{{ModId}}_EelMayoRecipe",
                             "AvailableStock": 1,
@@ -222,7 +226,7 @@
                                 "AddMail ALL {{ModId}}_EelMayoRecipePurchased"
                             ]
                         },
-                        {
+                        { // Bait
                             "Id": "{{ModId}}_AllBait_Outer",
                             "ItemId": "RANDOM_ITEMS (O)",
                             "PerItemCondition": "ITEM_CONTEXT_TAG Target category_fish",
@@ -235,69 +239,73 @@
                                 "MaxItems": 10
                             }
                         },
-                        {
+                        { // Warp Totem Beach
                             "Id": "(O)690",
                             "ItemId": "(O)690",
                             "Price": 2500,
                             "Condition": "PLAYER_FISHING_LEVEL Current 5"
                         },
-                        {
+                        { // Warp Totem Farm
                             "Id": "(O)688",
                             "ItemId": "(O)688",
                             "Price": 2500,
                             "Condition": "PLAYER_FISHING_LEVEL Current 6"
                         },
-                        {
+                        { // Warp Totem Mountain
                             "Id": "(O)689",
                             "ItemId": "(O)689",
                             "Price": 2500,
                             "Condition": "PLAYER_FISHING_LEVEL Current 7"
                         },
-                        {
+                        { // Warp Totem Desert
                             "Id": "(O)261",
                             "ItemId": "(O)261",
                             "Price": 2500,
                             "Condition": "PLAYER_FISHING_LEVEL Current 8"
                         },
-                        {
+                        { // Warp Totem Town
                             "Id": "{{ModId}}_WarpTotemTown",
                             "ItemId": "{{ModId}}_WarpTotemTown",
-                            "Price": 2500
+                            "Price": 2500,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 2"
                         },
-                        {
+                        { // Warp Totem Forest
                             "Id": "{{ModId}}_WarpTotemForest",
                             "ItemId": "{{ModId}}_WarpTotemForest",
-                            "Price": 2500
+                            "Price": 2500,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 3"
                         },
-                        {
+                        { // Warp Totem Forest West
                             "Id": "{{ModId}}_WarpTotemForestWest",
                             "ItemId": "{{ModId}}_WarpTotemForestWest",
                             "Price": 2500,
-                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}"
+                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}, PLAYER_FISHING_LEVEL Current 10"
                         },
-                        {
+                        { // Warp Totem Shearwater Bridge
                             "Id": "{{ModId}}_WarpTotemShearwaterBridge",
                             "ItemId": "{{ModId}}_WarpTotemShearwaterBridge",
                             "Price": 2500,
-                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}"
+                            "Condition": "{{HasMod |contains=FlashShifter.StardewValleyExpandedCP}}, PLAYER_FISHING_LEVEL Current 9"
                         },
-                        {
+                        { // Warp Totem East Beach
                             "Id": "{{ModId}}_WarpTotemEastBeach",
                             "ItemId": "{{ModId}}_WarpTotemEastBeach",
-                            "Price": 2500
+                            "Price": 2500,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 4"
                         },
-                        {
+                        { // Warp Totem Secret Woods
                             "Id": "{{ModId}}_WarpTotemSecretWoods",
                             "ItemId": "{{ModId}}_WarpTotemSecretWoods",
-                            "Price": 2500
+                            "Price": 2500,
+                            "Condition": "PLAYER_FISHING_LEVEL Current 10"
                         },
-                        {
+                        { // Rain Totem
                             "Id": "(O)681",
                             "ItemId": "(O)681",
                             "Price": 2500,
                             "Condition": "PLAYER_FISHING_LEVEL Current 9"
                         },
-                        {
+                        { // Prismarine Ring
                             "Id": "{{ModId}}_PrismarineRing",
                             "ItemId": "{{ModId}}_PrismarineRing",
                             "Price": 10000,
@@ -305,7 +313,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         },
-                        {
+                        { // Fisherman's Blessing
                             "Id": "{{ModId}}_FishermansBlessing",
                             "ItemId": "{{ModId}}_FishermansBlessing",
                             "Price": 20000,
@@ -313,7 +321,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         },
-                        {
+                        { // Mariner's Band
                             "Id": "{{ModId}}_MarinersBand",
                             "ItemId": "{{ModId}}_MarinersBand",
                             "Price": 30000,
@@ -321,7 +329,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         },
-                        {
+                        { // Neptune's Halo
                             "Id": "{{ModId}}_NeptunesHalo",
                             "ItemId": "{{ModId}}_NeptunesHalo",
                             "Price": 40000,
@@ -329,7 +337,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         },
-                        {
+                        { // Poseidon's Circlet
                             "Id": "{{ModId}}_PoseidonsCirclet",
                             "ItemId": "{{ModId}}_PoseidonsCirclet",
                             "Price": 50000,
@@ -337,7 +345,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         },
-                        {
+                        { // Bait & Bobber
                             "Id": "(O)SkillBook_1",
                             "ItemId": "(O)SkillBook_1",
                             "ActionsOnPurchase": [
@@ -347,7 +355,7 @@
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         },
-                        {
+                        { // The Art O' Crabbing
                             "Id": "(O)Book_Crabbing",
                             "ItemId": "(O)Book_Crabbing",
                             "ActionsOnPurchase": [
@@ -370,6 +378,7 @@
                 "Items"
             ],
             "Entries": {
+                // Gem Polisher
                 "{{ModId}}_GemPolisher": {
                     "Id": "{{ModId}}_GemPolisher",
                     "ItemId": "{{ModId}}_GemPolisher",

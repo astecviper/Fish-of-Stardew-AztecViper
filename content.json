@@ -46,11 +46,6 @@
             "FromFile": "data/light.json"
         },
         {
-            "LogName": "Loading Crafting Recipes JSON...",
-            "Action": "Include",
-            "FromFile": "data/craftingrecipes.json"
-        },
-        {
             "LogName": "Loading Scroll JSON...",
             "Action": "Include",
             "FromFile": "data/scrolls.json"

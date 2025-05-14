@@ -9,42 +9,42 @@
                 "Forage"
             ],
             "Entries": {
-                "(O)152": {
+                "(O)152": { // Seaweed
                     "ItemId": "(O)152",
                     "Condition": "LOCATION_SEASON Here spring summer fall",
                     "Chance": 0.9
                 },
-                "(O)372": {
+                "(O)372": { // Clam
                     "ItemId": "(O)372",
                     "Condition": "LOCATION_SEASON Here spring summer fall",
                     "Chance": 0.9
                 },
-                "(O)718": {
+                "(O)718": { // Cockle
                     "ItemId": "(O)718",
                     "Condition": "LOCATION_SEASON Here spring summer fall",
                     "Chance": 0.1
                 },
-                "(O)719": {
+                "(O)719": { // Mussel
                     "ItemId": "(O)719",
                     "Condition": "LOCATION_SEASON Here spring summer fall",
                     "Chance": 0.3
                 },
-                "(O)723": {
+                "(O)723": { // Oyster
                     "ItemId": "(O)723",
                     "Condition": "LOCATION_SEASON Here spring summer fall",
                     "Chance": 0.3
                 },
-                "(O)394": {
+                "(O)394": { // Rainbow Shell
                     "ItemId": "(O)394",
                     "Condition": "LOCATION_SEASON Here spring summer fall",
                     "Chance": 0.5
                 },
-                "(O)392": {
+                "(O)392": { // Nautilus Shell
                     "ItemId": "(O)392",
                     "Condition": "LOCATION_SEASON Here winter",
                     "Chance": 0.2
                 },
-                "{{ModId}}_BioluminescentSeaweed": {
+                "{{ModId}}_BioluminescentSeaweed": { 
                     "ItemId": "{{ModId}}_BioluminescentSeaweed",
                     "Condition": "LOCATION_SEASON Here spring summer",
                     "Chance": 0.1
