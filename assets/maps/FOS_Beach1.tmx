@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="104" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="25" nextobjectid="11">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="104" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="25" nextobjectid="12">
  <properties>
   <property name="DayTiles" value="Front 32 33 369 Front 44 24 369 Front 79 10 369 Front 87 16 369 Front 100 18 369 Front 87 37 369 Buildings 2 1 59 Buildings 8 1 59 Buildings 14 3 59 Buildings 21 1 59 Buildings 27 2 59  Buildings 33 3 59 Buildings 38 2 59 Buildings 45 2 59 Buildings 51 2 59 Buildings 59 1 59 Buildings 67 2 59 Buildings 73 3 59 Buildings 79 2 59 Buildings 86 1 59 Buildings 93 1 59 Buildings 100 2 59 Buildings 22 15 59 Buildings 38 7 59 Buildings 27 39 59 Buildings 52 28 59 Buildings 99 16 59 Buildings 90 24 59 Buildings 100 33 59"/>
   <property name="Fall_Objects" value="372 .9 382 .6"/>
@@ -1859,7 +1859,13 @@
   </object>
  </objectgroup>
  <objectgroup id="9" name="Back2"/>
- <objectgroup id="10" name="Buildings"/>
+ <objectgroup id="10" name="Buildings">
+  <object id="11" name="TileData" x="1360" y="128" width="16" height="32">
+   <properties>
+    <property name="Action" value="Action Message aztecviper.fishofstardew_LockedDoor"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="12" name="Front"/>
  <objectgroup id="13" name="Paths"/>
  <objectgroup id="14" name="AlwaysFront"/>
