@@ -258,7 +258,7 @@
                 "{{ModId}}_GusQ3LTrigger": {
                     "Id": "{{ModId}}_GusQ3LTrigger",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON summer, WEATHER Current sun, PLAYER_HEARTS Current Gus 3",
+                    "Condition": "SEASON summer, WEATHER Here sun, PLAYER_HEARTS Current Gus 3",
                     "Actions": [
                         "AddMail Current {{ModId}}_GusQ3L now"
                     ]
@@ -266,7 +266,7 @@
                 "{{ModId}}_GusQ4LTrigger": {
                     "Id": "{{ModId}}_GusQ4LTrigger",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON summer fall, WEATHER Current sun, PLAYER_HEARTS Current Gus 5",
+                    "Condition": "SEASON summer fall, WEATHER Here sun, PLAYER_HEARTS Current Gus 5",
                     "Actions": [
                         "AddMail Current {{ModId}}_GusQ4L now"
                     ]
@@ -274,7 +274,7 @@
                 "{{ModId}}_GusQ5LTrigger": {
                     "Id": "{{ModId}}_GusQ5LTrigger",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON spring summer, WEATHER Current sun, PLAYER_HEARTS Current Gus 4",
+                    "Condition": "SEASON spring summer, WEATHER Here sun, PLAYER_HEARTS Current Gus 4",
                     "Actions": [
                         "AddMail Current {{ModId}}_GusQ5L now"
                     ]
@@ -290,7 +290,7 @@
                 "{{ModId}}_GusBakedBrownShadTrigger": {
                     "Id": "{{ModId}}_GusBakedBrownShadTrigger",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON summer fall, WEATHER Current rain, PLAYER_HEARTS Current Gus 4",
+                    "Condition": "SEASON summer fall, WEATHER Here rain, PLAYER_HEARTS Current Gus 4",
                     "Actions": [
                         "AddMail Current {{ModId}}_GusBakedBrownShad now"
                     ]
@@ -298,7 +298,7 @@
                 "{{ModId}}_WillyQ8LTrigger": {
                     "Id": "{{ModId}}_WillyQ8LTrigger",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON fall winter, WEATHER Current rain, PLAYER_HEARTS Current Willy 4",
+                    "Condition": "SEASON fall winter, WEATHER Here rain, PLAYER_HEARTS Current Willy 4",
                     "Actions": [
                         "AddMail Current {{ModId}}_WillyQ8L now"
                     ]
@@ -314,7 +314,7 @@
                 "{{ModId}}_LinusQ1LTrigger": {
                     "Id": "{{ModId}}_LinusQ1LTrigger",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON spring summer, WEATHER Current sun, PLAYER_HEARTS Current Linus 4",
+                    "Condition": "SEASON spring summer, WEATHER Here sun, PLAYER_HEARTS Current Linus 4",
                     "Actions": [
                         "AddMail Current {{ModId}}_LinusQ1L Now"
                     ]
@@ -322,7 +322,7 @@
                 "{{ModId}}_RobinQ1LTrigger": {
                     "Id": "{{ModId}}_RobinQ1LTrigger",
                     "Trigger": "DayStarted",
-                    "Condition": "SEASON fall, WEATHER Current sun, PLAYER_HEARTS Current Robin 5",
+                    "Condition": "SEASON fall, WEATHER Here sun, PLAYER_HEARTS Current Robin 5",
                     "Actions": [
                         "AddMail Current {{ModId}}_RobinQ1L now"
                     ]
