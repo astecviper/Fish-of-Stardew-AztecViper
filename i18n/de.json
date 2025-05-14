@@ -8,7 +8,9 @@
     "config.GemSprites.description": "Wählen Sie die Edelstein-Sprites, die im Spiel für die aquatischen Edelsteine und Schmuckstücke verwendet werden. Diese Änderung wird nur teilweise wirksam, sofern sie nicht vor dem Laden Ihrer Farm vorgenommen wird.",
     "config.GemSprites.values.Gems": "Edelsteine",
     "config.GemSprites.values.Pearls": "Perlen",
-    //Rings
+    //CJB Warps
+    "EastBeachWarp_name": "Oststrand",
+    //Jewelry
     "PrismarineRing_name": "Prismarinring",
     "PrismarineRing_description": "Der Träger erhält einen kleinen Bonus in der Angelfertigkeit und im Glück.",
     "FishermansBlessing_name": "Segen des Fischers",
@@ -142,6 +144,9 @@
     "LongfinEelMayo_description": "Eine Mayonnaise aus Langflossen-Aal-Eiern.",
     "RadioactiveJade_name": "Radioaktiver Jade",
     "RadioactiveJade_description": "Ein Jade, der mit einem schwachen grünen Licht leuchtet. Es ist nicht wirklich radioaktiv, aber es leuchtet.",
+    //Artisan Goods
+    //Recipe Scrolls
+    //Gems
     //Totems
     "WarpTotemForest_name": "Warp-Totem: Wald",
     "WarpTotemForest_description": "Teleportiert Sie in den Wald.",
