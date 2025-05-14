@@ -10,6 +10,8 @@
     "config.GemSprites.values.pearls": "真珠",
     //CJB Warps
     "EastBeachWarp_name": "東ビーチ",
+    //Strings
+    "LockedDoor_text": "うーん、中に入るのは危険そうですね...",
     //Jewelry
     "PrismarineRing_name": "プリズマリンリング",
     "PrismarineRing_description": "装着者の釣りスキルと運が少し上昇します。",

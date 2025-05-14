@@ -10,6 +10,8 @@
     "config.GemSprites.values.pearls": "Перлини",
     //CJB Warps
     "EastBeachWarp_name": "Східний пляж",
+    //Strings
+    "LockedDoor_text": "Хм... Похоже, входить туда не очень безопасно...",
     //Jewelry
     "PrismarineRing_name": "Призмариновий перстень",
     "PrismarineRing_description": "Той, хто носить цей перстень, отримує невелике підвищення рибальської майстерності та удачі.",

@@ -10,6 +10,8 @@
     "config.GemSprites.values.pearls": "Perles",
     //CJB Warps
     "EastBeachWarp_name": "Plage Est",
+    //Strings
+    "LockedDoor_text": "Hmmmm - il ne semble pas sûr d'y aller...",
     //Jewelry
     "PrismarineRing_name": "Anneau de prismarine",
     "PrismarineRing_description": "Le porteur reçoit un petit bonus à la compétence de pêche et à la chance.",

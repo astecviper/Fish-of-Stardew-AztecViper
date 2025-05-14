@@ -10,6 +10,8 @@
     "config.GemSprites.values.pearls": "Perlen",
     // CJB Warps
     "EastBeachWarp_name": "Oststrand",
+    //Strings
+    "LockedDoor_text": "Hmmmm - es sieht nicht sicher aus, hineinzugehen...",
     //Jewelry
     "PrismarineRing_name": "Prismarinring",
     "PrismarineRing_description": "Der Träger erhält einen kleinen Bonus auf die Angel-Fertigkeit und Glück.",

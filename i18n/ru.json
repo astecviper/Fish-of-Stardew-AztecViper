@@ -10,6 +10,8 @@
     "config.GemSprites.values.pearls": "Жемчуг",
     //CJB Warps
     "EastBeachWarp_name": "Восточный пляж",
+    //Strings
+    "LockedDoor_text": "Хм... Похоже, входить туда не очень безопасно...",
     //Jewelry
     "PrismarineRing_name": "Призматический Кольцо",
     "PrismarineRing_description": "Носитель получает небольшой прирост в навыке рыбалки и удачи.",

@@ -10,6 +10,8 @@
     "config.GemSprites.values.pearls": "Perlas",
     //CJB Warps
     "EastBeachWarp_name": "Playa Este",
+    //Strings
+    "LockedDoor_text": "Hmmmm - parece que no es seguro entrar...",
     //Jewelry
     "PrismarineRing_name": "Anillo de Prismarina",
     "PrismarineRing_description": "El portador recibe un pequeño aumento en la habilidad de pesca y suerte.",
