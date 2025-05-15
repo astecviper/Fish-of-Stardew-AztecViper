@@ -12,7 +12,7 @@
             "Target": "Data/Fish",
             "Entries": {
                 //Name-How many times it can dart-mixed smooth floater sinker dart-min length-max length-time-weather-unused location info-min distance to cast-spawn modifier-depth modifier-level requirement-tutorial catch
-                "{{ModId}}_LunarSalmon": "Lunar Salmon/100/dart/18/34/2400 2600/spring summer fall winter/both/688 .3 689 .3 690 .3/5/.002/.005/10/false",
+                "{{ModId}}_LunarSalmon": "Lunar Salmon/{{LunarSalmonDart}}/dart/18/34/2400 2600/spring summer fall winter/both/688 .3 689 .3 690 .3/5/{{LunarSalmonSpawn}}/.005/10/false",
                 "{{ModId}}_MudTrout": "Mud Trout/50/dart/18/34/0600 2000/spring summer fall winter/both/688 .3 689 .3 690 .3/3/.2/.1/0/false",
                 "{{ModId}}_BlueCatfish": "Blue Catfish/80/mixed/12/80/600 2400/spring summer fall winter/both/688 .3 689 .3 690 .3/4/.05/.1/0/true",
                 "{{ModId}}_ArmoredCatfish": "Armored Catfish/90/mixed/12/70/600 2400/spring summer fall winter/both/688 .3 689 .3 690 .3/4/.05/.05/3/false",
@@ -518,8 +518,8 @@
                 "{{ModId}}_LunarSalmon": {
                     "ItemId": "{{ModId}}_LunarSalmon",
                     "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here sun",
-                    "Chance": 0.1,
-                    "Precedence": -100
+                    "Chance": "{{LunarSalmonChance}}",
+                    "Precedence": "{{LunarSalmonPrecedence}}"
                 },
                 "{{ModId}}_MossyCod": {
                     "ItemId": "{{ModId}}_MossyCod",
@@ -918,8 +918,8 @@
                 "{{ModId}}_LunarSalmon": {
                     "ItemId": "{{ModId}}_LunarSalmon",
                     "Condition": "LOCATION_SEASON Here spring summer",
-                    "Chance": 0.1,
-                    "Precedence": -100
+                    "Chance": "{{LunarSalmonChance}}",
+                    "Precedence": "{{LunarSalmonPrecedence}}"
                 },
                 "{{ModId}}_BlueCatfish": {
                     "ItemId": "{{ModId}}_BlueCatfish",
