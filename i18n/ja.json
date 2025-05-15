@@ -20,6 +20,8 @@
     "config.FishDifficulty.values.easy": "簡単",
     "config.FishDifficulty.values.normal": "普通",
     "config.FishDifficulty.values.hard": "難しい",
+    "config.FishDifficulty.values.extreme": "極めて難しい",
+    "config.FishDifficulty.values.impossible": "不可能",
     // CJB Warps
     "EastBeachWarp_name": "東ビーチ",
     //Strings

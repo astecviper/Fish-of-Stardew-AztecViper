@@ -20,6 +20,8 @@
     "config.FishDifficulty.values.easy": "Легко",
     "config.FishDifficulty.values.normal": "Звичайно",
     "config.FishDifficulty.values.hard": "Складно",
+    "config.FishDifficulty.values.extreme": "Екстремально складно",
+    "config.FishDifficulty.values.impossible": "Неможливо",
     //CJB Warps
     "EastBeachWarp_name": "Східний пляж",
     //Strings

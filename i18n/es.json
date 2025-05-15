@@ -20,6 +20,8 @@
     "config.FishDifficulty.values.easy": "Fácil",
     "config.FishDifficulty.values.normal": "Normal",
     "config.FishDifficulty.values.hard": "Difícil",
+    "config.FishDifficulty.values.extreme": "Extrema",
+    "config.FishDifficulty.values.impossible": "Imposible",
     // CJB Warps
     "EastBeachWarp_name": "Playa Este",
     //Strings
