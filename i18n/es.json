@@ -4,6 +4,8 @@
     "config.section.shops.description": "Encuentra aquí todas las opciones relacionadas con las tiendas.",
     "config.section.sprites.name": "Sprites",
     "config.section.sprites.description": "Encuentra aquí todas las opciones relacionadas con los sprites.",
+    "config.section.fish.name": "Fische",
+    "config.section.fish.description": "Encuentra aquí todas las opciones relacionadas con los peces.",
     //Config
     "config.VendingMachineCurrency.name": "Intercambio de máquina expendedora",
     "config.VendingMachineCurrency.description": "Decide si algunos artículos en la máquina expendedora de Willy deben ser intercambiados.",
@@ -13,7 +15,12 @@
     "config.GemSprites.description": "Elige los duendecillos de gemas que usa el juego para las gemas y joyas acuáticas. Este cambio solo tendrá efecto parcial a menos que lo hagas antes de cargar tu granja.",
     "config.GemSprites.values.gems": "Gemas",
     "config.GemSprites.values.pearls": "Perlas",
-    //CJB Warps
+    "config.FishDifficulty.name": "Dificultad de peces",
+    "config.FishDifficulty.description": "Elige la dificultad de los peces.",
+    "config.FishDifficulty.values.easy": "Fácil",
+    "config.FishDifficulty.values.normal": "Normal",
+    "config.FishDifficulty.values.hard": "Difícil",
+    // CJB Warps
     "EastBeachWarp_name": "Playa Este",
     //Strings
     "LockedDoor_text": "Hmmmm - parece que no es seguro entrar...",

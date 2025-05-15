@@ -4,6 +4,8 @@
     "config.section.shops.description": "ここではショップに関するすべてのオプションを見つけることができます。",
     "config.section.sprites.name": "スプライト",
     "config.section.sprites.description": "ここではスプライトに関するすべてのオプションを見つけることができます。",
+    "config.section.fish.name": "魚",
+    "config.section.fish.description": "ここでは魚に関するすべてのオプションを見つけることができます。",
     //Config
     "config.VendingMachineCurrency.name": "自動販売機の交換",
     "config.VendingMachineCurrency.description": "ウィリーの自動販売機の一部アイテムを交換で取引するかどうかを決めます。",
@@ -13,7 +15,12 @@
     "config.GemSprites.description": "水生の宝石やジュエリーに使われるジェムスプライトを選択します。この変更は牧場を読み込む前に行わないと一部しか反映されません。",
     "config.GemSprites.values.gems": "宝石",
     "config.GemSprites.values.pearls": "真珠",
-    //CJB Warps
+    "config.FishDifficulty.name": "魚の難易度",
+    "config.FishDifficulty.description": "魚の難易度を選択します。",
+    "config.FishDifficulty.values.easy": "簡単",
+    "config.FishDifficulty.values.normal": "普通",
+    "config.FishDifficulty.values.hard": "難しい",
+    // CJB Warps
     "EastBeachWarp_name": "東ビーチ",
     //Strings
     "LockedDoor_text": "うーん、中に入るのは危険そうですね...",

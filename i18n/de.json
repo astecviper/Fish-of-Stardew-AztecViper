@@ -4,6 +4,8 @@
     "config.section.shops.description": "Finde hier alle Optionen, die sich auf Geschäfte beziehen.",
     "config.section.sprites.name": "Sprites",
     "config.section.sprites.description": "Finde hier alle Optionen, die sich auf Sprites beziehen.",
+    "config.section.fish.name": "Fische",
+    "config.section.fish.description": "Finde hier alle Optionen, die sich auf Fische beziehen.",
     //Config
     "config.VendingMachineCurrency.name": "Automaten-Währung",
     "config.VendingMachineCurrency.description": "Entscheide, ob einige Gegenstände in Willis Automaten getauscht werden sollen.",
@@ -13,6 +15,11 @@
     "config.GemSprites.description": "Wähle die Edelstein-Sprites, die das Spiel für die Wasseredelsteine und Schmuck verwendet. Diese Änderung wird nur teilweise wirksam, wenn du sie vor dem Laden deiner Farm vornimmst.",
     "config.GemSprites.values.gems": "Edelsteine",
     "config.GemSprites.values.pearls": "Perlen",
+    "config.FishDifficulty.name": "Fischart Schwierigkeit",
+    "config.FishDifficulty.description": "Wähle die Schwierigkeit der Fische.",
+    "config.FishDifficulty.values.easy": "Leicht",
+    "config.FishDifficulty.values.normal": "Normal",
+    "config.FishDifficulty.values.hard": "Schwer",
     // CJB Warps
     "EastBeachWarp_name": "Oststrand",
     //Strings

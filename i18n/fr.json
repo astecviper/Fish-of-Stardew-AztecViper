@@ -4,6 +4,8 @@
     "config.section.shops.description": "Trouvez ici toutes les options liées aux magasins.",
     "config.section.sprites.name": "Sprites",
     "config.section.sprites.description": "Trouvez ici toutes les options liées aux sprites.",
+    "config.section.fish.name": "Poissons",
+    "config.section.fish.description": "Trouvez ici toutes les options liées aux poissons.",
     //Config
     "config.VendingMachineCurrency.name": "Échange du distributeur automatique",
     "config.VendingMachineCurrency.description": "Décidez si certains articles du distributeur automatique de Willy doivent être échangés.",
@@ -13,7 +15,12 @@
     "config.GemSprites.description": "Choisissez les sprites de gemmes utilisés par le jeu pour les gemmes aquatiques et les bijoux. Ce changement ne prendra effet que partiellement à moins de le faire avant de charger votre ferme.",
     "config.GemSprites.values.gems": "Gemmes",
     "config.GemSprites.values.pearls": "Perles",
-    //CJB Warps
+    "config.FishDifficulty.name": "Difficulté des poissons",
+    "config.FishDifficulty.description": "Choisissez la difficulté des poissons.",
+    "config.FishDifficulty.values.easy": "Facile",
+    "config.FishDifficulty.values.normal": "Normal",
+    "config.FishDifficulty.values.hard": "Difficile",
+    // CJB Warps
     "EastBeachWarp_name": "Plage Est",
     //Strings
     "LockedDoor_text": "Hmmmm - il ne semble pas sûr d'y aller...",

@@ -4,6 +4,8 @@
     "config.section.shops.description": "Здесь вы найдете все параметры, связанные с магазинами.",
     "config.section.sprites.name": "Спрайты",
     "config.section.sprites.description": "Здесь вы найдете все параметры, связанные со спрайтами.",
+    "config.section.fish.name": "Рыбы",
+    "config.section.fish.description": "Здесь вы найдете все параметры, связанные с рыбами.",
     //Config
     "config.VendingMachineCurrency.name": "Обмінний автомат",
     "config.VendingMachineCurrency.description": "Вирішіть, чи деякі предмети у торговому автоматі Віллі повинні обмінюватися.",
@@ -13,6 +15,11 @@
     "config.GemSprites.description": "Виберіть спрайти дорогоцінних каменів, які використовуються грою для водних коштовностей та прикрас. Ця зміна буде застосована лише частково, якщо ви зробите її після завантаження вашої ферми.",
     "config.GemSprites.values.gems": "Коштовності",
     "config.GemSprites.values.pearls": "Перлини",
+    "config.FishDifficulty.name": "Складність риби",
+    "config.FishDifficulty.description": "Виберіть складність риби.",
+    "config.FishDifficulty.values.easy": "Легко",
+    "config.FishDifficulty.values.normal": "Звичайно",
+    "config.FishDifficulty.values.hard": "Складно",
     //CJB Warps
     "EastBeachWarp_name": "Східний пляж",
     //Strings

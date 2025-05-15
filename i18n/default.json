@@ -4,6 +4,8 @@
     "config.section.shops.description": "Find all options related to shops here.",
     "config.section.sprites.name": "Sprites",
     "config.section.sprites.description": "Find all options related to sprites here.",
+    "config.section.fish.name": "Fish",
+    "config.section.fish.description": "Find all options related to fish here.",
     //Config
     "config.VendingMachineCurrency.name": "Vending Machine Exchange",
     "config.VendingMachineCurrency.description": "Decide whether if some items in Willy's vending machine should be traded for.",
@@ -13,6 +15,11 @@
     "config.GemSprites.description": "Choose the gem sprites used by the game for the aquatic gems and jewelry. This change will only partially take affect unless you do it before loading your farm.",
     "config.GemSprites.values.gems": "Gems",
     "config.GemSprites.values.pearls": "Pearls",
+    "config.FishDifficulty.name": "Fish Difficulty",
+    "config.FishDifficulty.description": "Choose the difficulty of the fish.",
+    "config.FishDifficulty.values.easy": "Easy",
+    "config.FishDifficulty.values.normal": "Normal",
+    "config.FishDifficulty.values.hard": "Hard",
     //CJB Warps
     "EastBeachWarp_name": "East Beach",
     //Strings
