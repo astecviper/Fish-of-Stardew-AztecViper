@@ -12,9 +12,16 @@
             "AllowValues": "gems, pearls",
             "Default": "gems",
             "Section": "sprites"
+        },
+        // Fish section
+        "FishDifficulty": {
+            "AllowValues": "easy, normal, hard",
+            "Default": "normal",
+            "Section": "fish"
         }
     },
     "DynamicTokens": [
+        // Gems
         {
             "Name": "GemName",
             "Value": "Gem"
@@ -26,6 +33,7 @@
                 "GemSprites": "pearls"
             }
         },
+        // Pendants
         {
             "Name": "PendantName",
             "Value": "Pendant"
@@ -36,6 +44,1406 @@
             "When": {
                 "GemSprites": "pearls"
             }
+        },
+        // Difficulty
+        {
+            "Name": "Difficulty",
+            "Value": 0.5,
+            "When": {
+                "FishDifficulty": "easy"
+            }
+        },
+        {
+            "Name": "Difficulty",
+            "Value": 1,
+            "When": {
+                "FishDifficulty": "normal"
+            }
+        },
+        {
+            "Name": "Difficulty",
+            "Value": 1.5,
+            "When": {
+                "FishDifficulty": "hard"
+            }
+        },
+        // Fish
+        {
+            "Name": "LunarSalmonBaseDart",
+            "Value": 100
+        },
+        {
+            "Name": "LunarSalmonBaseSpawn",
+            "Value": 0.002
+        },
+        {
+            "Name": "LunarSalmonBaseChance",
+            "Value": 0.1
+        },
+        {
+            "Name": "LunarSalmonBasePrecedence",
+            "Value": -100
+        },
+        {
+            "Name": "MudTroutBaseDart",
+            "Value": 50
+        },
+        {
+            "Name": "MudTroutBaseSpawn",
+            "Value": 0.2
+        },
+        {
+            "Name": "MudTroutBaseChance",
+            "Value": 0.5
+        },
+        {
+            "Name": "MudTroutBasePrecedence",
+            "Value": -10
+        },
+        {
+            "Name": "BlueCatfishBaseDart",
+            "Value": 80
+        },
+        {
+            "Name": "BlueCatfishBaseSpawn",
+            "Value": 0.05
+        },
+        {
+            "Name": "BlueCatfishBaseChance",
+            "Value": 0.3
+        },
+        {
+            "Name": "BlueCatfishBasePrecedence",
+            "Value": -30
+        },
+        {
+            "Name": "ArmoredCatfishBaseDart",
+            "Value": 90
+        },
+        {
+            "Name": "ArmoredCatfishBaseSpawn",
+            "Value": 0.05
+        },
+        {
+            "Name": "ArmoredCatfishBaseChance",
+            "Value": 0.25
+        },
+        {
+            "Name": "ArmoredCatfishBasePrecedence",
+            "Value": -40
+        },
+        {
+            "Name": "WhiteSturgeonBaseDart",
+            "Value": 85
+        },
+        {
+            "Name": "WhiteSturgeonBaseSpawn",
+            "Value": 0.28
+        },
+        {
+            "Name": "WhiteSturgeonBaseChance",
+            "Value": 0.3
+        },
+        {
+            "Name": "WhiteSturgeonBasePrecedence",
+            "Value": -35
+        },
+        {
+            "Name": "MossyCodBaseDart",
+            "Value": 90
+        },
+        {
+            "Name": "MossyCodBaseSpawn",
+            "Value": 0.2
+        },
+        {
+            "Name": "MossyCodBaseChance",
+            "Value": 0.2
+        },
+        {
+            "Name": "MossyCodBasePrecedence",
+            "Value": -45
+        },
+        {
+            "Name": "GhostPikeBaseDart",
+            "Value": 70
+        },
+        {
+            "Name": "GhostPikeBaseSpawn",
+            "Value": 0.25
+        },
+        {
+            "Name": "GhostPikeBaseChance",
+            "Value": 0.3
+        },
+        {
+            "Name": "GhostPikeBasePrecedence",
+            "Value": -25
+        },
+        {
+            "Name": "RadioactiveSunfishBaseDart",
+            "Value": 90
+        },
+        {
+            "Name": "RadioactiveSunfishBaseSpawn",
+            "Value": 0.05
+        },
+        {
+            "Name": "RadioactiveSunfishBaseChance",
+            "Value": 0.1
+        },
+        {
+            "Name": "RadioactiveSunfishBasePrecedence",
+            "Value": -85
+        },
+        {
+            "Name": "SpottedRayBaseDart",
+            "Value": 80
+        },
+        {
+            "Name": "SpottedRayBaseSpawn",
+            "Value": 0.15
+        },
+        {
+            "Name": "SpottedRayBaseChance",
+            "Value": 0.2
+        },
+        {
+            "Name": "SpottedRayBasePrecedence",
+            "Value": -40
+        },
+        {
+            "Name": "BrownShadBaseDart",
+            "Value": 55
+        },
+        {
+            "Name": "BrownShadBaseSpawn",
+            "Value": 0.38
+        },
+        {
+            "Name": "BrownShadBaseChance",
+            "Value": 0.5
+        },
+        {
+            "Name": "BrownShadBasePrecedence",
+            "Value": -10
+        },
+        {
+            "Name": "DeepSeaHalibutBaseDart",
+            "Value": 60
+        },
+        {
+            "Name": "DeepSeaHalibutBaseSpawn",
+            "Value": 0.3
+        },
+        {
+            "Name": "DeepSeaHalibutBaseChance",
+            "Value": 0.4
+        },
+        {
+            "Name": "DeepSeaHalibutBasePrecedence",
+            "Value": -15
+        },
+        {
+            "Name": "SeaweedHalibutBaseDart",
+            "Value": 55
+        },
+        {
+            "Name": "SeaweedHalibutBaseSpawn",
+            "Value": 0.35
+        },
+        {
+            "Name": "SeaweedHalibutBaseChance",
+            "Value": 0.5
+        },
+        {
+            "Name": "SeaweedHalibutBasePrecedence",
+            "Value": -10
+        },
+        {
+            "Name": "CrimsonShadBaseDart",
+            "Value": 80
+        },
+        {
+            "Name": "CrimsonShadBaseSpawn",
+            "Value": 0.33
+        },
+        {
+            "Name": "CrimsonShadBaseChance",
+            "Value": 0.3
+        },
+        {
+            "Name": "CrimsonShadBasePrecedence",
+            "Value": -30
+        },
+        {
+            "Name": "SockeyeSalmonBaseDart",
+            "Value": 60
+        },
+        {
+            "Name": "SockeyeSalmonBaseSpawn",
+            "Value": 0.4
+        },
+        {
+            "Name": "SockeyeSalmonBaseChance",
+            "Value": 0.4
+        },
+        {
+            "Name": "SockeyeSalmonBasePrecedence",
+            "Value": -15
+        },
+        {
+            "Name": "CookieOctopusBaseDart",
+            "Value": 75
+        },
+        {
+            "Name": "CookieOctopusBaseSpawn",
+            "Value": 0.09
+        },
+        {
+            "Name": "CookieOctopusBaseChance",
+            "Value": 0.2
+        },
+        {
+            "Name": "CookieOctopusBasePrecedence",
+            "Value": -35
+        },
+        {
+            "Name": "BluegillBaseDart",
+            "Value": 30
+        },
+        {
+            "Name": "BluegillBaseSpawn",
+            "Value": 0.55
+        },
+        {
+            "Name": "BluegillBaseChance",
+            "Value": 1.0
+        },
+        {
+            "Name": "BluegillBasePrecedence",
+            "Value": 0
+        },
+        {
+            "Name": "BlackClownfishBaseDart",
+            "Value": 85
+        },
+        {
+            "Name": "BlackClownfishBaseSpawn",
+            "Value": 0.12
+        },
+        {
+            "Name": "BlackClownfishBaseChance",
+            "Value": 0.2
+        },
+        {
+            "Name": "BlackClownfishBasePrecedence",
+            "Value": -40
+        },
+        {
+            "Name": "MorayEelBaseDart",
+            "Value": 90
+        },
+        {
+            "Name": "MorayEelBaseSpawn",
+            "Value": 0.08
+        },
+        {
+            "Name": "MorayEelBaseChance",
+            "Value": 0.2
+        },
+        {
+            "Name": "MorayEelBasePrecedence",
+            "Value": -30
+        },
+        {
+            "Name": "VermilionCarpBaseDart",
+            "Value": 75
+        },
+        {
+            "Name": "VermilionCarpBaseSpawn",
+            "Value": 0.35
+        },
+        {
+            "Name": "VermilionCarpBaseChance",
+            "Value": 0.3
+        },
+        {
+            "Name": "VermilionCarpBasePrecedence",
+            "Value": -25
+        },
+        {
+            "Name": "PumpkinPerchBaseDart",
+            "Value": 95
+        },
+        {
+            "Name": "PumpkinPerchBaseSpawn",
+            "Value": 0.1
+        },
+        {
+            "Name": "PumpkinPerchBaseChance",
+            "Value": 0.2
+        },
+        {
+            "Name": "PumpkinPerchBasePrecedence",
+            "Value": -50
+        },
+        {
+            "Name": "YellowfinCarpBaseDart",
+            "Value": 70
+        },
+        {
+            "Name": "YellowfinCarpBaseSpawn",
+            "Value": 0.15
+        },
+        {
+            "Name": "YellowfinCarpBaseChance",
+            "Value": 0.4
+        },
+        {
+            "Name": "YellowfinCarpBasePrecedence",
+            "Value": -15
+        },
+        {
+            "Name": "EmeraldJackfishBaseDart",
+            "Value": 75
+        },
+        {
+            "Name": "EmeraldJackfishBaseSpawn",
+            "Value": 0.4
+        },
+        {
+            "Name": "EmeraldJackfishBaseChance",
+            "Value": 0.3
+        },
+        {
+            "Name": "EmeraldJackfishBasePrecedence",
+            "Value": -25
+        },
+        {
+            "Name": "StripedCharBaseDart",
+            "Value": 28
+        },
+        {
+            "Name": "StripedCharBaseSpawn",
+            "Value": 0.45
+        },
+        {
+            "Name": "StripedCharBaseChance",
+            "Value": 1.0
+        },
+        {
+            "Name": "StripedCharBasePrecedence",
+            "Value": 0
+        },
+        {
+            "Name": "BabyReefSharkBaseDart",
+            "Value": 100
+        },
+        {
+            "Name": "BabyReefSharkBaseSpawn",
+            "Value": 0.003
+        },
+        {
+            "Name": "BabyReefSharkBaseChance",
+            "Value": 0.1
+        },
+        {
+            "Name": "BabyReefSharkBasePrecedence",
+            "Value": -90
+        },
+        {
+            "Name": "StoneTetraBaseDart",
+            "Value": 35
+        },
+        {
+            "Name": "StoneTetraBaseSpawn",
+            "Value": 0.6
+        },
+        {
+            "Name": "StoneTetraBaseChance",
+            "Value": 1.0
+        },
+        {
+            "Name": "StoneTetraBasePrecedence",
+            "Value": 0
+        },
+        {
+            "Name": "MuddyTetraBaseDart",
+            "Value": 40
+        },
+        {
+            "Name": "MuddyTetraBaseSpawn",
+            "Value": 0.4
+        },
+        {
+            "Name": "MuddyTetraBaseChance",
+            "Value": 0.8
+        },
+        {
+            "Name": "MuddyTetraBasePrecedence",
+            "Value": 0
+        },
+        {
+            "Name": "IridiumSalmonBaseDart",
+            "Value": 90
+        },
+        {
+            "Name": "IridiumSalmonBaseSpawn",
+            "Value": 0.03
+        },
+        {
+            "Name": "IridiumSalmonBaseChance",
+            "Value": 0.15
+        },
+        {
+            "Name": "IridiumSalmonBasePrecedence",
+            "Value": -45
+        },
+        {
+            "Name": "ChadBaseDart",
+            "Value": 65
+        },
+        {
+            "Name": "ChadBaseSpawn",
+            "Value": 0.4
+        },
+        {
+            "Name": "ChadBaseChance",
+            "Value": 0.4
+        },
+        {
+            "Name": "ChadBasePrecedence",
+            "Value": -15
+        },
+        {
+            "Name": "SunscaledTroutBaseDart",
+            "Value": 70
+        },
+        {
+            "Name": "SunscaledTroutBaseSpawn",
+            "Value": 0.66
+        },
+        {
+            "Name": "SunscaledTroutBaseChance",
+            "Value": 0.3
+        },
+        {
+            "Name": "SunscaledTroutBasePrecedence",
+            "Value": -25
+        },
+        {
+            "Name": "FrostbiteFlounderBaseDart",
+            "Value": 38
+        },
+        {
+            "Name": "FrostbiteFlounderBaseSpawn",
+            "Value": 0.54
+        },
+        {
+            "Name": "FrostbiteFlounderBaseChance",
+            "Value": 0.5
+        },
+        {
+            "Name": "FrostbiteFlounderBasePrecedence",
+            "Value": -10
+        },
+        {
+            "Name": "GlacierBassBaseDart",
+            "Value": 62
+        },
+        {
+            "Name": "GlacierBassBaseSpawn",
+            "Value": 0.32
+        },
+        {
+            "Name": "GlacierBassBaseChance",
+            "Value": 0.3
+        },
+        {
+            "Name": "GlacierBassBasePrecedence",
+            "Value": -20
+        },
+        {
+            "Name": "WhisperingWalleyeBaseDart",
+            "Value": 69
+        },
+        {
+            "Name": "WhisperingWalleyeBaseSpawn",
+            "Value": 0.27
+        },
+        {
+            "Name": "WhisperingWalleyeBaseChance",
+            "Value": 0.3
+        },
+        {
+            "Name": "WhisperingWalleyeBasePrecedence",
+            "Value": -25
+        },
+        {
+            "Name": "BandedEelBaseDart",
+            "Value": 95
+        },
+        {
+            "Name": "BandedEelBaseSpawn",
+            "Value": 0.05
+        },
+        {
+            "Name": "BandedEelBaseChance",
+            "Value": 0.15
+        },
+        {
+            "Name": "BandedEelBasePrecedence",
+            "Value": -50
+        },
+        {
+            "Name": "IceyOctopusBaseDart",
+            "Value": 65
+        },
+        {
+            "Name": "IceyOctopusBaseSpawn",
+            "Value": 0.15
+        },
+        {
+            "Name": "IceyOctopusBaseChance",
+            "Value": 0.3
+        },
+        {
+            "Name": "IceyOctopusBasePrecedence",
+            "Value": -20
+        },
+        {
+            "Name": "PurpleParrotfishBaseDart",
+            "Value": 45
+        },
+        {
+            "Name": "PurpleParrotfishBaseSpawn",
+            "Value": 0.35
+        },
+        {
+            "Name": "PurpleParrotfishBaseChance",
+            "Value": 0.5
+        },
+        {
+            "Name": "PurpleParrotfishBasePrecedence",
+            "Value": -10
+        },
+        {
+            "Name": "SandRayBaseDart",
+            "Value": 85
+        },
+        {
+            "Name": "SandRayBaseSpawn",
+            "Value": 0.1
+        },
+        {
+            "Name": "SandRayBaseChance",
+            "Value": 0.15
+        },
+        {
+            "Name": "SandRayBasePrecedence",
+            "Value": -40
+        },
+        {
+            "Name": "TriggerfishBaseDart",
+            "Value": 35
+        },
+        {
+            "Name": "TriggerfishBaseSpawn",
+            "Value": 0.45
+        },
+        {
+            "Name": "TriggerfishBaseChance",
+            "Value": 0.6
+        },
+        {
+            "Name": "TriggerfishBasePrecedence",
+            "Value": -5
+        },
+        {
+            "Name": "SailfinBaseDart",
+            "Value": 125
+        },
+        {
+            "Name": "SailfinBaseSpawn",
+            "Value": 0.001
+        },
+        {
+            "Name": "SailfinBaseChance",
+            "Value": 0.05
+        },
+        {
+            "Name": "SailfinBasePrecedence",
+            "Value": -95
+        },
+        {
+            "Name": "SaltGrouperBaseDart",
+            "Value": 55
+        },
+        {
+            "Name": "SaltGrouperBaseSpawn",
+            "Value": 0.25
+        },
+        {
+            "Name": "SaltGrouperBaseChance",
+            "Value": 0.5
+        },
+        {
+            "Name": "SaltGrouperBasePrecedence",
+            "Value": -10
+        },
+        {
+            "Name": "MossyTetraBaseDart",
+            "Value": 40
+        },
+        {
+            "Name": "MossyTetraBaseSpawn",
+            "Value": 0.4
+        },
+        {
+            "Name": "MossyTetraBaseChance",
+            "Value": 0.8
+        },
+        {
+            "Name": "MossyTetraBasePrecedence",
+            "Value": 0
+        },
+        {
+            "Name": "ReefSharkBaseDart",
+            "Value": 110
+        },
+        {
+            "Name": "ReefSharkBaseSpawn",
+            "Value": 0.005
+        },
+        {
+            "Name": "ReefSharkBaseChance",
+            "Value": 0.05
+        },
+        {
+            "Name": "ReefSharkBasePrecedence",
+            "Value": -120
+        },
+        {
+            "Name": "WillowCutthroatBaseDart",
+            "Value": 65
+        },
+        {
+            "Name": "WillowCutthroatBaseSpawn",
+            "Value": 0.2
+        },
+        {
+            "Name": "WillowCutthroatBaseChance",
+            "Value": 0.3
+        },
+        {
+            "Name": "WillowCutthroatBasePrecedence",
+            "Value": -20
+        },
+        {
+            "Name": "LongfinEelBaseDart",
+            "Value": 50
+        },
+        {
+            "Name": "LongfinEelBaseSpawn",
+            "Value": 0.01
+        },
+        {
+            "Name": "LongfinEelBaseChance",
+            "Value": 0.2
+        },
+        {
+            "Name": "LongfinEelBasePrecedence",
+            "Value": -40
+        },
+        //Fish Difficulty
+        {
+            "Name": "LunarSalmonDart",
+            "Value": "{{Round: {{Query: {{LunarSalmonBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "LunarSalmonSpawn",
+            "Value": "{{Query: {{LunarSalmonBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "LunarSalmonChance",
+            "Value": "{{Query: {{LunarSalmonBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "LunarSalmonPrecedence",
+            "Value": "{{Round: {{Query: {{LunarSalmonBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "MudTroutDart",
+            "Value": "{{Round: {{Query: {{MudTroutBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "MudTroutSpawn",
+            "Value": "{{Query: {{MudTroutBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "MudTroutChance",
+            "Value": "{{Query: {{MudTroutBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "MudTroutPrecedence",
+            "Value": "{{Round: {{Query: {{MudTroutBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "BlueCatfishDart",
+            "Value": "{{Round: {{Query: {{BlueCatfishBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "BlueCatfishSpawn",
+            "Value": "{{Query: {{BlueCatfishBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "BlueCatfishChance",
+            "Value": "{{Query: {{BlueCatfishBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "BlueCatfishPrecedence",
+            "Value": "{{Round: {{Query: {{BlueCatfishBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "ArmoredCatfishDart",
+            "Value": "{{Round: {{Query: {{ArmoredCatfishBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "ArmoredCatfishSpawn",
+            "Value": "{{Query: {{ArmoredCatfishBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "ArmoredCatfishChance",
+            "Value": "{{Query: {{ArmoredCatfishBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "ArmoredCatfishPrecedence",
+            "Value": "{{Round: {{Query: {{ArmoredCatfishBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "WhiteSturgeonDart",
+            "Value": "{{Round: {{Query: {{WhiteSturgeonBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "WhiteSturgeonSpawn",
+            "Value": "{{Query: {{WhiteSturgeonBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "WhiteSturgeonChance",
+            "Value": "{{Query: {{WhiteSturgeonBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "WhiteSturgeonPrecedence",
+            "Value": "{{Round: {{Query: {{WhiteSturgeonBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "MossyCodDart",
+            "Value": "{{Round: {{Query: {{MossyCodBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "MossyCodSpawn",
+            "Value": "{{Query: {{MossyCodBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "MossyCodChance",
+            "Value": "{{Query: {{MossyCodBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "MossyCodPrecedence",
+            "Value": "{{Round: {{Query: {{MossyCodBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "GhostPikeDart",
+            "Value": "{{Round: {{Query: {{GhostPikeBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "GhostPikeSpawn",
+            "Value": "{{Query: {{GhostPikeBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "GhostPikeChance",
+            "Value": "{{Query: {{GhostPikeBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "GhostPikePrecedence",
+            "Value": "{{Round: {{Query: {{GhostPikeBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+                {
+            "Name": "RadioactiveSunfishDart",
+            "Value": "{{Round: {{Query: {{RadioactiveSunfishBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "RadioactiveSunfishSpawn",
+            "Value": "{{Query: {{RadioactiveSunfishBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "RadioactiveSunfishChance",
+            "Value": "{{Query: {{RadioactiveSunfishBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "RadioactiveSunfishPrecedence",
+            "Value": "{{Round: {{Query: {{RadioactiveSunfishBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "SpottedRayDart",
+            "Value": "{{Round: {{Query: {{SpottedRayBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "SpottedRaySpawn",
+            "Value": "{{Query: {{SpottedRayBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "SpottedRayChance",
+            "Value": "{{Query: {{SpottedRayBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "SpottedRayPrecedence",
+            "Value": "{{Round: {{Query: {{SpottedRayBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "BrownShadDart",
+            "Value": "{{Round: {{Query: {{BrownShadBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "BrownShadSpawn",
+            "Value": "{{Query: {{BrownShadBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "BrownShadChance",
+            "Value": "{{Query: {{BrownShadBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "BrownShadPrecedence",
+            "Value": "{{Round: {{Query: {{BrownShadBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "DeepSeaHalibutDart",
+            "Value": "{{Round: {{Query: {{DeepSeaHalibutBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "DeepSeaHalibutSpawn",
+            "Value": "{{Query: {{DeepSeaHalibutBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "DeepSeaHalibutChance",
+            "Value": "{{Query: {{DeepSeaHalibutBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "DeepSeaHalibutPrecedence",
+            "Value": "{{Round: {{Query: {{DeepSeaHalibutBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "SeaweedHalibutDart",
+            "Value": "{{Round: {{Query: {{SeaweedHalibutBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "SeaweedHalibutSpawn",
+            "Value": "{{Query: {{SeaweedHalibutBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "SeaweedHalibutChance",
+            "Value": "{{Query: {{SeaweedHalibutBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "SeaweedHalibutPrecedence",
+            "Value": "{{Round: {{Query: {{SeaweedHalibutBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "CrimsonShadDart",
+            "Value": "{{Round: {{Query: {{CrimsonShadBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "CrimsonShadSpawn",
+            "Value": "{{Query: {{CrimsonShadBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "CrimsonShadChance",
+            "Value": "{{Query: {{CrimsonShadBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "CrimsonShadPrecedence",
+            "Value": "{{Round: {{Query: {{CrimsonShadBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "SockeyeSalmonDart",
+            "Value": "{{Round: {{Query: {{SockeyeSalmonBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "SockeyeSalmonSpawn",
+            "Value": "{{Query: {{SockeyeSalmonBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "SockeyeSalmonChance",
+            "Value": "{{Query: {{SockeyeSalmonBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "SockeyeSalmonPrecedence",
+            "Value": "{{Round: {{Query: {{SockeyeSalmonBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "CookieOctopusDart",
+            "Value": "{{Round: {{Query: {{CookieOctopusBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "CookieOctopusSpawn",
+            "Value": "{{Query: {{CookieOctopusBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "CookieOctopusChance",
+            "Value": "{{Query: {{CookieOctopusBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "CookieOctopusPrecedence",
+            "Value": "{{Round: {{Query: {{CookieOctopusBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "BluegillDart",
+            "Value": "{{Round: {{Query: {{BluegillBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "BluegillSpawn",
+            "Value": "{{Query: {{BluegillBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "BluegillChance",
+            "Value": "{{Query: {{BluegillBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "BluegillPrecedence",
+            "Value": "{{Round: {{Query: {{BluegillBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "BlackClownfishDart",
+            "Value": "{{Round: {{Query: {{BlackClownfishBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "BlackClownfishSpawn",
+            "Value": "{{Query: {{BlackClownfishBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "BlackClownfishChance",
+            "Value": "{{Query: {{BlackClownfishBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "BlackClownfishPrecedence",
+            "Value": "{{Round: {{Query: {{BlackClownfishBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "MorayEelDart",
+            "Value": "{{Round: {{Query: {{MorayEelBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "MorayEelSpawn",
+            "Value": "{{Query: {{MorayEelBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "MorayEelChance",
+            "Value": "{{Query: {{MorayEelBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "MorayEelPrecedence",
+            "Value": "{{Round: {{Query: {{MorayEelBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "VermilionCarpDart",
+            "Value": "{{Round: {{Query: {{VermilionCarpBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "VermilionCarpSpawn",
+            "Value": "{{Query: {{VermilionCarpBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "VermilionCarpChance",
+            "Value": "{{Query: {{VermilionCarpBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "VermilionCarpPrecedence",
+            "Value": "{{Round: {{Query: {{VermilionCarpBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "PumpkinPerchDart",
+            "Value": "{{Round: {{Query: {{PumpkinPerchBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "PumpkinPerchSpawn",
+            "Value": "{{Query: {{PumpkinPerchBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "PumpkinPerchChance",
+            "Value": "{{Query: {{PumpkinPerchBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "PumpkinPerchPrecedence",
+            "Value": "{{Round: {{Query: {{PumpkinPerchBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "YellowfinCarpDart",
+            "Value": "{{Round: {{Query: {{YellowfinCarpBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "YellowfinCarpSpawn",
+            "Value": "{{Query: {{YellowfinCarpBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "YellowfinCarpChance",
+            "Value": "{{Query: {{YellowfinCarpBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "YellowfinCarpPrecedence",
+            "Value": "{{Round: {{Query: {{YellowfinCarpBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "EmeraldJackfishDart",
+            "Value": "{{Round: {{Query: {{EmeraldJackfishBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "EmeraldJackfishSpawn",
+            "Value": "{{Query: {{EmeraldJackfishBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "EmeraldJackfishChance",
+            "Value": "{{Query: {{EmeraldJackfishBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "EmeraldJackfishPrecedence",
+            "Value": "{{Round: {{Query: {{EmeraldJackfishBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+                {
+            "Name": "StripedCharDart",
+            "Value": "{{Round: {{Query: {{StripedCharBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "StripedCharSpawn",
+            "Value": "{{Query: {{StripedCharBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "StripedCharChance",
+            "Value": "{{Query: {{StripedCharBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "StripedCharPrecedence",
+            "Value": "{{Round: {{Query: {{StripedCharBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "BabyReefSharkDart",
+            "Value": "{{Round: {{Query: {{BabyReefSharkBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "BabyReefSharkSpawn",
+            "Value": "{{Query: {{BabyReefSharkBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "BabyReefSharkChance",
+            "Value": "{{Query: {{BabyReefSharkBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "BabyReefSharkPrecedence",
+            "Value": "{{Round: {{Query: {{BabyReefSharkBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "StoneTetraDart",
+            "Value": "{{Round: {{Query: {{StoneTetraBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "StoneTetraSpawn",
+            "Value": "{{Query: {{StoneTetraBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "StoneTetraChance",
+            "Value": "{{Query: {{StoneTetraBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "StoneTetraPrecedence",
+            "Value": "{{Round: {{Query: {{StoneTetraBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "MuddyTetraDart",
+            "Value": "{{Round: {{Query: {{MuddyTetraBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "MuddyTetraSpawn",
+            "Value": "{{Query: {{MuddyTetraBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "MuddyTetraChance",
+            "Value": "{{Query: {{MuddyTetraBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "MuddyTetraPrecedence",
+            "Value": "{{Round: {{Query: {{MuddyTetraBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "IridiumSalmonDart",
+            "Value": "{{Round: {{Query: {{IridiumSalmonBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "IridiumSalmonSpawn",
+            "Value": "{{Query: {{IridiumSalmonBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "IridiumSalmonChance",
+            "Value": "{{Query: {{IridiumSalmonBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "IridiumSalmonPrecedence",
+            "Value": "{{Round: {{Query: {{IridiumSalmonBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "ChadDart",
+            "Value": "{{Round: {{Query: {{ChadBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "ChadSpawn",
+            "Value": "{{Query: {{ChadBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "ChadChance",
+            "Value": "{{Query: {{ChadBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "ChadPrecedence",
+            "Value": "{{Round: {{Query: {{ChadBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "SunscaledTroutDart",
+            "Value": "{{Round: {{Query: {{SunscaledTroutBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "SunscaledTroutSpawn",
+            "Value": "{{Query: {{SunscaledTroutBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "SunscaledTroutChance",
+            "Value": "{{Query: {{SunscaledTroutBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "SunscaledTroutPrecedence",
+            "Value": "{{Round: {{Query: {{SunscaledTroutBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "FrostbiteFlounderDart",
+            "Value": "{{Round: {{Query: {{FrostbiteFlounderBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "FrostbiteFlounderSpawn",
+            "Value": "{{Query: {{FrostbiteFlounderBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "FrostbiteFlounderChance",
+            "Value": "{{Query: {{FrostbiteFlounderBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "FrostbiteFlounderPrecedence",
+            "Value": "{{Round: {{Query: {{FrostbiteFlounderBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "GlacierBassDart",
+            "Value": "{{Round: {{Query: {{GlacierBassBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "GlacierBassSpawn",
+            "Value": "{{Query: {{GlacierBassBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "GlacierBassChance",
+            "Value": "{{Query: {{GlacierBassBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "GlacierBassPrecedence",
+            "Value": "{{Round: {{Query: {{GlacierBassBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "WhisperingWalleyeDart",
+            "Value": "{{Round: {{Query: {{WhisperingWalleyeBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "WhisperingWalleyeSpawn",
+            "Value": "{{Query: {{WhisperingWalleyeBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "WhisperingWalleyeChance",
+            "Value": "{{Query: {{WhisperingWalleyeBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "WhisperingWalleyePrecedence",
+            "Value": "{{Round: {{Query: {{WhisperingWalleyeBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "BandedEelDart",
+            "Value": "{{Round: {{Query: {{BandedEelBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "BandedEelSpawn",
+            "Value": "{{Query: {{BandedEelBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "BandedEelChance",
+            "Value": "{{Query: {{BandedEelBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "BandedEelPrecedence",
+            "Value": "{{Round: {{Query: {{BandedEelBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "IceyOctopusDart",
+            "Value": "{{Round: {{Query: {{IceyOctopusBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "IceyOctopusSpawn",
+            "Value": "{{Query: {{IceyOctopusBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "IceyOctopusChance",
+            "Value": "{{Query: {{IceyOctopusBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "IceyOctopusPrecedence",
+            "Value": "{{Round: {{Query: {{IceyOctopusBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "PurpleParrotfishDart",
+            "Value": "{{Round: {{Query: {{PurpleParrotfishBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "PurpleParrotfishSpawn",
+            "Value": "{{Query: {{PurpleParrotfishBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "PurpleParrotfishChance",
+            "Value": "{{Query: {{PurpleParrotfishBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "PurpleParrotfishPrecedence",
+            "Value": "{{Round: {{Query: {{PurpleParrotfishBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "SandRayDart",
+            "Value": "{{Round: {{Query: {{SandRayBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "SandRaySpawn",
+            "Value": "{{Query: {{SandRayBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "SandRayChance",
+            "Value": "{{Query: {{SandRayBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "SandRayPrecedence",
+            "Value": "{{Round: {{Query: {{SandRayBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "TriggerfishDart",
+            "Value": "{{Round: {{Query: {{TriggerfishBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "TriggerfishSpawn",
+            "Value": "{{Query: {{TriggerfishBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "TriggerfishChance",
+            "Value": "{{Query: {{TriggerfishBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "TriggerfishPrecedence",
+            "Value": "{{Round: {{Query: {{TriggerfishBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+                {
+            "Name": "SailfinDart",
+            "Value": "{{Round: {{Query: {{SailfinBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "SailfinSpawn",
+            "Value": "{{Query: {{SailfinBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "SailfinChance",
+            "Value": "{{Query: {{SailfinBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "SailfinPrecedence",
+            "Value": "{{Round: {{Query: {{SailfinBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "SaltGrouperDart",
+            "Value": "{{Round: {{Query: {{SaltGrouperBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "SaltGrouperSpawn",
+            "Value": "{{Query: {{SaltGrouperBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "SaltGrouperChance",
+            "Value": "{{Query: {{SaltGrouperBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "SaltGrouperPrecedence",
+            "Value": "{{Round: {{Query: {{SaltGrouperBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "MossyTetraDart",
+            "Value": "{{Round: {{Query: {{MossyTetraBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "MossyTetraSpawn",
+            "Value": "{{Query: {{MossyTetraBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "MossyTetraChance",
+            "Value": "{{Query: {{MossyTetraBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "MossyTetraPrecedence",
+            "Value": "{{Round: {{Query: {{MossyTetraBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "ReefSharkDart",
+            "Value": "{{Round: {{Query: {{ReefSharkBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "ReefSharkSpawn",
+            "Value": "{{Query: {{ReefSharkBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "ReefSharkChance",
+            "Value": "{{Query: {{ReefSharkBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "ReefSharkPrecedence",
+            "Value": "{{Round: {{Query: {{ReefSharkBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "WillowCutthroatDart",
+            "Value": "{{Round: {{Query: {{WillowCutthroatBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "WillowCutthroatSpawn",
+            "Value": "{{Query: {{WillowCutthroatBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "WillowCutthroatChance",
+            "Value": "{{Query: {{WillowCutthroatBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "WillowCutthroatPrecedence",
+            "Value": "{{Round: {{Query: {{WillowCutthroatBasePrecedence}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "LongfinEelDart",
+            "Value": "{{Round: {{Query: {{LongfinEelBaseDart}}*{{Difficulty}}}}}}"
+        },
+        {
+            "Name": "LongfinEelSpawn",
+            "Value": "{{Query: {{LongfinEelBaseSpawn}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "LongfinEelChance",
+            "Value": "{{Query: {{LongfinEelBaseChance}}*{{Difficulty}}}}"
+        },
+        {
+            "Name": "LongfinEelPrecedence",
+            "Value": "{{Round: {{Query: {{LongfinEelBasePrecedence}}*{{Difficulty}}}}}}"
         }
     ],
     "Changes": [
