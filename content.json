@@ -47,35 +47,140 @@
         },
         // Difficultyame"
         {
-            "Name": "Difficulty",
+            "Name": "DartDifficulty",
             "Value": 0.5,
             "When": {
                 "FishDifficulty": "easy"
             }
         },
         {
-            "Name": "Difficulty",
+            "Name": "DartDifficulty",
             "Value": 1,
             "When": {
                 "FishDifficulty": "normal"
             }
         },
         {
-            "Name": "Difficulty",
+            "Name": "DartDifficulty",
             "Value": 1.5,
             "When": {
                 "FishDifficulty": "hard"
             }
         },
         {
-            "Name": "Difficulty",
+            "Name": "DartDifficulty",
             "Value": 2,
             "When": {
                 "FishDifficulty": "extreme"
             }
         },
         {
-            "Name": "Difficulty",
+            "Name": "DartDifficulty",
+            "Value": 3,
+            "When": {
+                "FishDifficulty": "impossible"
+            }
+        },
+        {
+            "Name": "SpawnDifficulty",
+            "Value": 2,
+            "When": {
+                "FishDifficulty": "easy"
+            }
+        },
+        {
+            "Name": "SpawnDifficulty",
+            "Value": 1,
+            "When": {
+                "FishDifficulty": "normal"
+            }
+        },
+        {
+            "Name": "SpawnDifficulty",
+            "Value": 0.5,
+            "When": {
+                "FishDifficulty": "hard"
+            }
+        },
+        {
+            "Name": "SpawnDifficulty",
+            "Value": 0.25,
+            "When": {
+                "FishDifficulty": "extreme"
+            }
+        },
+        {
+            "Name": "SpawnDifficulty",
+            "Value": 0.125,
+            "When": {
+                "FishDifficulty": "impossible"
+            }
+        },
+        {
+            "Name": "ChanceDifficulty",
+            "Value": 2,
+            "When": {
+                "FishDifficulty": "easy"
+            }
+        },
+        {
+            "Name": "ChanceDifficulty",
+            "Value": 1,
+            "When": {
+                "FishDifficulty": "normal"
+            }
+        },
+        {
+            "Name": "ChanceDifficulty",
+            "Value": 0.5,
+            "When": {
+                "FishDifficulty": "hard"
+            }
+        },
+        {
+            "Name": "ChanceDifficulty",
+            "Value": 0.25,
+            "When": {
+                "FishDifficulty": "extreme"
+            }
+        },
+        {
+            "Name": "ChanceDifficulty",
+            "Value": 0.125,
+            "When": {
+                "FishDifficulty": "impossible"
+            }
+        },
+        {
+            "Name": "PrecedenceDifficulty",
+            "Value": 0.5,
+            "When": {
+                "FishDifficulty": "easy"
+            }
+        },
+        {
+            "Name": "PrecedenceDifficulty",
+            "Value": 1,
+            "When": {
+                "FishDifficulty": "normal"
+            }
+        },
+        {
+            "Name": "PrecedenceDifficulty",
+            "Value": 1.5,
+            "When": {
+                "FishDifficulty": "hard"
+            }
+        },
+        {
+            "Name": "PrecedenceDifficulty",
+            "Value": 2,
+            "When": {
+                "FishDifficulty": "extreme"
+            }
+        },
+        {
+            "Name": "PrecedenceDifficulty",
             "Value": 3,
             "When": {
                 "FishDifficulty": "impossible"
@@ -773,691 +878,691 @@
         //Fish Difficulty
         {
             "Name": "LunarSalmonDart",
-            "Value": "{{Round: {{Query: {{LunarSalmonBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{LunarSalmonBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "LunarSalmonSpawn",
-            "Value": "{{Query: {{LunarSalmonBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{LunarSalmonBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "LunarSalmonChance",
-            "Value": "{{Query: {{LunarSalmonBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{LunarSalmonBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "LunarSalmonPrecedence",
-            "Value": "{{Round: {{Query: {{LunarSalmonBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{LunarSalmonBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "MudTroutDart",
-            "Value": "{{Round: {{Query: {{MudTroutBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{MudTroutBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "MudTroutSpawn",
-            "Value": "{{Query: {{MudTroutBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{MudTroutBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "MudTroutChance",
-            "Value": "{{Query: {{MudTroutBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{MudTroutBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "MudTroutPrecedence",
-            "Value": "{{Round: {{Query: {{MudTroutBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{MudTroutBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "BlueCatfishDart",
-            "Value": "{{Round: {{Query: {{BlueCatfishBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{BlueCatfishBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "BlueCatfishSpawn",
-            "Value": "{{Query: {{BlueCatfishBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{BlueCatfishBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "BlueCatfishChance",
-            "Value": "{{Query: {{BlueCatfishBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{BlueCatfishBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "BlueCatfishPrecedence",
-            "Value": "{{Round: {{Query: {{BlueCatfishBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{BlueCatfishBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "ArmoredCatfishDart",
-            "Value": "{{Round: {{Query: {{ArmoredCatfishBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{ArmoredCatfishBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "ArmoredCatfishSpawn",
-            "Value": "{{Query: {{ArmoredCatfishBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{ArmoredCatfishBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "ArmoredCatfishChance",
-            "Value": "{{Query: {{ArmoredCatfishBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{ArmoredCatfishBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "ArmoredCatfishPrecedence",
-            "Value": "{{Round: {{Query: {{ArmoredCatfishBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{ArmoredCatfishBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "WhiteSturgeonDart",
-            "Value": "{{Round: {{Query: {{WhiteSturgeonBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{WhiteSturgeonBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "WhiteSturgeonSpawn",
-            "Value": "{{Query: {{WhiteSturgeonBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{WhiteSturgeonBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "WhiteSturgeonChance",
-            "Value": "{{Query: {{WhiteSturgeonBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{WhiteSturgeonBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "WhiteSturgeonPrecedence",
-            "Value": "{{Round: {{Query: {{WhiteSturgeonBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{WhiteSturgeonBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "MossyCodDart",
-            "Value": "{{Round: {{Query: {{MossyCodBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{MossyCodBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "MossyCodSpawn",
-            "Value": "{{Query: {{MossyCodBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{MossyCodBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "MossyCodChance",
-            "Value": "{{Query: {{MossyCodBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{MossyCodBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "MossyCodPrecedence",
-            "Value": "{{Round: {{Query: {{MossyCodBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{MossyCodBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "GhostPikeDart",
-            "Value": "{{Round: {{Query: {{GhostPikeBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{GhostPikeBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "GhostPikeSpawn",
-            "Value": "{{Query: {{GhostPikeBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{GhostPikeBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "GhostPikeChance",
-            "Value": "{{Query: {{GhostPikeBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{GhostPikeBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "GhostPikePrecedence",
-            "Value": "{{Round: {{Query: {{GhostPikeBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{GhostPikeBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
-                {
+        {
             "Name": "RadioactiveSunfishDart",
-            "Value": "{{Round: {{Query: {{RadioactiveSunfishBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{RadioactiveSunfishBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "RadioactiveSunfishSpawn",
-            "Value": "{{Query: {{RadioactiveSunfishBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{RadioactiveSunfishBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "RadioactiveSunfishChance",
-            "Value": "{{Query: {{RadioactiveSunfishBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{RadioactiveSunfishBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "RadioactiveSunfishPrecedence",
-            "Value": "{{Round: {{Query: {{RadioactiveSunfishBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{RadioactiveSunfishBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "SpottedRayDart",
-            "Value": "{{Round: {{Query: {{SpottedRayBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{SpottedRayBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "SpottedRaySpawn",
-            "Value": "{{Query: {{SpottedRayBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{SpottedRayBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "SpottedRayChance",
-            "Value": "{{Query: {{SpottedRayBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{SpottedRayBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "SpottedRayPrecedence",
-            "Value": "{{Round: {{Query: {{SpottedRayBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{SpottedRayBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "BrownShadDart",
-            "Value": "{{Round: {{Query: {{BrownShadBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{BrownShadBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "BrownShadSpawn",
-            "Value": "{{Query: {{BrownShadBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{BrownShadBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "BrownShadChance",
-            "Value": "{{Query: {{BrownShadBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{BrownShadBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "BrownShadPrecedence",
-            "Value": "{{Round: {{Query: {{BrownShadBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{BrownShadBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "DeepSeaHalibutDart",
-            "Value": "{{Round: {{Query: {{DeepSeaHalibutBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{DeepSeaHalibutBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "DeepSeaHalibutSpawn",
-            "Value": "{{Query: {{DeepSeaHalibutBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{DeepSeaHalibutBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "DeepSeaHalibutChance",
-            "Value": "{{Query: {{DeepSeaHalibutBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{DeepSeaHalibutBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "DeepSeaHalibutPrecedence",
-            "Value": "{{Round: {{Query: {{DeepSeaHalibutBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{DeepSeaHalibutBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "SeaweedHalibutDart",
-            "Value": "{{Round: {{Query: {{SeaweedHalibutBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{SeaweedHalibutBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "SeaweedHalibutSpawn",
-            "Value": "{{Query: {{SeaweedHalibutBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{SeaweedHalibutBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "SeaweedHalibutChance",
-            "Value": "{{Query: {{SeaweedHalibutBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{SeaweedHalibutBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "SeaweedHalibutPrecedence",
-            "Value": "{{Round: {{Query: {{SeaweedHalibutBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{SeaweedHalibutBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "CrimsonShadDart",
-            "Value": "{{Round: {{Query: {{CrimsonShadBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{CrimsonShadBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "CrimsonShadSpawn",
-            "Value": "{{Query: {{CrimsonShadBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{CrimsonShadBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "CrimsonShadChance",
-            "Value": "{{Query: {{CrimsonShadBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{CrimsonShadBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "CrimsonShadPrecedence",
-            "Value": "{{Round: {{Query: {{CrimsonShadBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{CrimsonShadBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "SockeyeSalmonDart",
-            "Value": "{{Round: {{Query: {{SockeyeSalmonBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{SockeyeSalmonBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "SockeyeSalmonSpawn",
-            "Value": "{{Query: {{SockeyeSalmonBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{SockeyeSalmonBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "SockeyeSalmonChance",
-            "Value": "{{Query: {{SockeyeSalmonBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{SockeyeSalmonBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "SockeyeSalmonPrecedence",
-            "Value": "{{Round: {{Query: {{SockeyeSalmonBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{SockeyeSalmonBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "CookieOctopusDart",
-            "Value": "{{Round: {{Query: {{CookieOctopusBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{CookieOctopusBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "CookieOctopusSpawn",
-            "Value": "{{Query: {{CookieOctopusBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{CookieOctopusBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "CookieOctopusChance",
-            "Value": "{{Query: {{CookieOctopusBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{CookieOctopusBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "CookieOctopusPrecedence",
-            "Value": "{{Round: {{Query: {{CookieOctopusBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{CookieOctopusBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "BluegillDart",
-            "Value": "{{Round: {{Query: {{BluegillBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{BluegillBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "BluegillSpawn",
-            "Value": "{{Query: {{BluegillBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{BluegillBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "BluegillChance",
-            "Value": "{{Query: {{BluegillBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{BluegillBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "BluegillPrecedence",
-            "Value": "{{Round: {{Query: {{BluegillBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{BluegillBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "BlackClownfishDart",
-            "Value": "{{Round: {{Query: {{BlackClownfishBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{BlackClownfishBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "BlackClownfishSpawn",
-            "Value": "{{Query: {{BlackClownfishBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{BlackClownfishBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "BlackClownfishChance",
-            "Value": "{{Query: {{BlackClownfishBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{BlackClownfishBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "BlackClownfishPrecedence",
-            "Value": "{{Round: {{Query: {{BlackClownfishBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{BlackClownfishBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "MorayEelDart",
-            "Value": "{{Round: {{Query: {{MorayEelBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{MorayEelBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "MorayEelSpawn",
-            "Value": "{{Query: {{MorayEelBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{MorayEelBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "MorayEelChance",
-            "Value": "{{Query: {{MorayEelBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{MorayEelBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "MorayEelPrecedence",
-            "Value": "{{Round: {{Query: {{MorayEelBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{MorayEelBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "VermilionCarpDart",
-            "Value": "{{Round: {{Query: {{VermilionCarpBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{VermilionCarpBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "VermilionCarpSpawn",
-            "Value": "{{Query: {{VermilionCarpBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{VermilionCarpBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "VermilionCarpChance",
-            "Value": "{{Query: {{VermilionCarpBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{VermilionCarpBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "VermilionCarpPrecedence",
-            "Value": "{{Round: {{Query: {{VermilionCarpBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{VermilionCarpBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "PumpkinPerchDart",
-            "Value": "{{Round: {{Query: {{PumpkinPerchBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{PumpkinPerchBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "PumpkinPerchSpawn",
-            "Value": "{{Query: {{PumpkinPerchBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{PumpkinPerchBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "PumpkinPerchChance",
-            "Value": "{{Query: {{PumpkinPerchBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{PumpkinPerchBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "PumpkinPerchPrecedence",
-            "Value": "{{Round: {{Query: {{PumpkinPerchBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{PumpkinPerchBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "YellowfinCarpDart",
-            "Value": "{{Round: {{Query: {{YellowfinCarpBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{YellowfinCarpBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "YellowfinCarpSpawn",
-            "Value": "{{Query: {{YellowfinCarpBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{YellowfinCarpBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "YellowfinCarpChance",
-            "Value": "{{Query: {{YellowfinCarpBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{YellowfinCarpBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "YellowfinCarpPrecedence",
-            "Value": "{{Round: {{Query: {{YellowfinCarpBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{YellowfinCarpBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "EmeraldJackfishDart",
-            "Value": "{{Round: {{Query: {{EmeraldJackfishBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{EmeraldJackfishBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "EmeraldJackfishSpawn",
-            "Value": "{{Query: {{EmeraldJackfishBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{EmeraldJackfishBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "EmeraldJackfishChance",
-            "Value": "{{Query: {{EmeraldJackfishBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{EmeraldJackfishBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "EmeraldJackfishPrecedence",
-            "Value": "{{Round: {{Query: {{EmeraldJackfishBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{EmeraldJackfishBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
-                {
+        {
             "Name": "StripedCharDart",
-            "Value": "{{Round: {{Query: {{StripedCharBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{StripedCharBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "StripedCharSpawn",
-            "Value": "{{Query: {{StripedCharBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{StripedCharBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "StripedCharChance",
-            "Value": "{{Query: {{StripedCharBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{StripedCharBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "StripedCharPrecedence",
-            "Value": "{{Round: {{Query: {{StripedCharBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{StripedCharBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "BabyReefSharkDart",
-            "Value": "{{Round: {{Query: {{BabyReefSharkBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{BabyReefSharkBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "BabyReefSharkSpawn",
-            "Value": "{{Query: {{BabyReefSharkBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{BabyReefSharkBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "BabyReefSharkChance",
-            "Value": "{{Query: {{BabyReefSharkBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{BabyReefSharkBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "BabyReefSharkPrecedence",
-            "Value": "{{Round: {{Query: {{BabyReefSharkBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{BabyReefSharkBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "StoneTetraDart",
-            "Value": "{{Round: {{Query: {{StoneTetraBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{StoneTetraBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "StoneTetraSpawn",
-            "Value": "{{Query: {{StoneTetraBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{StoneTetraBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "StoneTetraChance",
-            "Value": "{{Query: {{StoneTetraBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{StoneTetraBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "StoneTetraPrecedence",
-            "Value": "{{Round: {{Query: {{StoneTetraBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{StoneTetraBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "MuddyTetraDart",
-            "Value": "{{Round: {{Query: {{MuddyTetraBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{MuddyTetraBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "MuddyTetraSpawn",
-            "Value": "{{Query: {{MuddyTetraBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{MuddyTetraBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "MuddyTetraChance",
-            "Value": "{{Query: {{MuddyTetraBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{MuddyTetraBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "MuddyTetraPrecedence",
-            "Value": "{{Round: {{Query: {{MuddyTetraBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{MuddyTetraBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "IridiumSalmonDart",
-            "Value": "{{Round: {{Query: {{IridiumSalmonBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{IridiumSalmonBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "IridiumSalmonSpawn",
-            "Value": "{{Query: {{IridiumSalmonBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{IridiumSalmonBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "IridiumSalmonChance",
-            "Value": "{{Query: {{IridiumSalmonBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{IridiumSalmonBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "IridiumSalmonPrecedence",
-            "Value": "{{Round: {{Query: {{IridiumSalmonBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{IridiumSalmonBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "ChadDart",
-            "Value": "{{Round: {{Query: {{ChadBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{ChadBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "ChadSpawn",
-            "Value": "{{Query: {{ChadBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{ChadBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "ChadChance",
-            "Value": "{{Query: {{ChadBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{ChadBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "ChadPrecedence",
-            "Value": "{{Round: {{Query: {{ChadBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{ChadBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "SunscaledTroutDart",
-            "Value": "{{Round: {{Query: {{SunscaledTroutBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{SunscaledTroutBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "SunscaledTroutSpawn",
-            "Value": "{{Query: {{SunscaledTroutBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{SunscaledTroutBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "SunscaledTroutChance",
-            "Value": "{{Query: {{SunscaledTroutBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{SunscaledTroutBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "SunscaledTroutPrecedence",
-            "Value": "{{Round: {{Query: {{SunscaledTroutBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{SunscaledTroutBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "FrostbiteFlounderDart",
-            "Value": "{{Round: {{Query: {{FrostbiteFlounderBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{FrostbiteFlounderBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "FrostbiteFlounderSpawn",
-            "Value": "{{Query: {{FrostbiteFlounderBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{FrostbiteFlounderBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "FrostbiteFlounderChance",
-            "Value": "{{Query: {{FrostbiteFlounderBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{FrostbiteFlounderBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "FrostbiteFlounderPrecedence",
-            "Value": "{{Round: {{Query: {{FrostbiteFlounderBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{FrostbiteFlounderBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "GlacierBassDart",
-            "Value": "{{Round: {{Query: {{GlacierBassBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{GlacierBassBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "GlacierBassSpawn",
-            "Value": "{{Query: {{GlacierBassBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{GlacierBassBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "GlacierBassChance",
-            "Value": "{{Query: {{GlacierBassBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{GlacierBassBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "GlacierBassPrecedence",
-            "Value": "{{Round: {{Query: {{GlacierBassBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{GlacierBassBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "WhisperingWalleyeDart",
-            "Value": "{{Round: {{Query: {{WhisperingWalleyeBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{WhisperingWalleyeBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "WhisperingWalleyeSpawn",
-            "Value": "{{Query: {{WhisperingWalleyeBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{WhisperingWalleyeBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "WhisperingWalleyeChance",
-            "Value": "{{Query: {{WhisperingWalleyeBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{WhisperingWalleyeBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "WhisperingWalleyePrecedence",
-            "Value": "{{Round: {{Query: {{WhisperingWalleyeBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{WhisperingWalleyeBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "BandedEelDart",
-            "Value": "{{Round: {{Query: {{BandedEelBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{BandedEelBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "BandedEelSpawn",
-            "Value": "{{Query: {{BandedEelBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{BandedEelBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "BandedEelChance",
-            "Value": "{{Query: {{BandedEelBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{BandedEelBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "BandedEelPrecedence",
-            "Value": "{{Round: {{Query: {{BandedEelBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{BandedEelBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "IceyOctopusDart",
-            "Value": "{{Round: {{Query: {{IceyOctopusBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{IceyOctopusBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "IceyOctopusSpawn",
-            "Value": "{{Query: {{IceyOctopusBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{IceyOctopusBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "IceyOctopusChance",
-            "Value": "{{Query: {{IceyOctopusBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{IceyOctopusBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "IceyOctopusPrecedence",
-            "Value": "{{Round: {{Query: {{IceyOctopusBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{IceyOctopusBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "PurpleParrotfishDart",
-            "Value": "{{Round: {{Query: {{PurpleParrotfishBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{PurpleParrotfishBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "PurpleParrotfishSpawn",
-            "Value": "{{Query: {{PurpleParrotfishBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{PurpleParrotfishBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "PurpleParrotfishChance",
-            "Value": "{{Query: {{PurpleParrotfishBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{PurpleParrotfishBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "PurpleParrotfishPrecedence",
-            "Value": "{{Round: {{Query: {{PurpleParrotfishBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{PurpleParrotfishBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "SandRayDart",
-            "Value": "{{Round: {{Query: {{SandRayBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{SandRayBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "SandRaySpawn",
-            "Value": "{{Query: {{SandRayBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{SandRayBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "SandRayChance",
-            "Value": "{{Query: {{SandRayBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{SandRayBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "SandRayPrecedence",
-            "Value": "{{Round: {{Query: {{SandRayBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{SandRayBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "TriggerfishDart",
-            "Value": "{{Round: {{Query: {{TriggerfishBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{TriggerfishBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "TriggerfishSpawn",
-            "Value": "{{Query: {{TriggerfishBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{TriggerfishBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "TriggerfishChance",
-            "Value": "{{Query: {{TriggerfishBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{TriggerfishBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "TriggerfishPrecedence",
-            "Value": "{{Round: {{Query: {{TriggerfishBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{TriggerfishBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
-                {
+        {
             "Name": "SailfinDart",
-            "Value": "{{Round: {{Query: {{SailfinBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{SailfinBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "SailfinSpawn",
-            "Value": "{{Query: {{SailfinBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{SailfinBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "SailfinChance",
-            "Value": "{{Query: {{SailfinBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{SailfinBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "SailfinPrecedence",
-            "Value": "{{Round: {{Query: {{SailfinBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{SailfinBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "SaltGrouperDart",
-            "Value": "{{Round: {{Query: {{SaltGrouperBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{SaltGrouperBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "SaltGrouperSpawn",
-            "Value": "{{Query: {{SaltGrouperBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{SaltGrouperBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "SaltGrouperChance",
-            "Value": "{{Query: {{SaltGrouperBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{SaltGrouperBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "SaltGrouperPrecedence",
-            "Value": "{{Round: {{Query: {{SaltGrouperBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{SaltGrouperBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "MossyTetraDart",
-            "Value": "{{Round: {{Query: {{MossyTetraBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{MossyTetraBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "MossyTetraSpawn",
-            "Value": "{{Query: {{MossyTetraBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{MossyTetraBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "MossyTetraChance",
-            "Value": "{{Query: {{MossyTetraBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{MossyTetraBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "MossyTetraPrecedence",
-            "Value": "{{Round: {{Query: {{MossyTetraBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{MossyTetraBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "ReefSharkDart",
-            "Value": "{{Round: {{Query: {{ReefSharkBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{ReefSharkBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "ReefSharkSpawn",
-            "Value": "{{Query: {{ReefSharkBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{ReefSharkBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "ReefSharkChance",
-            "Value": "{{Query: {{ReefSharkBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{ReefSharkBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "ReefSharkPrecedence",
-            "Value": "{{Round: {{Query: {{ReefSharkBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{ReefSharkBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "WillowCutthroatDart",
-            "Value": "{{Round: {{Query: {{WillowCutthroatBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{WillowCutthroatBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "WillowCutthroatSpawn",
-            "Value": "{{Query: {{WillowCutthroatBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{WillowCutthroatBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "WillowCutthroatChance",
-            "Value": "{{Query: {{WillowCutthroatBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{WillowCutthroatBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "WillowCutthroatPrecedence",
-            "Value": "{{Round: {{Query: {{WillowCutthroatBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{WillowCutthroatBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         },
         {
             "Name": "LongfinEelDart",
-            "Value": "{{Round: {{Query: {{LongfinEelBaseDart}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{LongfinEelBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
             "Name": "LongfinEelSpawn",
-            "Value": "{{Query: {{LongfinEelBaseSpawn}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{LongfinEelBaseSpawn}}*{{SpawnDifficulty}}}}"
         },
         {
             "Name": "LongfinEelChance",
-            "Value": "{{Query: {{LongfinEelBaseChance}}*{{Difficulty}}}}"
+            "Value": "{{Query: {{LongfinEelBaseChance}}*{{ChanceDifficulty}}}}"
         },
         {
             "Name": "LongfinEelPrecedence",
-            "Value": "{{Round: {{Query: {{LongfinEelBasePrecedence}}*{{Difficulty}}}}}}"
+            "Value": "{{Round: {{Query: {{LongfinEelBasePrecedence}}*{{PrecedenceDifficulty}}}}}}"
         }
     ],
     "Changes": [
