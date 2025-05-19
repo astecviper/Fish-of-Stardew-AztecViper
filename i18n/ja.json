@@ -28,7 +28,7 @@
     "config.FishSpawnRate.values.normal": "普通",
     "config.FishSpawnRate.values.hard": "珍しい",
     "config.FishSpawnRate.values.extreme": "レア",
-    "config.FishSpawnRate.values.impossible": "伝説",
+    "config.FishSpawnRate.values.impossible": "絶滅",
     // CJB Warps
     "EastBeachWarp_name": "東ビーチ",
     //Strings

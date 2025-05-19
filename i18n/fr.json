@@ -28,7 +28,7 @@
     "config.FishSpawnRate.values.normal": "Normal",
     "config.FishSpawnRate.values.hard": "Inhabituel",
     "config.FishSpawnRate.values.extreme": "Rare",
-    "config.FishSpawnRate.values.impossible": "Epique",
+    "config.FishSpawnRate.values.impossible": "Éteint",
     // CJB Warps
     "EastBeachWarp_name": "Plage Est",
     //Strings

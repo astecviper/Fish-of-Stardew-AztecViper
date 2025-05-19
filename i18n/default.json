@@ -23,12 +23,12 @@
     "config.FishCatchDifficulty.values.extreme": "Extreme",
     "config.FishCatchDifficulty.values.impossible": "Impossible",
     "config.FishSpawnRate.name": "Fish Spawn Rate",
-    "config.FishSpawnRate.description": "Choose the rate at which the mods fish spawn.",
+    "config.FishSpawnRate.description": "Choose the rate at which the mods fish spawn. Some fish are not catchable on difficulties above normal.",
     "config.FishSpawnRate.values.easy": "Common",
     "config.FishSpawnRate.values.normal": "Normal",
     "config.FishSpawnRate.values.hard": "Uncommon",
     "config.FishSpawnRate.values.extreme": "Rare",
-    "config.FishSpawnRate.values.impossible": "Epic",
+    "config.FishSpawnRate.values.impossible": "Extinct",
     //CJB Warps
     "EastBeachWarp_name": "East Beach",
     //Strings

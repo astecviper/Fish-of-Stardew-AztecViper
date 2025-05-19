@@ -28,7 +28,7 @@
     "config.FishSpawnRate.values.normal": "Обычный",
     "config.FishSpawnRate.values.hard": "Редкий",
     "config.FishSpawnRate.values.extreme": "Эпический",
-    "config.FishSpawnRate.values.impossible": "Легендарный",
+    "config.FishSpawnRate.values.impossible": "Вымерший",
     //CJB Warps
     "EastBeachWarp_name": "Восточный пляж",
     //Strings
