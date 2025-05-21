@@ -22,6 +22,9 @@
     "config.FishCatchDifficulty.values.hard": "Hard",
     "config.FishCatchDifficulty.values.extreme": "Extreme",
     "config.FishCatchDifficulty.values.impossible": "Impossible",
+    "config.FishCatchDifficulty.values.custom": "Custom",
+    "config.CustomDartDifficulty.name": "Custom | Darting",
+    "config.CustomDartDifficulty.description": "Choose the difficulty of catching the mods fish. Default is 10. The higher this value is set to, the harder it is to catch the fish.",
     "config.FishSpawnRate.name": "Fish Bite Rate",
     "config.FishSpawnRate.description": "Choose the rate at which the mods fish bite. Some fish are not catchable on difficulties above normal.",
     "config.FishSpawnRate.values.easy": "Common",
@@ -29,6 +32,11 @@
     "config.FishSpawnRate.values.hard": "Uncommon",
     "config.FishSpawnRate.values.extreme": "Rare",
     "config.FishSpawnRate.values.impossible": "Extinct",
+    "config.FishSpawnRate.values.custom": "Custom",
+    "config.CustomSpawnDifficulty.name": "Custom | Spawn Difficulty",
+    "config.CustomSpawnDifficulty.description": "Choose the difficulty of getting the mods fish to bite. Default is 10. The higher this value is set to, the easier it is to get the mods fish to bite.",
+    "config.CustomChanceDifficulty.name": "Custom | Bite Chance",
+    "config.CustomChanceDifficulty.description": "Choose the difficulty of getting the mods fish to bite. Default is 10. The higher this value is set to, the easier it is to get the mods fish to bite.",
     //CJB Warps
     "EastBeachWarp_name": "East Beach",
     //Strings
