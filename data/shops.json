@@ -368,25 +368,6 @@
                     ]
                 }
             }
-        },
-        //Clint's Shop
-        {
-            "Action": "EditData",
-            "Target": "Data/Shops",
-            "TargetField": [
-                "Blacksmith",
-                "Items"
-            ],
-            "Entries": {
-                // Gem Polisher
-                "{{ModId}}_GemPolisher": {
-                    "Id": "{{ModId}}_GemPolisher",
-                    "ItemId": "{{ModId}}_GemPolisher",
-                    "IsRecipe": true,
-                    "Price": 10000,
-                    "Condition": "PLAYER_FISHING_LEVEL Current 6"
-                }
-            }
         }
     ]
 }
