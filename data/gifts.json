@@ -11,7 +11,7 @@
                         "Entries",
                         "Universal_Love"
                     ],
-                    "Value": "{{ModId}}_RadioactiveJade",
+                    "Value": "{{ModId}}_RadioactiveJade {{ModId}}_GoldenPearl",
                     "Delimiter": " "
                 },
                 {
