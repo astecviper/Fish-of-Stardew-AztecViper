@@ -31,7 +31,8 @@
                 "{{ModId}}_SeaweedSoup": "152 5 247 1 248 1 184 1/10 10/{{ModId}}_SeaweedSoup 1/none",
                 "{{ModId}}_BioluminescentSoup": "{{ModId}}_BioluminescentSeaweed 2 184 1 {{ModId}}_BandedEel 1/10 10/{{ModId}}_BioluminescentSoup 1/none",
                 "{{ModId}}_BakedParrotfish": "{{ModId}}_PurpleParrotfish 1 {{ModId}}_BioluminescentSeaweed 1/10 10/{{ModId}}_BakedParrotfish 1/none",
-                "{{ModId}}_TriggerfishSashimi": "{{ModId}}_Triggerfish 1 152 1/10 10/{{ModId}}_TriggerfishSashimi 1/none"
+                "{{ModId}}_TriggerfishSashimi": "{{ModId}}_Triggerfish 1 152 1/10 10/{{ModId}}_TriggerfishSashimi 1/none",
+                "{{ModId}}_BlackenedCatfish": "{{ModId}}_BlackenedCatfish 1 250 1 260 1/10 10/{{ModId}}_BlackenedCatfish 1/none"
             }
         }
     ]
