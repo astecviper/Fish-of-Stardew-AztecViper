@@ -67,6 +67,13 @@
                     "MinStack": 1,
                     "MaxStack": 5,
                     "Condition": "ANY \"LOCATION_NAME Here Forest\" \"LOCATION_NAME Here Mountain\""
+                },
+                "{{ModId}}_GoldenPearl": {
+                    "ItemId": "{{ModId}}_GoldenPearl",
+                    "Chance": 0.0005,
+                    "MinStack": 1,
+                    "MaxStack": 5,
+                    "Condition": "ANY \"LOCATION_NAME Here FOS_Beach1\""
                 }
             }
         }
