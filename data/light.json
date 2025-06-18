@@ -28,6 +28,11 @@
                     "Light": {
                         "Size": 2.5
                     }
+                },
+                "(O){{ModId}}_GoldenPearl": {
+                    "Light": {
+                        "Size": 1.5
+                    }
                 }
             }
         }
