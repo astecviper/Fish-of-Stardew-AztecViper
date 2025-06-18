@@ -1301,7 +1301,7 @@
                     "Description": "{{i18n:BlackenedCatfish_description}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 400,
+                    "Price": 500,
                     "Edibility": 35,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 28,
