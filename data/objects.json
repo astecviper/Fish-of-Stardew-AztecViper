@@ -1798,6 +1798,22 @@
                         "color_green",
                         "fos_gem"
                     ]
+                },
+                "{{ModId}}_GoldenPearl": {
+                    "Name": "{{ModId}}_GoldenPearl",
+                    "Displayname": "{{i18n:GoldenPearl_name}}",
+                    "Description": "{{i18n:GoldenPearl_description}}",
+                    "Type": "Basic",
+                    "Category": -23,
+                    "Price": 5000,
+                    "Edibility": -300,
+                    "Texture": "{{ModId}}/gems",
+                    "SpriteIndex": 5,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_yellow",
+                        "fos_gem"
+                    ]
                 }
             }
         },
