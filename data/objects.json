@@ -1294,6 +1294,22 @@
                         "color_green",
                         "fos_food"
                     ]
+                },
+                "{{ModId}}_BlackenedCatfish": {
+                    "Name": "{{ModId}}_BlackenedCatfish",
+                    "DisplayName": "{{i18n:BlackenedCatfish_name}}",
+                    "Description": "{{i18n:BlackenedCatfish_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 400,
+                    "Edibility": 35,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 28,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_gray",
+                        "fos_food"
+                    ]
                 }
             }
         },
