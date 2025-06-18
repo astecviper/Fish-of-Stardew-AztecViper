@@ -35,6 +35,7 @@
                 "{{ModId}}_RobinBakedPumpkinPerch": "{{i18n:RobinBakedPumpkinPerch_mail}} %item cookingRecipe {{ModId}}_BakedPumpkinPerch %%[#]{{i18n:RobinBakedPumpkinPerch_title}}",
                 "{{ModId}}_ElliottSeaweedSoup": "{{i18n:ElliottSeaweedSoup_mail}} %item cookingRecipe {{ModId}}_SeaweedSoup %%[#]{{i18n:ElliottSeaweedSoup_title}}",
                 "{{ModId}}_LinusBakedSunscaledTrout": "{{i18n:LinusBakedSunscaledTrout_mail}} %item cookingRecipe {{ModId}}_BakedSunscaledTrout %%[#]{{i18n:LinusBakedSunscaledTrout_title}}",
+                "{{ModId}}_GusBlackenedCatfish": "{{i18n:GusBlackenedCatfish_mail}} %item cookingRecipe {{ModId}}_BlackenedCatfish %%[#]{{i18n:GusBlackenedCatfish_title}}",
                 // Quest Mail
                 "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%[#]{{i18n:GusQ1L_title}}",
                 "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%[#]{{i18n:WillyQ1L_title}}",
@@ -325,6 +326,14 @@
                     "Condition": "SEASON fall, WEATHER Here sun, PLAYER_HEARTS Current Robin 5",
                     "Actions": [
                         "AddMail Current {{ModId}}_RobinQ1L now"
+                    ]
+                },
+                "{{ModId}}_GusBlackenedCatfishTrigger": {
+                    "Id": "{{ModId}}_GusBlackenedCatfishTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Gus 7",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusBlackenedCatfish now"
                     ]
                 }
             }
