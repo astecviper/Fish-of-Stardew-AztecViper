@@ -26,7 +26,7 @@
     "config.CustomDartDifficulty.name": "Custom | Darting",
     "config.CustomDartDifficulty.description": "Choose the difficulty of catching the mods fish. Default is 10. The higher this value is set to, the harder it is to catch the fish.",
     "config.FishSpawnRate.name": "Fish Bite Rate",
-    "config.FishSpawnRate.description": "Choose the rate at which the mods fish bite. Some fish are not catchable on difficulties above normal.",
+    "config.FishSpawnRate.description": "Choose the rate at which the mods fish bite. Some fish are almost impossible to catch on difficulties above normal.",
     "config.FishSpawnRate.values.easy": "Common",
     "config.FishSpawnRate.values.normal": "Normal",
     "config.FishSpawnRate.values.hard": "Uncommon",
