@@ -72,7 +72,7 @@
                     "ItemId": "{{ModId}}_GoldenPearl",
                     "Chance": 0.0005,
                     "MinStack": 1,
-                    "MaxStack": 5,
+                    "MaxStack": 2,
                     "Condition": "ANY \"LOCATION_NAME Here FOS_Beach1\""
                 }
             }
