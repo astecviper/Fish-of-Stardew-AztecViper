@@ -36,6 +36,11 @@
                 "{{ModId}}_ElliottSeaweedSoup": "{{i18n:ElliottSeaweedSoup_mail}} %item cookingRecipe {{ModId}}_SeaweedSoup %%[#]{{i18n:ElliottSeaweedSoup_title}}",
                 "{{ModId}}_LinusBakedSunscaledTrout": "{{i18n:LinusBakedSunscaledTrout_mail}} %item cookingRecipe {{ModId}}_BakedSunscaledTrout %%[#]{{i18n:LinusBakedSunscaledTrout_title}}",
                 "{{ModId}}_GusBlackenedCatfish": "{{i18n:GusBlackenedCatfish_mail}} %item cookingRecipe {{ModId}}_BlackenedCatfish %%[#]{{i18n:GusBlackenedCatfish_title}}",
+                "{{ModId}}_WillyIroncladChowder": "{{i18n:WillyIroncladChowder_mail}} %item cookingRecipe {{ModId}}_IroncladChowder %%[#]{{i18n:WillyIroncladChowder_title}}",
+                "{{ModId}}_DemetriusSpottedRayBisque": "{{i18n:DemetriusSpottedRayBisque_mail}} %item cookingRecipe {{ModId}}_SpottedRayBisque %%[#]{{i18n:DemetriusSpottedRayBisque_title}}",
+                "{{ModId}}_DemetriusCrimsonShadStew": "{{i18n:DemetriusCrimsonShadStew_mail}} %item cookingRecipe {{ModId}}_CrimsonShadStew %%[#]{{i18n:DemetriusCrimsonShadStew_title}}",
+                "{{ModId}}_AlexYellowfinPowerBowl": "{{i18n:AlexYellowfinPowerBowl_mail}} %item cookingRecipe {{ModId}}_YellowfinPowerBowl %%[#]{{i18n:AlexYellowfinPowerBowl_title}}",
+                "{{ModId}}_AlexEmeraldEnergyScramble": "{{i18n:AlexEmeraldEnergyScramble_mail}} %item cookingRecipe {{ModId}}_EmeraldEnergyScramble %%[#]{{i18n:AlexEmeraldEnergyScramble_title}}",
                 // Quest Mail
                 "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%[#]{{i18n:GusQ1L_title}}",
                 "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%[#]{{i18n:WillyQ1L_title}}",
@@ -335,6 +340,46 @@
                     "Actions": [
                         "AddMail Current {{ModId}}_GusBlackenedCatfish now"
                     ]
+                },
+                "{{ModId}}_WillyIroncladChowderTrigger": {
+                    "Id": "{{ModId}}_WillyIroncladChowderTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Willy 6",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyIroncladChowder now"
+                    ]
+                },
+                "{{ModId}}_DemetriusSpottedRayBisqueTrigger": {
+                    "Id": "{{ModId}}_DemetriusSpottedRayBisqueTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Demetrius 5, SEASON spring summer",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_DemetriusSpottedRayBisque now"
+                    ]
+                },
+                "{{ModId}}_DemetriusCrimsonShadStewTrigger": {
+                    "Id": "{{ModId}}_DemetriusCrimsonShadStewTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Demetrius 6, SEASON fall winter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_DemetriusCrimsonShadStew now"
+                    ]
+                },
+                "{{ModId}}_AlexYellowfinPowerBowlTrigger": {
+                    "Id": "{{ModId}}_AlexYellowfinPowerBowlTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Alex 4, SEASON spring summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_AlexYellowfinPowerBowl now"
+                    ]
+                },
+                "{{ModId}}_AlexEmeraldEnergyScrambleTrigger": {
+                    "Id": "{{ModId}}_AlexEmeraldEnergyScrambleTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Alex 5, SEASON spring, WEATHER Here sun",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_AlexEmeraldEnergyScramble now"
+                    ]
                 }
             }
         },
@@ -357,13 +402,13 @@
                 "{{ModId}}_EmilyQ1": "ItemDelivery/{{i18n:EmilyQ1_title}}/{{i18n:EmilyQ1_details}}/{{i18n:EmilyQ1_hint}}/Emily {{ModId}}_MudTrout 3/-1/600/Gold/true/$action AddMail Current {{ModId}}_EmilyBakedMudTrout tomorrow #{{i18n:EmilyQ1_reaction}}",
                 "{{ModId}}_EmilyQ2": "ItemDelivery/{{i18n:EmilyQ2_title}}/{{i18n:EmilyQ2_details}}/{{i18n:EmilyQ2_hint}}/Emily {{ModId}}_VermilionCarp 2/-1/800/Gold/true/$action AddMail Current {{ModId}}_EmilyBakedVermilionCarp tomorrow #{{i18n:EmilyQ2_reaction}}",
                 "{{ModId}}_MarnieQ1": "ItemDelivery/{{i18n:MarnieQ1_title}}/{{i18n:MarnieQ1_details}}/{{i18n:MarnieQ1_hint}}/Marnie {{ModId}}_PurpleParrotfish 4/-1/800/Gold/true/$action AddMail Current {{ModId}}_MarnieBakedParrotfish tomorrow #{{i18n:MarnieQ1_reaction}}",
-                "{{ModId}}_MarnieQ2": "ItemDelivery/{{i18n:MarnieQ2_title}}/{{i18n:MarnieQ2_details}}/{{i18n:MarnieQ2_hint}}/Marnie {{ModId}}_Triggerfish 8/-1/850/Gold/true/$action AddMail Current {{ModId}}_MarnieTriggerfishSashimi tomorrow #{{i18n:MarnieQ2_reaction}}",
+                "{{ModId}}_MarnieQ2": "ItemDelivery/{{i18n:MarnieQ2_title}}/{{i18n:MarnieQ2_details}}/{{i18n:WillyQ2_hint}}/Marnie {{ModId}}_Triggerfish 8/-1/850/Gold/true/$action AddMail Current {{ModId}}_MarnieTriggerfishSashimi tomorrow #{{i18n:MarnieQ2_reaction}}",
                 "{{ModId}}_GusQ3": "ItemDelivery/{{i18n:GusQ3_title}}/{{i18n:GusQ3_details}}/{{i18n:GusQ3_hint}}/Gus {{ModId}}_BlackClownfish 3/-1/1500/Gold/true/$action AddMail Current {{ModId}}_GusBlackClownfishRoll tomorrow #{{i18n:GusQ3_reaction}}",
                 "{{ModId}}_GusQ4": "ItemDelivery/{{i18n:GusQ4_title}}/{{i18n:GusQ4_details}}/{{i18n:GusQ4_hint}}/Gus {{ModId}}_MorayEel 2/-1/1100/Gold/true/$action AddMail Current {{ModId}}_GusMorayEelRoll tomorrow #{{i18n:GusQ4_reaction}}",
                 "{{ModId}}_GusQ5": "ItemDelivery/{{i18n:GusQ5_title}}/{{i18n:GusQ5_details}}/{{i18n:GusQ5_hint}}/Gus {{ModId}}_GhostPike 4/-1/1500/Gold/true/$action AddMail Current {{ModId}}_GusBakedGhostPike tomorrow #{{i18n:GusQ5_reaction}}",
                 "{{ModId}}_WillyQ8": "ItemDelivery/{{i18n:WillyQ8_title}}/{{i18n:WillyQ8_details}}/{{i18n:WillyQ8_hint}}/Willy {{ModId}}_SockeyeSalmon 4/-1/1300/Gold/true/$action AddMail Current {{ModId}}_WillyBakedSockeyeSalmon tomorrow #{{i18n:WillyQ8_reaction}}",
                 "{{ModId}}_RobinQ1": "ItemDelivery/{{i18n:RobinQ1_title}}/{{i18n:RobinQ1_details}}/{{i18n:RobinQ1_hint}}/Robin {{ModId}}_PumpkinPerch 4/-1/2000/Gold/true/$action AddMail Current {{ModId}}_RobinBakedPumpkinPerch tomorrow #{{i18n:RobinQ1_reaction}}",
-                "{{ModId}}_ElliottQ1": "ItemDelivery/{{i18n:ElliottQ1_title}}/{{i18n:ElliottQ1_details}}/{{i18n:ElliottQ1_hint}}/Elliott (O)152 15/-1/800/Gold/true/$action AddMail Current {{ModId}}_ElliottSeaweedSoup tomorrow #{{i18n:ElliottQ1_reaction}}",
+                "{{ModId}}_ElliottQ1": "ItemDelivery/{{i18n:ElliottQ1_title}}/{{i18n:ElliottQ1_details}}/{{i18n:WillyQ2_hint}}/Elliott (O)152 15/-1/800/Gold/true/$action AddMail Current {{ModId}}_ElliottSeaweedSoup tomorrow #{{i18n:ElliottQ1_reaction}}",
                 "{{ModId}}_LinusQ1": "ItemDelivery/{{i18n:LinusQ1_title}}/{{i18n:LinusQ1_details}}/{{i18n:LinusQ1_hint}}/Linus {{ModId}}_SunscaledTrout 2/-1/950/Gold/true/$action AddMail Current {{ModId}}_LinusBakedSunscaledTrout tomorrow #{{i18n:LinusQ1_reaction}}"
             }
         }
