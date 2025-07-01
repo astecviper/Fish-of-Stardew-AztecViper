@@ -129,6 +129,50 @@
           ],
           "MinutesUntilReady": 180,
           "RecalculateOnCollect": false
+        },
+        "{{ModId}}_EelMayo": { // Eel Mayo
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModId}}_EelEgg",
+              "RequiredCount": 1,
+              "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_EelMayoRecipeUnlocked Any"
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "Id": "{{ModId}}_EelMayo",
+              "ItemId": "{{ModId}}_EelMayo",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 180,
+          "RecalculateOnCollect": false
+        },
+        "{{ModId}}_LavaEelMayo": { // Lava Eel Mayo
+          "Triggers": [
+            {
+              "Id": "ItemPlacedInMachine",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "{{ModId}}_LavaEelEgg",
+              "RequiredCount": 1,
+              "Condition": "PLAYER_HAS_MAIL Any {{ModId}}_EelMayoRecipeUnlocked Any"
+            }
+          ],
+          "UseFirstValidOutput": false,
+          "OutputItem": [
+            {
+              "Id": "{{ModId}}_LavaEelMayo",
+              "ItemId": "{{ModId}}_LavaEelMayo",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 180,
+          "RecalculateOnCollect": false
         }
       }
     },
