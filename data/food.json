@@ -33,7 +33,11 @@
                 "{{ModId}}_BakedParrotfish": "{{ModId}}_PurpleParrotfish 1 {{ModId}}_BioluminescentSeaweed 1/10 10/{{ModId}}_BakedParrotfish 1/none",
                 "{{ModId}}_TriggerfishSashimi": "{{ModId}}_Triggerfish 1 152 1/10 10/{{ModId}}_TriggerfishSashimi 1/none",
                 "{{ModId}}_BlackenedCatfish": "{{ModId}}_BlueCatfish 1 250 1 260 1/10 10/{{ModId}}_BlackenedCatfish 1/none",
-                "{{ModId}}_IroncladChowder": "{{ModId}}_ArmoredCatfish 1 184 1 192 1/10 10/{{ModId}}_IroncladChowder 1/none"
+                "{{ModId}}_IroncladChowder": "{{ModId}}_ArmoredCatfish 1 184 1 192 1/10 10/{{ModId}}_IroncladChowder 1/none",
+                "{{ModId}}_SpottedRayBisque": "{{ModId}}_SpottedRay 1 248 1 184 1/10 10/{{ModId}}_SpottedRayBisque 1/none",
+                "{{ModId}}_CrimsonShadStew": "{{ModId}}_CrimsonShad 1 404 2 186 1/10 10/{{ModId}}_CrimsonShadStew 1/none",
+                "{{ModId}}_YellowfinPowerBowl": "{{ModId}}_YellowfinCarp 1 176 2 424 1/10 10/{{ModId}}_YellowfinPowerBowl 1/none",
+                "{{ModId}}_EmeraldEnergyScramble": "{{ModId}}_EmeraldJackfish 1 180 2 188 1/10 10/{{ModId}}_EmeraldEnergyScramble 1/none"
             }
         }
     ]
