@@ -1606,6 +1606,36 @@
                         "fos_item",
                         "color_gray"
                     ]
+                },
+                "{{ModId}}_EelEgg": {
+                    "Name": "{{ModId}}_EelEgg",
+                    "Displayname": "{{i18n:EelEgg_name}}",
+                    "Description": "{{i18n:EelEgg_description}}",
+                    "Type": "Basic",
+                    "Category": -5,
+                    "Price": 50,
+                    "Edibility": 15,
+                    "Texture": "{{ModId}}/pond",
+                    "SpriteIndex": 10,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_yellow"
+                    ]
+                },
+                "{{ModId}}_LavaEelEgg": {
+                    "Name": "{{ModId}}_LavaEelEgg",
+                    "Displayname": "{{i18n:LavaEelEgg_name}}",
+                    "Description": "{{i18n:LavaEelEgg_description}}",
+                    "Type": "Basic",
+                    "Category": -5,
+                    "Price": 500,
+                    "Edibility": 45,
+                    "Texture": "{{ModId}}/pond",
+                    "SpriteIndex": 11,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_orange"
+                    ]
                 }
             }
         },
@@ -2045,6 +2075,40 @@
                         "fos_item",
                         "color_purple",
                         "fos_artisangood"
+                    ]
+                },
+                "{{ModId}}_EelMayo": {
+                    "Name": "{{ModId}}_EelMayo",
+                    "Displayname": "{{i18n:EelMayo_name}}",
+                    "Description": "{{i18n:EelMayo_description}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 150,
+                    "Edibility": 35,
+                    "Texture": "{{ModId}}/artisan",
+                    "SpriteIndex": 9,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_purple",
+                        "fos_artisangood",
+                        "mayo_item"
+                    ]
+                },
+                "{{ModId}}_LavaEelMayo": {
+                    "Name": "{{ModId}}_LavaEelMayo",
+                    "Displayname": "{{i18n:LavaEelMayo_name}}",
+                    "Description": "{{i18n:LavaEelMayo_description}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 800,
+                    "Edibility": 60,
+                    "Texture": "{{ModId}}/artisan",
+                    "SpriteIndex": 10,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_red",
+                        "fos_artisangood",
+                        "mayo_item"
                     ]
                 }
             }
