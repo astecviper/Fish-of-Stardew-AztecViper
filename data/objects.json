@@ -1310,6 +1310,86 @@
                         "color_gray",
                         "fos_food"
                     ]
+                },
+                "{{ModId}}_IroncladChowder": {
+                    "Name": "{{ModId}}_IroncladChowder",
+                    "DisplayName": "{{i18n:IroncladChowder_name}}",
+                    "Description": "{{i18n:IroncladChowder_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 650,
+                    "Edibility": 85,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 29,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_gray",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_SpottedRayBisque": {
+                    "Name": "{{ModId}}_SpottedRayBisque",
+                    "DisplayName": "{{i18n:SpottedRayBisque_name}}",
+                    "Description": "{{i18n:SpottedRayBisque_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 650,
+                    "Edibility": 29,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 30,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_white",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_CrimsonShadStew": {
+                    "Name": "{{ModId}}_CrimsonShadStew",
+                    "DisplayName": "{{i18n:CrimsonShadStew_name}}",
+                    "Description": "{{i18n:CrimsonShadStew_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 700,
+                    "Edibility": 32,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 31,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_red",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_YellowfinPowerBowl": {
+                    "Name": "{{ModId}}_YellowfinPowerBowl",
+                    "DisplayName": "{{i18n:YellowfinPowerBowl_name}}",
+                    "Description": "{{i18n:YellowfinPowerBowl_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 500,
+                    "Edibility": 45,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 32,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_yellow",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_EmeraldEnergyScramble": {
+                    "Name": "{{ModId}}_EmeraldEnergyScramble",
+                    "DisplayName": "{{i18n:EmeraldEnergyScramble_name}}",
+                    "Description": "{{i18n:EmeraldEnergyScramble_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 450,
+                    "Edibility": 35,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 33,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
                 }
             }
         },
