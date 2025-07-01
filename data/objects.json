@@ -1870,7 +1870,8 @@
                     "ContextTags": [
                         "fos_item",
                         "color_white",
-                        "fos_artisangood"
+                        "fos_artisangood",
+                        "mayo_item"
                     ]
                 },
                 "{{ModId}}_AgedSpottedRayVenom": {
