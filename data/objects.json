@@ -1472,15 +1472,14 @@
                     "Displayname": "{{i18n:BandedEelEgg_name}}",
                     "Description": "{{i18n:BandedEelEgg_description}}",
                     "Type": "Basic",
-                    "Category": -26,
+                    "Category": -5,
                     "Price": 300,
                     "Edibility": -10,
                     "Texture": "{{ModId}}/pond",
                     "SpriteIndex": 6,
                     "ContextTags": [
                         "fos_item",
-                        "color_blue",
-                        "egg_item"
+                        "color_blue"
                     ]
                 },
                 "{{ModId}}_MorayEelEgg": {
@@ -1488,15 +1487,14 @@
                     "Displayname": "{{i18n:MorayEelEgg_name}}",
                     "Description": "{{i18n:MorayEelEgg_description}}",
                     "Type": "Basic",
-                    "Category": -26,
+                    "Category": -5,
                     "Price": 250,
                     "Edibility": -10,
                     "Texture": "{{ModId}}/pond",
                     "SpriteIndex": 7,
                     "ContextTags": [
                         "fos_item",
-                        "color_green",
-                        "egg_item"
+                        "color_green"
                     ]
                 },
                 "{{ModId}}_Sunscale": {
@@ -1519,15 +1517,14 @@
                     "Displayname": "{{i18n:LongfinEelEgg_name}}",
                     "Description": "{{i18n:LongfinEelEgg_description}}",
                     "Type": "Basic",
-                    "Category": -26,
+                    "Category": -5,
                     "Price": 100,
                     "Edibility": 20,
                     "Texture": "{{ModId}}/pond",
                     "SpriteIndex": 9,
                     "ContextTags": [
                         "fos_item",
-                        "color_gray",
-                        "egg_item"
+                        "color_gray"
                     ]
                 }
             }
