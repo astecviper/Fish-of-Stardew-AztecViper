@@ -272,6 +272,133 @@
                             "64 2"
                         ]
                     }
+                },
+                "148": {
+                    "Id": "148",
+                    "RequiredTags": [
+                        "id_(o)148"
+                    ],
+                    "SpawnTime": 3,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.25,
+                            "ItemId": "{{ModId}}_EelEgg",
+                            "MinStack": 1,
+                            "MaxStack": 2
+                        }
+                    ]
+                },
+                "162": {
+                    "Id": "162",
+                    "RequiredTags": [
+                        "item_lava_eel"
+                    ],
+                    "SpawnTime": 7,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.25,
+                            "ItemId": "{{ModId}}_LavaEelEgg",
+                            "MinStack": 1,
+                            "MaxStack": 2
+                        },
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.33,
+                            "ItemId": "(O)537",
+                            "MinStack": 10,
+                            "MaxStack": 10
+                        },
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.4,
+                            "ItemId": "(O)CaveJelly",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.02,
+                            "ItemId": "(O)537",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.04,
+                            "ItemId": "(O)226",
+                            "MinStack": 5,
+                            "MaxStack": 5
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.033,
+                            "ItemId": "(O)812",
+                            "MinStack": 3,
+                            "MaxStack": 3
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.15,
+                            "ItemId": "(O)812",
+                            "MinStack": 2,
+                            "MaxStack": 2
+                        },
+                        {
+                            "RequiredPopulation": 8,
+                            "Chance": 0.04,
+                            "ItemId": "(O)CaveJelly",
+                            "MinStack": -1,
+                            "MaxStack": -1
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.1,
+                            "ItemId": "(O)384",
+                            "MinStack": 5,
+                            "MaxStack": 5
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 1.0,
+                            "ItemId": "(O)812",
+                            "MinStack": -1,
+                            "MaxStack": -1
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.8,
+                            "ItemId": "(O)812",
+                            "MinStack": -1,
+                            "MaxStack": -1
+                        }
+                    ],
+                    "WaterColor": [
+                        {
+                            "Id": "Default",
+                            "Color": "250 30 30",
+                            "MinPopulation": 1,
+                            "MinUnlockedPopulationGate": 2,
+                            "Condition": null
+                        }
+                    ],
+                    "PopulationGates": {
+                        "2": [
+                            "(O)82 3"
+                        ],
+                        "4": [
+                            "(O)98",
+                            "(O)570",
+                            "(O)72 2"
+                        ],
+                        "6": [
+                            "(O)288 2"
+                        ],
+                        "8": [
+                            "(O)337"
+                        ]
+                    }
                 }
             }
         }
