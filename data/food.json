@@ -45,7 +45,16 @@
                 "{{ModId}}_RockSoup": "{{ModId}}_StoneTetra 1 390 2/10 10/{{ModId}}_RockSoup 1/none",
                 "{{ModId}}_MudBar": "{{ModId}}_MuddyTetra 1 300 1 408 1/10 10/{{ModId}}_MudBar 1/none",
                 "{{ModId}}_ChadBurger": "{{ModId}}_Chad 1 256 1 424 1/10 10/{{ModId}}_ChadBurger 1/none",
-                "{{ModId}}_IcicleRoll": "{{ModId}}_GlacierBass 1 423 1 414 1 152 1/10 10/{{ModId}}_IcicleRoll 1/none"
+                "{{ModId}}_IcicleRoll": "{{ModId}}_GlacierBass 1 423 1 414 1 152 1/10 10/{{ModId}}_IcicleRoll 1/none",
+                "{{ModId}}_IridiumSalmonSteaks": "{{ModId}}_IridiumSalmon 1 248 1 250 1/10 10/{{ModId}}_IridiumSalmonSteaks 1/none",
+                "{{ModId}}_SilentWatersChowder": "{{ModId}}_WhisperingWalleye 1 184 1 192 1/10 10/{{ModId}}_SilentWatersChowder 1/none",
+                "{{ModId}}_IcyOctopusStew": "{{ModId}}_IceyOctopus 1 260 1 184 1/10 10/{{ModId}}_IcyOctopusStew 1/none",
+                "{{ModId}}_DesertRaySandwich": "{{ModId}}_SandRay 1 256 1 424 1/10 10/{{ModId}}_DesertRaySandwich 1/none",
+                "{{ModId}}_CaptainsTreasurePlatter": "{{ModId}}_Sailfin 1 430 1 445 1/10 10/{{ModId}}_CaptainsTreasurePlatter 1/none",
+                "{{ModId}}_BrinyDepthsBisque": "{{ModId}}_SaltGrouper 1 184 1 248 1/10 10/{{ModId}}_BrinyDepthsBisque 1/none",
+                "{{ModId}}_ForestTetraSoup": "{{ModId}}_MossyTetra 1 404 1 259 1/10 10/{{ModId}}_ForestTetraSoup 1/none",
+                "{{ModId}}_RiversideCutthroatRoll": "{{ModId}}_WillowCutthroat 1 423 1 399 1 152 1/10 10/{{ModId}}_RiversideCutthroatRoll 1/none",
+                "{{ModId}}_SerpentineEelRamen": "{{ModId}}_LongfinEel 1 271 1 176 1/10 10/{{ModId}}_SerpentineEelRamen 1/none"
             }
         }
     ]
