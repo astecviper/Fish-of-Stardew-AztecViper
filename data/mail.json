@@ -41,6 +41,14 @@
                 "{{ModId}}_DemetriusCrimsonShadStew": "{{i18n:DemetriusCrimsonShadStew_mail}} %item cookingRecipe {{ModId}}_CrimsonShadStew %%[#]{{i18n:DemetriusCrimsonShadStew_title}}",
                 "{{ModId}}_AlexYellowfinPowerBowl": "{{i18n:AlexYellowfinPowerBowl_mail}} %item cookingRecipe {{ModId}}_YellowfinPowerBowl %%[#]{{i18n:AlexYellowfinPowerBowl_title}}",
                 "{{ModId}}_AlexEmeraldEnergyScramble": "{{i18n:AlexEmeraldEnergyScramble_mail}} %item cookingRecipe {{ModId}}_EmeraldEnergyScramble %%[#]{{i18n:AlexEmeraldEnergyScramble_title}}",
+                "{{ModId}}_ElliottSeaweedHalibutRoll": "{{i18n:ElliottSeaweedHalibutRoll_mail}} %item cookingRecipe {{ModId}}_SeaweedHalibutRoll %%[#]{{i18n:ElliottSeaweedHalibutRoll_title}}",
+                "{{ModId}}_ElliottSharkFinSoup": "{{i18n:ElliottSharkFinSoup_mail}} %item cookingRecipe {{ModId}}_SharkFinSoup %%[#]{{i18n:ElliottSharkFinSoup_title}}",
+                "{{ModId}}_GeorgeReefSharkRoll": "{{i18n:GeorgeReefSharkRoll_mail}} %item cookingRecipe {{ModId}}_ReefSharkRoll %%[#]{{i18n:GeorgeReefSharkRoll_title}}",
+                "{{ModId}}_GeorgeFrostbiteTaco": "{{i18n:GeorgeFrostbiteTaco_mail}} %item cookingRecipe {{ModId}}_FrostbiteTaco %%[#]{{i18n:GeorgeFrostbiteTaco_title}}",
+                "{{ModId}}_PamRockSoup": "{{i18n:PamRockSoup_mail}} %item cookingRecipe {{ModId}}_RockSoup %%[#]{{i18n:PamRockSoup_title}}",
+                "{{ModId}}_LeahMudBar": "{{i18n:LeahMudBar_mail}} %item cookingRecipe {{ModId}}_MudBar %%[#]{{i18n:LeahMudBar_title}}",
+                "{{ModId}}_PamChadBurger": "{{i18n:PamChadBurger_mail}} %item cookingRecipe {{ModId}}_ChadBurger %%[#]{{i18n:PamChadBurger_title}}",
+                "{{ModId}}_LeahIcicleRoll": "{{i18n:LeahIcicleRoll_mail}} %item cookingRecipe {{ModId}}_IcicleRoll %%[#]{{i18n:LeahIcicleRoll_title}}",
                 // Quest Mail
                 "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%[#]{{i18n:GusQ1L_title}}",
                 "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%[#]{{i18n:WillyQ1L_title}}",
@@ -380,6 +388,70 @@
                     "Actions": [
                         "AddMail Current {{ModId}}_AlexEmeraldEnergyScramble now"
                     ]
+                },
+                "{{ModId}}_ElliottSeaweedHalibutRollTrigger": {
+                    "Id": "{{ModId}}_ElliottSeaweedHalibutRollTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 4, SEASON spring summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_ElliottSeaweedHalibutRoll now"
+                    ]
+                },
+                "{{ModId}}_ElliottSharkFinSoupTrigger": {
+                    "Id": "{{ModId}}_ElliottSharkFinSoupTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 6, SEASON spring summer fall winter, WEATHER Here rain",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_ElliottSharkFinSoup now"
+                    ]
+                },
+                "{{ModId}}_GeorgeReefSharkRollTrigger": {
+                    "Id": "{{ModId}}_GeorgeReefSharkRollTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current George 5, SEASON spring summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GeorgeReefSharkRoll now"
+                    ]
+                },
+                "{{ModId}}_GeorgeFrostbiteTacoTrigger": {
+                    "Id": "{{ModId}}_GeorgeFrostbiteTacoTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current George 4, SEASON winter, WEATHER Here snow",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GeorgeFrostbiteTaco now"
+                    ]
+                },
+                "{{ModId}}_PamRockSoupTrigger": {
+                    "Id": "{{ModId}}_PamRockSoupTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Pam 4, SEASON spring summer fall winter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PamRockSoup now"
+                    ]
+                },
+                "{{ModId}}_LeahMudBarTrigger": {
+                    "Id": "{{ModId}}_LeahMudBarTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Leah 5, SEASON spring summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_LeahMudBar now"
+                    ]
+                },
+                "{{ModId}}_PamChadBurgerTrigger": {
+                    "Id": "{{ModId}}_PamChadBurgerTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Pam 5, SEASON summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PamChadBurger now"
+                    ]
+                },
+                "{{ModId}}_LeahIcicleRollTrigger": {
+                    "Id": "{{ModId}}_LeahIcicleRollTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Leah 6, SEASON winter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_LeahIcicleRoll now"
+                    ]
                 }
             }
         },
@@ -402,7 +474,7 @@
                 "{{ModId}}_EmilyQ1": "ItemDelivery/{{i18n:EmilyQ1_title}}/{{i18n:EmilyQ1_details}}/{{i18n:EmilyQ1_hint}}/Emily {{ModId}}_MudTrout 3/-1/600/Gold/true/$action AddMail Current {{ModId}}_EmilyBakedMudTrout tomorrow #{{i18n:EmilyQ1_reaction}}",
                 "{{ModId}}_EmilyQ2": "ItemDelivery/{{i18n:EmilyQ2_title}}/{{i18n:EmilyQ2_details}}/{{i18n:EmilyQ2_hint}}/Emily {{ModId}}_VermilionCarp 2/-1/800/Gold/true/$action AddMail Current {{ModId}}_EmilyBakedVermilionCarp tomorrow #{{i18n:EmilyQ2_reaction}}",
                 "{{ModId}}_MarnieQ1": "ItemDelivery/{{i18n:MarnieQ1_title}}/{{i18n:MarnieQ1_details}}/{{i18n:MarnieQ1_hint}}/Marnie {{ModId}}_PurpleParrotfish 4/-1/800/Gold/true/$action AddMail Current {{ModId}}_MarnieBakedParrotfish tomorrow #{{i18n:MarnieQ1_reaction}}",
-                "{{ModId}}_MarnieQ2": "ItemDelivery/{{i18n:MarnieQ2_title}}/{{i18n:MarnieQ2_details}}/{{i18n:WillyQ2_hint}}/Marnie {{ModId}}_Triggerfish 8/-1/850/Gold/true/$action AddMail Current {{ModId}}_MarnieTriggerfishSashimi tomorrow #{{i18n:MarnieQ2_reaction}}",
+                "{{ModId}}_MarnieQ2": "ItemDelivery/{{i18n:MarnieQ2_title}}/{{i18n:EmilyQ2_details}}/{{i18n:WillyQ2_hint}}/Marnie {{ModId}}_Triggerfish 8/-1/850/Gold/true/$action AddMail Current {{ModId}}_MarnieTriggerfishSashimi tomorrow #{{i18n:MarnieQ2_reaction}}",
                 "{{ModId}}_GusQ3": "ItemDelivery/{{i18n:GusQ3_title}}/{{i18n:GusQ3_details}}/{{i18n:GusQ3_hint}}/Gus {{ModId}}_BlackClownfish 3/-1/1500/Gold/true/$action AddMail Current {{ModId}}_GusBlackClownfishRoll tomorrow #{{i18n:GusQ3_reaction}}",
                 "{{ModId}}_GusQ4": "ItemDelivery/{{i18n:GusQ4_title}}/{{i18n:GusQ4_details}}/{{i18n:GusQ4_hint}}/Gus {{ModId}}_MorayEel 2/-1/1100/Gold/true/$action AddMail Current {{ModId}}_GusMorayEelRoll tomorrow #{{i18n:GusQ4_reaction}}",
                 "{{ModId}}_GusQ5": "ItemDelivery/{{i18n:GusQ5_title}}/{{i18n:GusQ5_details}}/{{i18n:GusQ5_hint}}/Gus {{ModId}}_GhostPike 4/-1/1500/Gold/true/$action AddMail Current {{ModId}}_GusBakedGhostPike tomorrow #{{i18n:GusQ5_reaction}}",
