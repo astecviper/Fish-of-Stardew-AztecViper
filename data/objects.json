@@ -921,6 +921,7 @@
                     "Edibility": 70,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 4,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_green",
@@ -969,6 +970,7 @@
                     "Edibility": 180,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 7,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_purple",
@@ -985,6 +987,7 @@
                     "Edibility": 60,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 8,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_red",
@@ -1225,6 +1228,7 @@
                     "Edibility": 30,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 23,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_green",
@@ -1241,6 +1245,7 @@
                     "Edibility": 75,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 24,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_blue",
@@ -1321,6 +1326,7 @@
                     "Edibility": 85,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 29,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_gray",
@@ -1337,6 +1343,7 @@
                     "Edibility": 29,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 30,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_white",
@@ -1353,6 +1360,7 @@
                     "Edibility": 32,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 31,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_red",
@@ -1385,6 +1393,7 @@
                     "Edibility": 35,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 33,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_green",
@@ -1417,6 +1426,7 @@
                     "Edibility": 60,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 35,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_green",
@@ -1465,6 +1475,7 @@
                     "Edibility": 5,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 38,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_gray",
@@ -1545,6 +1556,7 @@
                     "Edibility": 29,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 43,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_white",
@@ -1561,6 +1573,7 @@
                     "Edibility": 27,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 44,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_blue",
@@ -1609,6 +1622,7 @@
                     "Edibility": 26,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 47,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_purple",
@@ -1625,6 +1639,7 @@
                     "Edibility": 28,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 48,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_green",
@@ -1657,6 +1672,7 @@
                     "Edibility": 20,
                     "Texture": "{{ModId}}/food",
                     "SpriteIndex": 50,
+                    "IsDrink": true,
                     "ContextTags": [
                         "fos_item",
                         "color_brown",
