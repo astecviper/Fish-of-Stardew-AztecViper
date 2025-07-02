@@ -1518,6 +1518,150 @@
                         "color_green",
                         "fos_food"
                     ]
+                },
+                "{{ModId}}_IridiumSalmonSteaks": {
+                    "Name": "{{ModId}}_IridiumSalmonSteaks",
+                    "DisplayName": "{{i18n:IridiumSalmonSteaks_name}}",
+                    "Description": "{{i18n:IridiumSalmonSteaks_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 850,
+                    "Edibility": 31,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 42,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_purple",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_SilentWatersChowder": {
+                    "Name": "{{ModId}}_SilentWatersChowder",
+                    "DisplayName": "{{i18n:SilentWatersChowder_name}}",
+                    "Description": "{{i18n:SilentWatersChowder_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 600,
+                    "Edibility": 29,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 43,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_white",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_IcyOctopusStew": {
+                    "Name": "{{ModId}}_IcyOctopusStew",
+                    "DisplayName": "{{i18n:IcyOctopusStew_name}}",
+                    "Description": "{{i18n:IcyOctopusStew_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 500,
+                    "Edibility": 27,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 44,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_blue",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_DesertRaySandwich": {
+                    "Name": "{{ModId}}_DesertRaySandwich",
+                    "DisplayName": "{{i18n:DesertRaySandwich_name}}",
+                    "Description": "{{i18n:DesertRaySandwich_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 800,
+                    "Edibility": 40,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 45,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_yellow",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_CaptainsTreasurePlatter": {
+                    "Name": "{{ModId}}_CaptainsTreasurePlatter",
+                    "DisplayName": "{{i18n:CaptainsTreasurePlatter_name}}",
+                    "Description": "{{i18n:CaptainsTreasurePlatter_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 8000,
+                    "Edibility": 80,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 46,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_red",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_BrinyDepthsBisque": {
+                    "Name": "{{ModId}}_BrinyDepthsBisque",
+                    "DisplayName": "{{i18n:BrinyDepthsBisque_name}}",
+                    "Description": "{{i18n:BrinyDepthsBisque_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 475,
+                    "Edibility": 26,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 47,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_white",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_ForestTetraSoup": {
+                    "Name": "{{ModId}}_ForestTetraSoup",
+                    "DisplayName": "{{i18n:ForestTetraSoup_name}}",
+                    "Description": "{{i18n:ForestTetraSoup_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Edibility": 28,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 48,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_RiversideCutthroatRoll": {
+                    "Name": "{{ModId}}_RiversideCutthroatRoll",
+                    "DisplayName": "{{i18n:RiversideCutthroatRoll_name}}",
+                    "Description": "{{i18n:RiversideCutthroatRoll_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 450,
+                    "Edibility": 24,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 49,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_SerpentineEelRamen": {
+                    "Name": "{{ModId}}_SerpentineEelRamen",
+                    "DisplayName": "{{i18n:SerpentineEelRamen_name}}",
+                    "Description": "{{i18n:SerpentineEelRamen_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 550,
+                    "Edibility": 20,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 50,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_brown",
+                        "fos_food"
+                    ]
                 }
             }
         },
