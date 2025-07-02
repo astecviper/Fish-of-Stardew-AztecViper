@@ -5,13 +5,13 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
-                "{{ModId}}_SmokedSturgeonRoll": "{{ModId}}_WhiteSturgeon 1 152 1 188 2/10 10/{{ModId}}_SmokedSturgeonRoll 1/none",
-                "{{ModId}}_DeepSeaHalibutRoll": "{{ModId}}_DeepSeaHalibut 1 152 1 20 1/10 10/{{ModId}}_DeepSeaHalibutRoll 1/none",
-                "{{ModId}}_CookieOctopusRoll": "{{ModId}}_CookieOctopus 1 152 1 260 1/10 10/{{ModId}}_CookieOctopusRoll 1/none",
-                "{{ModId}}_SmokedSalmonRoll": "{{ModId}}_SockeyeSalmon 1 152 1 424 1/10 10/{{ModId}}_SmokedSalmonRoll 1/none",
+                "{{ModId}}_SmokedSturgeonRoll": "{{ModId}}_WhiteSturgeon 1 152 1 188 2 423 1/10 10/{{ModId}}_SmokedSturgeonRoll 1/none",
+                "{{ModId}}_DeepSeaHalibutRoll": "{{ModId}}_DeepSeaHalibut 1 152 1 20 1 423 1/10 10/{{ModId}}_DeepSeaHalibutRoll 1/none",
+                "{{ModId}}_CookieOctopusRoll": "{{ModId}}_CookieOctopus 1 152 1 260 1 423 1/10 10/{{ModId}}_CookieOctopusRoll 1/none",
+                "{{ModId}}_SmokedSalmonRoll": "{{ModId}}_SockeyeSalmon 1 152 1 424 1 423 1/10 10/{{ModId}}_SmokedSalmonRoll 1/none",
                 "{{ModId}}_MossyCodStew": "{{ModId}}_MossyCod 1 430 1 426 1 404 2/10 10/{{ModId}}_MossyCodStew  1/none",
-                "{{ModId}}_BlackClownfishRoll": "{{ModId}}_BlackClownfish 1 152 1 834 1/10 10/{{ModId}}_BlackClownfishRoll 1/none",
-                "{{ModId}}_MorayEelRoll": "{{ModId}}_MorayEel 1 152 1 635 1/10 10/{{ModId}}_MorayEelRoll 1/none",
+                "{{ModId}}_BlackClownfishRoll": "{{ModId}}_BlackClownfish 1 152 1 834 1 423 1/10 10/{{ModId}}_BlackClownfishRoll 1/none",
+                "{{ModId}}_MorayEelRoll": "{{ModId}}_MorayEel 1 152 1 635 1 423 1/10 10/{{ModId}}_MorayEelRoll 1/none",
                 "{{ModId}}_TwilightStew": "{{ModId}}_LunarSalmon 1 272 2 430 1 186 1/10 10/{{ModId}}_TwilightStew 1/none",
                 "{{ModId}}_VermilionSoup": "{{ModId}}_VermilionCarp 1 436 1 284 1/10 10/{{ModId}}_VermilionSoup 1/none",
                 "{{ModId}}_BakedMudTrout": "{{ModId}}_MudTrout 1 246 1/10 10/{{ModId}}_BakedMudTrout 1/none",
@@ -37,7 +37,15 @@
                 "{{ModId}}_SpottedRayBisque": "{{ModId}}_SpottedRay 1 248 1 184 1/10 10/{{ModId}}_SpottedRayBisque 1/none",
                 "{{ModId}}_CrimsonShadStew": "{{ModId}}_CrimsonShad 1 404 2 186 1/10 10/{{ModId}}_CrimsonShadStew 1/none",
                 "{{ModId}}_YellowfinPowerBowl": "{{ModId}}_YellowfinCarp 1 176 2 424 1/10 10/{{ModId}}_YellowfinPowerBowl 1/none",
-                "{{ModId}}_EmeraldEnergyScramble": "{{ModId}}_EmeraldJackfish 1 180 2 188 1/10 10/{{ModId}}_EmeraldEnergyScramble 1/none"
+                "{{ModId}}_EmeraldEnergyScramble": "{{ModId}}_EmeraldJackfish 1 180 2 188 1/10 10/{{ModId}}_EmeraldEnergyScramble 1/none",
+                "{{ModId}}_SeaweedHalibutRoll": "{{ModId}}_SeaweedHalibut 1 152 1 423 1/10 10/{{ModId}}_SeaweedHalibutRoll 1/none",
+                "{{ModId}}_SharkFinSoup": "{{ModId}}_ReefShark 1 430 1 184 1/10 10/{{ModId}}_SharkFinSoup 1/none",
+                "{{ModId}}_ReefSharkRoll": "{{ModId}}_BabyReefShark 1 423 1 176 1 152 1/10 10/{{ModId}}_ReefSharkRoll 1/none",
+                "{{ModId}}_FrostbiteTaco": "{{ModId}}_FrostbiteFlounder 1 270 1 260 1/10 10/{{ModId}}_FrostbiteTaco 1/none",
+                "{{ModId}}_RockSoup": "{{ModId}}_StoneTetra 1 390 2/10 10/{{ModId}}_RockSoup 1/none",
+                "{{ModId}}_MudBar": "{{ModId}}_MuddyTetra 1 300 1 408 1/10 10/{{ModId}}_MudBar 1/none",
+                "{{ModId}}_ChadBurger": "{{ModId}}_Chad 1 256 1 424 1/10 10/{{ModId}}_ChadBurger 1/none",
+                "{{ModId}}_IcicleRoll": "{{ModId}}_GlacierBass 1 423 1 414 1 152 1/10 10/{{ModId}}_IcicleRoll 1/none"
             }
         }
     ]
