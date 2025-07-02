@@ -1419,7 +1419,7 @@
                     "SpriteIndex": 35,
                     "ContextTags": [
                         "fos_item",
-                        "color_white",
+                        "color_green",
                         "fos_food"
                     ]
                 },
@@ -1435,7 +1435,7 @@
                     "SpriteIndex": 36,
                     "ContextTags": [
                         "fos_item",
-                        "color_purple",
+                        "color_green",
                         "fos_food"
                     ]
                 },
@@ -1499,7 +1499,7 @@
                     "SpriteIndex": 40,
                     "ContextTags": [
                         "fos_item",
-                        "color_red",
+                        "color_orange",
                         "fos_food"
                     ]
                 },
@@ -1515,7 +1515,7 @@
                     "SpriteIndex": 41,
                     "ContextTags": [
                         "fos_item",
-                        "color_blue",
+                        "color_green",
                         "fos_food"
                     ]
                 }
