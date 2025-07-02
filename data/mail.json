@@ -49,6 +49,15 @@
                 "{{ModId}}_LeahMudBar": "{{i18n:LeahMudBar_mail}} %item cookingRecipe {{ModId}}_MudBar %%[#]{{i18n:LeahMudBar_title}}",
                 "{{ModId}}_PamChadBurger": "{{i18n:PamChadBurger_mail}} %item cookingRecipe {{ModId}}_ChadBurger %%[#]{{i18n:PamChadBurger_title}}",
                 "{{ModId}}_LeahIcicleRoll": "{{i18n:LeahIcicleRoll_mail}} %item cookingRecipe {{ModId}}_IcicleRoll %%[#]{{i18n:LeahIcicleRoll_title}}",
+                "{{ModId}}_SamDesertRaySandwich": "{{i18n:SamDesertRaySandwich_mail}} %item cookingRecipe {{ModId}}_DesertRaySandwich %%[#]{{i18n:SamDesertRaySandwich_title}}",
+                "{{ModId}}_SamSerpentineEelRamen": "{{i18n:SamSerpentineEelRamen_mail}} %item cookingRecipe {{ModId}}_SerpentineEelRamen %%[#]{{i18n:SamSerpentineEelRamen_title}}",
+                "{{ModId}}_SamIcyOctopusStew": "{{i18n:SamIcyOctopusStew_mail}} %item cookingRecipe {{ModId}}_IcyOctopusStew %%[#]{{i18n:SamIcyOctopusStew_title}}",
+                "{{ModId}}_PierreCaptainsTreasurePlatter": "{{i18n:PierreCaptainsTreasurePlatter_mail}} %item cookingRecipe {{ModId}}_CaptainsTreasurePlatter %%[#]{{i18n:PierreCaptainsTreasurePlatter_title}}",
+                "{{ModId}}_PierreBrinyDepthsBisque": "{{i18n:PierreBrinyDepthsBisque_mail}} %item cookingRecipe {{ModId}}_BrinyDepthsBisque %%[#]{{i18n:PierreBrinyDepthsBisque_title}}",
+                "{{ModId}}_PierreIridiumSalmonSteaks": "{{i18n:PierreIridiumSalmonSteaks_mail}} %item cookingRecipe {{ModId}}_IridiumSalmonSteaks %%[#]{{i18n:PierreIridiumSalmonSteaks_title}}",
+                "{{ModId}}_PennySilentWatersChowder": "{{i18n:PennySilentWatersChowder_mail}} %item cookingRecipe {{ModId}}_SilentWatersChowder %%[#]{{i18n:PennySilentWatersChowder_title}}",
+                "{{ModId}}_PennyForestTetraSoup": "{{i18n:PennyForestTetraSoup_mail}} %item cookingRecipe {{ModId}}_ForestTetraSoup %%[#]{{i18n:PennyForestTetraSoup_title}}",
+                "{{ModId}}_PennyRiversideCutthroatRoll": "{{i18n:PennyRiversideCutthroatRoll_mail}} %item cookingRecipe {{ModId}}_RiversideCutthroatRoll %%[#]{{i18n:PennyRiversideCutthroatRoll_title}}",
                 // Quest Mail
                 "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%[#]{{i18n:GusQ1L_title}}",
                 "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%[#]{{i18n:WillyQ1L_title}}",
@@ -416,7 +425,7 @@
                 "{{ModId}}_GeorgeFrostbiteTacoTrigger": {
                     "Id": "{{ModId}}_GeorgeFrostbiteTacoTrigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HEARTS Current George 4, SEASON winter, WEATHER Here snow",
+                    "Condition": "PLAYER_HEARTS Current George 4, SEASON winter, WEATHER Here rain",
                     "Actions": [
                         "AddMail Current {{ModId}}_GeorgeFrostbiteTaco now"
                     ]
@@ -451,6 +460,78 @@
                     "Condition": "PLAYER_HEARTS Current Leah 6, SEASON winter",
                     "Actions": [
                         "AddMail Current {{ModId}}_LeahIcicleRoll now"
+                    ]
+                },
+                "{{ModId}}_SamDesertRaySandwichTrigger": {
+                    "Id": "{{ModId}}_SamDesertRaySandwichTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sam 4, SEASON summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_SamDesertRaySandwich now"
+                    ]
+                },
+                "{{ModId}}_SamSerpentineEelRamenTrigger": {
+                    "Id": "{{ModId}}_SamSerpentineEelRamenTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sam 5, SEASON spring summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_SamSerpentineEelRamen now"
+                    ]
+                },
+                "{{ModId}}_SamIcyOctopusStewTrigger": {
+                    "Id": "{{ModId}}_SamIcyOctopusStewTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sam 3, SEASON winter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_SamIcyOctopusStew now"
+                    ]
+                },
+                "{{ModId}}_PierreCaptainsTreasurePlatterTrigger": {
+                    "Id": "{{ModId}}_PierreCaptainsTreasurePlatterTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Pierre 6, YEAR 2",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PierreCaptainsTreasurePlatter now"
+                    ]
+                },
+                "{{ModId}}_PierreBrinyDepthsBisqueTrigger": {
+                    "Id": "{{ModId}}_PierreBrinyDepthsBisqueTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Pierre 4, SEASON spring summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PierreBrinyDepthsBisque now"
+                    ]
+                },
+                "{{ModId}}_PierreIridiumSalmonSteaksTrigger": {
+                    "Id": "{{ModId}}_PierreIridiumSalmonSteaksTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Pierre 5, SEASON summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PierreIridiumSalmonSteaks now"
+                    ]
+                },
+                "{{ModId}}_PennySilentWatersChowderTrigger": {
+                    "Id": "{{ModId}}_PennySilentWatersChowderTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Penny 4, SEASON fall winter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PennySilentWatersChowder now"
+                    ]
+                },
+                "{{ModId}}_PennyForestTetraSoupTrigger": {
+                    "Id": "{{ModId}}_PennyForestTetraSoupTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Penny 5, SEASON spring summer",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PennyForestTetraSoup now"
+                    ]
+                },
+                "{{ModId}}_PennyRiversideCutthroatRollTrigger": {
+                    "Id": "{{ModId}}_PennyRiversideCutthroatRollTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Penny 3, SEASON summer fall winter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PennyRiversideCutthroatRoll now"
                     ]
                 }
             }
