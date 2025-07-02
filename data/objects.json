@@ -1390,6 +1390,134 @@
                         "color_green",
                         "fos_food"
                     ]
+                },
+                "{{ModId}}_SeaweedHalibutRoll": {
+                    "Name": "{{ModId}}_SeaweedHalibutRoll",
+                    "DisplayName": "{{i18n:SeaweedHalibutRoll_name}}",
+                    "Description": "{{i18n:SeaweedHalibutRoll_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 400,
+                    "Edibility": 23,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 34,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_SharkFinSoup": {
+                    "Name": "{{ModId}}_SharkFinSoup",
+                    "DisplayName": "{{i18n:SharkFinSoup_name}}",
+                    "Description": "{{i18n:SharkFinSoup_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 7350,
+                    "Edibility": 60,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 35,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_white",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_ReefSharkRoll": {
+                    "Name": "{{ModId}}_ReefSharkRoll",
+                    "DisplayName": "{{i18n:ReefSharkRoll_name}}",
+                    "Description": "{{i18n:ReefSharkRoll_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 2650,
+                    "Edibility": 38,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 36,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_purple",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_FrostbiteTaco": {
+                    "Name": "{{ModId}}_FrostbiteTaco",
+                    "DisplayName": "{{i18n:FrostbiteTaco_name}}",
+                    "Description": "{{i18n:FrostbiteTaco_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Edibility": 25,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 37,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_blue",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_RockSoup": {
+                    "Name": "{{ModId}}_RockSoup",
+                    "DisplayName": "{{i18n:RockSoup_name}}",
+                    "Description": "{{i18n:RockSoup_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 100,
+                    "Edibility": 5,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 38,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_gray",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_MudBar": {
+                    "Name": "{{ModId}}_MudBar",
+                    "DisplayName": "{{i18n:MudBar_name}}",
+                    "Description": "{{i18n:MudBar_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 450,
+                    "Edibility": 30,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 39,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_brown",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_ChadBurger": {
+                    "Name": "{{ModId}}_ChadBurger",
+                    "DisplayName": "{{i18n:ChadBurger_name}}",
+                    "Description": "{{i18n:ChadBurger_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 650,
+                    "Edibility": 40,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 40,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_red",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_IcicleRoll": {
+                    "Name": "{{ModId}}_IcicleRoll",
+                    "DisplayName": "{{i18n:IcicleRoll_name}}",
+                    "Description": "{{i18n:IcicleRoll_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 600,
+                    "Edibility": 30,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 41,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_blue",
+                        "fos_food"
+                    ]
                 }
             }
         },
