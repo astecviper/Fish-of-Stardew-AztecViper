@@ -926,6 +926,23 @@
                         "season_spring",
                         "season_summer"
                     ]
+                },
+                "{{ModId}}_BrickScaledSeaBass": {
+                    "Name": "{{ModId}}_BrickScaledSeaBass",
+                    "Displayname": "{{i18n:BrickScaledSeaBass_name}}",
+                    "Description": "{{i18n:BrickScaledSeaBass_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 400,
+                    "Edibility": -38,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 48,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fos_item",
+                        "color_red",
+                        "season_fall"
+                    ]
                 }
             }
         },
