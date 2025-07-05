@@ -548,6 +548,10 @@
                     "ItemId": "{{ModId}}_SaltGrouper",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter",
                     "Chance": "{{SaltGrouperChance}}"
+                },
+                "{{ModId}}_BioluminescentSquid": {
+                    "ItemId": "{{ModId}}_BioluminescentSquid",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
                 }
             }
         },
