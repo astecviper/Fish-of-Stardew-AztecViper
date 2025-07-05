@@ -1,0 +1,461 @@
+{
+    "Changes": [
+                { //Trigger Actions
+            "LogName": "Adding Mail requirements...",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SmokedSalmonRecipeMail": {
+                    "Id": "{{ModId}}_SmokedSalmonRollRecipeMail",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY fall 2, YEAR 1",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillySmokedSalmonRoll now"
+                    ]
+                },
+                "{{ModId}}_TwilightStewRecipeMail": {
+                    "Id": "{{ModId}}_TwilightStewRecipeMail",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Gus 6",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusTwilightStew now"
+                    ]
+                },
+                "{{ModId}}_VermilionSoupRecipeMail": {
+                    "Id": "{{ModId}}_VermilionSoupRecipeMail",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Gus 2",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusVermilionSoup now"
+                    ]
+                },
+                "{{ModId}}_OnigiriRecipeMail": {
+                    "Id": "{{ModId}}_OnigiriRecipeMail",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Gus 1",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusOnigiri now"
+                    ]
+                },
+                "{{ModId}}_FriedFishFiletRecipeMail": {
+                    "Id": "{{ModId}}_FriedFishFiletRecipeMail",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Gus 3",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusFriedFishFilet now"
+                    ]
+                },
+                "{{ModId}}_GusQ1LTrigger": {
+                    "Id": "{{ModId}}_GusQ1LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY summer 3, YEAR 1",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusQ1L now"
+                    ]
+                },
+                "{{ModId}}_WillyQ1LTrigger": {
+                    "Id": "{{ModId}}_WillyQ1LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY summer 1, YEAR 1",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyQ1L now"
+                    ]
+                },
+                "{{ModId}}_WillyQ2LTrigger": {
+                    "Id": "{{ModId}}_WillyQ2LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY spring 8, YEAR 1",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyQ2L now"
+                    ]
+                },
+                "{{ModId}}_GusQ2LTrigger": {
+                    "Id": "{{ModId}}_GusQ2LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY summer 8, YEAR 2",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusQ2L now"
+                    ]
+                },
+                "{{ModId}}_WillySailfinMailTrigger": {
+                    "Id": "{{ModId}}_WillySailfinMailTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_SailfinCaught Received",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillySailfin now"
+                    ]
+                },
+                "{{ModId}}_WillyQ3LTrigger": {
+                    "Id": "{{ModId}}_WillyQ3LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 2, PLAYER_HAS_MAIL Host {{ModId}}_SailfinCaught Received",
+                    "Actions": [
+                        "AddMail Host {{ModId}}_WillyQ3L now"
+                    ],
+                    "HostOnly": true
+                },
+                "{{ModId}}_CabinRepairTrigger": {
+                    "Id": "{{ModId}}_CabinRepairTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Host {{ModId}}_CabinRepair Received",
+                    "Actions": [
+                        "AddMail Host {{ModId}}_WillyCabinRepaired Tomorrow"
+                    ],
+                    "HostOnly": true
+                },
+                "{{ModId}}_GusSmokedSturgeonRoll": {
+                    "Id": "{{ModId}}_GusSmokedSturgeonRoll",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON_DAY fall 15, YEAR 1",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusSmokedSturgeonRoll Now"
+                    ]
+                },
+                "{{ModId}}_EvelynBakedStripedChar": {
+                    "Id": "{{ModId}}_EvelynBakedStripedChar",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Evelyn 2, SEASON fall winter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_EvelynBakedStripedChar Now"
+                    ]
+                },
+                "{{ModId}}_CarolineQ1LTrigger": {
+                    "Id": "{{ModId}}_CarolineQ1LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 2, SEASON spring summer, PLAYER_HEARTS Current Caroline 3",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_CarolineQ1L Now"
+                    ]
+                },
+                "{{ModId}}_LeahQ1LTrigger": {
+                    "Id": "{{ModId}}_LeahQ1LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 2, SEASON summer fall, PLAYER_HEARTS Current Leah 3",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_LeahQ1L Now"
+                    ]
+                },
+                "{{ModId}}_EmilyQ1LTrigger": {
+                    "Id": "{{ModId}}_EmilyQ1LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON spring summer, PLAYER_HEARTS Current Emily 3",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_EmilyQ1L Now"
+                    ]
+                },
+                "{{ModId}}_EmilyQ2LTrigger": {
+                    "Id": "{{ModId}}_EmilyQ2LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON summer fall, PLAYER_HEARTS Current Emily 4",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_EmilyQ2L Now"
+                    ]
+                },
+                "{{ModId}}_EmilyBakedLunarSalmonTrigger": {
+                    "Id": "{{ModId}}_EmilyBakedLunarSalmonTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON spring, YEAR 2, PLAYER_HEARTS Current Emily 7",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_EmilyBakedLunarSalmon Now"
+                    ]
+                },
+                "{{ModId}}_EmilyBakedBluegillTrigger": {
+                    "Id": "{{ModId}}_EmilyBakedBluegillTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON spring summer, PLAYER_HEARTS Current Emily 1, WEATHER Here sun, DAY_OF_WEEK Saturday",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_EmilyBakedBluegill Now"
+                    ]
+                },
+                "{{ModId}}_MarnieQ1LTrigger": {
+                    "Id": "{{ModId}}_MarnieQ1LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "YEAR 1, PLAYER_VISITED_LOCATION Current IslandSouth, PLAYER_HEARTS Current Marnie 3",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_MarnieQ1L Now"
+                    ]
+                },
+                "{{ModId}}_MarnieQ2LTrigger": {
+                    "Id": "{{ModId}}_MarnieQ2LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON spring summer fall, PLAYER_HEARTS Current Marnie 2",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_MarnieQ2L Now"
+                    ]
+                },
+                "{{ModId}}_MarnieBioluminescentSoupTrigger": {
+                    "Id": "{{ModId}}_MarnieBioluminescentSoupTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Marnie 5",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_MarnieBioluminescentSoup now"
+                    ]
+                },
+                "{{ModId}}_MarnieSockeyeSalmonSashimiTrigger": {
+                    "Id": "{{ModId}}_MarnieSockeyeSalmonSashimiTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Marnie 4, YEAR 2",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_MarnieSockeyeSalmonSashimi now"
+                    ]
+                },
+                "{{ModId}}_GusQ3LTrigger": {
+                    "Id": "{{ModId}}_GusQ3LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON summer, WEATHER Here sun, PLAYER_HEARTS Current Gus 3",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusQ3L now"
+                    ]
+                },
+                "{{ModId}}_GusQ4LTrigger": {
+                    "Id": "{{ModId}}_GusQ4LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON summer fall, WEATHER Here sun, PLAYER_HEARTS Current Gus 5",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusQ4L now"
+                    ]
+                },
+                "{{ModId}}_GusQ5LTrigger": {
+                    "Id": "{{ModId}}_GusQ5LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON spring summer, WEATHER Here sun, PLAYER_HEARTS Current Gus 4",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusQ5L now"
+                    ]
+                },
+                "{{ModId}}_GusBakedDeepSeaHalibutTrigger": {
+                    "Id": "{{ModId}}_GusBakedDeepSeaHalibutTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Gus 6",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusBakedDeepSeaHalibut now"
+                    ]
+                },
+                "{{ModId}}_GusBakedBrownShadTrigger": {
+                    "Id": "{{ModId}}_GusBakedBrownShadTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON summer fall, WEATHER Here rain, PLAYER_HEARTS Current Gus 4",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusBakedBrownShad now"
+                    ]
+                },
+                "{{ModId}}_WillyQ8LTrigger": {
+                    "Id": "{{ModId}}_WillyQ8LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON fall winter, WEATHER Here rain, PLAYER_HEARTS Current Willy 4",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyQ8L now"
+                    ]
+                },
+                "{{ModId}}_ElliottQ1LTrigger": {
+                    "Id": "{{ModId}}_ElliottQ1LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON summer fall, PLAYER_HEARTS Current Elliott 3",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_ElliottQ1L Now"
+                    ]
+                },
+                "{{ModId}}_LinusQ1LTrigger": {
+                    "Id": "{{ModId}}_LinusQ1LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON spring summer, WEATHER Here sun, PLAYER_HEARTS Current Linus 4",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_LinusQ1L Now"
+                    ]
+                },
+                "{{ModId}}_RobinQ1LTrigger": {
+                    "Id": "{{ModId}}_RobinQ1LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON fall, WEATHER Here sun, PLAYER_HEARTS Current Robin 5",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_RobinQ1L now"
+                    ]
+                },
+                "{{ModId}}_GusBlackenedCatfishTrigger": {
+                    "Id": "{{ModId}}_GusBlackenedCatfishTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Gus 7",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusBlackenedCatfish now"
+                    ]
+                },
+                "{{ModId}}_WillyIroncladChowderTrigger": {
+                    "Id": "{{ModId}}_WillyIroncladChowderTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Willy 6",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_WillyIroncladChowder now"
+                    ]
+                },
+                "{{ModId}}_DemetriusSpottedRayBisqueTrigger": {
+                    "Id": "{{ModId}}_DemetriusSpottedRayBisqueTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Demetrius 5, SEASON spring summer",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_DemetriusSpottedRayBisque now"
+                    ]
+                },
+                "{{ModId}}_DemetriusCrimsonShadStewTrigger": {
+                    "Id": "{{ModId}}_DemetriusCrimsonShadStewTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Demetrius 6, SEASON fall winter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_DemetriusCrimsonShadStew now"
+                    ]
+                },
+                "{{ModId}}_AlexYellowfinPowerBowlTrigger": {
+                    "Id": "{{ModId}}_AlexYellowfinPowerBowlTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Alex 4, SEASON spring summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_AlexYellowfinPowerBowl now"
+                    ]
+                },
+                "{{ModId}}_AlexEmeraldEnergyScrambleTrigger": {
+                    "Id": "{{ModId}}_AlexEmeraldEnergyScrambleTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Alex 5, SEASON spring, WEATHER Here sun",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_AlexEmeraldEnergyScramble now"
+                    ]
+                },
+                "{{ModId}}_ElliottSeaweedHalibutRollTrigger": {
+                    "Id": "{{ModId}}_ElliottSeaweedHalibutRollTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 4, SEASON spring summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_ElliottSeaweedHalibutRoll now"
+                    ]
+                },
+                "{{ModId}}_ElliottSharkFinSoupTrigger": {
+                    "Id": "{{ModId}}_ElliottSharkFinSoupTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Elliott 6, SEASON spring summer fall winter, WEATHER Here rain",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_ElliottSharkFinSoup now"
+                    ]
+                },
+                "{{ModId}}_GeorgeReefSharkRollTrigger": {
+                    "Id": "{{ModId}}_GeorgeReefSharkRollTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current George 5, SEASON spring summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GeorgeReefSharkRoll now"
+                    ]
+                },
+                "{{ModId}}_GeorgeFrostbiteTacoTrigger": {
+                    "Id": "{{ModId}}_GeorgeFrostbiteTacoTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current George 4, SEASON winter, WEATHER Here rain",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GeorgeFrostbiteTaco now"
+                    ]
+                },
+                "{{ModId}}_PamRockSoupTrigger": {
+                    "Id": "{{ModId}}_PamRockSoupTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Pam 4, SEASON spring summer fall winter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PamRockSoup now"
+                    ]
+                },
+                "{{ModId}}_LeahMudBarTrigger": {
+                    "Id": "{{ModId}}_LeahMudBarTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Leah 5, SEASON spring summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_LeahMudBar now"
+                    ]
+                },
+                "{{ModId}}_PamChadBurgerTrigger": {
+                    "Id": "{{ModId}}_PamChadBurgerTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Pam 5, SEASON summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PamChadBurger now"
+                    ]
+                },
+                "{{ModId}}_LeahIcicleRollTrigger": {
+                    "Id": "{{ModId}}_LeahIcicleRollTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Leah 6, SEASON winter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_LeahIcicleRoll now"
+                    ]
+                },
+                "{{ModId}}_SamDesertRaySandwichTrigger": {
+                    "Id": "{{ModId}}_SamDesertRaySandwichTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sam 4, SEASON summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_SamDesertRaySandwich now"
+                    ]
+                },
+                "{{ModId}}_SamSerpentineEelRamenTrigger": {
+                    "Id": "{{ModId}}_SamSerpentineEelRamenTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sam 5, SEASON spring summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_SamSerpentineEelRamen now"
+                    ]
+                },
+                "{{ModId}}_SamIcyOctopusStewTrigger": {
+                    "Id": "{{ModId}}_SamIcyOctopusStewTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Sam 3, SEASON winter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_SamIcyOctopusStew now"
+                    ]
+                },
+                "{{ModId}}_PierreCaptainsTreasurePlatterTrigger": {
+                    "Id": "{{ModId}}_PierreCaptainsTreasurePlatterTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Pierre 6, YEAR 2",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PierreCaptainsTreasurePlatter now"
+                    ]
+                },
+                "{{ModId}}_PierreBrinyDepthsBisqueTrigger": {
+                    "Id": "{{ModId}}_PierreBrinyDepthsBisqueTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Pierre 4, SEASON spring summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PierreBrinyDepthsBisque now"
+                    ]
+                },
+                "{{ModId}}_PierreIridiumSalmonSteaksTrigger": {
+                    "Id": "{{ModId}}_PierreIridiumSalmonSteaksTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Pierre 5, SEASON summer fall",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PierreIridiumSalmonSteaks now"
+                    ]
+                },
+                "{{ModId}}_PennySilentWatersChowderTrigger": {
+                    "Id": "{{ModId}}_PennySilentWatersChowderTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Penny 4, SEASON fall winter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PennySilentWatersChowder now"
+                    ]
+                },
+                "{{ModId}}_PennyForestTetraSoupTrigger": {
+                    "Id": "{{ModId}}_PennyForestTetraSoupTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Penny 5, SEASON spring summer",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PennyForestTetraSoup now"
+                    ]
+                },
+                "{{ModId}}_PennyRiversideCutthroatRollTrigger": {
+                    "Id": "{{ModId}}_PennyRiversideCutthroatRollTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current Penny 3, SEASON summer fall winter",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_PennyRiversideCutthroatRoll now"
+                    ]
+                }
+            }
+        }
+    ]
+}
