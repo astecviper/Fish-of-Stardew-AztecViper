@@ -1,0 +1,33 @@
+{
+    "Changes": [
+                { //Quests
+            "LogName": "Adding Quest data...",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "{{ModId}}_GusQ1": "ItemDelivery/{{i18n:GusQ1_title}}/{{i18n:GusQ1_details}}/{{i18n:GusQ1_hint}}/Gus {{ModId}}_MossyCod 3/-1/2000/Gold/true/$action AddMail Current {{ModId}}_GusMossyCodStew tomorrow #{{i18n:GusQ1_reaction}}",
+                "{{ModId}}_WillyQ1": "ItemDelivery/{{i18n:WillyQ1_title}}/{{i18n:WillyQ1_details}}/{{i18n:WillyQ1_hint}}/Willy {{ModId}}_MorayEel 1/-1/1500/Gold/true/{{i18n:WillyQ1_reaction}}",
+                "{{ModId}}_WillyQ2": "ItemDelivery/{{i18n:WillyQ2_title}}/{{i18n:WillyQ2_details}}/{{i18n:WillyQ2_hint}}/Willy {{ModId}}_BlackClownfish 3/-1/2500/Gold/true/{{i18n:WillyQ2_reaction}}",
+                "{{ModId}}_GusQ2": "ItemDelivery/{{i18n:GusQ2_title}}/{{i18n:GusQ2_details}}/{{i18n:GusQ2_hint}}/Gus 152 10/-1/300/Gold/true/{{i18n:GusQ2_reaction}}",
+                "{{ModId}}_WillyQ3": "ItemDelivery/{{i18n:WillyQ3_title}}/{{i18n:WillyQ3_details}}/{{i18n:WillyQ3_hint}}/Willy 390 200/{{ModId}}_WillyQ4/100/Gold/true/{{i18n:WillyQ3_reaction}}",
+                "{{ModId}}_WillyQ4": "ItemDelivery/{{i18n:WillyQ4_title}}/{{i18n:WillyQ4_details}}/{{i18n:WillyQ4_hint}}/Willy 388 400/{{ModId}}_WillyQ5/100/Gold/true/{{i18n:WillyQ4_reaction}}",
+                "{{ModId}}_WillyQ5": "ItemDelivery/{{i18n:WillyQ5_title}}/{{i18n:WillyQ5_details}}/{{i18n:WillyQ5_hint}}/Willy 335 25/{{ModId}}_WillyQ6/100/Gold/true/{{i18n:WillyQ5_reaction}}",
+                "{{ModId}}_WillyQ6": "ItemDelivery/{{i18n:WillyQ6_title}}/{{i18n:WillyQ6_details}}/{{i18n:WillyQ6_hint}}/Willy 334 10/{{ModId}}_WillyQ7/100/Gold/true/{{i18n:WillyQ6_reaction}}",
+                "{{ModId}}_WillyQ7": "ItemDelivery/{{i18n:WillyQ7_title}}/{{i18n:WillyQ7_details}}/{{i18n:WillyQ7_hint}}/Willy 709 150/-1/100/Gold/true/$action AddMail Host {{ModId}}_CabinRepair Now #{{i18n:WillyQ7_reaction}}",
+                "{{ModId}}_CarolineQ1": "ItemDelivery/{{i18n:CarolineQ1_title}}/{{i18n:CarolineQ1_details}}/{{i18n:CarolineQ1_hint}}/Caroline {{ModId}}_DeepSeaHalibut 1/-1/300/Gold/true/$action AddMail Current {{ModId}}_CarolineDeepSeaHalibutRoll #{{i18n:CarolineQ1_reaction}}",
+                "{{ModId}}_LeahQ1": "ItemDelivery/{{i18n:LeahQ1_title}}/{{i18n:LeahQ1_details}}/{{i18n:LeahQ1_hint}}/Leah {{ModId}}_CookieOctopus 2/-1/600/Gold/true/$action AddMail Current {{ModId}}_LeahCookieOctopusRoll #{{i18n:LeahQ1_reaction}}",
+                "{{ModId}}_EmilyQ1": "ItemDelivery/{{i18n:EmilyQ1_title}}/{{i18n:EmilyQ1_details}}/{{i18n:EmilyQ1_hint}}/Emily {{ModId}}_MudTrout 3/-1/600/Gold/true/$action AddMail Current {{ModId}}_EmilyBakedMudTrout tomorrow #{{i18n:EmilyQ1_reaction}}",
+                "{{ModId}}_EmilyQ2": "ItemDelivery/{{i18n:EmilyQ2_title}}/{{i18n:EmilyQ2_details}}/{{i18n:EmilyQ2_hint}}/Emily {{ModId}}_VermilionCarp 2/-1/800/Gold/true/$action AddMail Current {{ModId}}_EmilyBakedVermilionCarp tomorrow #{{i18n:EmilyQ2_reaction}}",
+                "{{ModId}}_MarnieQ1": "ItemDelivery/{{i18n:MarnieQ1_title}}/{{i18n:MarnieQ1_details}}/{{i18n:MarnieQ1_hint}}/Marnie {{ModId}}_PurpleParrotfish 4/-1/800/Gold/true/$action AddMail Current {{ModId}}_MarnieBakedParrotfish tomorrow #{{i18n:MarnieQ1_reaction}}",
+                "{{ModId}}_MarnieQ2": "ItemDelivery/{{i18n:MarnieQ2_title}}/{{i18n:EmilyQ2_details}}/{{i18n:WillyQ2_hint}}/Marnie {{ModId}}_Triggerfish 8/-1/850/Gold/true/$action AddMail Current {{ModId}}_MarnieTriggerfishSashimi tomorrow #{{i18n:MarnieQ2_reaction}}",
+                "{{ModId}}_GusQ3": "ItemDelivery/{{i18n:GusQ3_title}}/{{i18n:GusQ3_details}}/{{i18n:GusQ3_hint}}/Gus {{ModId}}_BlackClownfish 3/-1/1500/Gold/true/$action AddMail Current {{ModId}}_GusBlackClownfishRoll tomorrow #{{i18n:GusQ3_reaction}}",
+                "{{ModId}}_GusQ4": "ItemDelivery/{{i18n:GusQ4_title}}/{{i18n:GusQ4_details}}/{{i18n:GusQ4_hint}}/Gus {{ModId}}_MorayEel 2/-1/1100/Gold/true/$action AddMail Current {{ModId}}_GusMorayEelRoll tomorrow #{{i18n:GusQ4_reaction}}",
+                "{{ModId}}_GusQ5": "ItemDelivery/{{i18n:GusQ5_title}}/{{i18n:GusQ5_details}}/{{i18n:GusQ5_hint}}/Gus {{ModId}}_GhostPike 4/-1/1500/Gold/true/$action AddMail Current {{ModId}}_GusBakedGhostPike tomorrow #{{i18n:GusQ5_reaction}}",
+                "{{ModId}}_WillyQ8": "ItemDelivery/{{i18n:WillyQ8_title}}/{{i18n:WillyQ8_details}}/{{i18n:WillyQ8_hint}}/Willy {{ModId}}_SockeyeSalmon 4/-1/1300/Gold/true/$action AddMail Current {{ModId}}_WillyBakedSockeyeSalmon tomorrow #{{i18n:WillyQ8_reaction}}",
+                "{{ModId}}_RobinQ1": "ItemDelivery/{{i18n:RobinQ1_title}}/{{i18n:RobinQ1_details}}/{{i18n:RobinQ1_hint}}/Robin {{ModId}}_PumpkinPerch 4/-1/2000/Gold/true/$action AddMail Current {{ModId}}_RobinBakedPumpkinPerch tomorrow #{{i18n:RobinQ1_reaction}}",
+                "{{ModId}}_ElliottQ1": "ItemDelivery/{{i18n:ElliottQ1_title}}/{{i18n:ElliottQ1_details}}/{{i18n:WillyQ2_hint}}/Elliott (O)152 15/-1/800/Gold/true/$action AddMail Current {{ModId}}_ElliottSeaweedSoup tomorrow #{{i18n:ElliottQ1_reaction}}",
+                "{{ModId}}_LinusQ1": "ItemDelivery/{{i18n:LinusQ1_title}}/{{i18n:LinusQ1_details}}/{{i18n:LinusQ1_hint}}/Linus {{ModId}}_SunscaledTrout 2/-1/950/Gold/true/$action AddMail Current {{ModId}}_LinusBakedSunscaledTrout tomorrow #{{i18n:LinusQ1_reaction}}"
+            }
+        }
+    ]
+}
