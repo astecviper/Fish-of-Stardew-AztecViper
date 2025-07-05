@@ -59,7 +59,8 @@
                 "{{ModId}}_SpectreJelly": "Spectre Jelly/{{SpectreJellyDart}}/floater/12/48/600 2600/spring summer fall winter/both/688 .3 689 .3 690 .3/1/{{SpectreJellySpawn}}/.01/0/false",
                 "{{ModId}}_WhiteSeaBunny": "White Sea Bunny/{{WhiteSeaBunnyDart}}/sinker/1/3/600 1400/spring summer fall winter/both/688 .3 689 .3 690 .3/1/{{WhiteSeaBunnySpawn}}/.01/0/false",
                 "{{ModId}}_YellowSeaBunny": "Yellow Sea Bunny/{{YellowSeaBunnyDart}}/sinker/1/3/600 1400/spring summer fall winter/both/688 .3 689 .3 690 .3/1/{{YellowSeaBunnySpawn}}/.02/0/false",
-                "{{ModId}}_BlueNembrotha": "Blue Nembrotha/{{BlueNembrothaDart}}/sinker/1/3/600 1400/spring summer fall winter/both/688 .3 689 .3 690 .3/1/{{BlueNembrothaSpawn}}/.02/0/false"
+                "{{ModId}}_BlueNembrotha": "Blue Nembrotha/{{BlueNembrothaDart}}/sinker/1/3/600 1400/spring summer fall winter/both/688 .3 689 .3 690 .3/1/{{BlueNembrothaSpawn}}/.02/0/false",
+                "{{ModId}}_BrickScaledSeaBass": "Brick Scaled Sea Bass/{{BrickScaledSeaBassDart}}/sinker/1/3/600 1400/spring summer fall winter/both/688 .3 689 .3 690 .3/1/{{BrickScaledSeaBassSpawn}}/.1/0/false"
             }
         },
         {
@@ -114,7 +115,8 @@
                 "{{ModId}}_SpectreJelly": "48/float/////{{ModId}}\\aquarium",
                 "{{ModId}}_WhiteSeaBunny": "49/crawl/////{{ModId}}\\aquarium",
                 "{{ModId}}_YellowSeaBunny": "50/crawl/////{{ModId}}\\aquarium",
-                "{{ModId}}_BlueNembrotha": "51/crawl/51 51 51 51 51 51 51 51 51 52 52 52 52 52 52 52 52////{{ModId}}\\aquarium"
+                "{{ModId}}_BlueNembrotha": "51/crawl/51 51 51 51 51 51 51 51 51 52 52 52 52 52 52 52 52////{{ModId}}\\aquarium",
+                "{{ModId}}_BrickScaledSeaBass": "53/crawl/////{{ModId}}\\aquarium"
             }
         },
         //Fish Location Data
@@ -389,6 +391,11 @@
                     "ItemId": "{{ModId}}_SaltGrouper",
                     "Condition": "LOCATION_SEASON Here summer fall, WEATHER Here rain",
                     "Chance": "{{SaltGrouperChance}}"
+                },
+                "{{ModId}}_BrickScaledSeaBass": {
+                    "ItemId": "{{ModId}}_BrickScaledSeaBass",
+                    "Condition": "LOCATION_SEASON Here spring summer fall, WEATHER Here sun",
+                    "Chance": "{{BrickScaledSeaBassChance}}"
                 }
             }
         },
@@ -1178,6 +1185,11 @@
                     "ItemId": "{{ModId}}_BioluminescentAlgae",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter",
                     "Chance": 0.01
+                },
+                "{{ModId}}_BrickScaledSeaBass": {
+                    "ItemId": "{{ModId}}_BrickScaledSeaBass",
+                    "Condition": "LOCATION_SEASON Here spring summer fall, WEATHER Here sun",
+                    "Chance": "{{BrickScaledSeaBassChance}}"
                 },
                 // Stardew Valley Fish
                 "(O)130": {
