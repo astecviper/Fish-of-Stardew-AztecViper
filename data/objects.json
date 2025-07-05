@@ -1783,6 +1783,70 @@
                         "color_brown",
                         "fos_food"
                     ]
+                },
+                "{{ModId}}_NeptunesDelight": {
+                    "Name": "{{ModId}}_NeptunesDelight",
+                    "DisplayName": "{{i18n:NeptunesDelight_name}}",
+                    "Description": "{{i18n:NeptunesDelight_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 750,
+                    "Edibility": 67,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 51,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_blue",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_SeaBassRisotto": {
+                    "Name": "{{ModId}}_SeaBassRisotto",
+                    "DisplayName": "{{i18n:SeaBassRisotto_name}}",
+                    "Description": "{{i18n:SeaBassRisotto_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 700,
+                    "Edibility": 62,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 52,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_brown",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_CatfishSticks": {
+                    "Name": "{{ModId}}_CatfishSticks",
+                    "DisplayName": "{{i18n:CatfishSticks_name}}",
+                    "Description": "{{i18n:CatfishSticks_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 410,
+                    "Edibility": 53,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 53,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
+                },
+                "{{ModId}}_TentacleSurprise": {
+                    "Name": "{{ModId}}_TentacleSurprise",
+                    "DisplayName": "{{i18n:TentacleSurprise_name}}",
+                    "Description": "{{i18n:TentacleSurprise_description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 1000,
+                    "Edibility": 87,
+                    "Texture": "{{ModId}}/food",
+                    "SpriteIndex": 54,
+                    "ContextTags": [
+                        "fos_item",
+                        "color_green",
+                        "fos_food"
+                    ]
                 }
             }
         },
