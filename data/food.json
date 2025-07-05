@@ -54,7 +54,11 @@
                 "{{ModId}}_BrinyDepthsBisque": "{{ModId}}_SaltGrouper 1 184 1 248 1/10 10/{{ModId}}_BrinyDepthsBisque 1/none",
                 "{{ModId}}_ForestTetraSoup": "{{ModId}}_MossyTetra 1 404 1 259 1/10 10/{{ModId}}_ForestTetraSoup 1/none",
                 "{{ModId}}_RiversideCutthroatRoll": "{{ModId}}_WillowCutthroat 1 423 1 399 1 152 1/10 10/{{ModId}}_RiversideCutthroatRoll 1/none",
-                "{{ModId}}_SerpentineEelRamen": "{{ModId}}_LongfinEel 1 271 1 176 1/10 10/{{ModId}}_SerpentineEelRamen 1/none"
+                "{{ModId}}_SerpentineEelRamen": "{{ModId}}_LongfinEel 1 271 1 176 1/10 10/{{ModId}}_SerpentineEelRamen 1/none",
+                "{{ModId}}_NeptunesDelight": "{{ModId}}_SpectreJelly 1 88 1 258 5 SeaJelly 1/10 10/{{ModId}}_NeptunesDelight 1/none",
+                "{{ModId}}_SeaBassRisotto": "{{ModId}}_BrickScaledSeaBass 1 248 1 184 1 256 1 271 1/10 10/{{ModId}}_SeaBassRisotto 1/none",
+                "{{ModId}}_CatfishSticks": "{{ModId}}_BlueCatfish 1 {{ModId}}_ArmoredCatfish 1 246 1 247 1/10 10/{{ModId}}_CatfishSticks 2/none",
+                "{{ModId}}_TentacleSurprise": "{{ModId}}_BioluminescentSquid 1 248 2 250 1 438 1/10 10/{{ModId}}_TentacleSurprise 1/none"
             }
         }
     ]
