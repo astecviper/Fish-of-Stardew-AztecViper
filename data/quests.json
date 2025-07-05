@@ -26,7 +26,13 @@
                 "{{ModId}}_WillyQ8": "ItemDelivery/{{i18n:WillyQ8_title}}/{{i18n:WillyQ8_details}}/{{i18n:WillyQ8_hint}}/Willy {{ModId}}_SockeyeSalmon 4/-1/1300/Gold/true/$action AddMail Current {{ModId}}_WillyBakedSockeyeSalmon tomorrow #{{i18n:WillyQ8_reaction}}",
                 "{{ModId}}_RobinQ1": "ItemDelivery/{{i18n:RobinQ1_title}}/{{i18n:RobinQ1_details}}/{{i18n:RobinQ1_hint}}/Robin {{ModId}}_PumpkinPerch 4/-1/2000/Gold/true/$action AddMail Current {{ModId}}_RobinBakedPumpkinPerch tomorrow #{{i18n:RobinQ1_reaction}}",
                 "{{ModId}}_ElliottQ1": "ItemDelivery/{{i18n:ElliottQ1_title}}/{{i18n:ElliottQ1_details}}/{{i18n:WillyQ2_hint}}/Elliott (O)152 15/-1/800/Gold/true/$action AddMail Current {{ModId}}_ElliottSeaweedSoup tomorrow #{{i18n:ElliottQ1_reaction}}",
-                "{{ModId}}_LinusQ1": "ItemDelivery/{{i18n:LinusQ1_title}}/{{i18n:LinusQ1_details}}/{{i18n:LinusQ1_hint}}/Linus {{ModId}}_SunscaledTrout 2/-1/950/Gold/true/$action AddMail Current {{ModId}}_LinusBakedSunscaledTrout tomorrow #{{i18n:LinusQ1_reaction}}"
+                "{{ModId}}_LinusQ1": "ItemDelivery/{{i18n:LinusQ1_title}}/{{i18n:LinusQ1_details}}/{{i18n:LinusQ1_hint}}/Linus {{ModId}}_SunscaledTrout 2/-1/950/Gold/true/$action AddMail Current {{ModId}}_LinusBakedSunscaledTrout tomorrow #{{i18n:LinusQ1_reaction}}",
+                "{{ModId}}_GusQ6": "ItemDelivery/{{i18n:GusQ6_title}}/{{i18n:GusQ6_details}}/{{i18n:GusQ6_hint}}/Gus {{ModId}}_SpectreJelly 1/-1/2500/Gold/true/$action AddMail Current {{ModId}}_GusNeptunesDelight tomorrow #{{i18n:GusQ6_reaction}}",
+                "{{ModId}}_GusQ7": "ItemDelivery/{{i18n:GusQ7_title}}/{{i18n:GusQ7_details}}/{{i18n:GusQ7_hint}}/Gus {{ModId}}_BrickScaledSeaBass 1/-1/2000/Gold/true/$action AddMail Current {{ModId}}_GusSeaBassRisotto tomorrow #{{i18n:GusQ7_reaction}}",
+                "{{ModId}}_GusQ8": "ItemDelivery/{{i18n:GusQ8_title}}/{{i18n:GusQ8_details}}/{{i18n:GusQ8_hint}}/Gus {{ModId}}_BlueCatfish 1 {{ModId}}_ArmoredCatfish 1/-1/1800/Gold/true/$action AddMail Current {{ModId}}_GusCatfishSticks tomorrow #{{i18n:GusQ8_reaction}}",
+                "{{ModId}}_GusQ9": "ItemDelivery/{{i18n:GusQ9_title}}/{{i18n:GusQ9_details}}/{{i18n:GusQ9_hint}}/Gus {{ModId}}_BioluminescentSquid 1/{{ModId}}_GusQ10/150/Gold/true/{{i18n:GusQ9_reaction}}",
+                "{{ModId}}_GusQ10": "ItemDelivery/{{i18n:GusQ10_title}}/{{i18n:GusQ10_details}}/{{i18n:GusQ10_hint}}/Gus 248 2/{{ModId}}_GusQ11/150/Gold/true/{{i18n:GusQ10_reaction}}",
+                "{{ModId}}_GusQ11": "ItemDelivery/{{i18n:GusQ11_title}}/{{i18n:GusQ11_details}}/{{i18n:GusQ11_hint}}/Gus 250 3/-1/200/Gold/true/$action AddMail Current {{ModId}}_GusTentacleSurprise tomorrow #{{i18n:GusQ11_reaction}}"
             }
         }
     ]
