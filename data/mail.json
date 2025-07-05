@@ -58,6 +58,10 @@
                 "{{ModId}}_PennySilentWatersChowder": "{{i18n:PennySilentWatersChowder_mail}} %item cookingRecipe {{ModId}}_SilentWatersChowder %%[#]{{i18n:PennySilentWatersChowder_title}}",
                 "{{ModId}}_PennyForestTetraSoup": "{{i18n:PennyForestTetraSoup_mail}} %item cookingRecipe {{ModId}}_ForestTetraSoup %%[#]{{i18n:PennyForestTetraSoup_title}}",
                 "{{ModId}}_PennyRiversideCutthroatRoll": "{{i18n:PennyRiversideCutthroatRoll_mail}} %item cookingRecipe {{ModId}}_RiversideCutthroatRoll %%[#]{{i18n:PennyRiversideCutthroatRoll_title}}",
+                "{{ModId}}_GusNeptunesDelight": "{{i18n:GusNeptunesDelight_mail}} %item cookingRecipe {{ModId}}_NeptunesDelight %%[#]{{i18n:GusNeptunesDelight_title}}",
+                "{{ModId}}_GusSeaBassRisotto": "{{i18n:GusSeaBassRisotto_mail}} %item cookingRecipe {{ModId}}_SeaBassRisotto %%[#]{{i18n:GusSeaBassRisotto_title}}",
+                "{{ModId}}_GusCatfishSticks": "{{i18n:GusCatfishSticks_mail}} %item cookingRecipe {{ModId}}_CatfishSticks %%[#]{{i18n:GusCatfishSticks_title}}",
+                "{{ModId}}_GusTentacleSurprise": "{{i18n:GusTentacleSurprise_mail}} %item cookingRecipe {{ModId}}_TentacleSurprise %%[#]{{i18n:GusTentacleSurprise_title}}",
                 // Quest Mail
                 "{{ModId}}_GusQ1L": "{{i18n:GusQ1L_mail}} %item quest {{ModId}}_GusQ1 true %%[#]{{i18n:GusQ1L_title}}",
                 "{{ModId}}_WillyQ1L": "{{i18n:WillyQ1L_mail}} %item quest {{ModId}}_WillyQ1 true %%[#]{{i18n:WillyQ1L_title}}",
@@ -76,7 +80,13 @@
                 "{{ModId}}_WillyQ8L": "{{i18n:WillyQ8L_mail}} %item quest {{ModId}}_WillyQ8 true %%[#]{{i18n:WillyQ8L_title}}",
                 "{{ModId}}_RobinQ1L": "{{i18n:RobinQ1L_mail}} %item quest {{ModId}}_RobinQ1 true %%[#]{{i18n:RobinQ1L_title}}",
                 "{{ModId}}_ElliottQ1L": "{{i18n:ElliottQ1L_mail}} %item quest {{ModId}}_ElliottQ1 true %%[#]{{i18n:ElliottQ1L_title}}",
-                "{{ModId}}_LinusQ1L": "{{i18n:LinusQ1L_mail}} %item quest {{ModId}}_LinusQ1 true %%[#]{{i18n:LinusQ1L_title}}"
+                "{{ModId}}_LinusQ1L": "{{i18n:LinusQ1L_mail}} %item quest {{ModId}}_LinusQ1 true %%[#]{{i18n:LinusQ1L_title}}",
+                "{{ModId}}_GusQ6L": "{{i18n:GusQ6L_mail}} %item quest {{ModId}}_GusQ6 true %%[#]{{i18n:GusQ6L_title}}",
+                "{{ModId}}_GusQ7L": "{{i18n:GusQ7L_mail}} %item quest {{ModId}}_GusQ7 true %%[#]{{i18n:GusQ7L_title}}",
+                "{{ModId}}_GusQ8L": "{{i18n:GusQ8L_mail}} %item quest {{ModId}}_GusQ8 true %%[#]{{i18n:GusQ8L_title}}",
+                "{{ModId}}_GusQ9L": "{{i18n:GusQ9L_mail}} %item quest {{ModId}}_GusQ9 true %%[#]{{i18n:GusQ9L_title}}",
+                "{{ModId}}_GusQ10L": "{{i18n:GusQ10L_mail}} %item quest {{ModId}}_GusQ10 true %%[#]{{i18n:GusQ10L_title}}",
+                "{{ModId}}_GusQ11L": "{{i18n:GusQ11L_mail}} %item quest {{ModId}}_GusQ11 true %%[#]{{i18n:GusQ11L_title}}"
             }
         }
     ]
