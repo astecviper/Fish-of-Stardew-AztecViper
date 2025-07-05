@@ -1353,6 +1353,14 @@
             "Value": "{{Round: {{Query: {{BlueNembrothaBaseDart}}*{{DartDifficulty}}}}}}"
         },
         {
+            "Name": "BlueNembrothaSpawn",
+            "Value": "{{Query: {{BlueNembrothaBaseSpawn}}*{{SpawnDifficulty}}}}"
+        },
+        {
+            "Name": "BlueNembrothaChance",
+            "Value": "{{Query: {{BlueNembrothaBaseChance}}*{{ChanceDifficulty}}}}"
+        },
+        {
             "Name": "BrickScaledSeaBassDart",
             "Value": "{{Round: {{Query: {{BrickScaledSeaBassBaseDart}}*{{DartDifficulty}}}}}}"
         },
