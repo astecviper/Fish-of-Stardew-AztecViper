@@ -1453,6 +1453,16 @@
             "LogName": "Loading Gift Tastes JSON...",
             "Action": "Include",
             "FromFile": "data/gifts.json"
+        },
+        {
+            "LogName": "Loading Quests JSON...",
+            "Action": "Include",
+            "FromFile": "data/quests.json"
+        },
+        {
+            "LogName": "Loading Triggers JSON...",
+            "Action": "Include",
+            "FromFile": "data/triggers.json"
         }
     ]
 }
