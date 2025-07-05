@@ -838,6 +838,94 @@
                         "season_summer",
                         "season_fall"
                     ]
+                },
+                "{{ModId}}_BioluminescentSquid": {
+                    "Name": "{{ModId}}_BioluminescentSquid",
+                    "Displayname": "{{i18n:BioluminescentSquid_name}}",
+                    "Description": "{{i18n:BioluminescentSquid_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 435,
+                    "Edibility": 20,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 43,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fos_item",
+                        "color_green",
+                        "season_winter"
+                    ]
+                },
+                "{{ModId}}_SpectreJelly": {
+                    "Name": "{{ModId}}_SpectreJelly",
+                    "Displayname": "{{i18n:SpectreJelly_name}}",
+                    "Description": "{{i18n:SpectreJelly_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 455,
+                    "Edibility": 21,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 44,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fos_item",
+                        "color_blue",
+                        "season_winter"
+                    ]
+                },
+                "{{ModId}}_WhiteSeaBunny": {
+                    "Name": "{{ModId}}_WhiteSeaBunny",
+                    "Displayname": "{{i18n:WhiteSeaBunny_name}}",
+                    "Description": "{{i18n:WhiteSeaBunny_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 125,
+                    "Edibility": -40,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 45,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fos_item",
+                        "color_white",
+                        "season_spring",
+                        "season_summer"
+                    ]
+                },
+                "{{ModId}}_YellowSeaBunny": {
+                    "Name": "{{ModId}}_YellowSeaBunny",
+                    "Displayname": "{{i18n:YellowSeaBunny_name}}",
+                    "Description": "{{i18n:YellowSeaBunny_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 125,
+                    "Edibility": -40,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 46,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fos_item",
+                        "color_yellow",
+                        "season_spring",
+                        "season_summer"
+                    ]
+                },
+                "{{ModId}}_BlueNembrotha": {
+                    "Name": "{{ModId}}_BlueNembrotha",
+                    "Displayname": "{{i18n:BlueNembrotha_name}}",
+                    "Description": "{{i18n:BlueNembrotha_description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 150,
+                    "Edibility": -40,
+                    "Texture": "{{ModId}}/fish",
+                    "SpriteIndex": 47,
+                    "ContextTags": [
+                        "fish_ocean",
+                        "fos_item",
+                        "color_blue",
+                        "season_spring",
+                        "season_summer"
+                    ]
                 }
             }
         },
