@@ -211,6 +211,10 @@
     "Sunscale_description": "A scale that shines like the sun. Dropped by the sunscaled trout.",
     "LongfinEelEgg_name": "Longfin Eel Egg",
     "LongfinEelEgg_description": "An egg from a longfin eel. Do eels really lay eggs?",
+    "LavaEelEgg_name": "Lava Eel Egg",
+    "LavaEelEgg_description": "An egg from a lava eel. Do eels really lay eggs?",
+    "EelEgg_name": "Eel Egg",
+    "EelEgg_description": "An egg from an eel. Do eels really lay eggs?",
     //Artisan Goods
     "AgedSpottedRayVenom_name": "Aged Spotted Ray Venom",
     "AgedSpottedRayVenom_description": "Aged venom extracted from a spotted ray.",
@@ -234,6 +238,10 @@
     "EelMayoRecipe_description": "A recipe that allows you to make mayo with eel eggs.",
     "LongfinEelMayo_name": "Longfin Eel Mayo",
     "LongfinEelMayo_description": "A mayo made from longfin eel eggs.",
+    "EelMayo_name": "Eel Mayo",
+    "EelMayo_description": "A mayo made from eel eggs.",
+    "LavaEelMayo_name": "Lava Eel Mayo",
+    "LavaEelMayo_description": "A mayo made from lava eel eggs.",
     //Recipe Scrolls
     "RVUMessage": "You have now unlocked the aging process for ray venom.",
     "EMUMessage": "You have now unlocked the process of making mayo with eel eggs.",
