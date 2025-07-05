@@ -109,7 +109,12 @@
                 "{{ModId}}_MossyTetra": "39/fish/////{{ModId}}\\aquarium",
                 "{{ModId}}_ReefShark": "40/fish/////{{ModId}}\\aquarium",
                 "{{ModId}}_WillowCutthroat": "41/fish/////{{ModId}}\\aquarium",
-                "{{ModId}}_LongfinEel": "42/eel/////{{ModId}}\\aquarium"
+                "{{ModId}}_LongfinEel": "42/eel/////{{ModId}}\\aquarium",
+                "{{ModId}}_BioluminescentSquid": "43/cephalopod/43/43 44/45 45 46 46/46 47/{{ModId}}\\aquarium",
+                "{{ModId}}_SpectreJelly": "48/float/////{{ModId}}\\aquarium",
+                "{{ModId}}_WhiteSeaBunny": "49/crawl/////{{ModId}}\\aquarium",
+                "{{ModId}}_YellowSeaBunny": "50/crawl/////{{ModId}}\\aquarium",
+                "{{ModId}}_BlueNembrotha": "51/crawl/51 51 51 51 51 51 51 51 51 52 52 52 52 52 52 52 52////{{ModId}}\\aquarium"
             }
         },
         //Fish Location Data
@@ -556,7 +561,18 @@
                 },
                 "{{ModId}}_BioluminescentSquid": {
                     "ItemId": "{{ModId}}_BioluminescentSquid",
-                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": "{{BioluminescentSquidChance}}"
+                },
+                "{{ModId}}_SpectreJelly": {
+                    "ItemId": "{{ModId}}_SpectreJelly",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": "{{SpectreJellyChance}}"
+                },
+                "{{ModId}}_BlueNembrotha": {
+                    "ItemId": "{{ModId}}_BlueNembrotha",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": "{{BlueNembrothaChance}}"
                 }
             }
         },
@@ -637,6 +653,16 @@
                     "ItemId": "{{ModId}}_ReefShark",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter",
                     "Chance": "{{ReefSharkChance}}"
+                },
+                "{{ModId}}_WhiteSeaBunny": {
+                    "ItemId": "{{ModId}}_WhiteSeaBunny",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": "{{WhiteSeaBunnyChance}}"
+                },
+                "{{ModId}}_YellowSeaBunny": {
+                    "ItemId": "{{ModId}}_YellowSeaBunny",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": "{{YellowSeaBunnyChance}}"
                 }
             }
         },
@@ -687,6 +713,16 @@
                     "ItemId": "{{ModId}}_ReefShark",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter",
                     "Chance": "{{ReefSharkChance}}"
+                },
+                "{{ModId}}_WhiteSeaBunny": {
+                    "ItemId": "{{ModId}}_WhiteSeaBunny",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": "{{WhiteSeaBunnyChance}}"
+                },
+                "{{ModId}}_YellowSeaBunny": {
+                    "ItemId": "{{ModId}}_YellowSeaBunny",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": "{{YellowSeaBunnyChance}}"
                 }
             }
         },
@@ -757,6 +793,16 @@
                     "Condition": "LOCATION_SEASON Here spring summer fall winter",
                     "FishAreaId": "Ocean",
                     "Chance": "{{ReefSharkChance}}"
+                },
+                "{{ModId}}_WhiteSeaBunny": {
+                    "ItemId": "{{ModId}}_WhiteSeaBunny",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": "{{WhiteSeaBunnyChance}}"
+                },
+                "{{ModId}}_YellowSeaBunny": {
+                    "ItemId": "{{ModId}}_YellowSeaBunny",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter",
+                    "Chance": "{{YellowSeaBunnyChance}}"
                 }
             }
         },
