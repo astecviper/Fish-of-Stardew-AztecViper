@@ -711,6 +711,66 @@
             "Name": "LongfinEelBaseChance",
             "Value": 0.2
         },
+        {
+            "Name": "BioluminescentSquidBaseDart",
+            "Value": 95
+        },
+        {
+            "Name": "BioluminescentSquidBaseSpawn",
+            "Value": 0.05
+        },
+        {
+            "Name": "BioluminescentSquidBaseChance",
+            "Value": 0.1
+        },
+        {
+            "Name": "SpectreJellyBaseDart",
+            "Value": 20
+        },
+        {
+            "Name": "SpectreJellyBaseSpawn",
+            "Value": 0.01
+        },
+        {
+            "Name": "SpectreJellyBaseChance",
+            "Value": 0.02
+        },
+        {
+            "Name": "WhiteSeaBunnyBaseDart",
+            "Value": 15
+        },
+        {
+            "Name": "WhiteSeaBunnyBaseSpawn",
+            "Value": 0.01
+        },
+        {
+            "Name": "WhiteSeaBunnyBaseChance",
+            "Value": 0.02
+        },
+        {
+            "Name": "YellowSeaBunnyBaseDart",
+            "Value": 15
+        },
+        {
+            "Name": "YellowSeaBunnyBaseSpawn",
+            "Value": 0.01
+        },
+        {
+            "Name": "YellowSeaBunnyBaseChance",
+            "Value": 0.02
+        },
+        {
+            "Name": "BlueNembrothaBaseDart",
+            "Value": 15
+        },
+        {
+            "Name": "BlueNembrothaBaseSpawn",
+            "Value": 0.01
+        },
+        {
+            "Name": "BlueNembrothaBaseChance",
+            "Value": 0.02
+        },
         //Fish Difficulty
         {
             "Name": "LunarSalmonDart",
@@ -1227,6 +1287,58 @@
         {
             "Name": "LongfinEelChance",
             "Value": "{{Query: {{LongfinEelBaseChance}}*{{ChanceDifficulty}}}}"
+        },
+        {
+            "Name": "BioluminescentSquidDart",
+            "Value": "{{Round: {{Query: {{BioluminescentSquidBaseDart}}*{{DartDifficulty}}}}}}"
+        },
+        {
+            "Name": "BioluminescentSquidSpawn",
+            "Value": "{{Query: {{BioluminescentSquidBaseSpawn}}*{{SpawnDifficulty}}}}"
+        },
+        {
+            "Name": "BioluminescentSquidChance",
+            "Value": "{{Query: {{BioluminescentSquidBaseChance}}*{{ChanceDifficulty}}}}"
+        },
+        {
+            "Name": "SpectreJellyDart",
+            "Value": "{{Round: {{Query: {{SpectreJellyBaseDart}}*{{DartDifficulty}}}}}}"
+        },
+        {
+            "Name": "SpectreJellySpawn",
+            "Value": "{{Query: {{SpectreJellyBaseSpawn}}*{{SpawnDifficulty}}}}"
+        },
+        {
+            "Name": "SpectreJellyChance",
+            "Value": "{{Query: {{SpectreJellyBaseChance}}*{{ChanceDifficulty}}}}"
+        },
+        {
+            "Name": "WhiteSeaBunnyDart",
+            "Value": "{{Round: {{Query: {{WhiteSeaBunnyBaseDart}}*{{DartDifficulty}}}}}}"
+        },
+        {
+            "Name": "WhiteSeaBunnySpawn",
+            "Value": "{{Query: {{WhiteSeaBunnyBaseSpawn}}*{{SpawnDifficulty}}}}"
+        },
+        {
+            "Name": "WhiteSeaBunnyChance",
+            "Value": "{{Query: {{WhiteSeaBunnyBaseChance}}*{{ChanceDifficulty}}}}"
+        },
+        {
+            "Name": "YellowSeaBunnyDart",
+            "Value": "{{Round: {{Query: {{YellowSeaBunnyBaseDart}}*{{DartDifficulty}}}}}}"
+        },
+        {
+            "Name": "YellowSeaBunnySpawn",
+            "Value": "{{Query: {{YellowSeaBunnyBaseSpawn}}*{{SpawnDifficulty}}}}"
+        },
+        {
+            "Name": "YellowSeaBunnyChance",
+            "Value": "{{Query: {{YellowSeaBunnyBaseChance}}*{{ChanceDifficulty}}}}"
+        },
+        {
+            "Name": "BlueNembrothaDart",
+            "Value": "{{Round: {{Query: {{BlueNembrothaBaseDart}}*{{DartDifficulty}}}}}}"
         }
     ],
     "Changes": [
