@@ -771,6 +771,18 @@
             "Name": "BlueNembrothaBaseChance",
             "Value": 0.02
         },
+        {
+            "Name": "BrickScaledSeaBassBaseDart",
+            "Value": 55
+        },
+        {
+            "Name": "BrickScaledSeaBassBaseSpawn",
+            "Value": 0.3
+        },
+        {
+            "Name": "BrickScaledSeaBassBaseChance",
+            "Value": 0.5
+        },
         //Fish Difficulty
         {
             "Name": "LunarSalmonDart",
@@ -1339,6 +1351,18 @@
         {
             "Name": "BlueNembrothaDart",
             "Value": "{{Round: {{Query: {{BlueNembrothaBaseDart}}*{{DartDifficulty}}}}}}"
+        },
+        {
+            "Name": "BrickScaledSeaBassDart",
+            "Value": "{{Round: {{Query: {{BrickScaledSeaBassBaseDart}}*{{DartDifficulty}}}}}}"
+        },
+        {
+            "Name": "BrickScaledSeaBassSpawn",
+            "Value": "{{Query: {{BrickScaledSeaBassBaseSpawn}}*{{SpawnDifficulty}}}}"
+        },
+        {
+            "Name": "BrickScaledSeaBassChance",
+            "Value": "{{Query: {{BrickScaledSeaBassBaseChance}}*{{ChanceDifficulty}}}}"
         }
     ],
     "Changes": [
