@@ -454,6 +454,38 @@
                     "Actions": [
                         "AddMail Current {{ModId}}_PennyRiversideCutthroatRoll now"
                     ]
+                },
+                "{{ModId}}_GusQ6LTrigger": {
+                    "Id": "{{ModId}}_GusQ6LTrigger",
+                    "Trigger": "DayStarted", 
+                    "Condition": "SEASON spring summer, WEATHER Here sun, PLAYER_HEARTS Current Gus 8",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusQ6L now"
+                    ]
+                },
+                "{{ModId}}_GusQ7LTrigger": {
+                    "Id": "{{ModId}}_GusQ7LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON fall winter, PLAYER_HEARTS Current Gus 7",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusQ7L now"
+                    ]
+                },
+                "{{ModId}}_GusQ8LTrigger": {
+                    "Id": "{{ModId}}_GusQ8LTrigger", 
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON summer fall, PLAYER_HEARTS Current Gus 6",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusQ8L now"
+                    ]
+                },
+                "{{ModId}}_GusQ9LTrigger": {
+                    "Id": "{{ModId}}_GusQ9LTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "SEASON spring summer fall, PLAYER_HEARTS Current Gus 9",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GusQ9L now"
+                    ]
                 }
             }
         }
