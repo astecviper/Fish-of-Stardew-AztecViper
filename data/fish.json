@@ -54,7 +54,8 @@
                 "{{ModId}}_MossyTetra": "Mossy Tetra/{{MossyTetraDart}}/sinker/5/15/1000 1600/spring summer fall winter/both/688 .3 689 .3 690 .3/1/{{MossyTetraSpawn}}/.2/1/true",
                 "{{ModId}}_ReefShark": "Reef Shark/{{ReefSharkDart}}/mixed/60/96/1200 2000/spring summer fall winter/both/684 .1/2/{{ReefSharkSpawn}}/.01/10/false",
                 "{{ModId}}_WillowCutthroat": "Willow Cutthroat/{{WillowCutthroatDart}}/mixed/12/48/600 1400/spring summer fall winter/both/682 .2/4/{{WillowCutthroatSpawn}}/.1/0/false",
-                "{{ModId}}_LongfinEel": "Longfin Eel/{{LongfinEelDart}}/sinker/12/120/1000 1800/spring summer fall winter/both/688 .3 689 .3 690 .3/1/{{LongfinEelSpawn}}/.05/0/false"
+                "{{ModId}}_LongfinEel": "Longfin Eel/{{LongfinEelDart}}/sinker/12/120/1000 1800/spring summer fall winter/both/688 .3 689 .3 690 .3/1/{{LongfinEelSpawn}}/.05/0/false",
+                "{{ModId}}_BioluminescentSquid": "Bioluminescent Squid/95/mixed/24/72/600 2600/spring summer fall winter/both/688 .3 689 .3 690 .3/1/.05/.05/0/false"
             }
         },
         {
